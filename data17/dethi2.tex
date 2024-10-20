@@ -1,0 +1,68 @@
+\def\linkdethi{https://toanvip307.blogspot.com/} %Đường kinh cần dẫn tới
+\hienmaQR
+%%%%%%%%%%%%%%%%%%%%%%%% Tiêu đề 3 tham số
+\begin{dethi}
+	{Huyện Bình Chánh}
+	{ĐỀ THAM KHẢO}
+	{Kỳ thi tuyển sinh vào lớp 10}
+\end{dethi}
+\setcounter{EX}{0}  
+%% Bài 1
+\begin{ex}[1,5 điểm]%[Đề tham khảo tuyển sinh vào 10 - Quận Bình Chánh - Đề số 1]%[9D4-2]%[TS10B1]
+	Cho $( P) : y= x^2$ và $(d) : y=-x+2$
+	\begin{enumerate}
+		\item Vẽ đồ thị $(P)$ và $(d)$ trên cùng một mặt phẳng tọa độ $O x y$.
+		\item Tìm tọa độ giao điểm của $( P)$ và $( d)$ bằng phép toán.
+	\end{enumerate}
+	\loigiai{
+		\begin{listEX}
+			\item \immini
+			{
+				Bảng giá trị\\*[0.5 cm]
+				\begin{tabular}{|c|c|c|}
+					\hline
+					$x$ & $0$ & $1$ \\
+					\hline
+					$y=-x+2$ & $2$ & $1$ \\
+					\hline
+				\end{tabular}
+				\\*[0.5 cm]
+				\begin{tabular}{|c|c|c|c|c|c|}
+					\hline
+					$x$ & $-2$ & $-1$ & $0$ & $1$ & $2$ \\
+					\hline
+					$y=x^2$ & $4$ & $1$ & $0$ & $1$ & $4$ \\
+					\hline
+				\end{tabular}
+			}
+			{
+				\begin{tikzpicture}[>=stealth,x=1cm,y=1cm,scale=0.8]
+					\draw[->] (-6,0) -- (6,0) node[below] {$x$};
+					\draw[->] (0,-2) -- (0,6) node[left] {$y$};
+					\draw (0,0)node[above left]{$O$};
+					\draw[thick,samples=150,smooth,domain=-2.1:2.1] plot(\x,{(\x)^2})node[above right]{$y=x^2$};
+					\draw[thick,samples=150,smooth,domain=-2.2:2.2] plot(\x,{(-1*\x)+2}) node[below right]{$y=-x+2$};
+					\draw[dashed]
+					(-2,0) node[below]{$-2$}--(-2,4)--(0,4) node[below left]{$-2$}--(2,4)--(2,0) node[above]{$2$}
+					(0,-1) node[right]{$-1$}
+					(-1,0) node[below]{$-1$}--(-1,1)--(0,1) node[above left]{$1$}--(1,1)--(1,0) node[below]{$1$}
+					;
+				\end{tikzpicture}
+			}
+			\item Phương trình hoành độ giao điểm của $(P)$ và $(d)$:
+			\begin{eqnarray*}
+				&x^2 &=-x+2\\
+				\Leftrightarrow &x^2+x-2&=0\\
+				\Leftrightarrow &x=1 ~\text{hay} ~x&=-2
+			\end{eqnarray*}
+			\begin{itemize}
+				\item $x=1  \Rightarrow y =1^2=1$.
+				\item $x=-2 \Rightarrow y =(-2)^2=4$.
+			\end{itemize}
+			Vậy tọa độ giao điểm của $(P)$ và $(d)$ là $(1;1)$ , $(-2;4)$.
+		\end{listEX}
+	}
+\end{ex}
+
+%%%%%%%%%%%%%%
+\label{de\thedeso} %nhãn đề

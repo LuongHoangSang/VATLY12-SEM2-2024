@@ -1,0 +1,183 @@
+%\renewenvironment{vd}{}{}
+%\renewenvironment{bt}{}{}
+%\renewenvironment{ex}{}{}
+%%
+\renewenvironment{ex}[1][]{
+	\def\ktghichu{#1}
+	\def\khonghichu{}
+	\ifx\ktghichu\khonghichu
+	\par\hspace*{3cm} #1\par\vspace*{7mm}
+	\else
+	\par\hspace*{3cm} {\fontfamily{qag}\selectfont\bfseries\color{\mauEX}(#1)}\par\vspace*{2.5mm}
+	\fi
+}{}
+%%
+\renewenvironment{bt}[1][]{
+	\def\ktghichu{#1}
+	\def\khonghichu{}
+	\ifx\ktghichu\khonghichu
+	\par\hspace*{3cm} #1\par\vspace*{7mm}
+	\else
+	\par\hspace*{3cm} {\fontfamily{qag}\selectfont\bfseries\color{\mauEX}(#1)}\par\vspace*{2.5mm}
+	\fi
+}{}
+%%
+\renewenvironment{vd}[1][]{
+	\def\ktghichu{#1}
+	\def\khonghichu{}
+	\ifx\ktghichu\khonghichu
+	\par\hspace*{3cm} #1\par\vspace*{7mm}
+	\else
+	\par\hspace*{3cm} {\fontfamily{qag}\selectfont\bfseries\color{\mauEX}(#1)}\par\vspace*{2.5mm}
+	\fi
+}{}
+%======================
+\def\endbox{\end{tcolorbox}}
+%%%%%%%%%%%%%%%%%%%%%%%
+%Đưa chấm ra ngoài box
+\renewcommand{\dotlinefull}[1]{
+	\renewcommand{\chooseNSA}{\def\kindSA{}}
+%	\def\tickT{}	% Chỗ này dùng để định nghĩa dấu tick đúng hoặc sai
+%	\def\tickF{}
+	\AtBeginEnvironment{#1}{
+		\def\colorEX{}%
+		\chooseNSA
+		\renewcommand{\TrueTF}{\FalseTF}
+		\renewcommand{\TrueEX}{\FalseEX}
+		\renewcommand{\writekeyTFone}{}
+		\renewcommand{\writekeyTF}{&&}
+		\renewcommand{\loigiai}[1]{
+			\endbox
+			\def\endbox{}
+			\setlength{\paroutindent}{\expandafter\parindent}
+			\setbox0=\vbox{
+				\hbox{
+					\noindent\begin{minipage}{\linewidth}%
+						\setlength{\parindent}{\paroutindent}##1\end{minipage}
+				}
+			}
+			\linepar=\ht0
+			\pgfmathparse{round((\linepar-\fboxsep)/(\lineheight))}
+			\par\noindent\textbf{\loigiaiEX}
+			\dotlineEX{\pgfmathresult}
+		}
+	}
+}
+%-------------- Đóng khung câu ex
+\AtBeginEnvironment{ex}{
+	\beginboxEX
+	\renewcommand{\loigiai}[1]{
+		\renewcommand{\immini}[2]{
+			\setbox\imbox=\vbox{\hbox{##2}}
+			\widthimmini=\wd\imbox
+			\IMleftright{##1}{##2}}
+		\endbox
+		\begin{onlysolution}
+			#1
+		\end{onlysolution}
+		\def\endbox{}
+	}
+}
+\AtEndEnvironment{ex}{\endbox}	
+%-------------- Đóng khung câu bt
+\AtBeginEnvironment{bt}{
+	\beginboxBT
+	\renewcommand{\loigiai}[1]{
+		\renewcommand{\immini}[2]{
+			\setbox\imbox=\vbox{\hbox{##2}}
+			\widthimmini=\wd\imbox
+			\IMleftright{##1}{##2}}
+		\endbox
+		\begin{onlysolution}
+			#1
+		\end{onlysolution}
+		\def\endbox{}
+	}
+}
+\AtEndEnvironment{bt}{\endbox}
+%=========Đn lại ví dụ tách lời giải ra ngoài box
+\AtBeginEnvironment{vd}{
+	\beginboxVD
+	\renewcommand{\loigiai}[1]{
+		\renewcommand{\immini}[2]{
+			\setbox\imbox=\vbox{\hbox{##2}}
+			\widthimmini=\wd\imbox
+			\IMleftright{##1}{##2}
+		}
+		\endbox
+%		\begin{boxdn}
+		\begin{onlysolution}
+			#1
+		\end{onlysolution}
+%		\end{boxdn}
+		\def\endbox{}
+	}
+}
+\AtEndEnvironment{vd}{\endbox}
+%-------------- Ẩn đáp án
+%\renewcommand{\indapan}[2]{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcounter{sttexx}\setcounter{sttexx}{0}
+\def\bodemDA{\stepcounter{sttexx}\thesttexx}
+%---------------------------
+%\renewcommand{\inputansbox}[2]{
+%	\renewenvironment{Solution}[1]
+%	{\begin{lrbox}{\myboxans}\begin{minipage}{\linewidth/#1-4\fboxsep}
+%				\parbox[b]{0.55\linewidth}{\damEX\color{blue}\bodemDA.%
+%					%##1.
+%				}
+%				\color{violet}%
+%	}
+%	{
+%	\end{minipage}\end{lrbox}\fbox{\usebox{\myboxans}}}
+%	%\begin{flushleft}
+%	\begin{center}
+%		\damEX\input{#2} 
+%	\end{center}
+%	%\end{flushleft}
+%	}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\inputansbox}[3][1]{{\fontfamily{qcs}\small\selectfont
+		\renewenvironment{Solution}[1]{
+			\begin{lrbox}{\myboxans}
+				\ifnum#1=1\begin{minipage}{\linewidth/#2-4.5\fboxsep}
+					\parbox[b]{8.2mm}{\color{blue}\bodemDA.}\hfill
+					\else\ifnum#1=2\begin{minipage}{\linewidth/#2-4\fboxsep}
+						\vspace{-1mm}\parbox[b]{16mm}{\color{blue}Câu \bodemDA.}\vspace{-1mm}\!
+						\else\ifnum#1=3\begin{minipage}{\linewidth/#2-4.4\fboxsep}
+							\parbox[b]{16mm}{\color{blue}{\small Câu }\bodemDA.}\!
+							\else\ifnum#1=4\begin{minipage}{\linewidth/#2-5\fboxsep}
+								\vspace{-1mm}\parbox[b]{0.1\linewidth}{\color{blue}\bodemDA.}\vspace{-1mm}
+								\else\begin{minipage}{\linewidth/#2-4.6\fboxsep}
+									\parbox[b]{0.23\linewidth}{\color{blue}\bodemDA.}
+									\fi\fi\fi\fi\color{violet}%
+								}{\end{minipage}\end{lrbox}\noindent\fbox{\usebox{\myboxans}}%
+							\ifnum#1=2 \vspace{0.5mm}\fi}
+						\begin{center}
+							\input{#3}
+						\end{center}
+				}}
+\renewcommand{\inputansboxTF}[3][]{{\fontfamily{qcs}\small\selectfont
+		\ifthenelse{\equal{#1}{0}}{\Onlycirc}
+		{\ifthenelse{\equal{#1}{1}}{\Fullcirc}{\Returncirc}}
+		\renewenvironment{Solution}[1]{
+			\begin{lrbox}{\myboxans}\begin{minipage}{\linewidth/#2-4\fboxsep}
+					\vspace{-1mm}\parbox[b]{16mm}{\color{blue}Câu \bodemDA.}\vspace{-1mm}\!
+					\color{violet}%
+				}
+				{\end{minipage}\end{lrbox}\noindent\fbox{\usebox{\myboxans}}\vspace{0.5mm}}
+		\begin{center}
+			\input{#3}
+		\end{center}
+}}
+\renewcommand{\inputansboxSA}[3][]{{\fontfamily{qcs}\small\selectfont
+		\renewenvironment{Solution}[1]{
+			\begin{lrbox}{\myboxans}\begin{minipage}{\linewidth/#2-4.4\fboxsep}
+					\parbox[b]{16mm}{\color{blue}{\small Câu }\bodemDA.}\!
+					\color{violet}%
+				}
+				{\end{minipage}\end{lrbox}\noindent\fbox{\usebox{\myboxans}}}
+		\begin{center}
+			\input{#3}
+		\end{center}
+}}

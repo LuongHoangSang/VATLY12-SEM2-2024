@@ -1,0 +1,224 @@
+\khungchuyende{--- HÀM SỐ VÀ ỨNG DỤNG ---}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Bài tập tự luận}
+\begin{bt}%[BG12new-4in1, Trần Hoà]%[2D1H1-1]
+	Tìm các khoảng đơn điệu của hàm số $y=-x^3+6x^2-9x+4$.
+	\loigiai{
+		Hàm số $y=-x^3+6x^2-9x+4$ có tập xác định $\mathscr{D}=\mathbb{R}$.\\
+		Ta có $y'=-3x^2+12x-9$. Cho 
+		{\allowdisplaybreaks
+			\begin{eqnarray*}
+				y'&=&0 \Leftrightarrow -3x^2+12x-9=0\\
+				&\Leftrightarrow&
+				\hoac{&x=1\\&x=3.}
+		\end{eqnarray*}}	
+		Bảng biến thiên
+		\begin{center}
+			\begin{tikzpicture}
+				\tkzTabInit[lgt=1,espcl=3]
+				{$x$/0.7,$y'$/0.7,$y$/2}
+				{$-\infty$,$1$,$3$,$+\infty$}
+				\tkzTabLine{,-,0,+,0,-,}
+				\tkzTabVar{+/$+\infty$,-/ $0$/,+/$4$,-/$-\infty$}
+			\end{tikzpicture}
+		\end{center}
+		Vậy hàm số nghịch biến trên mỗi khoảng $(-\infty;1)$, $(3;+\infty)$ và đồng biến trên khoảng $(1;3)$.	
+	}
+\end{bt}	
+\begin{bt}%[BG12new-4in1, Trần Hoà]%[2D1H1-1]
+	Tìm các khoảng đơn điệu của hàm số $y=x^4-6x^2+8x+1$.
+	\loigiai{
+		Hàm số $y=x^4-6x^2+8x+1$ có tập xác định $\mathscr{D}=\mathbb{R}$.\\
+		Ta có $y'=4x^3-12x+8=0=4(x-1)^2(x+2)$.
+		{\allowdisplaybreaks
+			\begin{eqnarray*}
+				y'=0 &\Leftrightarrow& 4(x-1)^2(x+2)=0\\ 
+				&\Leftrightarrow&
+				\hoac{&x=-2\\&x=1.}
+		\end{eqnarray*}}			
+		Bảng biến thiên
+		\begin{center}
+			\begin{tikzpicture}
+				\tkzTabInit[lgt=1,espcl=3]
+				{$x$/0.7,$y'$/0.7,$y$/2}
+				{$-\infty$,$-2$,$1$,$+\infty$}
+				\tkzTabLine{,-,0,+,0,+,}
+				\tkzTabVar{+/$+\infty$,-/ $-23$/,R,+/$+\infty$}
+			\end{tikzpicture}
+		\end{center}
+		Vậy hàm số nghịch biến trên khoảng $(-\infty;-2)$ và đồng biến trên khoảng $(-2;+\infty)$.
+	}
+\end{bt}
+
+
+
+
+
+\subsubsection{Bài tập chọn đáp án đúng}
+\Opensolutionfile{ans}[ans/ansTN-Dung]
+\begin{ex}%[BG12new-4in1, Trần Hoà]%[2D1H1-1]
+	Các khoảng đồng biến của hàm số $y=x^4-8x^2-4$ là
+	\choice
+	{$(-\infty;-2)$ và $(0;2)$}
+	{$(-2;0)$ và $(0;+\infty)$}
+	{\True $(-2;0)$ và $(2;+\infty)$}
+	{$(-\infty;-2)$ và $(2;+\infty)$}
+	\loigiai{Ta có tập xác định của hàm số là $\mathscr{D}=\mathbb{R}$ và $y'=4x^3-16x$ nên $y'=0\Leftrightarrow \hoac{&x=0\\&x=-2\\&x=2.}$\\
+		Khi đó $y'\ge 0\Leftrightarrow 4x^3-16x\ge 0\Leftrightarrow \hoac{&x\ge 0\\&-2\le x\le 0.}$\\
+		Vậy hàm số đồng biến trên các khoảng $(-2;0)$ và $(2;+\infty)$.
+	}
+\end{ex}
+\begin{ex}%[BG12new-4in1, Trần Hoà]%[2D1H1-1]
+	Cho hàm số $y=f(x)$ có đạo hàm $f'(x)=x^2(x^2-1),\,\forall x\in \mathbb{R}$. Hàm số $y=2f(-x)$ đồng biến trên khoảng
+	\choice
+	{$\left(2;+\infty\right)$}
+	{$\left(-\infty;-1\right)$}
+	{$(0;2)$}
+	{\True $\left(-1;1\right)$}
+	\loigiai{
+		Hàm số $y=g(x)=2f(-x)$ có đạo hàm $y'=-2f'(-x)=-2x^2(x^2-1)$. Suy ra
+		$$y'=0\Leftrightarrow -2x^2(x^2-1)=0\Leftrightarrow \hoac{&x=0\\&x=\pm 1.}$$
+		Bảng biến thiên của hàm số $y=g(x)=2f(-x)$ là
+		\begin{center}
+			\begin{tikzpicture}[scale=1, font=\footnotesize, line join=round, line cap=round, >=stealth]
+				\tkzTabInit[nocadre=false,lgt=1.5,espcl=1.5,deltacl=0.6]
+				{$x$/.7,$g'(x)$/.7,$g(x)$/1.5}
+				{$-\infty$,$-1$,$0$,$1$,$+\infty$}
+				\tkzTabLine{,-,z,+,z,+,z,-,} 
+				\tkzTabVar{+/,-/,R,+/,-/}
+			\end{tikzpicture}
+		\end{center}
+		Vậy suy ra hàm số $y=g(x)=2f(-x)$ đồng biến trên khoảng $\left(-1;1\right)$.
+	}
+\end{ex}
+\begin{ex}%[BG12new-4in1, Trần Hoà]%[2D1H1-1]
+	Các khoảng đồng biến của hàm số $y=x^4-8x^2-4$ là
+	\choice
+	{$(-\infty;-2)$ và $(0;2)$}
+	{$(-2;0)$ và $(0;+\infty)$}
+	{\True $(-2;0)$ và $(2;+\infty)$}
+	{$(-\infty;-2)$ và $(2;+\infty)$}
+	\loigiai{Ta có tập xác định của hàm số là $\mathscr{D}=\mathbb{R}$ và $y'=4x^3-16x$ nên $y'=0\Leftrightarrow \hoac{&x=0\\&x=-2\\&x=2.}$\\
+		Khi đó $y'\ge 0\Leftrightarrow 4x^3-16x\ge 0\Leftrightarrow \hoac{&x\ge 0\\&-2\le x\le 0.}$\\
+		Vậy hàm số đồng biến trên các khoảng $(-2;0)$ và $(2;+\infty)$.
+	}
+\end{ex}
+\Closesolutionfile{ans}
+
+
+
+
+
+\subsubsection{Bài tập đúng sai}
+\Opensolutionfile{ans}[ans/ansTN-DungSai]
+\begin{ex}%[BG12new-4in1, Trần Hoà]%[2D1V1-1]
+	Cho hàm số $y=\ln (1+x)$. Xét tính đúng sai của mỗi mệnh đề sau
+	\choiceTF[t]
+	{Hàm số có tập xác định là $\mathbb{R}$}
+	{\True Hàm số đồng biến trên tập xác định}
+	{\True Tiếp tuyến của đồ thị vuông góc với đường phân giác góc phần tư thứ hai cắt hai trục toạ độ tại hai điểm phân biệt}
+	{$\dfrac{1}{y'(0)}+\dfrac{1}{y'(1)}+\dfrac{1}{y'(2)}+\ldots+\dfrac{1}{y'(2024)}=2025\cdot 2026$}
+	\loigiai{
+		
+		\begin{itemchoice}
+			\itemch Sai. Tập xác định $\mathscr{D}=(-1;+\infty)$.
+			\itemch Đúng. Ta có $y'=\dfrac{(1+x)'}{(1+x)}=\dfrac{1}{1+x}>0,\,\forall x\in (-1;+\infty)$ nên hàm số đồng biến trên tập xác định.
+			\itemch Đúng. Đường phân giác góc phần tư thứ hai có phương trình $y=-x$.\\
+			Gọi $k$ là hệ số góc của tiếp tuyến cần tìm, ta có $k=1$.\\
+			Hoành độ tiếp điểm là nghiệm phương trình $y'=0\Leftrightarrow \dfrac{1}{1+x}=1\Rightarrow x=0\Rightarrow A(0;1)$.\\
+			Phương trình tiếp tuyến là $y=1(x-0)+1\Leftrightarrow y=x+1$.\\
+			Đường thẳng cắt hai trục toạ độ tại hai điểm phân biệt.
+			\itemch Sai. Ta có
+			{\allowdisplaybreaks
+				\begin{eqnarray*}
+					&&\dfrac{1}{y'(0)}+\dfrac{1}{y'(1)}+\dfrac{1}{y'(2)}+\ldots+\dfrac{1}{y'(2024)}\\
+					&=&
+					1+2+3+\ldots +2025=\dfrac{2025\cdot 2026}{2}.
+			\end{eqnarray*}}	
+			
+		\end{itemchoice}
+	}	
+\end{ex}
+\begin{ex}%[BG12new-4in1, Trần Hoà]%[2D1V1-1]
+	Cho hàm số $y=x+\sqrt{4-x^2}$. Xét tính đúng sai của mỗi mệnh đề sau
+	\choiceTF[t]
+	{\True Hàm số có tập xác định là $\mathscr{D}=[-2;2]$}
+	{$y'=1+\dfrac{x}{\sqrt{4-x^2}}$}
+	{Khoảng đồng biến trên khoảng $(-2;2)$}
+	{Phương trình $x+\sqrt{4-x^2}=3$ có hai nghiệm phân biệt}
+	\loigiai{
+		
+		\begin{itemchoice}
+			\itemch Đúng. Điều kiện: $4-x^2\ge 0\Leftrightarrow -2\le x\le 2 $. Tập xác định $\mathscr{D}=[-2;2]$.
+			\itemch Sai. Ta có $y'=1+\dfrac{(4-x^2)'}{2\sqrt{4-x^2}}=1-\dfrac{x}{\sqrt{4-x^2}}$.
+			\itemch Sai. Ta có $y'=0\Leftrightarrow \dfrac{x}{\sqrt{4-x^2}}=1\Leftrightarrow x=\sqrt{4-x^2}\Leftrightarrow\heva{&x\ge 0\\&x=\pm \sqrt{2}}\Leftrightarrow x=\sqrt{2}.$\\
+			Bảng xét dấu
+			\begin{center}
+				\begin{tikzpicture}
+					\tkzTabInit[nocadre=false,lgt=1,espcl=2.5,deltacl=0.6]%[nocadre=true\fasle(không\có) kẻ viền bảng ,
+					%lgt=1,espcl=2]:Độ rộng cột thứ nhât, các cột tiếp theo
+					{$x$ /.7,$y'$ /.7,$y$ /2}{$-2$,$\sqrt{2}$,$2$}
+					%số dòng của x(1), y'(1), y(2), các giá trị điền ở dòng
+					\tkzTabLine{,+,$0$,-,}%điền dấu, giá trị y'
+					\tkzTabVar{-/ $0$ ,+/$2\sqrt{2}$,-/$0$} %-/ là giá trị ở dưới thấp
+				\end{tikzpicture}
+			\end{center}
+			Hàm số đồng biến trên khoảng $(-2;\sqrt{2})$ và nghịch biến trên khoảng $(\sqrt{2};2)$. 
+			\itemch Sai. Từ bảng biến thiên ta thấy đường thẳng $y=3$ không cắt đồ thị nên phương trình vô nghiệm. 		
+		\end{itemchoice}
+	}	
+\end{ex}
+\Closesolutionfile{ans}
+
+
+
+
+
+
+\subsubsection{Bài tập điền khuyết}
+\Opensolutionfile{ans}[ans/ansTN-DienKhuyet]
+\begin{ex}%[BG12new-4in1, Trần Hoà]%[2D1H1-1]
+	Hàm số $y=x^4+4x^2+3$. Có bao nhiêu giá trị $x$ nguyên thuộc khoảng đồng biến của hàm số và $x\in [-10;10]$?
+	\shortans[]{$-9$}
+	\loigiai{
+		Ta có $y'=4x^3+8x=4x(x^2+2)$; $y'=0 \Leftrightarrow x=0$.\\
+		Bảng biến thiên:
+		\begin{center}
+			\begin{tikzpicture}
+				\tkzTabInit[nocadre=false,lgt=1,espcl=2.5]
+				{$x$ /0.6,$y'$ /0.6,$y$ /1.7}
+				{$-\infty$,$0$,$+\infty$}
+				\tkzTabLine{,-,$0$,+,}
+				\tkzTabVar{+/$+\infty$, -/$3$,+/$+\infty$}
+			\end{tikzpicture}
+		\end{center}
+		Suy ra hàm số đồng biến trên khoảng $(0;+\infty )$.\\
+		Kết hợp với điều kiện $x$ nguyên thuộc đoạn $[-10;10]$, ta có $x\in\{1;2;\ldots;10\}$.
+	}
+\end{ex}
+\begin{ex}%[BG12new-4in1, Trần Hoà]%[2D1H1-1]
+	Hàm số $y=x^4+4x^2+3$. Có bao nhiêu giá trị $x$ nguyên thuộc khoảng đồng biến của hàm số và $x\in [-10;10]$?
+	\shortans[]{$-9$}
+	\loigiai{
+		Ta có $y'=4x^3+8x=4x(x^2+2)$; $y'=0 \Leftrightarrow x=0$.\\
+		Bảng biến thiên:
+		\begin{center}
+			\begin{tikzpicture}
+				\tkzTabInit[nocadre=false,lgt=1,espcl=2.5]
+				{$x$ /0.6,$y'$ /0.6,$y$ /1.7}
+				{$-\infty$,$0$,$+\infty$}
+				\tkzTabLine{,-,$0$,+,}
+				\tkzTabVar{+/$+\infty$, -/$3$,+/$+\infty$}
+			\end{tikzpicture}
+		\end{center}
+		Suy ra hàm số đồng biến trên khoảng $(0;+\infty )$.\\
+		Kết hợp với điều kiện $x$ nguyên thuộc đoạn $[-10;10]$, ta có $x\in\{1;2;\ldots;10\}$.
+	}
+\end{ex}
+\Closesolutionfile{ans}
+
+
+\newpage
+\indapanT{10}{ans/ansTN-Dung}{BÀI TẬP CHỌN ĐÁP ÁN}
+\indapanTF{3}{ans/ansTN-DungSai}{BÀI TẬP ĐÚNG SAI}
+\indapanSA{6}{ans/ansTN-DienKhuyet}{BÀI TẬP ĐIỀN KHUYẾT}

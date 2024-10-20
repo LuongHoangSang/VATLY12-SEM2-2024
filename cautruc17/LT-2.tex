@@ -1,0 +1,102 @@
+%\renewenvironment{vd}{}{}
+%\renewenvironment{bt}{}{}
+%\renewenvironment{ex}[1][]{
+%	\def\ktghichu{#1}
+%	\def\khonghichu{}
+%	\ifx\ktghichu\khonghichu
+%	\par\hspace*{3cm} #1\par\vspace*{7mm}
+%	\else
+%	\par\hspace*{3cm} {\fontfamily{qag}\selectfont\bfseries\color{\mauEX}(#1)}\par\vspace*{2.5mm}
+%	\fi
+%}{}
+%%
+\renewenvironment{bt}[1][]{
+	\def\ktghichu{#1}
+	\def\khonghichu{}
+	\ifx\ktghichu\khonghichu
+	\par\hspace*{3cm} #1\par\vspace*{7mm}
+	\else
+	\par\hspace*{3cm} {\fontfamily{qag}\selectfont\bfseries\color{\mauEX}(#1)}\par\vspace*{2.5mm}
+	\fi
+}{}
+%%
+\renewenvironment{vd}[1][]{
+	\def\ktghichu{#1}
+	\def\khonghichu{}
+	\ifx\ktghichu\khonghichu
+	\par\hspace*{3cm} #1\par\vspace*{7mm}
+	\else
+	\par\hspace*{3cm} {\fontfamily{qag}\selectfont\bfseries\color{\mauEX}(#1)}\par\vspace*{2.5mm}
+	\fi
+}{}
+%======================
+\def\endbox{\end{tcolorbox}}
+%%%%%%%%%%%%%%%%%%%%%%%
+%Đưa chấm ra ngoài box
+\renewcommand{\dotlinefull}[1]{
+	\renewcommand{\chooseNSA}{\def\kindSA{}}
+%	\def\tickT{}	% Chỗ này dùng để định nghĩa dấu tick đúng hoặc sai
+%	\def\tickF{}
+\AtBeginEnvironment{#1}{
+	\def\colorEX{}%
+	\chooseNSA
+	\renewcommand{\TrueTF}{\FalseTF}
+	\renewcommand{\TrueEX}{\FalseEX}
+	\renewcommand{\writekeyTFone}{}
+	\renewcommand{\writekeyTF}{&&}
+	\renewcommand{\loigiai}[1]{
+		\endbox
+		\def\endbox{}
+		\setlength{\paroutindent}{\expandafter\parindent}
+		\setbox0=\vbox{
+			\hbox{
+				\noindent\begin{minipage}{\linewidth}%
+					\setlength{\parindent}{\paroutindent}##1\end{minipage}
+			}
+		}
+		\linepar=\ht0
+		\pgfmathparse{round((\linepar-\fboxsep)/(\lineheight))}
+		\par\noindent\textbf{\loigiaiEX}
+		\dotlineEX{\pgfmathresult}
+	}
+}
+}
+%-------------- Đóng khung câu bt
+\AtBeginEnvironment{bt}{
+\beginboxBT
+\renewcommand{\loigiai}[1]{
+	\renewcommand{\immini}[2]{
+		\setbox\imbox=\vbox{\hbox{##2}}
+		\widthimmini=\wd\imbox
+		\IMleftright{##1}{##2}}
+	\endbox
+	\begin{onlysolution}
+		#1
+	\end{onlysolution}
+	\def\endbox{}
+}
+}
+\AtEndEnvironment{bt}{\endbox}
+%=========Đn lại ví dụ tách lời giải ra ngoài box
+\AtBeginEnvironment{vd}{
+\beginboxVD
+\renewcommand{\loigiai}[1]{
+	\renewcommand{\immini}[2]{
+		\setbox\imbox=\vbox{\hbox{##2}}
+		\widthimmini=\wd\imbox
+		\IMleftright{##1}{##2}
+	}
+	\endbox
+	%		\begin{boxdn}
+	\begin{onlysolution}
+		#1
+	\end{onlysolution}
+	%		\end{boxdn}
+	\def\endbox{}
+}
+}
+\AtEndEnvironment{vd}{\endbox}
+%%%%%%%%%%%%% Sửa lỗi đn Dotlinefull
+\AtBeginEnvironment{ex}{\def\endbox{}}
+
+

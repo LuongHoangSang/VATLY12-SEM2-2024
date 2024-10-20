@@ -1,0 +1,1408 @@
+%=====================================
+% Khai báo nhóm Tex (cơ bản)
+%=====================================
+\usepackage{amsmath,amssymb,mathrsfs,maybemath,xlop,polynom,slashbox}
+\usepackage{yhmath} %\let\widering\relax %cần khi sd với font fouriernc
+\usepackage{enumerate}
+\usepackage{tikz} 
+\usepackage{tkz-euclide}
+%\usepackage{ex_tkz-euclide}
+%\usetkzobj{all}
+\usepackage{tikz-3dplot}
+\usepackage{tkz-tab}
+\usepackage{pifont} %kí hiệu đặc biệt
+%\usepackage{bbding}
+%\usepackage{array}
+%\usepackage{tasks}
+%==========
+\usetikzlibrary{math,through,calc,intersections,angles,quotes,shapes,shapes.geometric,arrows,patterns,snakes,matrix,chains,arrows.meta,decorations.shapes,decorations.fractals,decorations.markings,shadows}
+\usetikzlibrary{positioning,decorations.text,decorations.pathmorphing}% Để uốn cong văn bản 
+\usetikzlibrary{shadings,fadings} %ĐỔ BÓNG
+\usepackage{pgfplots}
+\usepackage{pgfornament}
+\usepgfplotslibrary{fillbetween}
+\pgfplotsset{compat=1.9}
+\usepackage[hidelinks,unicode]{hyperref}
+\usepackage{currfile}
+\usepackage[outline]{contour} %viền
+\usepackage{fontawesome} % Gói kí hiệu
+\usepackage{lipsum} %Lấy text
+%%---------
+%\usepackage{setspace}
+%\usepackage{scrextend}
+\usepackage{varwidth}
+%===========Bảng
+\usepackage{longtable,multirow,makecell}
+\usepackage{diagbox}
+\renewcommand{\tabcolsep}{3mm}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+%-----------Trang vb
+\pgfmathsetmacro{\mepphai}{\phai+\leftnote} 
+\usepackage[top=\tren cm, bottom=\duoi cm, left=\trai cm, right=\mepphai cm] {geometry}
+\usepackage{capt-of}
+\usepackage[locale=DE]{siunitx} % cách viết số đo có đơn vị theo chuẩn DE (gần giống VN) 
+%--------------Gói trắc nghiệm EX-TEST
+\usepackage[loigiai]{ex_test} 
+%\usepackage[solcolor]{ex_test}
+%--------------------------
+%----Lời giải, Hiền thị tên EX; Dấu kết thúc
+\font\damEX=ugqb8v at 11pt
+%\def\loigiaiEX{\color{\mauLG}\damEX\strut\faCommenting\ Lời giải.}
+\def\loigiaiEX{
+	\tikz[]{
+		\draw (0,0)++(0.5*\textwidth,0) node[inner sep=0pt] {\color{\mauLG}%\fontfamily{qag}\bfseries\strut%\faFolderOpen\ Lời giải.
+			\damEX\faCommenting\ Lời giải.};%
+	}\vspace*{-2mm}
+}
+\renewcommand{\nameex}{\fontfamily{pag}\selectfont%
+	\damEX\color{\mauEX} Câu}
+\def\mauVuong{cyan}
+\def\qedEX{\color{\mauVuong}\ensuremath{\square}}
+%---------- Khai báo viết tắt, in đáp án
+\newcommand{\hoac}[1]{ %hệ hoặc
+	\left[\begin{aligned}#1\end{aligned}\right.}
+\newcommand{\heva}[1]{ %hệ và
+	\left\{\begin{aligned}#1\end{aligned}\right.}
+%--In đáp án
+\newcommand{\indapan}[2]{
+	\addcontentsline{toc}{subsection}{\sf Bảng đáp án} % đưa MT vào mục lục
+	\par\vspace*{5mm}
+	\begin{tikzpicture}%
+		\draw (0,0)++(0.5*\textwidth,0) node[thick,scale=1,fill=\mauEX!2,draw=\maufoot,minimum width=3.5cm,minimum height=0.1cm,rounded corners=2mm] {\damEX\color{\mauEX} BẢNG ĐÁP ÁN};
+	\end{tikzpicture}%
+	%		\end{center}
+\vspace*{-4mm}
+\inputansbox{#1}{#2}
+}
+%--In đáp án True
+\newcommand{\indapanT}[3]{
+\addcontentsline{toc}{subsection}{\sf Bảng đáp án 1} % đưa MT vào mục lục
+\par%\vspace*{5mm}
+\begin{tikzpicture}%
+	\draw (0,0)++(0.5*\textwidth,0) node[thick,scale=1,fill=\mauEX!2,draw=\maufoot,minimum width=3.5cm,minimum height=0.1cm,rounded corners=2mm] {\damEX\color{\mauEX} #3};
+\end{tikzpicture}%
+%		\end{center}
+\vspace*{-4mm}
+\inputansbox{#1}{#2}
+}
+%--In đáp án TF
+\newcommand{\indapanTF}[3]{
+\addcontentsline{toc}{subsection}{\sf Bảng đáp án 2} % đưa MT vào mục lục
+\par%\vspace*{5mm}
+\begin{tikzpicture}%
+\draw (0,0)++(0.5*\textwidth,0) node[thick,scale=1,fill=\mauEX!2,draw=\maufoot,minimum width=3.5cm,minimum height=0.1cm,rounded corners=2mm] {\damEX\color{\mauEX} #3};
+\end{tikzpicture}%
+%		\end{center}
+\vspace*{-4mm}
+\inputansboxTF{#1}{#2}
+}
+%--In đáp án SA
+\newcommand{\indapanSA}[3]{
+\addcontentsline{toc}{subsection}{\sf Bảng đáp án 3} % đưa MT vào mục lục
+\par%\vspace*{5mm}
+\begin{tikzpicture}%
+\draw (0,0)++(0.5*\textwidth,0) node[thick,scale=1,fill=\mauEX!2,draw=\maufoot,minimum width=3.5cm,minimum height=0.1cm,rounded corners=2mm] {\damEX\color{\mauEX} #3};
+\end{tikzpicture}%
+%		\end{center}
+\vspace*{-4mm}
+\inputansboxSA{#1}{#2}
+}
+%----------
+\usepackage{esvect}
+\def\vec{\vv} %vecto
+\def\overrightarrow{\vv}
+%Lệnh song song
+\DeclareSymbolFont{symbolsC}{U}{txsyc}{m}{n}
+\DeclareMathSymbol{\varparallel}{\mathrel}{symbolsC}{9}
+\DeclareMathSymbol{\parallel}{\mathrel}{symbolsC}{9}
+%--------------------------
+% HEADER AND FOOTER STYLING
+%--------------------------
+%Tạo background
+\def\hienLOGO{
+\usepackage{background}
+\backgroundsetup{%
+scale=1,%%
+angle=0,%%
+opacity=0.2,%%
+contents={
+\ifnum\the\value{page}>0%
+\begin{tikzpicture}[remember picture,overlay,scale=1]
+\node at (current page.center){\includegraphics[width=13cm]{logo/logo.jpg}};
+\end{tikzpicture}
+\else
+\fi
+}
+}	
+}
+%----
+\def\anLOGO{}
+%--------------------------
+%\def\trenletrai{\rightmark}
+%\def\trenchanphai{\leftmark}
+\newcommand{\myfancyhead}{% trên
+\begin{tikzpicture}[remember picture,overlay]
+\checkoddpage\ifoddpage %nếu trang lẻ
+\def\kctrai{\trai} \def\kcphai{\phai}
+\pgfmathsetmacro{\kctren}{-\tren+0.5*\topset} 
+\path ([xshift=\kctrai cm, yshift=\kctren cm]current page.north west) coordinate (AA)
+++(\textwidth+\leftnote cm,0)coordinate (BB); 
+%---- màu bên trái
+\foreach \ii/\mau in {1.35/\maufoot!30,1/\maufoot!50,0.5/\maufoot!70,-0.1/\maufoot}{
+\fill[\mau,draw=white,line width=2pt] ([xshift=-1pt,yshift=1pt]AA)--++(0.75 cm+\ii cm+3pt,0)--++(0.3,0.5cm+1pt)--++(-0.75 cm -\ii cm-3pt-0.3cm,0)--cycle;
+}
+%---- chữ
+\node[anchor=south west,text=\maufoot,inner sep=0pt] at ([xshift=0.75 cm+1.35cm+10pt,yshift=1pt]AA){\fontfamily{qag}\fontsize{10pt}{12pt}\selectfont\nouppercase{\trenletrai}};
+%-----đường kẻ
+\draw[\maukefoot, line width=1.5pt] (AA) -- (BB);
+%-----bên phải
+\node[rectangle, fill=\maufoot, text=white, anchor=south east,inner sep=3pt, rounded corners=4pt] (sotrang) at ([xshift=0cm,yshift=1.5pt]BB){\fontfamily{qag}\fontsize{10pt}{12pt}\selectfont\bfseries\thepage};
+\node[text=\maufoot, anchor=east,inner sep=0pt] at ([xshift=-3pt,yshift=-1pt]sotrang.west){\fontfamily{qag}\fontsize{10pt}{18pt}\selectfont Trang};
+%-------------------
+\else % trang chẵn
+\def\kctrai{\phai} \def\kcphai{\trai}
+\pgfmathsetmacro{\kctren}{-\tren+0.5*\topset} 
+\path ([xshift=\kctrai cm, yshift=\kctren cm]current page.north west) coordinate (AA)
+++(\textwidth+\leftnote cm,0)coordinate (BB); 
+%---- bên phải
+\foreach \ii/\mau in {1.35/\maufoot!30,1/\maufoot!50,0.5/\maufoot!70,-0.1/\maufoot}{
+\fill[\mau,draw=white,line width=2pt] ([xshift=1pt,yshift=1pt]BB)--++(-0.75 cm-\ii cm-3pt,0)
+--++(-0.3,0.5cm+1pt)--++(0.75 cm +\ii cm+3pt+0.3 cm,0)--cycle
+;
+}
+\node[anchor=south east,text=\maufoot,inner sep=0pt] at ([xshift=-0.75 cm-1.35cm-10pt]BB){\fontfamily{qag}\fontsize{10pt}{12pt}\selectfont\nouppercase{\trenchanphai}};
+%-----đường kẻ
+\draw[\maukefoot, line width=1.5pt] (AA) --(BB);
+\node[text=\maufoot, anchor=west,inner sep=0pt] (trang) at ([yshift=6pt]AA){\fontfamily{qag}\fontsize{10pt}{12pt}\selectfont Trang};
+\node[rectangle, fill=\maufoot, text=white, anchor=west,inner sep=3pt, rounded corners=4pt] at ([xshift=3pt,yshift=1.5pt]trang.east){\fontfamily{qag}\fontsize{10pt}{18pt}\selectfont\bfseries\thepage};
+\fi
+%------
+%=====================Dòng chấm note
+\path ([yshift=-\tren cm+\topset cm]current page.north west) coordinate (AAA)
+++(\paperwidth,0)coordinate (BBB);
+\checkoddpage\ifoddpage %nếu trang lẻ
+%----- Kẻ đứng
+\draw[\maukefoot] ([xshift=-\mepphai cm+2.5mm,yshift=-3mm]BBB)--([yshift=\duoi cm-0.75*\botset cm+0mm,xshift=-\mepphai cm+2.5mm]current page.south east);
+%--		
+\path ([yshift=-\tren cm+0.5*\topset cm-0.35cm,xshift=-\phai cm-0.5*\leftnote cm+2.5mm]current page.north east) coordinate (DDD); 
+\begin{scope}
+\clip ([yshift=-\tren cm+0.5*\topset cm-1pt,xshift=-\phai cm]current page.north east) rectangle ([yshift=\duoi cm-0.5*\botset cm,xshift=-\mepphai cm+5mm]current page.south east);% cắt chấm
+\node[inner sep =0pt,scale=1,anchor=north] at ([yshift=0cm,xshift=0pt]DDD) {
+\parbox{\leftnote cm}{\centering
+	\dotlineEXhead{60}
+}
+};
+\end{scope}
+\else %chẵn
+%----- Kẻ đứng
+\draw[\maukefoot] ([xshift=\mepphai cm-2.5mm,yshift=-3mm]AAA)--([yshift=\duoi cm-0.75*\botset cm+0mm,xshift=\mepphai cm-2.5mm]current page.south west);
+%--		
+\path ([yshift=-\tren cm+0.5*\topset cm-0.35cm,xshift=\phai cm+0.5*\leftnote cm-2.5mm]current page.north west) coordinate (DDD); 
+\begin{scope}
+\clip ([yshift=-\tren cm+0.5*\topset cm-1pt,xshift=\phai cm]current page.north west) rectangle ([yshift=\duoi cm-0.5*\botset cm,xshift=\mepphai cm-5mm]current page.south west);% cắt chấm
+\node[inner sep =0pt,scale=1,anchor=north] at ([yshift=0cm,xshift=0pt]DDD) {
+\parbox{\leftnote cm}{\centering
+	\dotlineEXhead{60}
+}
+};
+\end{scope}					
+\fi
+%--note dưới
+\node[inner sep =6pt, text=white,scale=1,anchor=north,fill=\maufoot] (noteduoi) at ([yshift=2pt]DDD) {
+\parbox{\leftnote cm-5mm-12pt}{\fontfamily{qag}\fontsize{11}{1}\selectfont\bfseries\centering
+QUICK NOTE
+}
+};
+\draw[\maufoot, line width=0.4pt] ([yshift=-2pt]noteduoi.south west)--([yshift=-2pt]noteduoi.south east);
+\end{tikzpicture}%
+}
+% trên mục lục
+\newcommand{\headmucluc}{%
+\boldmath
+\begin{tikzpicture}[remember picture,overlay,>=stealth]
+\checkoddpage\ifoddpage %nếu trang lẻ
+\def\kctrai{\trai} \def\kcphai{\phai}
+\pgfmathsetmacro{\kctren}{-\tren+0.5*\topset} 
+\path ([xshift=\kctrai cm, yshift=\kctren cm]current page.north west) coordinate (AA)
+++(\textwidth,0)coordinate (BB); 
+%---- màu bên trái
+\foreach \ii/\mau in {1.35/\maufoot!30,1/\maufoot!50,0.5/\maufoot!70,-0.1/\maufoot}{
+\fill[\mau,draw=white,line width=2pt] ([xshift=-1pt,yshift=1pt]AA)--++(0.75 cm+\ii cm+3pt,0)--++(0.3,0.5cm+1pt)--++(-0.75 cm -\ii cm-3pt-0.3cm,0)--cycle;
+}
+%---- chữ
+\node[anchor=south west,text=\maufoot,inner sep=0pt] at ([xshift=0.75 cm+1.35cm+10pt,yshift=1pt]AA){\fontfamily{qag}\fontsize{10pt}{12pt}\selectfont\nouppercase{\trenletrai}};
+%-----đường kẻ
+\draw[\maukefoot, line width=1.5pt] (AA) -- (BB);
+%-----bên phải
+\node[rectangle, fill=\maufoot, text=white, anchor=south east,inner sep=3pt, rounded corners=4pt] (sotrang) at ([xshift=0cm,yshift=1.5pt]BB){\fontfamily{qag}\fontsize{10pt}{12pt}\selectfont\bfseries\thepage};
+\node[text=\maufoot, anchor=east,inner sep=0pt] at ([xshift=-3pt,yshift=-1pt]sotrang.west){\fontfamily{qag}\fontsize{10pt}{18pt}\selectfont Trang};
+%-------------------
+\else % trang chẵn
+\def\kctrai{\phai} \def\kcphai{\trai}
+\pgfmathsetmacro{\kctren}{-\tren+0.5*\topset} 
+\path ([xshift=\kctrai cm, yshift=\kctren cm]current page.north west) coordinate (AA)
+++(\textwidth,0)coordinate (BB); 
+%---- bên phải
+\foreach \ii/\mau in {1.35/\maufoot!30,1/\maufoot!50,0.5/\maufoot!70,-0.1/\maufoot}{
+\fill[\mau,draw=white,line width=2pt] ([xshift=1pt,yshift=1pt]BB)--++(-0.75 cm-\ii cm-3pt,0)
+--++(-0.3,0.5cm+1pt)--++(0.75 cm +\ii cm+3pt+0.3 cm,0)--cycle
+;
+}
+\node[anchor=south east,text=\maufoot,inner sep=0pt] at ([xshift=-0.75 cm-1.35cm-10pt]BB){\fontfamily{qag}\fontsize{10pt}{12pt}\selectfont\nouppercase{\trenchanphai}};
+%-----đường kẻ
+\draw[\maukefoot, line width=1.5pt] (AA) --(BB);
+\node[text=\maufoot, anchor=west,inner sep=0pt] (trang) at ([yshift=6pt]AA){\fontfamily{qag}\fontsize{10pt}{12pt}\selectfont Trang};
+\node[rectangle, fill=\maufoot, text=white, anchor=west,inner sep=3pt, rounded corners=4pt] at ([xshift=3pt,yshift=1.5pt]trang.east){\fontfamily{qag}\fontsize{10pt}{18pt}\selectfont\bfseries\thepage};
+\fi
+\end{tikzpicture}%
+}
+%===========================
+\newcommand{\myfancyfoot}{% dưới
+\begin{tikzpicture}[remember picture,overlay]
+\checkoddpage\ifoddpage %nếu trang lẻ
+\def\kctrai{\trai} \def\kcphai{\phai}
+\else
+\def\kctrai{\phai} \def\kcphai{\trai}
+\fi
+\pgfmathsetmacro{\kcduoi}{\duoi-\botset} 
+\path ([yshift=\kcduoi cm,xshift=\kctrai cm]current page.south west) coordinate (AA)
+([yshift=\kcduoi cm,xshift=-\kcphai cm]current page.south east)coordinate (BB); 
+%-----đường kẻ
+\draw[\maukefoot,line width=1.5pt] (AA) --(BB);
+%-----nền
+\fill[left color=\maukefoot!20, right color=\maukefoot!20, middle color=white]([yshift=-1mm]AA) rectangle ([yshift=-7mm]BB);
+%-----chính giữa
+%		\node[anchor=north,text=\maufoot,inner sep=0pt,text width=0.33*\textwidth+\leftnote cm,align=center] (dc) at ([yshift=-4pt]$(AA)!0.5!(BB)$){\fontfamily{qag}\fontsize{9pt}{1pt}\selectfont\bfseries
+%			 \noidungduoigiua%
+%		 };
+\draw[line width=0.5pt,fill=white,draw=\maukefoot,path picture={\node at ([yshift=-4mm]$(AA)!0.5!(BB)$) {\includegraphics[width=11mm]{logo/logo.jpg}};}] ([yshift=-4mm]$(AA)!0.5!(BB)$) circle [radius=7mm]; 
+%-----bên trái
+\node[anchor=north west,text=\maufoot,inner sep=0pt,text width=0.5*\textwidth,align=left] (sdt) at ([yshift=-4pt]AA){\fontfamily{qag}\fontsize{10pt}{1pt}\selectfont
+\noidungduoitrai%
+};
+%------bên phải
+\node[anchor=north east,text=\maufoot,inner sep=0pt,text width=0.5*\textwidth,align=right] (face) at ([yshift=-4pt]BB){\fontfamily{qag}\fontsize{10pt}{1pt}\selectfont
+\noidungduoiphai%
+};
+\end{tikzpicture}%
+}
+%----------------------
+\usepackage{changepage}
+\strictpagecheck
+\usepackage{lastpage}
+\usepackage{fancyhdr,lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\def\headchuong{\myfancyhead}
+\fancypagestyle{plain}{
+\fancyhead[LO,RE]{\headchuong}
+\fancyfoot[LO,RE]{\myfancyfoot}
+}
+\fancyhead[LO,RE]{\myfancyhead}
+\fancyfoot[LO,RE]{\myfancyfoot}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\headrulewidth}{0pt}
+%--------------4.2
+\usepackage[most]{tcolorbox}
+\colorlet{tcbcol@back}{tcbcolback}
+\colorlet{tcbcol@frame}{tcbcolframe}
+%-------------- Khung nội dung 2 tham số
+\newtcolorbox{noidung}[1]{
+breakable, enhanced jigsaw,	frame hidden,opacityback=0,
+%	enhanced jigsaw,breakable,pad at break*=1mm,
+%	colback=pink!40,
+%	%opacityback=0, %ko nền
+%	colframe=pink!40,
+coltitle=\maund,
+left=14mm,right=3mm,top=2mm,bottom=2mm,
+%--
+before skip=2mm,
+after skip=3mm,
+boxrule=0.5pt, %đường viền dày
+%toprule=1pt,
+%bottomrule=1pt,
+%leftrule=2.5pt,
+%rightrule=0pt,
+%	sharp corners,
+%	rounded corners=southwest, 
+%	rounded corners=northeast, 
+%	rounded corners=southeast,
+%	arc=7mm,
+underlay unbroken and first={
+%		\draw[draw=cyan,line width=1pt] ([xshift=6.5mm]title.north west) -- (title.north east);
+%--khung nội dung
+\fill[fill=\maund!4,drop shadow=\maund!30,opacity=0.5] 
+([xshift=13mm]interior.north west) arc (0:-90:8mm) 
+--([xshift=5mm]interior.south west)
+--([xshift=-8mm]interior.south east) arc (-90:0:8mm) 
+--(interior.north east)
+--cycle;
+\draw[\maund,line width=1pt] 
+(interior.north east) coordinate (mot)		
+--([xshift=13mm]interior.north west) coordinate (hai) arc (0:-90:8mm) coordinate (ba) 
+--([xshift=5mm]interior.south west) coordinate (bon)
+;
+\fill[\maund] 
+(mot) circle (2pt)
+(hai) circle (2pt)
+(ba) circle (2pt)
+(bon) circle (2pt)
+;
+},
+underlay last={
+%--khung nội dung
+\fill[fill=\maund!2,drop shadow=gray] 
+([xshift=5mm]interior.north west)
+--([xshift=5mm]interior.south west)
+--([xshift=-8mm]interior.south east) arc (-90:0:8mm) 
+--(interior.north east)
+--cycle;
+\draw[\maund,line width=1pt] 
+(interior.north east) coordinate (mot)		
+--([xshift=5mm]interior.north west) coordinate (hai) 
+--([xshift=5mm]interior.south west) coordinate (bon)
+;
+\fill[\maund] 
+(mot) circle (2pt)
+(hai) circle (2pt)
+(bon) circle (2pt)
+;
+},
+fonttitle=\fontfamily{qag}\bfseries\selectfont,
+title={#1},
+%	attach boxed title to top left={xshift=1cm,yshift=-1mm},
+%	boxed title style={empty},
+%	underlay boxed title={
+underlay unbroken and first={
+\fill[\maund!70] ([xshift=5mm]interior.north west) node[white,scale=1.5]{
+%\faBell
+\faEdit
+} circle (6.5mm) ;
+\draw[white] ([xshift=5mm]interior.north west) circle (6mm) ;
+},
+%----
+%fontupper=\sffamily % chữ nghiêng phần nội dung
+}
+%-------------- Khung 
+\newtcolorbox[auto counter]{khung4}[1]{enhanced jigsaw, breakable,
+before skip=3mm,after skip=3mm,
+left=1mm,right=1mm,top=2mm,bottom=1mm,
+colframe=\maukhung4,colback=\maukhung4!2,colbacktitle=\maukhung4!6,coltitle=\maukhung4!90!black,
+opacityback=0.5,
+boxrule=0.4mm,
+attach boxed title to top center=
+{yshift=-0.1mm-\tcboxedtitleheight/2,yshifttext=2mm-\tcboxedtitleheight/2},
+varwidth boxed title*=-3cm,
+boxed title style={boxrule=0.3mm,
+frame code={ \path[tcb fill frame] ([xshift=-4mm]frame.west)
+-- (frame.north west) -- (frame.north east) -- ([xshift=4mm]frame.east)
+-- (frame.south east) -- (frame.south west) -- cycle; },
+interior code={ \path[tcb fill interior] ([xshift=-2mm]interior.west)
+-- (interior.north west) -- (interior.north east)
+-- ([xshift=2mm]interior.east) -- (interior.south east) -- (interior.south west)
+-- cycle;} 
+},
+fonttitle=\fontfamily{qag}\fontsize{10}{0}
+\bfseries,
+fontupper=\sffamily,
+title={#1}
+}
+%---------------Dạng toán
+\newcounter{dang}\setcounter{dang}{0}
+\renewcommand{\thedang}{\arabic{dang}}
+%%%%%%%% KIỂU TUỲ CHỌN KHUNG
+\newcommand{\TuyChonDang}[1]{
+\def\chondang{#1}
+\def\dmot{1}
+\def\dhai{2}
+\ifx\chondang\dmot%
+%---Dạng 1
+\newtcolorbox{dang}[1]{
+fonttitle=\fontfamily{qag}\bfseries,%fontupper=\itshape,
+breakable, 
+enhanced jigsaw, %nâng cao
+%	frame hidden, opacityback=0,
+colbacktitle=\nensodang,
+coltitle=white,
+colframe=\maudang,
+colback=\nendang,
+opacityback=0.5,
+sharp corners,
+before skip=3mm,after skip=3mm,
+left=2mm,right=2mm,top=2mm,bottom=2mm,
+%	boxrule=1pt,
+%--cong góc
+%	rounded corners=southwest, 
+%	rounded corners=northeast, 
+%	rounded corners=northwest,
+rounded corners=southeast,
+arc is angular,
+arc=3mm,
+underlay unbroken and first={
+\def\kctrai{1.5}
+\def\daikhung{1}
+%--nền
+\fill[\maudang] 
+(title.north west) rectangle ([xshift=\kctrai cm+\daikhung cm+2.5mm]title.south west)
+;
+%--Nền số
+\fill[\nensodang] 
+([xshift=\kctrai cm,yshift=0.12cm+0.1cm]title.north west) coordinate (bai1)%trên trái
+--++(\daikhung,0) coordinate (bai2)%trên phải
+[rounded corners=6pt]--++(0,-0.6) coordinate (bai3)%dưới phải
+--++(-\daikhung,0) coordinate (bai4)%dưới trái
+[rounded corners=0pt]--cycle
+;
+%--Bóng góc trái trên của khung
+\fill[gray!50] (bai1)--++(-0.2,-0.15)--++(0.2,0)--cycle;
+%--Bài và số bài
+\node[circle,draw=white,fill=\sodang, line width=1pt, inner sep=3pt,text=white] (SOBAI) at ([yshift=1pt]$(bai4)!0.5!(bai3)$) {\fontsize{12.5pt}{1pt}\fontfamily{put}\selectfont\bfseries \thedang};
+\draw ([yshift=-1.5pt]SOBAI.west) node[left,white,scale=0.85] {\fontsize{13pt}{1pt}\fontfamily{qag}\selectfont\bfseries DẠNG};	
+},
+title={%\faFolderOpen\ Dạng~\stepcounter{dang}\thedang.\ 
+\hspace*{2.75cm}\parbox{\textwidth-2.75cm}{##1}\stepcounter{dang}}%
+\addcontentsline{toc}{subsection}{\it\sffamily \faFolderOpen\ Dạng~\thedang. ##1}
+}
+\else
+%--------
+\newtcolorbox{dang}[1]{
+breakable, 
+%	blanker, %enhanced, 
+%--
+enhanced jigsaw,
+frame hidden,opacityback=0,
+%--
+before skip=6mm,after skip=3mm,
+left=2mm,right=2mm,top=4mm,bottom=2mm,
+%colback=green!10,colframe=cyan,boxrule=0.3mm,
+underlay={
+%--khung nội dung
+\fill[draw=\maudang, top color=\nendang, bottom color=\nendang, middle color=white, rounded corners=0mm, line width=1pt,drop shadow=\nensodang!50] ([yshift=-2mm]interior.north west) rectangle (interior.south east);
+},
+underlay unbroken and first={
+%--khung tiêu đề
+\fill[\maudang,rounded corners=0mm,draw=\maudang,drop shadow=\nensodang] ([yshift=0mm,xshift=0cm]title.north west) rectangle ([yshift=0mm,xshift=0cm]title.south east);
+\draw[white, rounded corners=0mm] ([yshift=-.3mm,xshift=0.3mm]title.north west) rectangle ([yshift=0.3mm,xshift=-0.3mm]title.south east);
+%--khung dạng
+%bóng trái
+\fill[gray] ([xshift=0.75cm,yshift=2mm]title.north west)--++(-2mm,-2mm)--++(2mm,0)--cycle;
+%khung
+\fill[\nensodang,drop shadow] 
+([xshift=0.75cm,yshift=2mm]title.north west)
+--++(1.2,0)
+[rounded corners =4pt]--++(0,-0.9)
+--++(-1.2,0)
+[rounded corners =0pt]--cycle;
+\node[white, below] (dang) at ([xshift=1.35cm,yshift=2.5mm]title.north west) {\fontfamily{qag}\fontsize{6pt}{0pt}\bfseries DẠNG};
+\draw ([yshift=-1pt]dang) node[below,white] {\fontfamily{qag}\fontsize{15pt}{0pt}\bfseries \thedang};
+},
+fonttitle=\fontfamily{qag}\fontsize{10pt}{0pt}\selectfont\bfseries, %fontupper=\itshape,
+halign title=center, %canh giữa
+title={%\faFolderOpen\ Dạng~\stepcounter{dang}\thedang.\ 
+\hspace*{2cm}\parbox{\textwidth-1.8cm}{\centering ##1}\stepcounter{dang}}%
+\addcontentsline{toc}{subsection}{\it\sffamily \faFolderOpen\ Dạng~\thedang. ##1}
+}
+\fi
+}
+%---------------------------------------------------------------
+% ĐỊNH NGHĨA SECTION. SUBSECTION, SUBSUBSECTION ... THEO Ý RIÊNG
+%---------------------------------------------------------------
+\usepackage[explicit]{titlesec} % để gọi #1
+\usepackage{titledot} % gói lệnh chứa cả titlesec và titletoc
+%=====================================
+\setcounter{secnumdepth}{4} %độ sâu
+\renewcommand{\thechapter}{\arabic{chapter}}
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\Alph{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{subsubsection}}
+%--------------Tròn
+\newcommand{\tron}[1]{
+\begin{tikzpicture}[baseline=(A.base)]%
+\node[circle,draw=\mauSUBSEC,line width=0.5pt,fill=white,inner sep=2pt,outer sep=1pt] (A) {\color{white} #1};
+\node[circle,draw=none,fill=\mauSUBSEC,inner sep=1pt,outer sep=1pt] (A) {\color{white} #1};
+\end{tikzpicture}%
+}
+%-- Số chương
+%--------------Tròn
+\newcommand{\sochuong}[1]{
+\node[fill=\maunenkhoi,inner sep=1pt,text=white,anchor=center,rounded corners=6pt,drop shadow={shadow yshift=0pt,shadow xshift=1pt,black!90},drop shadow={shadow yshift=0pt,shadow xshift=-1pt,black!90}] at ($(Ctrai)!0.5!(Cphai)$){%
+\fontfamily{put}\bfseries\fontsize{11}{11}\selectfont #1%
+};
+}
+%================= Đn chương
+%\def\khoi{12}
+%\def\tieudetrenchuong{ÔN THI THPT QUỐC GIA 2021-2022}
+%\def\maunenchuong{cyan!80!black}
+%\def\maunenkhoi{magenta}
+\def\cochuchuong{16pt}
+\font\damTC=ugqb8v at 16pt
+\font\damC=ugqb8v at \cochuchuong
+\def\kchaiben{2.75}
+\pgfmathsetmacro{\Rchuong}{1.15*\kchaiben/3}
+\pgfmathsetmacro{\kcphu}{2*\kchaiben+2*0.85}
+\pgfmathsetmacro{\dailogo}{1.5*\Rchuong}
+\def\cao{2}
+\titlespacing{\chapter}{0cm}{0.5cm}{1.5cm}[0cm] %1: , 2: Trên, 3: dưới
+\titleformat{\chapter}
+{\fontsize{16pt}{16pt}\fontfamily{qag}\selectfont\bfseries\color{white}} %định dạng chung
+{} %đánh số
+{-0.4cm}
+{
+\parbox{\textwidth-\kcphu cm-10pt}%
+{\damC\centering\MakeUppercase{#1}} %neo vitri
+\begin{tikzpicture}[remember picture,overlay,line join=round,line cap=round] 
+%%------------------------------------
+\checkoddpage\ifoddpage %nếu trang lẻ
+\def\sokc{\mepphai}
+\else
+\def\sokc{\trai}
+\fi
+%==============
+%-- nền dưới
+\node[anchor=north east,inner sep=0pt,fill=\maunenchuong, draw=blue, text width=\textwidth,minimum height=3cm,rounded corners=10pt,drop shadow={shadow yshift=-3pt,shadow xshift=0pt,black!50}]  (tam) at ([xshift=-\sokc cm,yshift=-1.25*\tren cm]current page.north east){};
+\draw[\mauchuchuong, line width=1pt,rounded corners=8
+pt] ([yshift=-3pt, xshift=3pt]tam.north west) rectangle ([yshift=3pt, xshift=-3pt]tam.south east);
+%-- nền trên
+\fill[\maunenchuong, draw=\mauchuchuong!90!black, line width =1.5pt,drop shadow={shadow yshift=0pt,shadow xshift=3pt,black!90},drop shadow={shadow yshift=0pt,shadow xshift=-3pt,black!90}]%
+([xshift=\kchaiben cm]tam.west) coordinate (Ctrai)--++(0.85,\cao)--++(\textwidth-2*\kchaiben cm-2*0.85cm,0)--([xshift=-\kchaiben cm]tam.east) coordinate (Cphai) --++(-0.85,-\cao)--++(-\textwidth+2*\kchaiben cm+2*0.85cm,0)--cycle;
+\draw[\mauchuchuong,line width=0.5pt,dashed] (Ctrai)--(Cphai);
+%--- lớp
+\fill[\maunenkhoi,drop shadow={shadow yshift=0pt,shadow xshift=1pt,black!90}] ([xshift=0.5*\kchaiben cm]tam.west) circle (\Rchuong);
+\node[scale=2.2,circle,text=\maunenchuong,inner sep=4pt] at ([xshift=0.5*\kchaiben cm]tam.west){%
+\contour{white}{%
+	\khoi%
+}%
+};
+%--- logo chuong
+\draw[fill=white,draw=none,drop shadow={shadow yshift=0pt,shadow xshift=-1pt,black!90},path picture={\node at ([xshift=-0mm-0.5*\kchaiben cm,yshift=0mm]tam.east){\includegraphics[width=\dailogo cm]{logo/logo.jpg}};}] ([xshift=-0.5*\kchaiben cm]tam.east) circle [radius=\Rchuong cm]; 
+%==========nội dung chương
+\node[inner sep=5pt,text=\mauchuchuong,anchor=center] at ([yshift=-0.5*\cao cm]$(Ctrai)!0.5!(Cphai)$){%
+\parbox{\textwidth-\kcphu cm-10pt}%
+{\damC\centering\MakeUppercase{#1}}
+};
+%-- Tiêu đề trên chương
+\node[inner sep=5pt,text=white,anchor=center] at ([yshift=0.5*\cao cm+3pt]$(Ctrai)!0.5!(Cphai)$){%
+\parbox{\textwidth-\kcphu cm-10pt}%
+{\damTC\centering\tieudetrenchuong}
+};
+%--	số chương
+\sochuong{\hspace*{2mm}\chaptername ~\thechapter\hspace*{2mm}}
+\end{tikzpicture}
+}
+[\vspace{0.5cm}]
+%============================Mục lục - Chapter*
+%\makeatletter
+\titleformat{name=\chapter,numberless}[display]
+{\fontsize{21pt}{18pt}\fontfamily{qag}\selectfont\bfseries\color{\maunenchuong}} %định dạng chung
+{}
+{-3em}
+{%
+\begin{tikzpicture}
+%-----Nội dung
+\node[inner sep=0pt,right,scale=1.65] (ndchuong) at (0,0){\usefont{T5}{HLButlong}{m}{n} %\MakeUppercase
+{#1}};
+%-----Đường kẻ ngang
+\begin{scope}
+\clip (0,-0.75) rectangle +(\textwidth,1.5);
+\draw[\maunenchuong,line width=2pt] (ndchuong.south east)++(10pt,8pt) --++(\linewidth,0);
+\end{scope}
+\end{tikzpicture}
+}
+[%
+\vspace{-2cm}%
+\thispagestyle{empty}%
+]%
+%================== ĐN Part
+\font\damP=ugqb8v at 22pt
+\titlespacing{\part}{0cm}{0cm}{0cm}[0cm]
+\titleformat{\part}[display]
+{\bfseries}
+{}
+{0pt}
+{
+\begin{tikzpicture}[remember picture, overlay]
+\checkoddpage\ifoddpage %nếu trang lẻ
+\def\kcphu{\phai}
+\else
+\def\kcphu{\trai}
+\fi
+\fill[\mauphan!5] (current page.north west) rectangle (current page.south east);
+%----Tên phần
+\node[inner sep=0pt,scale=2,left] (tenphan) at ([xshift=-\kcphu cm,yshift=-7cm]current page.north east) {\color{\mauphan!70!black}\fontfamily{qag}\bfseries\fontsize{15pt}{1pt}\selectfont\MakeUppercase{\partname}\fontsize{100pt}{1pt}\selectfont \thepart};
+%----Nền màu trái
+\foreach \ii/\mau in {0/\mauphan!30,0.5/\mauphan!70,1.2/\mauphan}{
+\fill[\mau,draw=\mauphan!5,line width=4pt] 
+([xshift=-4mm-\ii cm,yshift=1cm]tenphan.south west)
+--++(0,-1.2)--++(-\paperwidth,0)--++(0,1.2)--cycle;
+}
+%-----Nội dung phần
+\node[inner sep=0pt,below left,scale=4] at ([xshift=0cm,yshift=-0.5cm]tenphan.south east) 
+{
+\parbox{5.5cm}{
+	\fontsize{20pt}{20pt}\fontfamily{qag}\selectfont\bfseries\color{\mauphan}\raggedleft
+	\damP\MakeUppercase{#1}
+}
+};
+\end{tikzpicture}
+}
+[
+\vspace{2cm}
+\thispagestyle{empty}
+]
+%--------Đn Section---------------------------
+\newcounter{stt}\setcounter{stt}{0}
+\renewcommand{\thestt}{\arabic{stt}}
+%\def\mautraibai{magenta}
+%\def\mauphaibai{cyan}
+\def\tenlop{Lớp vật lý Cô Thảo - Thầy Sang}
+\def\slogan{NĂM HỌC 2024 - 2025}
+%
+\titlespacing*{\section}{0cm}{0cm}{0cm}[0cm]
+\titleformat
+{\section}
+{\color{white}\fontfamily{qag}\fontsize{13pt}{13pt}\selectfont\bfseries}
+{}
+{0cm}
+{%	
+\setcounter{ex}{0}\setcounter{EX}{0}%
+\setcounter{vd}{0}\setcounter{VD}{0}%
+\setcounter{bt}{0}\setcounter{BT}{0}%
+\setcounter{dang}{0}%
+\setcounter{stt}{0}%
+\begin{tikzpicture}%[line join=round,line cap=round]
+\def\dddd{4}
+\def\ndbai{\centering\S\thesection. ~\MakeUppercase{#1}}
+%-- Nội dung chính --	
+\node[inner sep=5pt,text=white,fill=\mauphaibai,text width=\textwidth-\dddd cm,align=center] (secname) at (0,0){\ndbai};
+%-- số section
+\fill[\mautraibai] 
+([xshift=-\dddd cm+11pt]secname.north west) coordinate (bai1)%trên trái
+rectangle ([xshift=-1pt]secname.south west)coordinate (bai2)
+;
+%-- số bài
+\node[inner sep=0pt,text=white] at ($(bai1)!0.5!(bai2)$) {\fontsize{11pt}{1pt}\fontfamily{qag}\selectfont\bfseries K\khoi ~--~\MakeUppercase{\chaptername ~\thechapter}};
+%%-- tên lớp và slogan
+%\draw[\mautraibai, line width=2pt] ([yshift=0.4cm,xshift=-\dddd cm+11pt]secname.north west) coordinate (loptoan) --++(\textwidth-3pt,0);
+%\node[anchor=west, text=\mautraibai, fill=white, inner sep=0pt,scale=1.1] at ([xshift=-2pt]loptoan){
+%\usefont{T5}{HLBrush2BK}{m}{n}\tenlop: ~%
+%};
+%\node[anchor=center, text=\mautraibai, fill=white, inner sep=3pt] at  ([yshift=0.4cm,xshift=-0.5*\textwidth+0.5*\dddd cm]secname.north east) {%
+%\fontfamily{qag}\fontsize{12}{12}\selectfont\slogan%
+%};
+%-- HS và lớp
+%\draw[\mautraibai, line width=0.5pt,dotted] ([yshift=-0.45cm,xshift=-\dddd cm+11pt]secname.south west) coordinate (HS) --++(\textwidth-1pt,0);
+%\node[anchor=west, text=\mautraibai, fill=white, inner sep=0pt,scale=1.1] at ([xshift=-2pt,yshift=2pt]HS){
+%\usefont{T5}{HLBrush2BK}{m}{n}Họ và tên học sinh: ~%
+%};
+%\node[anchor=center, text=\mautraibai, fill=white, inner sep=3pt] at  ([yshift=-0.45cm+2pt,xshift=-0.4*\textwidth+0.5*\dddd cm]secname.south east) {%
+%\usefont{T5}{HLBrush2BK}{m}{n}Lớp:~%
+%};
+\end{tikzpicture}}
+[]
+%-------Đn subsection---------------------------
+%\titlespacing{\subsection}{0cm}{0cm}{0cm}[0cm]
+%\titleformat{\subsection}
+%{\normalfont\fontsize{15pt}{20pt}\fontfamily{put}\selectfont\bfseries\color{\mausubsec}}
+%{\hspace*{-2mm}\dnsub{\thesubsection}}
+%{2mm}
+%{#1}
+%[]
+%%%===============================================
+\newcommand{\dnsub}[1]{
+\begin{tikzpicture}[baseline=(muccon.base),line join=round,line cap=round]%
+\node[rectangle,inner sep=7pt,text=\mausubsec,fill=\mausubsec,minimum width=1.5cm] (muccon) at (0,0){\bfseries A};
+\node[text=white,left=3pt] at (muccon.east) {\bfseries #1};
+\end{tikzpicture}%
+}
+%
+\titlespacing{\subsection}{0cm}{0cm}{-5mm}[0cm]
+\titleformat{\subsection}
+{\normalfont\fontsize{12pt}{12pt}\fontfamily{qag}\selectfont\bfseries\color{white}}
+{}
+{0mm}
+{%
+\begin{tikzpicture}[line join=round,line cap=round]
+%-- Nội dung chính --	
+\node[inner sep=4pt,fill=\mausubsec,text=white,text width=\textwidth-8pt,align=center] (subsec) at (0,0){\MakeUppercase{\thesubsection. ~#1}};
+\draw[line width=1pt,\mausubsec] ([yshift=-2pt]subsec.south west)--++(\textwidth,0);
+\end{tikzpicture}
+}
+[]
+%----------ĐN subsubsection-----------------------
+\newcommand{\dnsubsub}[1]{%
+\begin{tikzpicture}[baseline=(muccon.base),line join=round,line cap=round]%
+\node[rectangle,inner sep=7pt,text=\mausubsubsec,fill=\mausubsubsec,minimum width=1.2cm] (muccon) at (0,0){\bfseries A};
+\foreach \ii/\mau in {0/\mausubsubsec!30,0.3/\mausubsubsec!70,0.7/\mausubsubsec}{
+\fill[\mau,draw=white,line width=3pt] (muccon.north west)--([xshift=0cm+1cm-\ii cm]muccon.north east)
+--([xshift=1cm-\ii cm]muccon.south east)--(muccon.south west) --cycle;
+}
+\node[text=white,left=3pt] at (muccon.east) {\bfseries #1};
+\end{tikzpicture}%
+}
+\titlespacing{\subsubsection}{0pt}{0mm}{0mm}[0cm]
+\titleformat{\subsubsection}
+{\fontsize{13pt}{18pt}\fontfamily{put}\selectfont\bfseries\color{\mausubsubsec}}
+{\hspace*{-1mm}\dnsubsub{\Large\thesubsubsection}}
+{2mm}
+{#1}
+[]
+%----------ĐN paragraph-----------------------
+\newcommand{\dnparagraph}[1]{
+\begin{tikzpicture}[baseline=(muccon.base),line join=round,line cap=round]%
+\node[rectangle,inner sep=3.5pt,text=\mausubsubsec,fill=\mausubsubsec,minimum width=1cm,rounded corners=5pt] (muccon) at (0,0){\bfseries 1};
+\node[text=white] at (muccon.center) {\bfseries #1};
+\end{tikzpicture}%
+}
+\titlespacing{\paragraph}{0pt}{0mm}{0mm}[0cm]
+\titleformat{\paragraph}
+{\fontsize{11.5pt}{17pt}\fontfamily{put}\selectfont\bfseries\color{\mausubsubsec}}
+{\dnparagraph{\theparagraph.}}
+{0.25em}
+{#1}
+[]
+%============================
+\def\itemKN{\color{\mauitemKN}\faCheckSquareO}
+\def\itemCI{\color{\mauitemCI}\faCheckCircleO}
+%%======= Thiết lập labelitem, labelenumerate
+%\renewcommand{\labelitemi}{\color{red}\faCheckSquareO}
+\renewcommand{\labelitemi}{\color{\mauitem}\faCheckCircleO}
+\renewcommand{\labelitemii}{\color{\mauitem}\bf ---}
+\renewcommand{\labelitemiii}{\color{\mauitem}\bf +}
+\renewcommand{\labelenumi}{\alph{enumi})}
+%\renewcommand{\labelenumii}{\color{blue}\bf\arabic{enumi}.\arabic{enumii}}
+%============================
+%============================
+% Canh chỉnh mục lục chính
+\setcounter{secnumdepth}{4} %Độ sâu đánh số
+\setcounter{tocdepth}{2} %Độ sâu mục lục
+\contentsmargin{0cm}
+%~~~~~~~~~~~~~~~~~~~~~
+\renewcommand*\l@part[2]{%
+\ifnum \c@tocdepth >-2\relax
+\addpenalty{-\@highpenalty}%
+\addvspace{20pt \@plus\p@}%
+\setlength\@tempdima{3em}%
+\begingroup
+\hypersetup{linkcolor=violet}
+\tikz[remember picture, overlay]{
+\fill[\mauPHAN] (0,0) rectangle +(\textwidth,0.85);
+\draw (0,0.425) node[right=5pt]
+{\color{white}\fontsize{13pt}{1pt}\fontfamily{qag}\selectfont\bfseries  {\scshape Phần} #1};
+}
+\par\smallskip
+\penalty\@highpenalty
+\endgroup
+\fi
+}
+%------------------------
+%\titlecontents{part}[0pc]
+%{\addvspace{10pt}%
+%	\color{red!70!black}\fontsize{18pt}{1pt}\fontfamily{qag}\selectfont\bfseries 
+%}%
+%{}
+%{}
+%{}%
+%~~~~~~~~~~~~~~~~~~~~~
+\titlecontents{chapter}[6.5pc] % nd cách trái
+{\addvspace{0pt}%
+\color{\mauCHUONG}\fontsize{13pt}{16pt}\fontfamily{put}\selectfont\bfseries
+}%
+{\contentslabel[\chaptertitlename\,\thecontentslabel.]{6.5pc}} %nhãn
+{}
+{\hfill\bfseries\thecontentspage
+}%
+%~~~~~~~~~~~~~~~~~~~~~
+\titlecontents{section}[10pc]
+{\addvspace{0pt}\bfseries\color{\mauSEC}}
+{\fontsize{12.5pt}{15pt}\selectfont\sffamily\contentslabel[{Bài\,\thecontentslabel.}]{3.5pc}}
+{}
+{\hfill
+\thecontentspage
+}
+[]
+%~~~~~~~~~~~~~~~~~~~~~
+\titlecontents{subsection}[10pc]
+{\addvspace{0pt}\color{\mauSUBSEC}}
+{\fontsize{12pt}{15pt}\selectfont\sffamily\contentslabel[\tron{\thecontentslabel}]{2.8pc}}
+{}
+{{\tiny\dotfill}\thecontentspage}
+[]
+%~~~~~~~~~~~~~~~~~~~~~
+%--------------------------
+% ĐỊNH NGHĨA CÁC MÔI TRƯỜNG 
+%--------------------------
+\listenumerate{dn,dl,tc,nx,ex}%xuống dòng khi liệt kê
+\theoremstyle{plain} %
+\theoremheaderfont{\scshape} %đầu
+\theorembodyfont{\normalfont} % thân
+\theoremseparator {.} % Ngăn cách
+\newtheorem{mydn}{\color{\maudn}\faBolt\, Định nghĩa}%[section]
+%===================================ĐNghĩa
+\theoremstyle{plain} %
+\theoremheaderfont{\fontfamily{put}\bfseries} %đầu
+\theorembodyfont{\normalfont} % thân
+\theoremseparator {.} % Ngăn cách
+\newtheorem{vd}{\color{\mauVD}\damEX%\fontfamily{qag}\selectfont\bfseries
+%\faToggleOn\ 
+%\faUnlink\ 
+\iconVD	Ví dụ}%[section]
+\newtheorem{bt}{\color{\mauBT}%\fontfamily{qag}\selectfont\bfseries%
+\damEX\iconVD Bài}
+\newtheorem{EXp}{\color{\mauEX}%\fontfamily{qag}\selectfont\bfseries%
+\damEX Câu}
+%===================================
+\theoremstyle{plain} %
+\theoremheaderfont{\scshape} %đầu
+\theorembodyfont{\slshape} % thân 
+\theoremseparator {.} % Ngăn cách 
+\newtheorem{mydl}{\color{\maudl}\faBolt\, Định lí}%[section]
+\newtheorem{mytc}{\color{\mauhq!70!black}\faBolt\, Tính chât}%[section]
+\newtheorem{myhq}{\color{\mauhq!70!black}\faBolt\, Hệ quả}%[section]
+%====================================
+\theoremstyle{nonumberplain} %ko đánh số, ko xuống dòng
+\theoremheaderfont{\scshape} %đầu
+\theorembodyfont{\normalfont} %phần thân
+\theoremseparator {.} %ngăn cách
+\newtheorem{mynx}{\color{\mauhq!70!black}\faBolt\, Nhận xét}
+%====================================
+%\theoremstyle{nonumberplain} %ko đánh số, ko xuống dòng
+%\theoremheaderfont{\it} %đầu
+%\theorembodyfont{\normalfont} %phần thân
+%\theoremseparator {.} %ngăn cách
+%\newtheorem{proof}{Chứng minh}
+%\newenvironment{proof}{\noindent\textit{Chứng minh}. }{}
+%====================================
+\newenvironment{tomtat}{\noindent}{}
+%====================================Hộp
+\newenvironment{boxdl}
+{\begin{tcolorbox}
+[enhanced jigsaw,breakable,pad at break*=1mm,
+colback=\maudl!10,boxrule=0pt,frame hidden, 
+opacityback=0.5,
+left=3mm, right=0pt, bottom=2pt, top=2pt,
+before skip=2mm,
+after skip=2mm,arc=0pt,
+borderline west={1mm}{0mm}{\maudl!30}
+%		overlay={\draw[line width=4pt,\maudl!50] ([xshift=1.5pt]interior.north west)--([xshift=1.5pt]interior.south west);}
+]}
+{\end{tcolorbox}}
+\newenvironment{boxdn}
+{\begin{tcolorbox}
+[enhanced jigsaw,breakable,pad at break*=1mm,
+%		drop fuzzy shadow=orange,
+colback=\maudn!10,boxrule=0pt,frame hidden, 
+opacityback=0.5,
+left=3mm, right=0pt, bottom=2pt, top=2pt,
+before skip=2mm,
+after skip=2mm,arc=0pt,
+borderline west={1mm}{0cm}{\maudn!30}
+%		overlay={\draw[line width=4pt,\maudn!50] ([xshift=2pt]interior.north west)--([xshift=1.5pt]interior.south west);}
+]}
+{\end{tcolorbox}}
+
+\newenvironment{boxkn}
+{\begin{tcolorbox}
+[enhanced jigsaw,breakable,pad at break*=1mm,
+%		drop fuzzy shadow=orange,
+colback=\mauhq!10,boxrule=0pt,frame hidden, 
+opacityback=0.5,
+left=3mm, right=0pt, bottom=2pt, top=2pt,
+before skip=2mm,
+after skip=2mm,arc=0pt,
+borderline west={1mm}{0cm}{\mauhq!50}
+%		overlay={\draw[line width=4pt,\mauhq!50] ([xshift=2pt]interior.north west)--([xshift=1.5pt]interior.south west);}
+]}
+{\end{tcolorbox}}
+%--------------------Đn lại môi trường
+\newcommand{\khungMT}[2]{%
+\begin{tikzpicture}[baseline=(Akhung.base),scale=1]%
+\node[fill=#1,rounded corners=4pt,inner sep=2pt] (Akhung) {\noindent\color{white}\fontfamily{put}\selectfont\bfseries\,#2\,};
+\end{tikzpicture}%
+}
+%---
+\renewenvironment{mydn}{
+\stepcounter{mydn}\noindent\khungMT{\maudn}{\iconVD Khái niệm}%
+}{}
+\renewenvironment{mydl}{
+\stepcounter{mydl}\noindent\khungMT{\maudl}{\iconVD Định luật}%
+}{}
+\renewenvironment{mytc}{
+\stepcounter{mytc}\noindent\khungMT{\mauhq!70!black}{\iconVD Tính chất}%
+}{}
+\renewenvironment{myhq}{
+\stepcounter{myhq}\noindent\khungMT{\mauhq!70!black}{\iconVD Hệ quả \themyhq}%
+}{}
+\renewenvironment{mynx}{
+\stepcounter{mynx}\noindent\khungMT{\mauhq!70!black}{\iconVD Nhận xét \themynx}%
+}{}
+%---
+\newenvironment{dn}{\begin{boxdn}\begin{mydn}}{\end{mydn}\end{boxdn}}
+\newenvironment{dl}{\begin{boxdl}\begin{mydl}}{\end{mydl}\end{boxdl}}
+\newenvironment{tc}{\begin{boxkn}\begin{mytc}}{\end{mytc}\end{boxkn}}
+\newenvironment{nx}{\begin{boxkn}\begin{mynx}}{\end{mynx}\end{boxkn}}
+\newenvironment{hq}{\begin{boxkn}\begin{myhq}}{\end{myhq}\end{boxkn}}
+%--------------------Chú ý
+\newenvironment{note}
+{\begin{tcolorbox}
+[enhanced jigsaw,breakable,pad at break*=1mm,
+opacityback=0,boxrule=0pt,frame hidden,
+left=8mm, right=0pt, bottom=0pt, top=0pt,
+before skip=1mm,
+after skip=1mm,
+underlay unbroken and first={
+\draw ([xshift=0.3cm,yshift=-0.32cm]interior.north west) node[\mauly]{\large\bfseries \faExclamationTriangle};
+},
+fontupper=\it,
+]}
+{\end{tcolorbox}}
+%\let\mynote\note
+%\renewcommand{\note}{\mynote{\bfseries\color{\mauly}Lưu ý:}} 
+%--------------------ghi chú
+\newenvironment{ghichu}
+{\begin{tcolorbox}
+[enhanced jigsaw,breakable,pad at break*=1mm,
+opacityback=0,boxrule=0pt,frame hidden,
+left=8mm, right=0pt, bottom=0pt, top=0pt,
+before skip=2mm,
+after skip=1mm,
+underlay unbroken and first={
+\draw ([xshift=0.3cm,yshift=-0.32cm]interior.north west) node[\maubl,yscale=-1]{\large\bfseries \faPaperclip};
+},
+%		fontupper=\it,
+]}
+{\end{tcolorbox}}
+\let\myghichu\ghichu
+\renewcommand{\ghichu}{\myghichu{\bfseries\color{\maubl}Ghi chú:}}
+%--------------------Chú ý
+\newenvironment{luuy}
+{\begin{tcolorbox}
+[enhanced jigsaw,breakable,pad at break*=1mm,
+opacityback=0,boxrule=0pt,frame hidden,
+left=8mm, right=0pt, bottom=0pt, top=0pt,
+before skip=1mm,
+after skip=1mm,
+underlay unbroken and first={
+\draw ([xshift=0.3cm,yshift=-0.32cm]interior.north west) node[\mauly]{\large\bfseries \faExclamationTriangle};
+},
+fontupper=\it,
+]}
+{\end{tcolorbox}}
+%--------------------Bình luận
+\newenvironment{binhluan}
+{\begin{tcolorbox}
+[enhanced jigsaw,breakable,pad at break*=1mm,
+opacityback=0,boxrule=0pt,frame hidden,
+left=6mm, right=0pt, bottom=0pt, top=0pt,
+before skip=2mm,
+after skip=2mm,
+%		underlay unbroken and first={
+%			\draw ([xshift=0.3cm,yshift=-0.25cm]interior.north west) node[magenta]{\large\bfseries 
+	%				%\faBell
+	%				\faEdit
+	%			};
+%		},
+fontupper=\it,
+]}
+{\end{tcolorbox}}
+\let\mybinhluan\binhluan
+\renewcommand{\binhluan}{\mybinhluan{\hspace*{-0.75cm}\bfseries\color{\maubl}\faEdit\,\hspace*{0.15cm} Bình luận:}} 
+%==================
+%--------------------đáp số
+\renewcommand{\dapso}[1]{\hspace{\fill}\mbox{}\linebreak[0]\hspace*{\fill}\mbox{\fontsize{8pt}{1pt}\selectfont\color{blue!80!black}{\color{red}{\faKey}}~#1}
+}
+%====================
+\setlength{\parindent}{0pt} %không thụt đầu dòng
+\usepackage[final]{pdfpages} % input file bìa pdf
+%----Cài đặt \boxEX -ô vuông sd tài liệu
+\def\hideboxEX{}
+\renewcommand{\boxEX}[2][15pt]{%
+\setbox1=\hbox{#2\strut}
+\def\sizeboxEX{#1}%Thay #1 bằng 15pt để cố định tất cả boxEX
+\ \EXbox{\hideboxEX#2\strut}\ %
+}
+%===Định nghĩa in Mục lục chính
+\def\muclucchinh{
+\pagenumbering{roman}%đánh số trang dạng i,ii,...
+\thispagestyle{empty}
+\tableofcontents %lệnh in mục lục chính
+%	\cleardoublepage %tạo trang trống
+}
+%--------------Cài đặt lại dòng kẻ \dotline
+%--Môi trường thủ công 2 cột Dotted
+\newcommand{\dongcham}[1]{
+\def\sod{#1}
+\pgfmathsetmacro{\sodong}{2*\sod -1} 
+\columnsep=10pt
+\vspace*{-3.5mm}
+\begin{multicols}{2}
+\foreach \dotline in{1,...,\sodong}
+{\noindent\color{\maucham}{\tiny\dotfill}\\[1mm]}
+{\noindent\color{\maucham}{\tiny\dotfill}}\\[-4mm]
+\end{multicols}
+}
+%---ĐN dòng chấm kiểu 1 cột
+\def\dotlineOne{
+\pgfmathsetmacro{\sodong}{\numlinedot-1} 
+\par
+\foreach \dotline in{1,...,\sodong}
+{\noindent\color{\maucham}{\tiny\dotfill}\\[1mm]}
+{\noindent\color{\maucham}{\tiny\dotfill}}\\[-2mm]
+}
+%--Đn dòng chấm kiểu 2 cột
+\def\dotlineTwo{
+\pgfmathsetmacro{\sodong}{2*\numlinedot+1} 
+\columnsep=5pt
+%		\setlength{\columnseprule}{0.4pt} % đường kẻ giữa
+%		\renewcommand{\columnseprulecolor}{\color{\maucham}} %màu đường kẻ
+\vspace*{-3.5mm}
+\begin{multicols}{2}
+\foreach \dotline in{1,...,\sodong}
+{\noindent\color{\maucham}\tiny\dotfill\\[1mm]}
+{\noindent\color{\maucham}\tiny\dotfill}\\[-4mm]
+\end{multicols}
+}
+%--SD 2 kiểu đn trên vào lệnh dotlineEX
+\renewcommand{\dotlineEX}[1]{
+\setlength{\parindent}{0pt}%
+\def\numlinedot{#1}
+\dotlineTwo % CHỌN KIỂU DÒNG CHẤM
+%	\dotlineOne
+}
+%--SD trong foot head
+\newcommand{\dotlineEXhead}[1]{
+\setlength{\parindent}{0pt}%
+\def\numlinedot{#1}
+\dotlineOne % CHỌN KIỂU DÒNG CHẤM
+}
+%--
+\renewcommand{\dotlineans}[2]{
+\hideansEX{#2}
+\AfterEndEnvironment{#2}{%
+\dotlineEX{#1}
+}}
+%---------ĐN các khung câu hỏi
+%%-- ẩn / hiện mã QR đề thi
+\def\maQR{}
+\newcommand{\hienmaQR}{
+\def\maQR{\qrcode[hyperlink,height=0.8cm,version=1]{\linkdethi}}
+}
+\newcommand{\anmaQR}{}
+%Lệnh chung
+%KHUNG SỐ 1
+\newcommand{\khungcauhoiMOT}[4]{
+\begin{tcolorbox}
+[
+enhanced jigsaw,breakable,pad at break*=1mm,
+%	frame hidden, opacityback=0,
+colback=#2!6,
+colframe=#2,
+drop fuzzy shadow=#2!30!gray, %đổ bóng
+opacityback=0.5,
+left=2mm,right=2mm,top=2pt,bottom=2mm,
+%--
+before skip=2mm,
+after skip=3mm,
+boxrule=0.5pt, %đường viền dày
+%	toprule=1pt,
+%bottomrule=1pt,
+%		leftrule=2.5pt,
+%rightrule=0pt,
+arc=0mm,
+fonttitle=\fontfamily{qag}\bfseries\selectfont,
+title={\damEX\iconVD #1 \stepcounter{#3}#4},
+attach boxed title to top left={xshift=0cm,yshift=-\tcboxedtitleheight},
+boxed title style={empty},
+underlay boxed title={
+\fill[#2] (title.north west)--(title.south west)--(title.south east) 
+to[out=5,in=-175] ([xshift=0.5cm]title.north east)
+-- cycle;
+\draw[#2] ([yshift=-2pt]title.south west)--([xshift=0.5pt, yshift=-2pt]title.south east) 
+to[out=5,in=-175] ([xshift=0.5cm+2.5pt]title.north east)
+;
+},
+underlay unbroken and first={
+\node[anchor=north east,inner sep=0pt,#2] at (frame.north east) {
+	\maQR
+};
+}	
+]}
+%KHUNG SỐ 2
+\newcommand{\khungcauhoiHAI}[4]{
+\begin{tcolorbox}
+[
+enhanced jigsaw,breakable,pad at break*=1mm,
+breakable,  
+frame hidden, 
+%	frame hidden, opacityback=0,
+colback=#2!3,
+colframe=#2,
+drop fuzzy shadow=#2!30!gray, %đổ bóng
+opacityback=0.5,
+left=2mm,right=2mm,top=2pt,bottom=2mm,
+%--
+before skip=2mm,
+after skip=3mm,
+boxrule=0pt, %đường viền dày
+%	toprule=1pt,
+%bottomrule=1pt,
+%		leftrule=2.5pt,
+%rightrule=0pt,
+arc=0mm,
+%		fonttitle=\fontfamily{qag}\bfseries\selectfont,
+title={\damEX\iconVD #1\,\, \stepcounter{#3}#4},
+attach boxed title to top left={xshift=3mm,yshift=-\tcboxedtitleheight},
+boxed title style={%
+	enhanced, 
+	colframe=#2, 
+	colback=#2, 
+	borderline east={1.5pt}{3.5pt}{white},
+	borderline east={3.5pt}{0pt}{white},    
+	borderline east={2.75pt}{0.25pt}{#2!60},    
+	borderline east={2.75pt}{-4pt}{#2!30},    
+	bottomrule=0pt, 
+	rightrule=5pt, 
+	sharp corners, 
+}, 
+%		interior style={}, 
+underlay boxed title={
+	\draw[#2, line width=2pt] (title.west)++(0,2pt)--++(-6mm,0)
+	(title.west)++(0,-2pt)--++(-6mm,0);
+},
+overlay={%
+	\begin{scope}[line width=2pt, #2]
+		\draw
+		(frame.north west) coordinate (iniPoint)
+		-- (iniPoint|-frame.south west);
+\end{scope}},
+underlay unbroken and first={
+	\node[anchor=north east,inner sep=0pt,#2] at (frame.north east) {
+		\maQR
+	};
+}
+]}
+%BỘ ĐẾM PHỤ
+\newcounter{EX}\setcounter{EX}{0}\newcounter{BT}\setcounter{BT}{0}\newcounter{VD}\setcounter{VD}{0}
+%%%%%%%% KIỂU TUỲ CHỌN KHUNG CÂU HỎI
+\newcommand{\TuyChonKhung}[1]{
+\def\chonkhung{#1}
+\def\mot{1}
+\def\hai{2}
+\ifx\chonkhung\mot%
+\def\beginboxEX{\khungcauhoiMOT{CÂU}{\mauEX}{EX}{\theEX}}
+\def\beginboxBT{\khungcauhoiMOT{BÀI}{\mauBT}{BT}{\theBT}}
+\def\beginboxVD{\khungcauhoiMOT{VÍ DỤ}{\mauVD}{VD}{\theVD}}
+\else
+\def\beginboxEX{\khungcauhoiHAI{CÂU}{\mauEX}{EX}{\theEX}}
+\def\beginboxBT{\khungcauhoiHAI{BÀI}{\mauBT}{BT}{\theBT}}
+\def\beginboxVD{\khungcauhoiHAI{VÍ DỤ}{\mauVD}{VD}{\theVD}}
+\fi
+}
+%---------Khoảng cách đoạn
+\setlength{\parskip}{2mm}
+%--------------------------Đn lại màu sắc theo từng môi trường
+%\AtBeginEnvironment{bt}{\def\mauLG{\mauBT} \def\mauDA{\mauBT} \def\mauTrue{\mauBT} \def\maucham{\mauBT}}
+%\AtBeginEnvironment{ex}{\def\mauLG{\mauEX} \def\mauDA{\mauEX} \def\mauTrue{\mauEX} \def\maucham{\mauEX}}
+%\AtBeginEnvironment{vd}{\def\mauLG{\mauVD} \def\mauDA{\mauVD} \def\mauTrue{\mauVD} \def\maucham{\mauVD}}
+%===========================MainDeThi
+%FULL WIDTH
+\def\FULLWIDTH{
+\newpage
+\fancyhead[LO,RE]{\headmucluc}
+\def\headchuong{\headmucluc}
+\newgeometry{top=\tren cm, bottom=\duoi cm, left=\trai cm, right=\phai cm}
+\def\mepphai{\phai}
+}
+\def\NOTE{
+\newpage
+\fancyhead[LO,RE]{\myfancyhead}
+\def\headchuong{\myfancyhead}
+\pgfmathsetmacro{\mepphai}{\phai+\leftnote}
+\newgeometry{top=\tren cm, bottom=\duoi cm, left=\trai cm, right=\mepphai cm}
+}
+%==================
+%=======Đn các phương án ABCD
+\def\khoanhtrondapan{
+\renewcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw=\mauDA,inner sep=1pt] (char) {##1};}}
+%	\renewcommand{\TrueEX}{\stepcounter{dapan}
+	%		{\squareEX{\textbf{\damEX\color{\mauDA}\Alph{dapan}}}} \ignorespaces}
+\renewcommand{\FalseEX}{\stepcounter{dapan}
+	{\circled{\textbf{\damEX\color{\mauDA}\Alph{dapan}}}} \ignorespaces}
+	}
+	%----
+	\def\totrondapan{
+\renewcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw=\mauDA,fill=\mauDA,inner sep=1pt] (char) {##1};}}
+%	\renewcommand{\TrueEX}{\stepcounter{dapan}
+	%		{\squareEX{\textbf{\damEX\color{\mauDA}\Alph{dapan}}}} \ignorespaces}
+\renewcommand{\FalseEX}{\stepcounter{dapan}
+	{\circled{\textbf{\damEX\color{white}\Alph{dapan}}}} \ignorespaces}
+	}
+	%----
+	\def\khongkhoanhtrondapan{
+%	\renewcommand{\TrueEX}{\stepcounter{dapan}
+	%		{\squareEX{\textbf{\damEX\color{\mauDA}\Alph{dapan}}}} \ignorespaces}
+\renewcommand{\FalseEX}{\stepcounter{dapan}
+	{\textbf{\damEX\color{\mauDA}\Alph{dapan}.}} \ignorespaces}
+	}
+	%%%%%%%%%%%%%%%%%% Khung tiêu đề, khung đề thi, đề cương
+	%Tạo mã qrcode
+	%----------gói tạo mã qr
+	\usepackage{qrcode}
+	%----------
+	\def\linkdecuong{https://toanvip307.blogspot.com/}
+	\def\linkdethi{https://toanvip307.blogspot.com/}
+	%---
+	%\def\mauname{teal}\def\mauSO{red}
+	\newcounter{decuongso}\setcounter{decuongso}{0}
+	\font\dam=ugqb8v at 15pt
+	\font\damTT=ugqb8v at 17pt
+	\renewcommand{\hrulefill}{%
+\leavevmode\leaders\hrule height 1pt\hfill\kern0pt }
+%---Đn name
+\newcommand{\decuong}[4]{%
+\stepcounter{decuongso}%
+\setcounter{ex}{0}\setcounter{bt}{0}\setcounter{vd}{0}%
+\boldmath\fontfamily{qag}\selectfont\color{\mauname}%
+%%--trước khung decuong
+{\fontsize{10}{11}\selectfont\raggedleft 
+	\parbox{3.5cm}{Ngày: \hrulefill}
+	\hspace*{1mm}
+	\parbox{0.75\textwidth-4cm}{Họ và tên: \hrulefill}
+	\hspace*{1mm}
+	\parbox{0.25\textwidth}{Lớp: \hrulefill}
+}\\[-2mm]
+%%--khung decuong
+\begin{tcolorbox}[boxrule=0.7pt,arc=0mm,breakable,colframe=\mauSO,colback=\mauname!2,before skip=0mm,after skip=2mm, left=0mm,right=0mm,top=2mm,bottom=2mm]\color{\mauname}
+	\begin{minipage}[c]{3.5cm}
+		\begin{center}
+			\qrcode[hyperlink,height=2.7cm,version=2]{\linkdecuong}%\\
+			%				{\fontsize{8}{0}\selectfont\sf Phần hướng dẫn giải}
+		\end{center}
+	\end{minipage}
+	\hspace{0.2cm}
+	\begin{minipage}[c]{\textwidth-4.4cm}
+		\begin{center}
+			%%---
+			{\damTT\color{\mauSO} \MakeUppercase{#1}}\\[2pt]
+			{\color{\mauSO}\fontsize{14}{11}\selectfont\bfseries \MakeUppercase{#2}}\\[2pt]
+			{\color{\mauSO}\fontsize{11}{11}\selectfont\bfseries #3}\\[2pt]
+			{\fontsize{14}{11}\selectfont\bfseries \MakeUppercase{#4}}\\[-1mm]
+		\end{center}
+	\end{minipage}
+\end{tcolorbox}
+%%--- Phần note đầu đề
+%	\notename
+\vspace*{0.5cm}
+\addcontentsline{toc}{section}{\hspace*{-4.2cm}\sf Phiếu số \thedecuongso: #4} % đưa MT vào mục lục
+}
+%--Sang trang 
+\BeforeBeginEnvironment{decuong}{
+\ifnum\the\value{decuongso}>0
+\newpage
+\fi
+}
+%%%%%%%%%%%%%%%%%%% Khung đề thi
+\newcounter{deso}\setcounter{deso}{0}
+\font\damDETHI=ugqb8v at 13pt
+\newcommand{\dethi}[3]{%
+\setcounter{page}{1}%
+\setcounter{ex}{0}\setcounter{bt}{0}\setcounter{vd}{0}%
+\setcounter{EX}{0}\setcounter{BT}{0}\setcounter{VD}{0}%
+\stepcounter{deso}
+\label{\thedeso}
+\begin{minipage}[t]{0.5\textwidth}
+	\centering
+	\vspace*{1mm}
+	{\color{\mauSO}\damDETHI PHÒNG GD\&ĐT\ \MakeUppercase{#1}}\\	
+	{\fontsize{12}{12}\color{\mauname}\bfseries\fontfamily{qag}\selectfont \boxed{\textbf{#2}}}\\
+	\fontsize{12}{12}\color{\mauname}\fontfamily{qag}\selectfont{\it (Đề thi gồm có 0\pageref{de\thedeso} trang)}
+\end{minipage}
+%%---
+\begin{minipage}[t]{0.5\textwidth}
+	\centering
+	{\color{\mauname}\damDETHI \MakeUppercase{#3}}\\
+	{\color{\mauname}\fontfamily{qag}\fontsize{12}{12}\selectfont\bfseries Năm học: 2023 - 2024}\\
+	{\color{\mauname}\fontfamily{qag}\fontsize{12}{12}\selectfont\bfseries Môn: Toán}\\
+	{\color{\mauname}\fontfamily{qag}\fontsize{11}{12}\selectfont Thời gian: \textit{90 phút} (không kể phát đề)}\\
+	%		\rule[2.2ex]{1.5in}{1pt}
+\end{minipage}
+\\
+\noindent\fontsize{11}{12}\fontfamily{qag}\selectfont\color{\mauname}
+\parbox[t]{\textwidth-2cm-5cm-7pt}{
+	\text{Họ và tên thí sinh: }{\tiny\dotfill}
+}
+\parbox[t]{5cm}{
+	\text{Số báo danh: }{\tiny\dotfill}
+}
+\parbox[b]{2cm}{
+	\setlength\fboxrule{2pt}
+	\setlength\fboxsep{5pt}
+	\hfill\vspace*{-2mm}\fbox{\fontfamily{qag}\selectfont\bfseries Đề số \thedeso}
+}
+%-- gạch dưới
+\centerline{
+	\pgfornament[width=4cm,color=\mauname]{88}
+}\\[1mm]
+%%---
+\addcontentsline{toc}{section}{\hspace*{-4.2cm}\sf Đề số \thedeso: #3 môn Toán, #1} % đưa MT vào mục lục
+}
+%--Sang trang 
+\BeforeBeginEnvironment{dethi}{
+\ifnum\the\value{deso}>0
+\newpage
+\fi
+}
+%%%%%%%%%%%%%%%% Thầy Live Hoá
+\newcommand{\loigiaiTT}[2]{
+\begin{minipage}[t]{0.4\textwidth-2mm}
+	\begin{khung4}{Gợi ý}
+		#1
+	\end{khung4}
+\end{minipage}\hspace*{2mm}
+\begin{minipage}[t]{0.6\textwidth}\vspace*{5mm}
+	#2
+\end{minipage}	
+}
+%%=============ĐN HIỆN CÂU EX CẦN THIẾT if
+%\newcommand{\hienEXS}[2]{
+%	\def\biendau{#1}\def\biencuoi{#2}%
+%	\pgfmathsetmacro{\sodau}{int(\biendau-1)}
+%	\pgfmathsetmacro{\socuoi}{int(\biencuoi+1)}
+%	\setcounter{EXp}{#1-1}
+%	\RenewEnviron{ex}{
+	%		\stepcounter{ex}%
+	%		\ifnum\value{ex}<\socuoi
+	%		\ifnum\value{ex}>\sodau
+	%		\par%
+	%		\begin{EXp}
+		%			\BODY% 
+		%		\end{EXp}
+	%		\fi\fi
+	%	}
+%	%
+%	\AtEndEnvironment{dethi}{\setcounter{EXp}{#1-1}}
+%	%
+%	\AtEndEnvironment{EXp}{
+	%		\ifnum\the\value{numTrue}=1
+	%		\scantokens{\begin{EXsol}A\end{EXsol}}
+	%		\fi
+	%		\ifnum\the\value{numTrue}=2
+	%		\scantokens{\begin{EXsol}B\end{EXsol}}
+	%		\fi
+	%		\ifnum\the\value{numTrue}=3
+	%		\scantokens{\begin{EXsol}C\end{EXsol}}
+	%		\fi
+	%		\ifnum\the\value{numTrue}=4
+	%		\scantokens{\begin{EXsol}D\end{EXsol}}
+	%		\fi
+	%		\setcounter{numTrue}{0}
+	%	}
+%}
+%%%%%%%%%%%%%%%%%%%%%%%
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}} % m là middle
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} 
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+% lệnh siunit 
+\newcommand{\xsi}[2]{\SI[parse-numbers=false]{#1}{#2}}

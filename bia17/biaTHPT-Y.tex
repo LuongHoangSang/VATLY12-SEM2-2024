@@ -1,0 +1,174 @@
+\documentclass[12pt,a4paper,oneside]{book}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath,amssymb}
+\usepackage{tikz}
+\usepackage{pgfornament}
+\usetikzlibrary{calc,snakes}
+\usetikzlibrary{shapes}
+\usetikzlibrary{shadings,fadings}
+\begin{document}
+	\thispagestyle{empty}
+	\begin{tikzpicture}[overlay,remember picture,transform shape]
+	%================================
+	\coordinate (A) at (current page.north west);
+	\coordinate (B) at (current page.north east);
+	\coordinate (C) at (current page.south east);
+	\coordinate (D) at (current page.south west);
+	\coordinate (AB) at (current page.north);
+	\coordinate (CD) at (current page.south);
+	\coordinate (AD) at (current page.west);
+	\coordinate (BC) at (current page.east);
+	\coordinate (G) at (current page.center);
+	%================================
+	\clip (A) rectangle (C);
+	%======================== PHỦ CẢ TRANG
+	\def\maunen{yellow!15} %màu nền cả trang
+	\def\mauchinh{red} %màu chính	
+	\fill[color=\maunen] (A) rectangle (C); %phủ cả trang
+	%--trang trí
+	%----------------------
+	\tikzset{hinh3d/.pic={
+			\clip (0,0)rectangle(21,15);
+			\fill[color=pink] (0,0)rectangle(21,10);
+			\foreach \i in {-40,-38,...,0,2,4,...,100}{
+				\draw[line width=1.5pt,gray!50] ($(D)+(\i,0)$)--(40,20) ($(D)+(\i,0)$)--(-40,20);
+			}
+			\fill[\maunen] (0,15)rectangle(21,10);
+			\fill[\maunen,path fading=south] (0,10)rectangle(21,2); %đổ màu trắng làm mờ
+	}}
+	\pic at ($(D)+(0,2.25)$) [pic type = hinh3d];
+	%======================== DƯỚI
+	\begin{scope}
+		%-------Dưới 4
+		\fill[cyan] 
+			(C)--([yshift=9cm]C)
+			.. controls +(160:10) and +(-55:14.5) .. ([yshift=6.5cm]D)--(D)
+			--cycle
+			;
+		%-------Dưới 4
+		\fill[cyan!50] 
+			(C)--([yshift=9cm]C)
+			.. controls +(-177:10) and +(-52:10.5) .. ([yshift=4cm]D)--(D)
+			--cycle
+			;
+		%-------Dưới 3
+		\fill[cyan!20] 
+			(C)--([yshift=9cm]C)
+			.. controls +(-175:10) and +(-45:9.35) .. ([yshift=2.75cm]D)--(D)
+			--cycle
+			;
+		%-------Dưới 2
+		\fill[green!20] 
+			(C)--([yshift=9cm]C)
+			.. controls +(170:7.5) and +(25:10) .. ([xshift=-6.25cm]CD)
+			--cycle
+			;
+		%-------Dưới 1
+		\fill[green!50] 
+			(C)--([yshift=9cm]C)
+			.. controls +(-180:5.5) and +(35:10) .. ([xshift=-3cm]CD)
+			--cycle
+			;
+		%------- cột nhà
+		\begin{scope}[shift={(8.5,-23.3)},yscale=1.5,xscale=1.75] %trái
+		\fill[white, draw=black] plot coordinates{(0,0)(-.5,0) (-0.31,0.39) (-0.2,0.39) (-0.2,2.52)(-0.31,2.52) (-0.31,2.76) (-0.22,2.76)(-0.11,3.12)(0,3.8)};
+		\fill plot coordinates{(0,0)(.5,0) (0.31,0.39) (0.2,0.39) (0.2,2.52)(0.31,2.52) (0.31,2.76) (0.22,2.76)(0.11,3.12)(0,3.8)};
+		\end{scope}	
+		\begin{scope}[shift={(11.75,-23.3)},yscale=2.5,xscale=2.75] %giữa
+		\fill[white, draw=black] plot coordinates{(0,0)(-.5,0) (-0.31,0.39) (-0.2,0.39) (-0.2,2.52)(-0.31,2.52) (-0.31,2.76) (-0.22,2.76)(-0.11,3.12)(0,3.8)};
+		\fill plot coordinates{(0,0)(.5,0) (0.31,0.39) (0.2,0.39) (0.2,2.52)(0.31,2.52) (0.31,2.76) (0.22,2.76)(0.11,3.12)(0,3.8)};
+		\end{scope}
+		\begin{scope}[shift={(15,-23.3)}, yscale=1.5,xscale=1.75] %phải
+		\fill[white, draw=black] plot coordinates{(0,0)(-.5,0) (-0.31,0.39) (-0.2,0.39) (-0.2,2.52)(-0.31,2.52) (-0.31,2.76) (-0.22,2.76)(-0.11,3.12)(0,3.8)};
+		\fill plot coordinates{(0,0)(.5,0) (0.31,0.39) (0.2,0.39) (0.2,2.52)(0.31,2.52) (0.31,2.76) (0.22,2.76)(0.11,3.12)(0,3.8)};
+		\end{scope}
+		%--------
+		\clip 
+			(C)--([yshift=9cm]C)
+			.. controls +(-180:5.5) and +(35:10) .. ([xshift=-3cm]CD)
+			--cycle
+			;
+		\fill[\mauchinh!30!black] (D) rectangle ([yshift=1.5cm]C);
+		\draw ([xshift=-2.5cm, yshift=0.75cm]C) node[\maunen,left]{\fontfamily{qag}\fontsize{14pt}{1pt}\selectfont\bfseries TÀI LIỆU LƯU HÀNH NỘI BỘ};
+	\end{scope}	
+	%======================== TRÊN
+	\begin{scope}
+		\fill[violet, draw=\maunen, line width =8pt] ([xshift=-1cm,yshift=1cm]A) rectangle ([yshift=-3cm,xshift=1cm]B);
+		\fill[cyan, draw=\maunen, rounded corners=10mm, line width=8pt] ([xshift=-1cm,yshift=1cm]A)--++(0,-4)--++(11,0)--++(45:3)--++(10,0)--([xshift=1cm,yshift=1cm]B)--cycle;
+		\draw ([xshift=-1.5cm, yshift=-2cm]B) node[\maunen,left]{\fontfamily{qag}\fontsize{14pt}{1pt}\selectfont\bfseries Th.S TRẦN ĐỨC THỊNH};
+		\draw ([xshift=2cm, yshift=-1.5cm]A) node[right]{\pgfornament[height=2cm,color=yellow]{128}};
+		\draw ([xshift=5.5cm, yshift=-1.75cm]A) node[red,right,scale=1.5]{\fontfamily{qag}\fontsize{14pt}{1pt}\selectfont\bfseries BookMath};
+	\end{scope}
+	%============================= 
+	\coordinate (GGG) at ([xshift=2.1cm,yshift=-6cm]A); % điểm đặt chữ
+	\draw ([xshift=0cm, yshift=0 cm]GGG) node[right,xscale=1.6]{\pgfornament[height=2cm,color=gray!5]{71}};
+	\def\n{0.05} %độ dày của bóng
+	\def\x{2.3}\def\y{2.3} %co-giãn chữ
+	\def\mauchu{\maunen} %màu chữ
+	\def\maubong{black}
+	\foreach \i in {0,0.05,...,\n}{
+		\foreach \j in {0,5,...,360}{
+			\node[text=\maubong,xscale=\x,yscale=\y, right] at ($(GGG)+(\j:\i)$){\fontfamily{qag}\fontsize{20}{0}\selectfont\bfseries LUYỆN THI};
+		}
+	}
+	\node[text=\mauchu,xscale=\x,yscale=\y, right] at (GGG) {\fontfamily{qag}\fontsize{20}{0}\selectfont\bfseries LUYỆN THI};
+	%----------
+	\node[text=blue,xscale=1.65,yscale=2.3, right] at ([yshift=-2.5cm]GGG) {\fontfamily{qag}\fontsize{20}{0}\selectfont\bfseries THPTQG};
+	%=============================
+	%=============================MÔN TOÁN HỌC
+	\coordinate (GG) at ([xshift=-4.5cm,yshift=5.25cm]G); % điểm đặt chữ
+	\def\n{1} %độ dày của bóng
+	\def\gocnghieng{45} %nghiêng của bóng
+	\def\x{7.85}\def\y{7.5} %co-giãn chữ
+	\def\mauchu{red} %màu chữ
+	\def\maubong{black}
+	\foreach \i in {0,0.01,...,\n}{
+		\pgfmathsetmacro\rr{\n-\i}
+		\pgfmathsetmacro\domo{100*\i/\n}
+		\node[text=\maubong!\domo!white,xscale=\x,yscale=\y,right] at ($(GG)+(\gocnghieng:\rr)$){\fontfamily{qag}\fontsize{20}{0}\selectfont\bfseries Toán};
+	}
+	\node[text=\mauchu,xscale=\x,yscale=\y,right] at (GG) {\fontfamily{qag}\fontsize{20}{0}\selectfont\bfseries Toán};
+	%---------
+	\node[text=black,xscale=2.85,yscale=2,right] at ([xshift=0.65cm,yshift=-3.35cm]GG) {\fontfamily{qag}\fontsize{20}{0}\selectfont\bfseries THEO CHỦ ĐỀ};
+	%========================
+	%======================== CHỦ ĐỀ
+	\coordinate (diem) at ($([yshift=-0.5 cm,xshift=3cm]G)$);
+	\def\rr{2} %rộng khung
+	\def\dd{12.5} %dài khung
+	\def\vienNXB{blue} %màu viền
+	\def\nenNXB{green!30} %màu nền
+	\def\mauchuchinhNXB{red}
+	\def\mauchubongNXB{black}
+	\fill[\nenNXB] ($(diem)+(-0.5*\dd,-0.5*\rr)$) rectangle +(\dd,\rr);
+	\draw[draw=\vienNXB, line width =3pt] ($(diem)+(-0.5*\dd,0.5*\rr)$)--++(\dd,0);
+	\draw[draw=\vienNXB, line width =3pt] ($(diem)+(-0.5*\dd,-0.5*\rr)$)--++(\dd,0);
+	\foreach \i in {0,0.1,...,1}{
+		\draw ($(diem)+(\i pt,\i pt)$) node[ text=\mauchubongNXB,xscale=1.5,yscale=1.5]{\fontfamily{put}\fontsize{20}{0}\selectfont\bfseries  CHỦ ĐỀ SỐ PHỨC};
+	}
+	\draw (diem) node[text=\mauchuchinhNXB,xscale=1.5,yscale=1.5]{\fontfamily{put}\fontsize{20}{0}\selectfont\bfseries CHỦ ĐỀ SỐ PHỨC};
+	%========================số i
+	\draw ([xshift=4.5cm, yshift=-10cm]A) node[gray!30,right,yscale=4.2,xscale=6,rotate=-90]{$i^2=-1$};
+	%========================
+	\begin{scope}
+		\tikzset{%
+			man/.pic={%
+				\begin{scope}[shift={(-0.2,0)}]
+				\fill [rounded corners=1.5] (0,0.4) -- (0,0.8) -- (0.4,0.8) -- (0.4,0.4) --
+				(0.325,0.4) -- (0.325,0.7) -- (0.3,0.7) -- (0.3,0) -- (0.225,0) --
+				(0.225,0.4) -- (0.175,0.4) -- (0.175,0) -- (0.1,0) -- (0.1,0.7) --
+				(0.075,0.7) -- (0.075,0.4) -- cycle;
+				\fill (0.2,0.9) circle (0.1);
+				\coordinate (-head) at (0.2,1);
+				\coordinate (-foot) at (0.2,0);
+				\end{scope}
+		}}
+		\pic[scale=0.5] at ($(D)+(1.75,12)$) [pic type = man];
+		\pic[scale=1,violet] at ($(D)+(3,11)$) [pic type = man];
+		\pic[scale=1.5,blue] at ($(D)+(4.5,10)$) [pic type = man];
+		\pic[scale=2.6,red] at ($(D)+(6,8.5)$) [pic type = man];
+		%---------------------
+	\end{scope}
+	%================================
+	
+	\end{tikzpicture}
+\end{document}

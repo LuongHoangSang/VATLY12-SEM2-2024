@@ -1,0 +1,115 @@
+%====================================================
+%===================TRẦN ĐỨC THỊNH===================
+%================= MẪU VIẾT SÁCH 17 =================
+%%% FACE: https://www.facebook.com/ThinhTranMath/ %%%
+%%%%%% TOANVIP307.BLOGSPOT.COM -- 09.7828.7121 %%%%%%
+%====================================================
+\documentclass[12pt,a4paper,onecolumn,titlepage,twoside,openany]{book}
+%\usepackage{fouriernc}
+%%%%%%%%%%%%%CHỌN KIỂU TÀI LIỆU & MÀU SẮC MUỐN XUẤT
+%----------- Hiện đầy đủ tài liệu
+%%%% LT-1: VD-BT-EX đóng khung.
+%%%% LT-2: VD-BT đóng khung; EX ko khung
+%%%% LT-3: VD đóng khung; BT-EX ko khung.
+%%%% LT-4: VD-BT-EX ko khung.
+%----------- Ẩn lý thuyết, ẩn bìa, ẩn mục lục, chỉ hiện đề bài theo từng Section
+%%%% BT-1: VD-EX-BT đóng KHUNG
+%%%% BT-2: VD-BT đóng KHUNG; EX ko khung
+%%%% BT-3: VD đóng KHUNG; EX-BT ko khung
+%%%% BT-4: Bỏ VD, Đề EX-BT đóng KHUNG
+%%%% BT-5: VD-EX-BT ko Khung
+%%%% BT-6: Bỏ VD, Đề EX-BT ko Khung
+%----------- Chọn KIỂU MÀU SỬ DỤNG
+%%%% Y: Tài liệu ĐẦY ĐỦ MÀU SẮC.
+%%%% N: Tài liệu ĐEN - TRẮNG.
+%----------- 
+\def\loaitailieu{LT-1} % Chọn loại tài liệu tương ứng với note ở trên
+\def\mausac{Y} %Chọn kiểu màu muốn xuất
+%%%%%%%%%%%%% Các thông số trang tài liệu
+\def\tren{1.75}\def\duoi{1.75}\def\trai{1.5}\def\phai{1} %cách lề
+\def\topset{0.5} %kc giữa đáy header và vùng vb
+\def\botset{0.5} %kc giữa đỉnh footer và vùng vb
+\def\leftnote{4} %Độ rộng cột Note
+\input{cautruc17/mausac-\mausac}
+%%%%%%%%%%%%%
+%--- Icon trước VD,EX, BT khi đóng khung
+\def\iconVD{\faBolt\,\,}
+%%%%%%%%%%%%% Khai báo cơ bản cho file Main
+\input{cautruc17/Khai-bao-cho-file-main17}
+\TuyChonKhung{1} %khung câu
+\TuyChonDang{2} %khung dạng
+\input{cautruc17/\loaitailieu}
+%%%%%%%%%%%%% ĐIỀU KHIỂN LỜI GIẢI ,DÒNG CHẤM, ĐÁP SỐ
+%%%%%%%%%%%%% Thay LG bằng dòng chấm
+%\dotlinefull{vd}
+\dotlinefull{ex}
+\dotlinefull{bt}
+%%%%%%%%%%%%% Ẩn lời giải và hiện số dòng chấm
+%\dotlineans{10}{vd}
+%\dotlineans{10}{ex}
+%\dotlineans{10}{bt}
+%%%%%%%%%%%%% Ẩn lời giải
+%\hideansEX{vd}
+%\hideansEX{ex}
+%\hideansEX{bt}
+%\hideansEX{vidu}
+%%%%%%%%%%%%% Ẩn/hiện đáp số, Đáp án
+\exitdapso %ẩn đs
+\renewcommand{\indapan}[2]{} %ẩn đáp án
+%%%%%%%%%%%%% Thông tin trong Kiểu tài liệu BT
+\def\truocVD{Ví dụ minh họa}
+\def\truocEX{Bài tập về nhà}
+\def\truocBT{Bài tập tương tự}
+%%%%%%%%%%%%%
+%--------------Tròn
+%\renewcommand{\sochuong}[1]{}
+\def\khoi{12}
+\def\tieudetrenchuong{ÔN THI THPT QUỐC GIA 2021-2022}
+\def\noidungduoitrai{{\large\color{\maukefoot}\faHome}\,\, 09.7828.7121}
+\def\noidungduoiphai{Thịnh Trần \,\,{\large\color{\maukefoot}\faFacebookSquare}}
+%--
+\def\trenletrai{Bài tập trắc nghiệm Toán 12}
+\def\trenchanphai{Lớp toán thầy Thịnh}
+%%%%%%%%%%%%% Đn lại A.B.C.D
+\totrondapan
+%\khoanhtrondapan
+%\khongkhoanhtrondapan
+%%%%%%%%%%%%% ẨN/HIỆN LOGO
+\hienLOGO
+%\anLOGO
+%%%%%%%%%%%%%
+\renewcommand{\arraystretch}{1.25}
+%%====================================================
+%=================BẮT ĐẦU TÀI LIỆU===================
+\begin{document}
+	\pdfmapfile{+hunglan.map}
+	\renewcommand{\chaptername}{Chương} %thay đổi tiêu đề chương
+	%--Trang bìa
+	\pagenumbering{gobble}%tắt đánh số trang
+%	\includepdf{bia17/biaTHPT-Y.pdf}%chèn bìa pdf
+	%\newpage\null\thispagestyle{empty}\newpage%tạo trang trống
+	\clearpage%đặt lại đánh số trang
+	\pagenumbering{arabic}%đánh số trang dạng 1,2,...
+	\FULLWIDTH
+	%====================================================
+	%==================BẮT ĐẦU TÀI LIỆU==================
+	%	\NOTE
+	\def\linkdecuong{https://toanvalatex.com}
+	\def\chuyende{}
+	\def\khungchuyende#1{
+		\begin{decuong}
+			{CHUYÊN ĐỀ ÔN THI TOÁN LỚP 12}
+			{THẦY THỊNH -- 09.7828.7121}
+			{Địa chỉ: Triệu Thành - Triệu Phong - Quảng Trị}
+			{#1}
+		\end{decuong}
+	}
+	%%%%%%%%%%%%%%%%%%% Update 3
+	%%--- Soạn đề cuong
+	\input{data17/decuong}
+	%==================Mục lục chính
+	%--Mục lục chính
+	\FULLWIDTH
+	\muclucchinh
+\end{document}
+
