@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  20 OCT 2024 15:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  27 OCT 2024 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2094,6 +2094,33 @@ Package array Warning: Column C is already defined on input line 1405.
 Package array Warning: Column L is already defined on input line 1406.
 
 ) (./cautruc17/LT-2.tex)
+(c:/texlive/2024/texmf-dist/tex/latex/background/background.sty
+Package: background 2014/03/04 v2.1 background material
+
+(c:/texlive/2024/texmf-dist/tex/latex/everypage/everypage.sty
+Package: everypage 2020/10/17 R2.0b Hooks to run on every page
+
+
+Package everypage Warning: Functionality similar to this package has recently
+(everypage)                been implemented in LaTeX. This package is now in
+(everypage)                legacy status.
+(everypage)                Please, don't use it in new documents and packages.
+
+
+Package everypage Warning: You appear to be running a version of LaTeX
+(everypage)                providing the new functionality.
+(everypage)                Doing the best to deliver the original `everypage`
+(everypage)                interface on top of it. Strict equivalence is
+(everypage)                not possible, breakage may occur.
+(everypage)                If truly needed, Use `everypage-1x` to force the
+(everypage)                loading of an older code base.
+
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks87
+\AP@partial=\box199
+\AP@footins=\box256
+))
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 80.
  (./MAIN.aux)
@@ -2124,27 +2151,19 @@ LaTeX Font Info:    ... okay on input line 80.
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count521
 \scratchdimen=\dimen425
-\scratchbox=\box199
+\scratchbox=\box257
 \nofMPsegments=\count522
 \nofMParguments=\count523
-\everyMPshowfont=\toks87
+\everyMPshowfont=\toks88
 \MPscratchCnt=\count524
 \MPscratchDim=\dimen426
 \MPnumerator=\count525
 \makeMPintoPDFobject=\count526
-\everyMPtoPDFconversion=\toks88
+\everyMPtoPDFconversion=\toks89
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(c:/texlive/2024/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -2287,6 +2306,11 @@ LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
 \tf@toc=\write8
 \openout8 = `MAIN.toc'.
 
+<logo/logonen.jpg, id=88, 527.0892pt x 239.4546pt>
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 95.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
  [1
 
 
@@ -2295,7 +2319,7 @@ LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
 {bkhcm2.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-t5-sc.enc}{c
 :/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-t5.enc}{c:/texlive/2024/te
 xmf-dist/fonts/enc/dvips/vntex/t5.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvi
-ps/fontawesome/fontawesometwo.enc}]
+ps/fontawesome/fontawesometwo.enc} <./logo/logonen.jpg>]
 LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <12> not available
 (Font)              Font shape `T5/qag/b/n' tried instead on input line 95.
 LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <15> not available
@@ -2340,7 +2364,12 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
 
 (c:/texlive/2024/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-) [2
+)
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 95.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+ [2
 
 ]
 (./data17/VN12-Y24-PH-SYL-017.tex
@@ -2379,11 +2408,11 @@ LaTeX Font Warning: Font shape `U/esvect/m/n' in size <16> not available
 (Font)              size <17.28> substituted on input line 2.
 
 contour: Using real outline for `12' on input line 2.
-<logo/logo.jpg, id=147, 471.26062pt x 358.33875pt>
+<logo/logo.jpg, id=112, 454.3374pt x 453.8556pt>
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
 Package pdftex.def Info: logo/logo.jpg  used on input line 2.
-(pdftex.def)             Requested size: 44.99013pt x 34.20656pt.
+(pdftex.def)             Requested size: 44.99013pt x 44.93806pt.
 LaTeX Font Info:    Trying to load font information for TS1+qag on input line 3
 .
 (c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qag.fd
@@ -2397,13 +2426,13 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 4--4
 LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
 (Font)              using `U/fontawesometwo/m/n' instead on input line 7.
 
-<figs/VN12-Y24-PH-SYL-017-1.jpg, id=148, 888.921pt x 252.945pt>
+<figs/VN12-Y24-PH-SYL-017-1.jpg, id=113, 888.921pt x 252.945pt>
 File: figs/VN12-Y24-PH-SYL-017-1.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017-1.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-1.jpg  used on input line 11.
 
 (pdftex.def)             Requested size: 473.73518pt x 134.80125pt.
-<figs/VN12-Y24-PH-SYL-017-2.jpg, id=149, 316.7835pt x 208.98074pt>
+<figs/VN12-Y24-PH-SYL-017-2.jpg, id=114, 316.7835pt x 208.98074pt>
 File: figs/VN12-Y24-PH-SYL-017-2.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017-2.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-2.jpg  used on input line 24.
@@ -2424,19 +2453,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
 Package pdftex.def Info: logo/logo.jpg  used on input line 25.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 25.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [3
 
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./logo/logo.jp
 g> <./figs/VN12-Y24-PH-SYL-017-1.jpg>]
-<figs/VN12-Y24-PH-SYL-017-3.jpg, id=163, 963.6pt x 296.307pt>
+<figs/VN12-Y24-PH-SYL-017-3.jpg, id=128, 963.6pt x 296.307pt>
 File: figs/VN12-Y24-PH-SYL-017-3.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017-3.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-3.jpg  used on input line 43.
@@ -2454,21 +2487,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
 Package pdftex.def Info: logo/logo.jpg  used on input line 53.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 53.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [4 <./figs/VN12-Y24-PH-SYL-017-2.jpg> <./figs/VN12-Y24-PH-SYL-017-3.jpg>]
-<figs/VN12-Y24-PH-SYL-017-4.jpg, id=175, 630.6762pt x 288.1164pt>
+<figs/VN12-Y24-PH-SYL-017-4.jpg, id=140, 630.6762pt x 288.1164pt>
 File: figs/VN12-Y24-PH-SYL-017-4.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017-4.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-4.jpg  used on input line 64.
 
 (pdftex.def)             Requested size: 298.20381pt x 136.23242pt.
-<figs/VN12-Y24-PH-SYL-017-5.jpg, id=176, 556.479pt x 297.2706pt>
+<figs/VN12-Y24-PH-SYL-017-5.jpg, id=141, 556.479pt x 297.2706pt>
 File: figs/VN12-Y24-PH-SYL-017-5.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017-5.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-5.jpg  used on input line 73.
@@ -2486,15 +2523,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
 Package pdftex.def Info: logo/logo.jpg  used on input line 74.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 74.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [5 <./figs/VN12-Y24-PH-SYL-017-4.jpg> <./figs/VN12-Y24-PH-SYL-017-5.jpg>]
-<figs/VN12-Y24-PH-SYL-017-6.jpg, id=185, 648.5028pt x 269.3262pt>
+<figs/VN12-Y24-PH-SYL-017-6.jpg, id=150, 648.5028pt x 269.3262pt>
 File: figs/VN12-Y24-PH-SYL-017-6.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017-6.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-6.jpg  used on input line 82.
@@ -2523,11 +2564,12 @@ File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 LaTeX Font Warning: Font shape `U/fontawesomeone/bx/n' undefined
 (Font)              using `U/fontawesomeone/m/n' instead on input line 99.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
-
- []
-
+<figs/VN12-Y24-PH-SYL-017-7.jpg, id=153, 327.624pt x 342.5598pt>
+File: figs/VN12-Y24-PH-SYL-017-7.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-017-7.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-7.jpg  used on input line 104
+.
+(pdftex.def)             Requested size: 127.3261pt x 133.13257pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2538,21 +2580,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 99.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-[6{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc} <
-./figs/VN12-Y24-PH-SYL-017-6.jpg>]
-<figs/VN12-Y24-PH-SYL-017-7.jpg, id=195, 327.624pt x 342.5598pt>
-File: figs/VN12-Y24-PH-SYL-017-7.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-7.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-7.jpg  used on input line 104
-.
-(pdftex.def)             Requested size: 127.3261pt x 133.13257pt.
+Package pdftex.def Info: logo/logo.jpg  used on input line 109.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--109
-
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 109.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[6{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc} <
+./figs/VN12-Y24-PH-SYL-017-6.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\char' on input line 111.
@@ -2582,26 +2623,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
 Package pdftex.def Info: logo/logo.jpg  used on input line 171.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 171.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [7{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}
  <./figs/VN12-Y24-PH-SYL-017-7.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--303
 
  []
 
@@ -2621,19 +2656,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
 Package pdftex.def Info: logo/logo.jpg  used on input line 446.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 446.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 446--446
-
- []
-
-
 Overfull \hbox (1.0pt too wide) in paragraph at lines 448--448
 |[][]
  []
@@ -2653,15 +2687,12 @@ LaTeX Font Info:    Font shape `T5/pag/b/n' in size <12> not available
 (Font)              Font shape `T5/pag/db/n' tried instead on input line 454.
 Package hyperref Info: bookmark level for unknown ex defaults to 0 on input lin
 e 454.
-<figs/VN12-Y24-PH-SYL-017P-7.jpg, id=212, 716.6775pt x 261.97874pt>
+<figs/VN12-Y24-PH-SYL-017P-7.jpg, id=178, 716.6775pt x 261.97874pt>
 File: figs/VN12-Y24-PH-SYL-017P-7.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017P-7.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-7.jpg  used on input line 47
 6.
 (pdftex.def)             Requested size: 368.4616pt x 134.6907pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2674,13 +2705,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
 Package pdftex.def Info: logo/logo.jpg  used on input line 477.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 477.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [9]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2692,14 +2727,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 560.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+Package pdftex.def Info: logo/logo.jpg  used on input line 541.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 541.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [10 <./figs/VN12-Y24-PH-SYL-017P-7.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2711,14 +2750,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 642.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+Package pdftex.def Info: logo/logo.jpg  used on input line 600.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 600.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [11]
 
 LaTeX Font Warning: Command \LARGE invalid in math mode on input line 685.
@@ -2732,6 +2775,29 @@ LaTeX Font Warning: Command \LARGE invalid in math mode on input line 705.
 
 LaTeX Font Warning: Command \LARGE invalid in math mode on input line 716.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logo.jpg Graphic file (type jpg)
+<use logo/logo.jpg>
+Package pdftex.def Info: logo/logo.jpg  used on input line 720.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 720.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[12]
 Output from handle ans going to ans/VN12-Y24-PH-SYL-017P-TF.tex
 \openout9 = `ans/VN12-Y24-PH-SYL-017P-TF.tex'.
 
@@ -2749,6 +2815,18 @@ en already used, duplicate ignored
                    \relax 
 l.748 	C
         ho hai nam châm thẳng đặt gần nhau và đối nhau:
+pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.757 	H
+        ình bên biểu diễn đường sức từ của hai nam châm th�...
+<figs/VN12-Y24-PH-SYL-017P-9.jpg, id=225, 383.031pt x 196.0926pt>
+File: figs/VN12-Y24-PH-SYL-017P-9.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-017P-9.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-9.jpg  used on input line 75
+9.
+(pdftex.def)             Requested size: 184.2348pt x 94.32085pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2759,27 +2837,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 753.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+Package pdftex.def Info: logo/logo.jpg  used on input line 760.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-[12]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.757 	H
-        ình bên biểu diễn đường sức từ của hai nam châm th�...
-<figs/VN12-Y24-PH-SYL-017P-9.jpg, id=259, 383.031pt x 196.0926pt>
-File: figs/VN12-Y24-PH-SYL-017P-9.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-9.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-9.jpg  used on input line 75
-9.
-(pdftex.def)             Requested size: 184.2348pt x 94.32085pt.
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 760.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[13]
 Output from handle ans going to ans/VN12-Y24-PH-SYL-017P-TL.tex
 \openout9 = `ans/VN12-Y24-PH-SYL-017P-TL.tex'.
 
@@ -2790,25 +2860,18 @@ en already used, duplicate ignored
                    \relax 
 l.781 	V
         ẽ chiều của các đường sức từ tương ứng với nam ...
-<figs/VN12-Y24-PH-SYL-017P-1.jpg, id=260, 495.2904pt x 167.1846pt>
+<figs/VN12-Y24-PH-SYL-017P-1.jpg, id=235, 495.2904pt x 167.1846pt>
 File: figs/VN12-Y24-PH-SYL-017P-1.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017P-1.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-1.jpg  used on input line 78
 3.
 (pdftex.def)             Requested size: 421.1024pt x 142.14328pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.794 	M
-        ột cuộn dây dẫn được quấn quanh một lõi thép với ...
-<figs/VN12-Y24-PH-SYL-017P-2.jpg, id=262, 210.7875pt x 136.71075pt>
-File: figs/VN12-Y24-PH-SYL-017P-2.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-2.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-2.jpg  used on input line 79
-6.
-(pdftex.def)             Requested size: 157.9144pt x 102.42015pt.
+<figs/VN12-Y24-PH-SYL-017P-6.jpg, id=236, 392.06474pt x 151.767pt>
+File: figs/VN12-Y24-PH-SYL-017P-6.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-017P-6.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-6.jpg  used on input line 78
+9.
+(pdftex.def)             Requested size: 315.82881pt x 122.2567pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2819,27 +2882,80 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 797.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+Package pdftex.def Info: logo/logo.jpg  used on input line 789.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-[13 <./figs/VN12-Y24-PH-SYL-017P-9.jpg> <./figs/VN12-Y24-PH-SYL-017P-1.jpg>]
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 789.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[14 <./figs/VN12-Y24-PH-SYL-017P-9.jpg> <./figs/VN12-Y24-PH-SYL-017P-1.jpg>]
+pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.794 	M
+        ột cuộn dây dẫn được quấn quanh một lõi thép với ...
+<figs/VN12-Y24-PH-SYL-017P-2.jpg, id=248, 210.7875pt x 136.71075pt>
+File: figs/VN12-Y24-PH-SYL-017P-2.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-017P-2.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-2.jpg  used on input line 79
+6.
+(pdftex.def)             Requested size: 157.9144pt x 102.42015pt.
+<figs/VN12-Y24-PH-SYL-017P-3.jpg, id=249, 251.13824pt x 169.23225pt>
+File: figs/VN12-Y24-PH-SYL-017P-3.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-017P-3.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-3.jpg  used on input line 80
+3.
+(pdftex.def)             Requested size: 210.54718pt x 141.88556pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.807 	H
         iện nay, tàu đệm từ là một trong những phương tiện ...
-<figs/VN12-Y24-PH-SYL-017P-4.jpg, id=272, 575.2692pt x 207.6558pt>
+<figs/VN12-Y24-PH-SYL-017P-4.jpg, id=251, 575.2692pt x 207.6558pt>
 File: figs/VN12-Y24-PH-SYL-017P-4.jpg Graphic file (type jpg)
 <use figs/VN12-Y24-PH-SYL-017P-4.jpg>
 Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-4.jpg  used on input line 80
 9.
 (pdftex.def)             Requested size: 315.82881pt x 114.00824pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logo.jpg Graphic file (type jpg)
+<use logo/logo.jpg>
+Package pdftex.def Info: logo/logo.jpg  used on input line 815.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 815.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[15 <./figs/VN12-Y24-PH-SYL-017P-6.jpg> <./figs/VN12-Y24-PH-SYL-017P-2.jpg> <./
+figs/VN12-Y24-PH-SYL-017P-3.jpg> <./figs/VN12-Y24-PH-SYL-017P-4.jpg>]
+<figs/VN12-Y24-PH-SYL-017P-5.jpg, id=258, 117.0774pt x 134.904pt>
+File: figs/VN12-Y24-PH-SYL-017P-5.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-017P-5.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-5.jpg  used on input line 83
+0.
+(pdftex.def)             Requested size: 74.54715pt x 85.90187pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
 en already used, duplicate ignored
@@ -2864,851 +2980,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
 Package pdftex.def Info: logo/logo.jpg  used on input line 97.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-[14 <./figs/VN12-Y24-PH-SYL-017P-2.jpg> <./figs/VN12-Y24-PH-SYL-017P-4.jpg>]
-(./data17/VN12-Y24-PH-SYL-018.tex
-Overfull \hbox (1.0pt too wide) in paragraph at lines 2--2
-|[][]
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 56.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[15]
-<figs/VN12-Y24-PH-SYL-017-8.jpg, id=293, 163.812pt x 126.4725pt>
-File: figs/VN12-Y24-PH-SYL-017-8.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-8.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-8.jpg  used on input line 66.
-
-(pdftex.def)             Requested size: 149.1019pt x 115.12488pt.
-
-Overfull \hbox (1.0pt too wide) in paragraph at lines 73--73
-|[][]
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 74.
-
-
-Overfull \hbox (5.69046pt too wide) in paragraph at lines 74--74
- []| $[]$[][] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 123.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[16 <./figs/VN12-Y24-PH-SYL-017-8.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 123--123
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
-
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 182.
-
-
-Overfull \hbox (5.69046pt too wide) in paragraph at lines 182--182
- []| $[]$[][] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 185.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[17]
-Overfull \hbox (6.20029pt too wide) detected at line 246
-\OMS/cmsy/m/n/12 ) \OML/cmm/m/it/12 F[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 I \O
-MS/cmsy/m/n/12 ^^A \OML/cmm/m/it/12 B \OMS/cmsy/m/n/12 ^^A [] ^^A [] [] \OT1/cm
-r/m/n/12 = \OML/cmm/m/it/12 IB \OMS/cmsy/m/n/12 ^^A [] ^^A [] \OT1/cmr/m/n/12 =
- [] \OMS/cmsy/m/n/12 ^^A [] ^^A [] ^^A [] \OT1/cmr/m/n/12 = 6[]72 \OMS/cmsy/m/n
-/12 ^^A \OT1/cmr/m/n/12 10[] N\OML/cmm/m/it/12 :
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--246
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 246.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-[18]
-Overfull \hbox (31.98517pt too wide) in paragraph at lines 349--349
-[]$  $[]$ 
- []
-
-
-Overfull \hbox (31.98517pt too wide) in paragraph at lines 349--349
-[]$  $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--349
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 349.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-[19]
-Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 10000) in paragraph at lines 397--397
-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 397.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-[20]
-Overfull \hbox (1.0pt too wide) in paragraph at lines 399--399
-|[][]
- []
-
-Output from handle ans going to ans/VN12-Y24-PH-SYL-018P-TN.tex
-\openout9 = `ans/VN12-Y24-PH-SYL-018P-TN.tex'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.405 	C
-        ho các phát biểu sau đây:
-pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.423 	T
-        rong hệ SI, đơn vị đo độ lớn cảm ứng từ là 	
-pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.433 	Đ
-         ặt một dây dẫn có chiều dài là $\ell$, mang dòng đi�...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.446 	C
-        họn cụm từ và công thức phù hợp để điền vào ch�...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.5}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.457 	T
-        ìm phát biểu \textbf{đúng} trong các phát biểu sau.\\
-pdfTeX warning (ext4): destination with the same identifier (name{ex.6}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.468 	C
-        hỉ ra phát biểu \textbf{sai}.
-pdfTeX warning (ext4): destination with the same identifier (name{ex.7}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.478 	P
-        hát biểu nào sau đây \textbf{không đúng}?	
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 483.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[21]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.8}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.488 	P
-        hát biểu nào dưới đây \textbf{đúng}?\\
-pdfTeX warning (ext4): destination with the same identifier (name{ex.9}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.499 	M
-        ột dây dẫn được đặt nằm ngang theo hướng nam bắc ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.10}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.509 	K
-        hi sét đánh, có dòng điện tích âm chuyển động từ đ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.11}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.521 	H
-        ai dây dẫn thẳng, dài, đặt vuông góc với nhau, rất g�...
-<figs/VN12-Y24-PH-SYL-017P-8.jpg, id=336, 187.902pt x 178.86826pt>
-File: figs/VN12-Y24-PH-SYL-017P-8.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-8.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-8.jpg  used on input line 52
-3.
-(pdftex.def)             Requested size: 157.9144pt x 150.33018pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.12}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.534 	X
-        ét dây dẫn có chiều dài $L$, có dòng điện $I$ chạy qu...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.13}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.544 	M
-        ột đoạn dây dẫn đặt trong từ trường đều. Nếu ch...
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 549.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[22 <./figs/VN12-Y24-PH-SYL-017P-8.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.14}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.557 	M
-        ột đoạn dây dẫn mang dòng điện được đặt vuông g�...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.15}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.567 	T
-        rong thí nghiệm đo độ lớn cảm ứng từ bằng "cân dò...
-<figs/VN12-Y24-PH-SYL-018P-11.jpg, id=345, 201.75375pt x 224.33812pt>
-File: figs/VN12-Y24-PH-SYL-018P-11.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-11.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-11.jpg  used on input line 5
-70.
-(pdftex.def)             Requested size: 136.5746pt x 151.86327pt.
-<figs/VN12-Y24-PH-SYL-018P-12.jpg, id=346, 277.78781pt x 262.73157pt>
-File: figs/VN12-Y24-PH-SYL-018P-12.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-12.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-12.jpg  used on input line 5
-73.
-(pdftex.def)             Requested size: 136.5746pt x 129.17255pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.16}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.591 	M
-        ột đoạn dây dẫn dài $\ell=\SI{0.8}{\meter}$ đặt trong t�...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.17}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.604 	M
-        ột đoạn dây dẫn dài $\SI{2}{\centi\meter}$ nằm trong từ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.18}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.620 	K
-        hi góc hợp bởi vector cảm ứng từ với đoạn dây dẫn...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.19}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.631 	M
-        ột dây dẫn thẳng có chiều dài $\SI{3.0}{\meter}$ mang dò...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.20}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.643 	M
-        ột dây đồng dài $\SI{25}{\centi\meter}$, có khối lượng ...
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 648.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[23 <./figs/VN12-Y24-PH-SYL-018P-11.jpg> <./figs/VN12-Y24-PH-SYL-018P-12.jpg>]
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Output from handle ans going to ans/VN12-Y24-PH-SYL-018P-TF.tex
-\openout9 = `ans/VN12-Y24-PH-SYL-018P-TF.tex'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.704 	M
-        ột thí nghiệm để tìm ra lực từ tác dụng lên một �...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.714 	T
-        rong mỗi phát biểu sau, em hãy chọn đúng hoặc sai.	
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 719.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[24]
-<figs/VN12-Y24-PH-SYL-018P-1.jpg, id=362, 133.6995pt x 122.25674pt>
-File: figs/VN12-Y24-PH-SYL-018P-1.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-1.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-1.jpg  used on input line 72
-7.
-(pdftex.def)             Requested size: 210.54718pt x 192.54231pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.727 	}
-        
-File: figs/VN12-Y24-PH-SYL-018P-1.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-1.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-1.jpg  used on input line 72
-7.
-(pdftex.def)             Requested size: 87.3501pt x 79.87634pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.739 	C
-        hỉ ra đáp án đúng, đáp án sai.
-pdfTeX warning (ext4): destination with the same identifier (name{ex.5}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.749 	T
-        rong mỗi nhận định sau về thí nghiệm đo độ lớn c�...
-<figs/VN12-Y24-PH-SYL-018P-10.jpg, id=364, 413.74574pt x 307.1475pt>
-File: figs/VN12-Y24-PH-SYL-018P-10.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-10.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-10.jpg  used on input line 7
-51.
-(pdftex.def)             Requested size: 289.5084pt x 214.93147pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 752.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[25 <./figs/VN12-Y24-PH-SYL-018P-1.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.6}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.769 	C
-        ho một khung dây dẫn hình chữ nhật có chiều rộng $\SI...
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 782.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[26 <./figs/VN12-Y24-PH-SYL-018P-10.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.7}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.800 	M
-        ột đoạn dây thẳng bằng đồng được đặt vuông góc...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.8}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.827 	T
-        rong giờ thực hành đo độ lớn cảm ứng từ bằng "câ...
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 845.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[27]
-Output from handle ans going to ans/VN12-Y24-PH-SYL-018P-TL.tex
-\openout9 = `ans/VN12-Y24-PH-SYL-018P-TL.tex'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.888 	T
-        hanh kim loại dẫn điện có thể lăn không ma sát dọc th...
-<figs/VN12-Y24-PH-SYL-018P-8.jpg, id=385, 184.89075pt x 100.57574pt>
-File: figs/VN12-Y24-PH-SYL-018P-8.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-8.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-8.jpg  used on input line 89
-0.
-(pdftex.def)             Requested size: 157.9144pt x 85.9072pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.906 	X
-        ác định hướng của lực từ tác dụng lên các đoạn ...
-<figs/VN12-Y24-PH-SYL-018P-3.jpg, id=386, 925.95938pt x 206.27063pt>
-File: figs/VN12-Y24-PH-SYL-018P-3.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-3.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-3.jpg  used on input line 90
-8.
-(pdftex.def)             Requested size: 421.1024pt x 93.80606pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.918 	X
-        ác định phương và chiều lực từ tác dụng lên các c�...
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 955.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[28 <./figs/VN12-Y24-PH-SYL-018P-8.jpg> <./figs/VN12-Y24-PH-SYL-018P-3.jpg>]
-<figs/VN12-Y24-PH-SYL-018P-5.jpg, id=396, 250.68657pt x 297.36093pt>
-File: figs/VN12-Y24-PH-SYL-018P-5.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-5.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-5.jpg  used on input line 10
-15.
-(pdftex.def)             Requested size: 236.86758pt x 280.98033pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1015 	}
-         
-File: figs/VN12-Y24-PH-SYL-018P-5.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-5.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-5.jpg  used on input line 10
-15.
-(pdftex.def)             Requested size: 110.1138pt x 130.61688pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.5}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1026 	C
-         ho hai dây dẫn thẳng song song, dài vô hạn lần lượt c...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.6}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1070 	M
-         ột dây dẫn có chiều dài $L=\SI{1.2}{\meter}$, được đ�...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.7}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1086 	M
-         ột đoạn dây dẫn thẳng dài $\SI{20}{\centi\meter}$ mang d...
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 1091.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[29 <./figs/VN12-Y24-PH-SYL-018P-5.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.8}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1095 	M
-         ột đoạn dây dẫn dài $\SI{5}{\centi\meter}$ đặt trong t�...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.9}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1104 	M
-         ột đoạn dây dẫn dài $\SI{10}{\centi\meter}$ đặt trong t...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.10}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1112 	M
-         ột đoạn dây dẫn thẳng MN có chiều dài $\SI{6}{\centi\...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.11}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1119 	M
-         ột đoạn dây dài $L$ đặt trong từ trường đều có c...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.12}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1130 	M
-         ột đoạn dây dẫn dài $L=\SI{0.5}{\meter}$ đặt trong từ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.13}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1140 	M
-         ột đường dây tải điện thẳng dài $\SI{42}{\meter}$ c�...
-<figs/VN12-Y24-PH-SYL-018P-7.jpg, id=407, 369.5406pt x 260.172pt>
-File: figs/VN12-Y24-PH-SYL-018P-7.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-7.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-7.jpg  used on input line 11
-42.
-(pdftex.def)             Requested size: 210.54718pt x 148.23604pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.14}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1152 	M
-         ột dây dẫn có dòng điện $\SI{22.0}{\ampere}$ chạy từ ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.15}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1167 	M
-         ột dây dẫn thẳng, cứng, dài $\SI{20}{\centi\meter}$, có ...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.16}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1176 	T
-         reo một đoạn dây dẫn có chiều dài $L=\SI{5}{\centi\mete...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.17}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1186 	M
-         ột đoạn dây dẫn thẳng MN có chiều dài $L=\SI{6}{\cent...
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 1191.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[30{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./fi
-gs/VN12-Y24-PH-SYL-018P-7.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.18}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1194 	T
-         hanh MN dài $\ell=\SI{20}{\centi\meter}$ có khối lượng $\SI{...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.19}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1235 	M
-         ột dây dẫn được gập thành khung dây dạng tam giác v...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.20}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1273 	T
-         rong giờ thực hành đo độ lớn cảm ứng từ bằng "c�...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.21}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1316 	S
-         ơ đồ bố trí thí nghiệm dưới đây được sử dụng...
-<figs/VN12-Y24-PH-SYL-018P-9.jpg, id=416, 636.12656pt x 293.59688pt>
-File: figs/VN12-Y24-PH-SYL-018P-9.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-018P-9.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-018P-9.jpg  used on input line 13
-19.
-(pdftex.def)             Requested size: 315.82881pt x 145.7632pt.
-
-Underfull \vbox (badness 1024) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 1320.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[31])
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 97.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[16 <./figs/VN12-Y24-PH-SYL-017P-5.jpg>]
 \tf@thm=\write10
 \openout10 = `MAIN.thm'.
 
 
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 102.
-(pdftex.def)             Requested size: 31.29802pt x 23.79587pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-[32 <./figs/VN12-Y24-PH-SYL-018P-9.jpg>]
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./MAIN.aux)
@@ -3725,44 +3012,36 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `MAIN.out' has not changed.
-(rerunfilecheck)             Checksum: 01C9ED2E9CEA7B27303C8E2F6938D26E;3646.
+(rerunfilecheck)             Checksum: B194AC53F281847E639E3A00B65BAFA8;1952.
  ) 
 Here is how much of TeX's memory you used:
- 62602 strings out of 474116
- 1442211 string characters out of 5747718
- 2894010 words of memory out of 5000000
- 83557 multiletter control sequences out of 15000+600000
- 671444 words of font info for 214 fonts, out of 8000000 for 9000
+ 62295 strings out of 474116
+ 1436456 string characters out of 5747718
+ 3328991 words of memory out of 5000000
+ 83311 multiletter control sequences out of 15000+600000
+ 662165 words of font info for 184 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,24n,134p,1218b,1649s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.3.13} has been referenced but does not exist,
- replaced by a fixed one
-
-<hlblong.ttf><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwe
-some.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texliv
-e/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vntopia/putb8v.
-pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb><c:/texliv
-e/2024/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb><c:/texlive/2024/texmf-d
-ist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2024/texmf-dist/fonts/
-type1/vntex/grotesqvn/ugqb8v.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/esvect/vect10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/202
-4/texmf-dist/fonts/type1/vntex/vnr/vnr10.pfb><c:/texlive/2024/texmf-dist/fonts/
-type1/vntex/vnr/vnr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr
-6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnss12.pfb><c:/texlive/
-2024/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb><c:/texlive/2024/texmf-dist/
-fonts/type1/vntex/vnr/vnssi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex
-/vnr/vnti12.pfb>
-Output written on MAIN.pdf (32 pages, 2078328 bytes).
+ 107i,19n,110p,1218b,1823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<hlblong.ttf><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontA
+wesome.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2024/tex
+mf-dist/fonts/type1/vntex/vntopia/putb8v.pfb><c:/texlive/2024/texmf-dist/fonts/
+type1/public/tex-gyre/qagb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/t
+ex-gyre/qagr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/grotesqvn/ugqb8v
+.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/esvect/vect10.pfb><c:/texli
+ve/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texlive/2024/texmf-dist
+/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vnt
+ex/vnr/vnr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb><c:
+/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnss12.pfb><c:/texlive/2024/texm
+f-dist/fonts/type1/vntex/vnr/vnssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/typ
+e1/vntex/vnr/vnssi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnti
+12.pfb>
+Output written on MAIN.pdf (16 pages, 2226214 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 420 compressed objects within 5 object streams
- 144 named destinations out of 1000 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
