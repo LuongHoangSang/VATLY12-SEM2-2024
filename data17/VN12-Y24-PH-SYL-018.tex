@@ -132,6 +132,7 @@
 				\foreach \y in {0,1,...,3}{
 					\node[blue] at (\x,\y) {\LARGE$\odot$};}}
 			\draw[line width=1.5pt, -latex] (1.5,1.5)--(1.5,3);
+			\draw[line width=1.5pt,red] (0,1.5)--(3,1.5);
 			\node[above] at (1.5,3) {$\vec{F}$};
 			\node[right] at (3.1,2) {$\vec{B}$};
 			\filldraw[black] (1.5,1.5) circle (2pt);
@@ -142,6 +143,7 @@
 				\foreach \y in {0,1,...,3}{
 					\node[blue] at (\x,\y) {\LARGE$\otimes$};}}
 			\draw[line width=1.5pt, -latex] (1.5,1.5)--(0,1.5);
+			\draw[line width=1.5pt,red] (1.5,0)--(1.5,3);
 			\node[left] at (0,1.5) {$\vec{F}$};
 			\node[right] at (3.1,2) {$\vec{B}$};
 			\filldraw[black] (1.5,1.5) circle (2pt);
@@ -783,13 +785,13 @@
 	\choiceTF[t]
 	{\True Lực từ tổng hợp tác dụng lên khung dây hướng xuống dưới}
 	{Nếu sử dụng dòng điện có cường độ $\SI{5.00}{\ampere}$ thì lực từ trên mỗi tesla tác dụng lên khung dây là $\SI{2.00}{\newton/\tesla}$}
-	{\True Nếu ta quay khung dây $\SI{90}{\degree}$ xung quanh một trục nằm trong mặt phẳng của khung và song song với từ trường, lực từ tác dụng lên khung sẽ giảm xuống bằng 0}
+	{Nếu ta quay khung dây $\SI{90}{\degree}$ để vector cảm  ứng từ song song mặt phẳng khung dây, lực từ tác dụng lên khung sẽ giảm xuống bằng 0}
 	{\True Khi dòng điện qua khung dây đổi chiều, lực từ tổng hợp tác dụng lên khung dây sẽ đổi chiều}
 	\loigiai{
 		\begin{itemchoice}
 			\itemch Đúng. Vì lực từ tổng hợp tác dụng lên hai đoạn dây thẳng đứng bị triệt tiêu, chỉ còn lực tác dụng lên đoạn dây dẫn nằm ngang và lực này hướng xuống dưới.
 			\itemch Sai. Vì $\dfrac{F}{B}=IL\sin\SI{90}{\degree}=\SI{1}{\newton/\tesla}$.
-			\itemch Đúng. Lực từ tổng hợp tác dụng lên hai dây dẫn thẳng đứng bị triệt tiêu, còn dây nằm ngang song song với từ trường nên lực từ tác dụng lên nó bằng 0.
+				\itemch Sai. Lực từ tác dụng ở hai cạnh bên tạo thành ngẫu lực làm khung quay.
 			\itemch Đúng. Hướng lực từ phụ thuộc vào hướng của dòng điện theo quy tắc bàn tay trái.
 			
 		\end{itemchoice}	

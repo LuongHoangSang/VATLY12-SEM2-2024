@@ -41,6 +41,8 @@
 \pgfmathsetmacro{\mepphai}{\phai+\leftnote} 
 \usepackage[top=\tren cm, bottom=\duoi cm, left=\trai cm, right=\mepphai cm] {geometry}
 \usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[version=3]{mhchem}
 \usepackage[locale=DE]{siunitx} % cách viết số đo có đơn vị theo chuẩn DE (gần giống VN) 
 %--------------Gói trắc nghiệm EX-TEST
 \usepackage[loigiai]{ex_test} 
@@ -1403,6 +1405,18 @@ underlay unbroken and first={
 %%%%%%%%%%%%%%%%%%%%%%%
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}} % m là middle
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} 
-\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
 % lệnh siunit 
 \newcommand{\xsi}[2]{\SI[parse-numbers=false]{#1}{#2}}
+% --- ký hiệu suất điện động và công suất như sgk
+% ký hiệu từ font Boondox 
+\DeclareFontFamily{U}{BOONDOX-cal}{\skewchar\font=45 }
+\DeclareFontShape{U}{BOONDOX-cal}{m}{n}{
+	<-> s*[1.05] BOONDOX-r-cal}{}
+\DeclareFontShape{U}{BOONDOX-cal}{b}{n}{
+	<-> s*[1.05] BOONDOX-b-cal}{}
+\DeclareMathAlphabet{\bdx}{U}{BOONDOX-cal}{m}{n}
+\SetMathAlphabet{\bdx}{bold}{U}{BOONDOX-cal}{b}{n}
+\DeclareMathAlphabet{\bbdx}{U}{BOONDOX-cal}{b}{n}
+\newcommand{\calE}{\bdx{E}}
+\newcommand{\calP}{\bdx{P}}
