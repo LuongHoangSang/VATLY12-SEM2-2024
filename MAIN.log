@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  6 NOV 2024 16:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  8 NOV 2024 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2314,60 +2314,11 @@ LaTeX Font Info:    Trying to load font information for T5+cmss on input line 2
 .
  (c:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmss.fd
 File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-
-LaTeX Font Warning: Font shape `T5/cmss/m/it' in size <12> not available
-(Font)              Font shape `T5/cmss/m/sl' tried instead on input line 17.
-
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 17.
-(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-
-LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 17.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
-
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
-
-
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 20
-.
-
-(c:/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
-20.
-
-(c:/texlive/2024/texmf-dist/tex/latex/yhmath/OMXyhex.fd
-File: OMXyhex.fd 
-File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
-)
-LaTeX Font Info:    Trying to load font information for U+esvect on input line 
-20.
-
-(c:/texlive/2024/texmf-dist/tex/latex/esvect/uesvect.fd
-File: uesvect.fd 
-)
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-0.
-
-(c:/texlive/2024/texmf-dist/tex/latex/txfonts/utxsyc.fd
-File: utxsyc.fd 2000/12/15 v3.1
 ))
 \tf@toc=\write8
 \openout8 = `MAIN.toc'.
 
-<logo/logonen.jpg, id=88, 527.0892pt x 239.4546pt>
+<logo/logonen.jpg, id=114, 527.0892pt x 239.4546pt>
 File: logo/logonen.jpg Graphic file (type jpg)
 <use logo/logonen.jpg>
 Package pdftex.def Info: logo/logonen.jpg  used on input line 96.
@@ -2378,8 +2329,8 @@ Package pdftex.def Info: logo/logonen.jpg  used on input line 96.
 
 
 {bkhcm2.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-t5-sc.enc}{c
-:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-t5.enc}{c:/texlive/2024/te
-xmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc} <./logo/logonen.jpg>]
+:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-t5.enc} <./logo/logonen.jp
+g>]
 LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <12> not available
 (Font)              Font shape `T5/qag/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <15> not available
@@ -2388,6 +2339,43 @@ LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <100> not available
 (Font)              Font shape `T5/qag/b/n' tried instead on input line 96.
 LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <20> not available
 (Font)              Font shape `T5/qag/b/n' tried instead on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+
+
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 96
+.
+
+(c:/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
+96.
+
+(c:/texlive/2024/texmf-dist/tex/latex/yhmath/OMXyhex.fd
+File: OMXyhex.fd 
+File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
+)
+LaTeX Font Info:    Trying to load font information for U+esvect on input line 
+96.
+
+(c:/texlive/2024/texmf-dist/tex/latex/esvect/uesvect.fd
+File: uesvect.fd 
+)
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
+6.
+
+(c:/texlive/2024/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
 File: logo/logonen.jpg Graphic file (type jpg)
 <use logo/logonen.jpg>
 Package pdftex.def Info: logo/logonen.jpg  used on input line 96.
@@ -2395,7 +2383,7 @@ Package pdftex.def Info: logo/logonen.jpg  used on input line 96.
  [2
 
 {c:/texlive/2024/texmf-dist/fonts/enc/dvips/vntex/t5.enc}] (./data17/VN12-Y24-P
-H-SYL-029.tex
+H-SYL-024.tex
 LaTeX Font Info:    Trying to load font information for TS1+qag on input line 1
 .
 
@@ -2415,47 +2403,44 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 2--2
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 2.
 
-LaTeX Font Info:    Trying to load font information for T5+put on input line 4.
+Output from handle ans going to ans/VN12-Y24-PH-SYL-024-TN.tex
+\ans@file=\write9
+\openout9 = `ans/VN12-Y24-PH-SYL-024-TN.tex'.
 
-(c:/texlive/2024/texmf-dist/tex/latex/vntex/t5put.fd
-File: t5put.fd 2006/07/30 Fontinst v1.927 font definitions for T5/put.
+LaTeX Font Info:    Trying to load font information for T5+pag on input line 8.
+
+(c:/texlive/2024/texmf-dist/tex/latex/vntex/t5pag.fd
+File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pag.
 )
-
-LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 6.
-
-LaTeX Font Info:    Calculating math sizes for size <11.5> on input line 21.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 21.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <11.5> not available
-(Font)              size <12> substituted on input line 21.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 21.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 21.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 21.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <11.5> not available
-(Font)              size <12> substituted on input line 21.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 21.
-
-
-LaTeX Font Warning: Font shape `U/esvect/m/n' in size <11.5> not available
-(Font)              size <12> substituted on input line 21.
+LaTeX Font Info:    Font shape `T5/pag/bx/n' in size <12> not available
+(Font)              Font shape `T5/pag/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `T5/pag/b/n' in size <12> not available
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 8.
+Package hyperref Info: bookmark level for unknown ex defaults to 0 on input lin
+e 8.
+<figs/VN12-Y24-PH-SYL-025P-1.jpg, id=134, 963.6pt x 223.58531pt>
+File: figs/VN12-Y24-PH-SYL-025P-1.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-1.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-1.jpg  used on input line 53
+.
+(pdftex.def)             Requested size: 368.4616pt x 85.4921pt.
+<figs/VN12-Y24-PH-SYL-025P-2.jpg, id=135, 296.307pt x 290.88675pt>
+File: figs/VN12-Y24-PH-SYL-025P-2.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-2.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-2.jpg  used on input line 77
+.
+(pdftex.def)             Requested size: 210.54718pt x 206.69969pt.
+File: figs/VN12-Y24-PH-SYL-025P-2.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-2.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-2.jpg  used on input line 77
+.
+(pdftex.def)             Requested size: 84.21758pt x 82.67722pt.
+<figs/VN12-Y24-PH-SYL-025P-3.jpg, id=136, 333.04425pt x 347.49825pt>
+File: figs/VN12-Y24-PH-SYL-025P-3.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-3.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-3.jpg  used on input line 89
+.
+(pdftex.def)             Requested size: 105.27359pt x 109.83899pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2465,12 +2450,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-<logo/logo.jpg, id=117, 454.3374pt x 453.8556pt>
+<logo/logo.jpg, id=139, 454.3374pt x 453.8556pt>
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 41.
+Package pdftex.def Info: logo/logo.jpg  used on input line 90.
 (pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
-
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 90.
+(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L˜Ïng Ho†ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  ‘[][]
@@ -2478,18 +2467,83 @@ Underfull \hbox (badness 4353) has occurred while \output is active
 
 File: logo/logonen.jpg Graphic file (type jpg)
 <use logo/logonen.jpg>
-Package pdftex.def Info: logo/logonen.jpg  used on input line 41.
+Package pdftex.def Info: logo/logonen.jpg  used on input line 90.
 (pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
 [3
 
-{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc} <./logo/logo.jp
-g>]
-<figs/VN12-Y24-PH-SYL-031-4.jpg, id=134, 503.38063pt x 230.8625pt>
-File: figs/VN12-Y24-PH-SYL-031-4.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-031-4.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-031-4.jpg  used on input line 60.
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2024
+/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc} <./figs/VN12-Y24-PH
+-SYL-025P-1.jpg> <./figs/VN12-Y24-PH-SYL-025P-2.jpg> <./logo/logo.jpg>]
+<figs/VN12-Y24-PH-SYL-025P-4.jpg, id=160, 169.8345pt x 199.34476pt>
+File: figs/VN12-Y24-PH-SYL-025P-4.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-4.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-4.jpg  used on input line 11
+0.
+(pdftex.def)             Requested size: 236.86758pt x 278.03436pt.
+File: figs/VN12-Y24-PH-SYL-025P-4.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-4.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-4.jpg  used on input line 11
+0.
+(pdftex.def)             Requested size: 110.1138pt x 129.25012pt.
+<figs/VN12-Y24-PH-SYL-025P-5.jpg, id=161, 164.41425pt x 160.1985pt>
+File: figs/VN12-Y24-PH-SYL-025P-5.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-5.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-5.jpg  used on input line 12
+2.
+(pdftex.def)             Requested size: 236.86758pt x 230.803pt.
+File: figs/VN12-Y24-PH-SYL-025P-5.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-5.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-5.jpg  used on input line 12
+2.
+(pdftex.def)             Requested size: 106.58968pt x 103.86134pt.
+<figs/VN12-Y24-PH-SYL-025P-6.jpg, id=162, 362.5545pt x 310.15875pt>
+File: figs/VN12-Y24-PH-SYL-025P-6.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-6.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-6.jpg  used on input line 13
+8.
+(pdftex.def)             Requested size: 236.86758pt x 202.63724pt.
+File: figs/VN12-Y24-PH-SYL-025P-6.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-6.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-6.jpg  used on input line 13
+8.
+(pdftex.def)             Requested size: 110.1138pt x 94.19836pt.
+<figs/VN12-Y24-PH-SYL-025P-7A.jpg, id=163, 134.30174pt x 101.178pt>
+File: figs/VN12-Y24-PH-SYL-025P-7A.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-7A.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7A.jpg  used on input line 1
+49.
+(pdftex.def)             Requested size: 184.2348pt x 138.7998pt.
+<figs/VN12-Y24-PH-SYL-025P-7B.jpg, id=164, 129.48375pt x 102.3825pt>
+File: figs/VN12-Y24-PH-SYL-025P-7B.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-7B.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7B.jpg  used on input line 1
+49.
+(pdftex.def)             Requested size: 184.2348pt x 145.69035pt.
+<figs/VN12-Y24-PH-SYL-025P-7C.jpg, id=165, 124.0635pt x 98.16675pt>
+File: figs/VN12-Y24-PH-SYL-025P-7C.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-7C.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7C.jpg  used on input line 1
+49.
+(pdftex.def)             Requested size: 184.2348pt x 145.77881pt.
+<figs/VN12-Y24-PH-SYL-025P-7D.jpg, id=166, 121.05225pt x 97.5645pt>
+File: figs/VN12-Y24-PH-SYL-025P-7D.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-7D.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7D.jpg  used on input line 1
+49.
+(pdftex.def)             Requested size: 184.2348pt x 148.49307pt.
+File: figs/VN12-Y24-PH-SYL-025P-7A.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-7A.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7A.jpg  used on input line 1
+49.
+(pdftex.def)             Requested size: 81.35727pt x 61.29237pt.
+File: figs/VN12-Y24-PH-SYL-025P-7B.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-7B.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7B.jpg  used on input line 1
+49.
+(pdftex.def)             Requested size: 81.35727pt x 64.33102pt.
 
-(pdftex.def)             Requested size: 263.188pt x 120.70439pt.
+Underfull \vbox (badness 5637) has occurred while \output is active []
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2501,7 +2555,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 71.
+Package pdftex.def Info: logo/logo.jpg  used on input line 149.
 (pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
@@ -2511,29 +2565,98 @@ Underfull \hbox (badness 4353) has occurred while \output is active
 
 File: logo/logonen.jpg Graphic file (type jpg)
 <use logo/logonen.jpg>
-Package pdftex.def Info: logo/logonen.jpg  used on input line 71.
+Package pdftex.def Info: logo/logonen.jpg  used on input line 149.
 (pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
-[4 <./figs/VN12-Y24-PH-SYL-031-4.jpg>]
-Overfull \hbox (43.68456pt too wide) in paragraph at lines 103--104
-[]\T5/cmr/m/n/12 Trong hª SI, ^^_Ïn v‡ cıa $\OML/cmm/m/it/12 H$ \T5/cmr/m/n/12 
-l† bec-querel $[]$. Ngo†i ra, $\OML/cmm/m/it/12 H$ \T5/cmr/m/n/12 c·n c‚ ^^_Ïn 
-v‡ l† $[] []$. 
+[4 <./figs/VN12-Y24-PH-SYL-025P-3.jpg> <./figs/VN12-Y24-PH-SYL-025P-4.jpg> <./f
+igs/VN12-Y24-PH-SYL-025P-5.jpg> <./figs/VN12-Y24-PH-SYL-025P-6.jpg>]
+File: figs/VN12-Y24-PH-SYL-025P-7C.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-7C.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7C.jpg  used on input line 1
+49.
+(pdftex.def)             Requested size: 81.35727pt x 64.37383pt.
+File: figs/VN12-Y24-PH-SYL-025P-7D.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-7D.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7D.jpg  used on input line 1
+49.
+(pdftex.def)             Requested size: 81.35727pt x 65.5733pt.
+<figs/VN12-Y24-PH-SYL-025P-8.jpg, id=179, 223.43475pt x 165.61874pt>
+File: figs/VN12-Y24-PH-SYL-025P-8.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-8.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-8.jpg  used on input line 16
+6.
+(pdftex.def)             Requested size: 157.9144pt x 117.0569pt.
+<figs/VN12-Y24-PH-SYL-025P-9.jpg, id=180, 367.97475pt x 130.68825pt>
+File: figs/VN12-Y24-PH-SYL-025P-9.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-9.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-9.jpg  used on input line 20
+0.
+(pdftex.def)             Requested size: 210.54718pt x 74.77623pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logo.jpg Graphic file (type jpg)
+<use logo/logo.jpg>
+Package pdftex.def Info: logo/logo.jpg  used on input line 207.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L˜Ïng Ho†ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ ‘[][]
+ []
+
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 207.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[5 <./figs/VN12-Y24-PH-SYL-025P-7A.jpg> <./figs/VN12-Y24-PH-SYL-025P-7B.jpg> <.
+/figs/VN12-Y24-PH-SYL-025P-7C.jpg> <./figs/VN12-Y24-PH-SYL-025P-7D.jpg> <./figs
+/VN12-Y24-PH-SYL-025P-8.jpg> <./figs/VN12-Y24-PH-SYL-025P-9.jpg>]
+Overfull \hbox (4.61046pt too wide) in paragraph at lines 213--218
+[][]\T5/cmr/m/n/12 MÎt d·ng ^^_iªn xoay chi∑u c‚ c˜Ìng ^^_Î phˆ thuÎc thÌi gian
+ theo ph˜Ïng trºnh: $\OML/cmm/m/it/12 i \OT1/cmr/m/n/12 = 2 [](100\OML/cmm/m/it
+/12 ^^Yt\OT1/cmr/m/n/12 ) A$\T5/cmr/m/n/12 .
  []
 
 
-Overfull \hbox (1.0pt too wide) in paragraph at lines 112--112
+Overfull \hbox (1.0pt too wide) in paragraph at lines 223--223
 |[][]
  []
 
+Output from handle ans going to ans/VN12-Y24-PH-SYL-024-TF.tex
+\openout9 = `ans/VN12-Y24-PH-SYL-024-TF.tex'.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 113.
 
+pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.229 	T
+        heo l√≠ thuy·∫øt c·ªï ƒëi·ªÉn, m√¥ h√¨nh nguy√™n t·ª≠ hydrogen g·ªìm...
+<figs/VN12-Y24-PH-SYL-025P-10.jpg, id=190, 389.2944pt x 212.4738pt>
+File: figs/VN12-Y24-PH-SYL-025P-10.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-10.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-10.jpg  used on input line 2
+31.
+(pdftex.def)             Requested size: 157.9144pt x 86.19081pt.
 
-Overfull \hbox (5.69046pt too wide) in paragraph at lines 113--113
- []| $[]$[][] 
- []
-
+pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.242 	M
+        ·ªôt ƒëo·∫°n d√¢y d·∫´n MN c√≥ kh·ªëi l∆∞·ª£ng $m$, ƒë·ªô d√†i $L$, ...
+<figs/VN12-Y24-PH-SYL-025P-11.jpg, id=191, 367.3725pt x 118.64325pt>
+File: figs/VN12-Y24-PH-SYL-025P-11.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-11.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-11.jpg  used on input line 2
+44.
+(pdftex.def)             Requested size: 210.54718pt x 67.99846pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2544,7 +2667,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 114.
+Package pdftex.def Info: logo/logo.jpg  used on input line 250.
 (pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
@@ -2554,31 +2677,201 @@ Underfull \hbox (badness 4353) has occurred while \output is active
 
 File: logo/logonen.jpg Graphic file (type jpg)
 <use logo/logonen.jpg>
-Package pdftex.def Info: logo/logonen.jpg  used on input line 114.
+Package pdftex.def Info: logo/logonen.jpg  used on input line 250.
 (pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
-[5]
+[6 <./figs/VN12-Y24-PH-SYL-025P-10.jpg> <./figs/VN12-Y24-PH-SYL-025P-11.jpg>]
+pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.255 	M
+        ·ªôt nam ch√¢m nh·ªè $M$ ƒë∆∞·ª£c th·∫£ r∆°i xuy√™n qua m·ªôt v√≤ng ...
+<figs/VN12-Y24-PH-SYL-025P-12.jpg, id=200, 205.36725pt x 277.63725pt>
+File: figs/VN12-Y24-PH-SYL-025P-12.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-12.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-12.jpg  used on input line 2
+57.
+(pdftex.def)             Requested size: 105.27359pt x 142.32178pt.
 
-Package tcolorbox Warning: Using nobreak failed. Try to enlarge `lines before b
-reak' or set page breaks manually on input line 114.
+pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.268 	D
+        √≤ng ƒëi·ªán do m·ªôt m√°y ph√°t ƒëi·ªán t·∫°o ra c√≥ c∆∞·ªùng ƒë·ªô...
+<figs/VN12-Y24-PH-SYL-025P-13.jpg, id=201, 296.307pt x 266.1945pt>
+File: figs/VN12-Y24-PH-SYL-025P-13.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-13.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-13.jpg  used on input line 2
+70.
+(pdftex.def)             Requested size: 210.54718pt x 189.15376pt.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 127.
-(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
-File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logo.jpg Graphic file (type jpg)
+<use logo/logo.jpg>
+Package pdftex.def Info: logo/logo.jpg  used on input line 277.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L˜Ïng Ho†ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ ‘[][]
+ []
+
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 277.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[7 <./figs/VN12-Y24-PH-SYL-025P-12.jpg> <./figs/VN12-Y24-PH-SYL-025P-13.jpg>]
+Overfull \hbox (1.0pt too wide) in paragraph at lines 282--282
+|[][]
+ []
+
+Output from handle ans going to ans/VN12-Y24-PH-SYL-024-TL.tex
+\openout9 = `ans/VN12-Y24-PH-SYL-024-TL.tex'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.287 	T
+        rong m·ªôt th√≠ nghi·ªám ƒëo c·∫£m ·ª©ng t·ª´ b·∫±ng ph∆∞∆°ng ph√°p ...
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.305 	M
+        ·ªôt ƒëo·∫°n d√¢y d·∫´n th·∫≥ng c√≥ kh·ªëi l∆∞·ª£ng tr√™n ƒë∆°n v·ªã...
+<figs/VN12-Y24-PH-SYL-025P-14.jpg, id=210, 224.037pt x 169.8345pt>
+File: figs/VN12-Y24-PH-SYL-025P-14.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-14.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-14.jpg  used on input line 3
+17.
+(pdftex.def)             Requested size: 263.188pt x 199.51668pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.317 ...linewidth]{figs/VN12-Y24-PH-SYL-025P-14}}
+                                                  
+File: figs/VN12-Y24-PH-SYL-025P-14.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-025P-14.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-14.jpg  used on input line 3
+17.
+(pdftex.def)             Requested size: 131.594pt x 99.75833pt.
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.325 	M
+        ·ªôt khung d√¢y ph·∫≥ng c√≥ di·ªán t√≠ch ti·∫øt di·ªán $\SI{40}{\cen...
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.5}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.333 	T
+        rong thi√™n vƒÉn h·ªçc, ng∆∞·ªùi ta c√≥ th·ªÉ l·∫≠p b·∫£n ƒë·ªì c√°c...
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.6}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.341 	C
+        ho m·ªôt d√≤ng ƒëi·ªán xoay chi·ªÅu $i=\xsi{4 \sqrt{2} \cos \left(10...
+LaTeX Font Info:    Trying to load font information for T5+qcs on input line 34
+8.
+(c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/t5qcs.fd
+File: t5qcs.fd 2009/09/25 v1.2 font definition file for T5/qcs
 )
 
-LaTeX Font Warning: Font shape `U/fontawesomeone/bx/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 127.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 129.
+File: logo/logo.jpg Graphic file (type jpg)
+<use logo/logo.jpg>
+Package pdftex.def Info: logo/logo.jpg  used on input line 348.
+(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
-
-Overfull \hbox (5.69046pt too wide) in paragraph at lines 129--129
- []| $[]$[][] 
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L˜Ïng Ho†ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ ‘[][]
  []
 
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 348.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+[8 <./figs/VN12-Y24-PH-SYL-025P-14.jpg>] (./ans/VN12-Y24-PH-SYL-025-TN.tex)
+(./ans/VN12-Y24-PH-SYL-025-TF.tex
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 2--2
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 2--2
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 2--2
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 5--5
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 5--5
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 5--5
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 8--8
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 8--8
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 11--11
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 11--11
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 11--11
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+) (./ans/VN12-Y24-PH-SYL-025-TL.tex))
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2589,7 +2882,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 175.
+Package pdftex.def Info: logo/logo.jpg  used on input line 107.
 (pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
@@ -2599,18 +2892,90 @@ Underfull \hbox (badness 4353) has occurred while \output is active
 
 File: logo/logonen.jpg Graphic file (type jpg)
 <use logo/logonen.jpg>
-Package pdftex.def Info: logo/logonen.jpg  used on input line 175.
+Package pdftex.def Info: logo/logonen.jpg  used on input line 107.
 (pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
-[6{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}]
+[9]
+File: logo/logonen.jpg Graphic file (type jpg)
+<use logo/logonen.jpg>
+Package pdftex.def Info: logo/logonen.jpg  used on input line 116.
+(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
+ [10
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 223.
+] (./data17/VN12-Y24-PH-SYL-024-ANS.tex
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.11}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \section{√îN T·∫¨P CH∆Ø∆†NG 3}
+                                  
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
 
 
-Overfull \hbox (5.69046pt too wide) in paragraph at lines 223--223
- []| $[]$[][] 
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 2.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 2.
+
+(./ans/VN12-Y24-PH-SYL-024-TN.tex) (./ans/VN12-Y24-PH-SYL-024-TF.tex
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 2--2
+ []\T5/qcs/m/n/10.95 ^^^ 
  []
 
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 2--2
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 2--2
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 5--5
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 5--5
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 5--5
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 8--8
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 8--8
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 11--11
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 11--11
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+
+Overfull \hbox (1.12137pt too wide) in paragraph at lines 11--11
+ []\T5/qcs/m/n/10.95 ^^^ 
+ []
+
+) (./ans/VN12-Y24-PH-SYL-024-TL.tex))
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -2621,7 +2986,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: logo/logo.jpg Graphic file (type jpg)
 <use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 239.
+Package pdftex.def Info: logo/logo.jpg  used on input line 127.
 (pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
@@ -2631,153 +2996,57 @@ Underfull \hbox (badness 4353) has occurred while \output is active
 
 File: logo/logonen.jpg Graphic file (type jpg)
 <use logo/logonen.jpg>
-Package pdftex.def Info: logo/logonen.jpg  used on input line 239.
+Package pdftex.def Info: logo/logonen.jpg  used on input line 127.
 (pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
-[7]
+[11
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\char' on input line 267.
+]
+\tf@thm=\write10
+\openout10 = `MAIN.thm'.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 267.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\lambda' on input line 267.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 267.
-
-
-Overfull \hbox (5.69046pt too wide) in paragraph at lines 267--267
- []| $[]$[][] 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 268.
-(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L˜Ïng Ho†ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- ‘[][]
- []
-
-File: logo/logonen.jpg Graphic file (type jpg)
-<use logo/logonen.jpg>
-Package pdftex.def Info: logo/logonen.jpg  used on input line 268.
-(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
-[8]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 303.
-(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L˜Ïng Ho†ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- ‘[][]
- []
-
-File: logo/logonen.jpg Graphic file (type jpg)
-<use logo/logonen.jpg>
-Package pdftex.def Info: logo/logonen.jpg  used on input line 303.
-(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
-[9])
-\tf@thm=\write9
-\openout9 = `MAIN.thm'.
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logo.jpg Graphic file (type jpg)
-<use logo/logo.jpg>
-Package pdftex.def Info: logo/logo.jpg  used on input line 117.
-(pdftex.def)             Requested size: 31.29802pt x 31.26067pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L˜Ïng Ho†ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- ‘[][]
- []
-
-File: logo/logonen.jpg Graphic file (type jpg)
-<use logo/logonen.jpg>
-Package pdftex.def Info: logo/logonen.jpg  used on input line 117.
-(pdftex.def)             Requested size: 369.88582pt x 168.04456pt.
-[10] 
+ 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./MAIN.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occurred.
-
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `MAIN.out' has not changed.
-(rerunfilecheck)             Checksum: A16D60CCBA51CDA39ADA64AF534FED99;3114.
+(rerunfilecheck)             Checksum: D25C268FC8558E545E6B376652A4E19D;2444.
  ) 
 Here is how much of TeX's memory you used:
- 62363 strings out of 474116
- 1441303 string characters out of 5747718
- 2327222 words of memory out of 5000000
- 83414 multiletter control sequences out of 15000+600000
- 645231 words of font info for 164 fonts, out of 8000000 for 9000
+ 62091 strings out of 474116
+ 1436160 string characters out of 5747718
+ 2143925 words of memory out of 5000000
+ 83139 multiletter control sequences out of 15000+600000
+ 628742 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,19n,110p,1218b,2761s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,19n,110p,1218b,1641s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <hlblong.ttf><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontA
 wesome.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/tex
-live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2024/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/
-fonts/type1/vntex/vntopia/putb8v.pfb><c:/texlive/2024/texmf-dist/fonts/type1/pu
-blic/tex-gyre/qagb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/
-qagr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/grotesqvn/ugqb8v.pfb><c:
-/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texlive/2024/texm
-f-dist/fonts/type1/vntex/vnr/vnr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/
-vntex/vnr/vnr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnss12.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb><c:/texlive/202
-4/texmf-dist/fonts/type1/vntex/vnr/vnssi12.pfb><c:/texlive/2024/texmf-dist/font
-s/type1/public/yhmath/yhcmex.pfb>
-Output written on MAIN.pdf (10 pages, 718789 bytes).
+b><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/tex
+live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb><c:/texlive/2
+024/texmf-dist/fonts/type1/public/tex-gyre/qagr.pfb><c:/texlive/2024/texmf-dist
+/fonts/type1/public/tex-gyre/qcsr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/v
+ntex/grotesqvn/ugqb8v.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/esvect
+/vect10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/te
+xlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/2024/texmf
+-dist/fonts/type1/vntex/vnr/vnr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/v
+ntex/vnr/vnr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr6.pfb><
+c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnss12.pfb><c:/texlive/2024/te
+xmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/t
+ype1/vntex/vnr/vnti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/yhmath
+/yhcmex.pfb>
+Output written on MAIN.pdf (11 pages, 928390 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 60 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 356 PDF objects out of 1000 (max. 8388607)
+ 233 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 362 words of extra memory for PDF output out of 10000 (max. 10000000)
 
