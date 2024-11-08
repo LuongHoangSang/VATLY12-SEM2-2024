@@ -85,36 +85,35 @@
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Trong đồ thị ở hình dưới
-	\begin{center}
-		\begin{tikzpicture}  
-			\begin{axis}[  ultra thick,
-				xmin=0,  
-				xmax=4,  
-				xtick={0,1,...,3},
-				ytick={0,1,2,4,8},
-				minor x tick num=1,
-				minor y tick num=1,
-				yticklabels={0,$N_0/8$, $N_0/4$,$N_0/2$,$N_0$},
-				ymin=0,  
-				ymax=9, 
-				samples=300,
-				axis lines=center, 
-				grid style={step=1, line width =0.4pt, color=gray!30!white},
-				grid=both, %giới hạn ô lưới
-				major grid style={line width=0.8pt,gray!60!white},
-				xlabel=$\xsi{t}{\left(\si{\hour}\right)}$, 		ylabel=$\xsi{N}{\left(\text{hạt}\right)}{}$,
-				every axis y label/.style={at=(current axis.above origin),anchor=south},  
-				every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
-				\addplot [ultra thick, blue, smooth, domain=0:4] {8*2^(-x)};  
-			\end{axis}  
-		\end{tikzpicture}
-	\end{center}
+\immini{Trong đồ thị ở hình dưới
 	\choice
-	{$N_0$ là số hạt nhân lúc ban đầu $\left(t=0\right)$ của khối chất phóng xạ và $N$ là số hạt nhân của khối chất phóng xạ đã phân rã tính đến thời điểm $t$}
-	{\True $N_0$ là số hạt nhân lúc ban đầu của khối chất phóng xạ và $N$ là số hạt nhân còn lại của khối chất phóng xạ tính đến thời điểm $t$}
-	{$N_0$ là khối lượng ban đầu của khối chất phóng xạ và $N$ là khối lượng của các hạt nhân đã phân rã của khối chất phóng xạ tính đến thời điểm $t$}
-	{$N_0$ là khối lượng ban đầu của khối chất phóng xạ và $N$ là khối lượng còn lại của khối chất phóng xạ tính đến thời điểm $t$}
+{$N_0$ là số hạt nhân lúc ban đầu $\left(t=0\right)$ của khối chất phóng xạ và $N$ là số hạt nhân của khối chất phóng xạ đã phân rã tính đến thời điểm $t$}
+{\True $N_0$ là số hạt nhân lúc ban đầu của khối chất phóng xạ và $N$ là số hạt nhân còn lại của khối chất phóng xạ tính đến thời điểm $t$}
+{$N_0$ là khối lượng ban đầu của khối chất phóng xạ và $N$ là khối lượng của các hạt nhân đã phân rã của khối chất phóng xạ tính đến thời điểm $t$}
+{$N_0$ là khối lượng ban đầu của khối chất phóng xạ và $N$ là khối lượng còn lại của khối chất phóng xạ tính đến thời điểm $t$}
+}
+{\begin{tikzpicture}  
+		\begin{axis}[  ultra thick,scale=0.75,
+			xmin=0,  
+			xmax=4,  
+			xtick={0,1,...,3},
+			ytick={0,1,2,4,8},
+			minor x tick num=1,
+			minor y tick num=1,
+			yticklabels={0,$N_0/8$, $N_0/4$,$N_0/2$,$N_0$},
+			ymin=0,  
+			ymax=9, 
+			samples=300,
+			axis lines=center, 
+			grid style={step=1, line width =0.4pt, color=gray!30!white},
+			grid=both, %giới hạn ô lưới
+			major grid style={line width=0.8pt,gray!60!white},
+			xlabel=$\xsi{t}{\left(\si{\hour}\right)}$, 		ylabel=$\xsi{N}{\left(\text{hạt}\right)}{}$,
+			every axis y label/.style={at=(current axis.above origin),anchor=south},  
+			every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
+			\addplot [ultra thick, blue, smooth, domain=0:4] {8*2^(-x)};  
+		\end{axis}  
+\end{tikzpicture}}
 	\loigiai{}
 \end{ex}
 % ===================================================================
@@ -380,10 +379,11 @@
 \end{ex}
 % ===============================================================
 \begin{ex}
+	\immini{
 	Một mẫu chất phóng xạ nguyên chất có hằng số phóng xạ $\lambda$, số hạt ban đầu là $N_0$, số hạt tại thời điểm $t$ là $N$. Hình bên mô tả đồ thị của $\ln N$ theo $t$. Xác định độ phóng xạ ban đầu của mẫu chất \textit{(Kết quả tính theo đơn vị $\si{\second^{-1}}$ và làm tròn đến 3 CSCN)}.
-	\begin{center}
-		\begin{tikzpicture}  
-			\begin{axis}[  ultra thick,yscale=0.75,
+	}
+	{\begin{tikzpicture}  
+			\begin{axis}[  ultra thick,scale=0.3,
 				xmin=0,  
 				xmax=75,  
 				xtick={0,60},
@@ -398,8 +398,7 @@
 				\draw[blue, line width=1.5pt] (axis cs:0,3)--(axis cs: 60,0); 
 			\end{axis} 
 			\node[below left] at(0,0) {O}; 
-		\end{tikzpicture}
-	\end{center}
+	\end{tikzpicture}}
 	\shortans[oly]{1,00}
 	\loigiai{
 		Từ $N=N_0e^{-\lambda t}\Rightarrow \ln N=\ln N_0-\lambda t$.\\

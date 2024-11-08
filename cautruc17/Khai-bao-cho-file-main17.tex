@@ -45,8 +45,8 @@
 \usepackage[version=3]{mhchem}
 \usepackage[locale=DE]{siunitx} % cách viết số đo có đơn vị theo chuẩn DE (gần giống VN) 
 %--------------Gói trắc nghiệm EX-TEST
-\usepackage[loigiai]{ex_test} 
-%\usepackage[solcolor]{ex_test}
+%\usepackage[loigiai]{ex_test} 
+\usepackage[solcolor]{ex_test}
 %--------------------------
 %----Lời giải, Hiền thị tên EX; Dấu kết thúc
 \font\damEX=ugqb8v at 11pt
@@ -129,9 +129,9 @@ scale=1.25,%%
 angle=0,%%
 opacity=0.1,%%
 contents={
-\ifnum\the\value{page}>0%
+\ifnum\the\value{page}>1%
 \begin{tikzpicture}[remember picture,overlay,scale=1.25]
-\node at (current page.center){\includegraphics[width=13cm]{logo/logonen.jpg}};
+\node at (current page.center){\includegraphics[width=16cm]{logo/logonencut}};
 \end{tikzpicture}
 \else
 \fi
@@ -278,7 +278,7 @@ QUICK NOTE
 %		\node[anchor=north,text=\maufoot,inner sep=0pt,text width=0.33*\textwidth+\leftnote cm,align=center] (dc) at ([yshift=-4pt]$(AA)!0.5!(BB)$){\fontfamily{qag}\fontsize{9pt}{1pt}\selectfont\bfseries
 %			 \noidungduoigiua%
 %		 };
-\draw[line width=0.5pt,fill=white,draw=\maukefoot,path picture={\node at ([yshift=-4mm]$(AA)!0.5!(BB)$) {\includegraphics[width=11mm]{logo/logo.jpg}};}] ([yshift=-4mm]$(AA)!0.5!(BB)$) circle [radius=7mm]; 
+\draw[line width=0.5pt,fill=white,draw=\maukefoot,path picture={\node at ([yshift=-4mm]$(AA)!0.5!(BB)$) {\includegraphics[width=15mm]{logo/logocut}};}] ([yshift=-4mm]$(AA)!0.5!(BB)$) circle [radius=7mm]; 
 %-----bên trái
 \node[anchor=north west,text=\maufoot,inner sep=0pt,text width=0.5*\textwidth,align=left] (sdt) at ([yshift=-4pt]AA){\fontfamily{qag}\fontsize{10pt}{1pt}\selectfont
 \noidungduoitrai%
@@ -543,7 +543,7 @@ title={%\faFolderOpen\ Dạng~\stepcounter{dang}\thedang.\
 \def\kchaiben{2.75}
 \pgfmathsetmacro{\Rchuong}{1.15*\kchaiben/3}
 \pgfmathsetmacro{\kcphu}{2*\kchaiben+2*0.85}
-\pgfmathsetmacro{\dailogo}{1.5*\Rchuong}
+\pgfmathsetmacro{\dailogo}{1.9*\Rchuong}
 \def\cao{2}
 \titlespacing{\chapter}{0cm}{0.5cm}{1.5cm}[0cm] %1: , 2: Trên, 3: dưới
 \titleformat{\chapter}
@@ -577,7 +577,7 @@ pt] ([yshift=-3pt, xshift=3pt]tam.north west) rectangle ([yshift=3pt, xshift=-3p
 }%
 };
 %--- logo chuong
-\draw[fill=white,draw=none,drop shadow={shadow yshift=0pt,shadow xshift=-1pt,black!90},path picture={\node at ([xshift=-0mm-0.5*\kchaiben cm,yshift=0mm]tam.east){\includegraphics[width=\dailogo cm]{logo/logo.jpg}};}] ([xshift=-0.5*\kchaiben cm]tam.east) circle [radius=\Rchuong cm]; 
+\draw[fill=white,draw=none,drop shadow={shadow yshift=0pt,shadow xshift=-1pt,black!90},path picture={\node at ([xshift=-0mm-0.5*\kchaiben cm,yshift=0mm]tam.east){\includegraphics[width=\dailogo cm]{logo/logocut}};}] ([xshift=-0.5*\kchaiben cm]tam.east) circle [radius=\Rchuong cm]; 
 %==========nội dung chương
 \node[inner sep=5pt,text=\mauchuchuong,anchor=center] at ([yshift=-0.5*\cao cm]$(Ctrai)!0.5!(Cphai)$){%
 \parbox{\textwidth-\kcphu cm-10pt}%
@@ -777,7 +777,7 @@ rectangle ([xshift=-1pt]secname.south west)coordinate (bai2)
 %============================
 % Canh chỉnh mục lục chính
 \setcounter{secnumdepth}{4} %Độ sâu đánh số
-\setcounter{tocdepth}{2} %Độ sâu mục lục
+\setcounter{tocdepth}{1} %Độ sâu mục lục
 \contentsmargin{0cm}
 %~~~~~~~~~~~~~~~~~~~~~
 \renewcommand*\l@part[2]{%

@@ -1,14 +1,208 @@
 \contentsline {part}{II\hspace {1em}HỌC KỲ 2}{2}{part.2}%
-\contentsline {section}{\numberline {11}ÔN TẬP CHƯƠNG 3}{3}{section.2.11}%
-\contentsline {subsection}{\numberline {A}Câu trắc nghiệm nhiều phương án lựa chọn}{3}{subsection.2.11.1}%
-\contentsline {subsection}{\numberline {B}Câu trắc nghiệm đúng/sai}{6}{subsection.2.11.2}%
-\contentsline {subsection}{\numberline {C}Câu trắc nghiệm trả lời ngắn}{8}{subsection.2.11.3}%
-\contentsline {subsection}{\sf Trắc nghiệm nhiều phương án lựa chọn}{9}{ex.6}%
-\contentsline {subsection}{\sf \text {Trắc nghiệm đúng/sai}}{9}{ex.6}%
-\contentsline {subsection}{\sf Trả lời ngắn}{9}{ex.6}%
-\contentsline {part}{III\hspace {1em}ĐÁP ÁN}{10}{part.3}%
-\contentsline {section}{\numberline {11}ÔN TẬP CHƯƠNG 3}{11}{section.2.11}%
-\contentsline {subsection}{\sf Trắc nghiệm nhiều phương án lựa chọn}{11}{section*.2}%
-\contentsline {subsection}{\sf \text {Trắc nghiệm đúng/sai}}{11}{section*.2}%
-\contentsline {subsection}{\sf Trả lời ngắn}{11}{section*.2}%
+\contentsline {chapter}{\numberline {3}TỪ TRƯỜNG}{3}{chapter.3}%
+\contentsline {section}{\numberline {11}Khái niệm từ trường}{3}{section.3.11}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{3}{subsection.3.11.1}%
+\contentsline {subsubsection}{\numberline {1}Tương tác từ}{3}{subsubsection.3.11.1.1}%
+\contentsline {subsubsection}{\numberline {2}Từ trường}{3}{subsubsection.3.11.1.2}%
+\contentsline {paragraph}{\numberline {2.1}Khái niệm từ trường}{3}{paragraph.3.11.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2}Từ phổ}{3}{paragraph.3.11.1.2.2}%
+\contentsline {subsubsection}{\numberline {3}Cảm ứng từ}{4}{subsubsection.3.11.1.3}%
+\contentsline {paragraph}{\numberline {3.1}Khái niệm cảm ứng từ}{4}{paragraph.3.11.1.3.1}%
+\contentsline {paragraph}{\numberline {3.2}Đường sức từ}{4}{paragraph.3.11.1.3.2}%
+\contentsline {paragraph}{\numberline {3.3}Từ trường đều}{5}{paragraph.3.11.1.3.3}%
+\contentsline {paragraph}{\numberline {3.4}Đường sức từ của một số dây dẫn đặc biệt}{5}{paragraph.3.11.1.3.4}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh họa}{6}{subsection.3.11.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Nêu được khái niệm từ trường và biểu hiện của từ trường}{6}{subsection.3.11.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Vận dụng quy tắc nắm tay phải để xác định chiều đường sức từ hoặc chiều dòng điện}{7}{subsection.3.11.2}%
+\contentsline {subsection}{\numberline {C}Bài tập}{9}{subsection.3.11.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{9}{subsubsection.3.11.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{13}{subsubsection.3.11.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{14}{subsubsection.3.11.3.3}%
+\contentsline {section}{\numberline {12}Lực từ - Cảm ứng từ}{17}{section.3.12}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{17}{subsection.3.12.1}%
+\contentsline {subsubsection}{\numberline {1}Độ lớn cảm ứng từ}{17}{subsubsection.3.12.1.1}%
+\contentsline {subsubsection}{\numberline {2}Lực từ tác dụng lên đoạn dây dẫn mang dòng điện}{17}{subsubsection.3.12.1.2}%
+\contentsline {paragraph}{\numberline {2.1}Độ lớn lực từ}{17}{paragraph.3.12.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2}Phương và chiều của lực từ}{18}{paragraph.3.12.1.2.2}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{18}{subsection.3.12.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Vận dụng quy tắc bàn tay trái để xác định lực từ tác dụng đoạn dây dẫn mang dòng điện}{18}{subsection.3.12.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Vận dụng được biểu thức tính độ lớn lực từ }{20}{table.3.13}%
+\contentsline {subsection}{\numberline {C}Bài tập}{23}{subsection.3.12.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{23}{subsubsection.3.12.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{28}{subsubsection.3.12.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{32}{subsubsection.3.12.3.3}%
+\contentsline {section}{\numberline {13}Cảm ứng từ gây ra bởi dòng điện trong dây dẫn có hình dạng đặc biệt}{40}{section.3.13}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{40}{subsection.3.13.1}%
+\contentsline {subsubsection}{\numberline {1}Cảm ứng từ gây ra bởi dòng điện trong dây dẫn có hình dạng đặc biệt đặt trong không khí}{40}{subsubsection.3.13.1.1}%
+\contentsline {paragraph}{\numberline {1.1}Từ trường của dòng điện chạy trong dây dẫn thẳng, dài}{40}{paragraph.3.13.1.1.1}%
+\contentsline {paragraph}{\numberline {1.2}Từ trường của dòng điện chạy trong dây dẫn tròn}{40}{paragraph.3.13.1.1.2}%
+\contentsline {paragraph}{\numberline {1.3}Từ trường của ống dây có dòng diện chạy qua}{41}{paragraph.3.13.1.1.3}%
+\contentsline {subsubsection}{\numberline {2}Nguyên lý chồng chất từ trường}{41}{subsubsection.3.13.1.2}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{41}{subsection.3.13.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Xác định được độ lớn cảm ứng từ do dòng điện trong dây dẫn có hình dạng đặc biệt gây ra}{41}{subsection.3.13.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Xác định được cảm ứng từ tổng hợp}{42}{subsection.3.13.2}%
+\contentsline {subsection}{\numberline {C}Bài tập}{44}{subsection.3.13.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{44}{subsubsection.3.13.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{50}{subsubsection.3.13.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{50}{subsubsection.3.13.3.3}%
+\contentsline {section}{\numberline {14}Hiện tượng cảm ứng điện từ}{54}{section.3.14}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{54}{subsection.3.14.1}%
+\contentsline {subsubsection}{\numberline {1}Từ thông}{54}{subsubsection.3.14.1.1}%
+\contentsline {subsubsection}{\numberline {2}Hiện tượng cảm ứng điện từ}{54}{subsubsection.3.14.1.2}%
+\contentsline {paragraph}{\numberline {2.1}Khái niệm hiện tượng cảm ứng điện từ}{54}{paragraph.3.14.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2}Định luật Lenz về chiều dòng điện cảm ứng}{54}{paragraph.3.14.1.2.2}%
+\contentsline {subsubsection}{\numberline {3}Định luật Faraday về suất điện động cảm ứng}{55}{subsubsection.3.14.1.3}%
+\contentsline {subsubsection}{\numberline {4}Một số ứng dụng của hiện tượng cảm ứng điện từ}{55}{subsubsection.3.14.1.4}%
+\contentsline {paragraph}{\numberline {4.1}Guitar điện}{56}{paragraph.3.14.1.4.1}%
+\contentsline {paragraph}{\numberline {4.2}Dynamo xe đạp}{56}{paragraph.3.14.1.4.2}%
+\contentsline {subsubsection}{\numberline {5}Mô hình sóng điện từ}{56}{subsubsection.3.14.1.5}%
+\contentsline {paragraph}{\numberline {5.1}Điện từ trường}{56}{paragraph.3.14.1.5.1}%
+\contentsline {paragraph}{\numberline {5.2}Mô hình sóng điện từ}{57}{paragraph.3.14.1.5.2}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{57}{subsection.3.14.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Xác định từ thông gửi qua khung dây}{57}{subsection.3.14.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Vận dụng định luật Lenz xác định chiều dòng điện cảm ứng}{58}{subsection.3.14.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~3. Giải thích được một số ứng dụng của hiện tượng cảm ứng điện từ}{59}{Item.66}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~4. Vận dụng định luật Faraday tính được suất điện động cảm ứng}{60}{Item.70}%
+\contentsline {subsection}{\numberline {C}Bài tập}{62}{subsection.3.14.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{62}{subsubsection.3.14.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{70}{subsubsection.3.14.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{73}{subsubsection.3.14.3.3}%
+\contentsline {section}{\numberline {15}Chuyển động của đoạn dây dẫn mang dòng điện trong từ trường}{81}{section.3.15}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{81}{subsection.3.15.1}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{81}{subsection.3.15.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Xác định suất điện động cảm ứng trong một đoạn dây dẫn chuyển động}{81}{subsection.3.15.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Chuyển động của đoạn dây dẫn mang dòng điện trong từ trường đều}{83}{Item.140}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{85}{subsubsection.3.15.2.1}%
+\contentsline {subsubsection}{\numberline {2}Tự luận}{89}{subsubsection.3.15.2.2}%
+\contentsline {section}{\numberline {16}Đại cương về dòng điện xoay chiều}{91}{section.3.16}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{91}{subsection.3.16.1}%
+\contentsline {subsubsection}{\numberline {1}Nguyên tắc tạo ra dòng điện xoay chiều}{91}{subsubsection.3.16.1.1}%
+\contentsline {subsubsection}{\numberline {2}Dòng điện xoay chiều}{92}{subsubsection.3.16.1.2}%
+\contentsline {subsubsection}{\numberline {3}Các giá trị hiệu dụng của dòng điện xoay chiều}{92}{subsubsection.3.16.1.3}%
+\contentsline {subsubsection}{\numberline {4}Sử dụng dòng điện xoay chiều}{92}{subsubsection.3.16.1.4}%
+\contentsline {paragraph}{\numberline {4.1}Tác dụng và ứng dụng của dòng điện xoay chiều}{92}{paragraph.3.16.1.4.1}%
+\contentsline {paragraph}{\numberline {4.2}Quy tắc an toàn khi sử dụng điện xoay chiều}{93}{paragraph.3.16.1.4.2}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{93}{subsection.3.16.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Xác định các đại lượng đặc trưng của dòng điện xoay chiều}{93}{subsection.3.16.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Mối liên hệ về pha giữa điện áp $u$ và cường độ dòng điện $i$ trong mạch điện xoay chiều}{94}{Item.168}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~3. Vận dụng định luật Faraday cho bài toán liên quan đến máy phát điện xoay chiều}{96}{Item.178}%
+\contentsline {subsection}{\numberline {C}Bài tập}{97}{subsection.3.16.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{97}{subsubsection.3.16.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{101}{subsubsection.3.16.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{103}{subsubsection.3.16.3.3}%
+\contentsline {section}{\numberline {17}Máy biến áp - Truyền tải điện năng}{107}{section.3.17}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{107}{subsection.3.17.1}%
+\contentsline {subsubsection}{\numberline {1}Máy biến áp}{107}{subsubsection.3.17.1.1}%
+\contentsline {paragraph}{\numberline {1.1}Cấu tạo và nguyên tắc hoạt động}{107}{paragraph.3.17.1.1.1}%
+\contentsline {paragraph}{\numberline {1.2}Sự biến đổi điện áp và cường độ dòng điện}{107}{paragraph.3.17.1.1.2}%
+\contentsline {paragraph}{\numberline {1.3}Ứng dụng của máy biến áp}{108}{paragraph.3.17.1.1.3}%
+\contentsline {subsubsection}{\numberline {2}Truyền tải điện năng}{108}{subsubsection.3.17.1.2}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{108}{subsection.3.17.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Vận dụng được hệ thức liên hệ giữa điện áp và số vòng dây quấn trên hai cuộn dây}{108}{subsection.3.17.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Bài toán thay đổi số vòng dây quấn trên máy biến áp}{109}{subsection.3.17.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~3. Bài toán truyền tải điện năng}{110}{subsection.3.17.2}%
+\contentsline {subsection}{\numberline {C}Bài tập}{111}{subsection.3.17.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{111}{subsubsection.3.17.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{114}{subsubsection.3.17.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{116}{subsubsection.3.17.3.3}%
+\contentsline {section}{\numberline {18}ÔN TẬP CHƯƠNG 3}{119}{section.3.18}%
+\contentsline {subsection}{\numberline {A}Câu trắc nghiệm nhiều phương án lựa chọn}{119}{subsection.3.18.1}%
+\contentsline {subsection}{\numberline {B}Câu trắc nghiệm đúng/sai}{122}{subsection.3.18.2}%
+\contentsline {subsection}{\numberline {C}Câu trắc nghiệm trả lời ngắn}{124}{subsection.3.18.3}%
+\contentsline {chapter}{\numberline {4}VẬT LÍ HẠT NHÂN}{126}{chapter.4}%
+\contentsline {section}{\numberline {19}Cấu tạo hạt nhân}{126}{section.4.19}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{126}{subsection.4.19.1}%
+\contentsline {subsubsection}{\numberline {1}Mô hình đơn giản của nguyên tử}{126}{subsubsection.4.19.1.1}%
+\contentsline {paragraph}{\numberline {1.1}Thí nghiệm tán xạ hạt $\alpha $}{126}{paragraph.4.19.1.1.1}%
+\contentsline {paragraph}{\numberline {1.2}Mô hình đơn giản của nguyên tử}{127}{paragraph.4.19.1.1.2}%
+\contentsline {subsubsection}{\numberline {2}Cấu tạo hạt nhân}{127}{subsubsection.4.19.1.2}%
+\contentsline {paragraph}{\numberline {2.1}Nucleon}{127}{paragraph.4.19.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2}Kí hiệu hạt nhân}{127}{paragraph.4.19.1.2.2}%
+\contentsline {paragraph}{\numberline {2.3}Đồng vị}{127}{paragraph.4.19.1.2.3}%
+\contentsline {paragraph}{\numberline {2.4}Kích thước hạt nhân}{128}{paragraph.4.19.1.2.4}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{128}{subsection.4.19.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Biểu diễn được kí hiệu hạt nhân của nguyên tử bằng số nucleon và số proton}{128}{subsection.4.19.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Xác định tỉ lệ đồng vị của một nguyên tố}{129}{subsection.4.19.2}%
+\contentsline {subsection}{\numberline {C}Bài tập}{130}{subsection.4.19.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{130}{subsubsection.4.19.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{132}{subsubsection.4.19.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{134}{subsubsection.4.19.3.3}%
+\contentsline {section}{\numberline {20}Năng lượng liên kết hạt nhân}{137}{section.4.20}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{137}{subsection.4.20.1}%
+\contentsline {subsubsection}{\numberline {1}Hệ thức Einstein về mối liên hệ giữa khối lượng và năng lượng}{137}{subsubsection.4.20.1.1}%
+\contentsline {subsubsection}{\numberline {2}Khối lượng hạt nhân}{137}{subsubsection.4.20.1.2}%
+\contentsline {subsubsection}{\numberline {3}Năng lượng liên kết hạt nhân}{137}{subsubsection.4.20.1.3}%
+\contentsline {paragraph}{\numberline {3.1}Lực hạt nhân}{137}{paragraph.4.20.1.3.1}%
+\contentsline {paragraph}{\numberline {3.2}Độ hụt khối}{138}{paragraph.4.20.1.3.2}%
+\contentsline {subsubsection}{\numberline {4}Năng lượng liên kết}{138}{subsubsection.4.20.1.4}%
+\contentsline {subsubsection}{\numberline {5}Năng lượng liên kết riêng hạt nhân}{138}{subsubsection.4.20.1.5}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{138}{subsection.4.20.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Vận dụng hệ thức Einstein về mối liên hệ giữa khối lượng và năng lượng}{138}{subsection.4.20.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Xác định được độ hụt khối, năng lượng liên kết và năng lượng liên kết riêng của hạt nhân}{139}{subsection.4.20.2}%
+\contentsline {subsection}{\numberline {C}Bài tập}{140}{subsection.4.20.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{140}{subsubsection.4.20.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{144}{subsubsection.4.20.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{145}{subsubsection.4.20.3.3}%
+\contentsline {section}{\numberline {21}Phản ứng hạt nhân}{148}{section.4.21}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{148}{subsection.4.21.1}%
+\contentsline {subsubsection}{\numberline {1}Phản ứng hạt nhân}{148}{subsubsection.4.21.1.1}%
+\contentsline {paragraph}{\numberline {1.1}Khái niệm}{148}{paragraph.4.21.1.1.1}%
+\contentsline {paragraph}{\numberline {1.2}Phương trình tổng quát}{148}{paragraph.4.21.1.1.2}%
+\contentsline {subsubsection}{\numberline {2}Các định luật bảo toàn trong phản ứng hạt nhân}{148}{subsubsection.4.21.1.2}%
+\contentsline {paragraph}{\numberline {2.1}Bảo toàn số nucleon (số khối)}{148}{paragraph.4.21.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2}Bảo toàn điện tích}{148}{paragraph.4.21.1.2.2}%
+\contentsline {paragraph}{\numberline {2.3}Bảo toàn động lượng}{148}{paragraph.4.21.1.2.3}%
+\contentsline {paragraph}{\numberline {2.4}Bảo toàn năng lượng toàn phần}{148}{paragraph.4.21.1.2.4}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{149}{subsection.4.21.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Viết được đúng phương trình phân rã hạt nhân đơn giản}{149}{subsection.4.21.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Xác định được năng lượng của phản ứng hạt nhân}{149}{subsection.4.21.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~3. Vận dụng được định luật bảo toàn năng lượng toàn phần trong phản ứng hạt nhân}{151}{equation.4.21.16}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~4. Vận dụng định luật bảo toàn động lượng trong phản ứng hạt nhân}{152}{equation.4.21.18}%
+\contentsline {subsection}{\numberline {C}Bài tập}{153}{subsection.4.21.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{153}{subsubsection.4.21.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{157}{subsubsection.4.21.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{159}{subsubsection.4.21.3.3}%
+\contentsline {section}{\numberline {22}Phản ứng phân hạch - Phản ứng nhiệt hạch}{163}{section.4.22}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{163}{subsection.4.22.1}%
+\contentsline {subsubsection}{\numberline {1}Phản ứng phân hạch}{163}{subsubsection.4.22.1.1}%
+\contentsline {paragraph}{\numberline {1.1}Khái niệm}{163}{paragraph.4.22.1.1.1}%
+\contentsline {paragraph}{\numberline {1.2}Hệ số nhân neutron - Phản ứng dây chuyền}{163}{paragraph.4.22.1.1.2}%
+\contentsline {subsubsection}{\numberline {2}Phản ứng nhiệt hạch}{164}{subsubsection.4.22.1.2}%
+\contentsline {paragraph}{\numberline {2.1}Khái niệm}{164}{paragraph.4.22.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2}Đặc điểm}{164}{paragraph.4.22.1.2.2}%
+\contentsline {subsubsection}{\numberline {3}Một số ngành công nghiệp hạt nhân trong đời sống}{164}{subsubsection.4.22.1.3}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{164}{subsection.4.22.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Xác định năng lượng phản ứng phân hạch/ nhiệt hạch}{165}{subsection.4.22.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Giải được bài toán liên quan đến hiệu suất nhà máy điện hạt nhân}{166}{subsection.4.22.2}%
+\contentsline {subsection}{\numberline {C}Bài tập}{166}{subsection.4.22.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{166}{subsubsection.4.22.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{170}{subsubsection.4.22.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{173}{subsubsection.4.22.3.3}%
+\contentsline {section}{\numberline {23}Hiện tượng phóng xạ}{175}{section.4.23}%
+\contentsline {subsection}{\numberline {A}Tóm tắt lí thuyết}{175}{subsection.4.23.1}%
+\contentsline {subsubsection}{\numberline {1}Hiện tượng phóng xạ}{175}{subsubsection.4.23.1.1}%
+\contentsline {paragraph}{\numberline {1.1}Định nghĩa}{175}{paragraph.4.23.1.1.1}%
+\contentsline {paragraph}{\numberline {1.2}Các tính chất cơ bản của hiện tượng phóng xạ}{175}{paragraph.4.23.1.1.2}%
+\contentsline {subsubsection}{\numberline {2}Bản chất của các tia phóng xạ}{175}{subsubsection.4.23.1.2}%
+\contentsline {paragraph}{\numberline {2.1}Tia alpha $\left (\alpha \right )$}{175}{paragraph.4.23.1.2.1}%
+\contentsline {paragraph}{\numberline {2.2}Tia beta $\left (\beta \right )$}{175}{paragraph.4.23.1.2.2}%
+\contentsline {paragraph}{\numberline {2.3}Tia gamma $\left (\gamma \right )$}{176}{paragraph.4.23.1.2.3}%
+\contentsline {subsubsection}{\numberline {3}Định luật phóng xạ}{176}{subsubsection.4.23.1.3}%
+\contentsline {paragraph}{\numberline {3.1}Chu kỳ bán rã, hằng số phóng xạ}{176}{paragraph.4.23.1.3.1}%
+\contentsline {paragraph}{\numberline {3.2}Định luật phóng xạ}{177}{paragraph.4.23.1.3.2}%
+\contentsline {subsubsection}{\numberline {4}Độ phóng xạ}{177}{subsubsection.4.23.1.4}%
+\contentsline {subsubsection}{\numberline {5}Quy tắc an toàn phóng xạ}{177}{subsubsection.4.23.1.5}%
+\contentsline {subsection}{\numberline {B}Ví dụ minh hoạ}{177}{subsection.4.23.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Vận dụng các định luật bảo toàn trong phản ứng hạt nhân để viết đúng phương trình phân rã}{178}{subsection.4.23.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Vận dụng định luật phóng xạ xác định số hạt/khối lượng hạt nhân phóng xạ còn lại}{178}{subsection.4.23.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~3. Bài toán về số hạt nhân và khối lượng hạt nhân con tạo thành}{180}{Item.316}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~4. Định nghĩa được độ phóng xạ, hằng số phóng xạ và vận dụng được mối liên hệ $H=\lambda N$}{181}{Item.320}%
+\contentsline {subsection}{\numberline {C}Bài tập}{182}{subsection.4.23.3}%
+\contentsline {subsubsection}{\numberline {1}Trắc nghiệm nhiều phương án lựa chọn}{182}{subsubsection.4.23.3.1}%
+\contentsline {subsubsection}{\numberline {2}Trắc nghiệm đúng/sai}{189}{subsubsection.4.23.3.2}%
+\contentsline {subsubsection}{\numberline {3}Tự luận}{192}{subsubsection.4.23.3.3}%
+\contentsline {section}{\numberline {24}ÔN TẬP CHƯƠNG 4}{200}{section.4.24}%
+\contentsline {subsection}{\numberline {A}Câu trắc nghiệm nhiều phương án lựa chọn}{200}{subsection.4.24.1}%
+\contentsline {subsection}{\numberline {B}Câu trắc nghiệm đúng/sai}{204}{subsection.4.24.2}%
+\contentsline {subsection}{\numberline {C}Câu trắc nghiệm trả lời ngắn}{206}{subsection.4.24.3}%
 \contentsfinish 
