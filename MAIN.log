@@ -1,32 +1,32 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.9.6)  17 NOV 2024 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.9)  16 MAY 2025 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **MAIN.tex
 (./MAIN.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-02-20>
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
 (c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
 (c:/texlive/2024/texmf-dist/tex/latex/base/bk12.clo
-File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+File: bk12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count188
-\c@chapter=\count189
-\c@section=\count190
-\c@subsection=\count191
-\c@subsubsection=\count192
-\c@paragraph=\count193
-\c@subparagraph=\count194
-\c@figure=\count195
-\c@table=\count196
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
 ) (./cautruc17/mausac-Y.tex) (./cautruc17/Khai-bao-cho-file-main17.tex
 (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip50
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -35,59 +35,59 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
-\ex@=\dimen141
+\ex@=\dimen142
 ))
 (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
+\pmbraise@=\dimen143
 )
 (c:/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count197
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count198
-\leftroot@=\count199
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count266
-\DOTSCASE@=\count267
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box51
-\strutbox@=\box52
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen143
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count268
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count269
-\dotsspace@=\muskip16
-\c@parentequation=\count270
-\dspbrk@lvl=\count271
+\inf@bad=\count271
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count272
+\leftroot@=\count273
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count274
+\DOTSCASE@=\count275
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count276
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count277
+\dotsspace@=\muskip17
+\c@parentequation=\count278
+\dspbrk@lvl=\count279
 \tag@help=\toks18
-\row@=\count272
-\column@=\count273
-\maxfields@=\count274
+\row@=\count280
+\column@=\count281
+\maxfields@=\count282
 \andhelp@=\toks19
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
 \@envbody=\toks20
-\multlinegap=\skip51
-\multlinetaggap=\skip52
+\multlinegap=\skip52
+\multlinetaggap=\skip53
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -111,7 +111,7 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 Package: maybemath 2005/2/22
 
 (c:/texlive/2024/texmf-dist/tex/latex/tools/bm.sty
-Package: bm 2023/07/08 v1.2f Bold Symbol Support (DPC/FMi)
+Package: bm 2023/12/19 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup7
 \symboldletters=\mathgroup8
 \symboldsymbols=\mathgroup9
@@ -125,28 +125,28 @@ LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 Package: xlop 2020/04/26 package wrapper for xlop.tex
 
 (c:/texlive/2024/texmf-dist/tex/generic/xlop/xlop.tex
-\op@count@z=\count275
-\op@count@i=\count276
-\op@count@ii=\count277
-\op@count@iii=\count278
-\op@count@iv=\count279
-\op@count@v=\count280
-\op@count@vi=\count281
-\op@nbop=\count282
+\op@count@z=\count283
+\op@count@i=\count284
+\op@count@ii=\count285
+\op@count@iii=\count286
+\op@count@iv=\count287
+\op@count@v=\count288
+\op@count@vi=\count289
+\op@nbop=\count290
 \op@currentstyle=\toks22
 
 `xlop' v0.28  <2020/11/11> (jcc)
-\opcolumnwidth=\dimen150
-\oplineheight=\dimen151
-\op@strutbox=\box53
-\op@decimalsepwidth=\dimen152
-\op@decimalsepoffset=\dimen153
-\op@hrulewidth=\dimen154
-\op@vrulewidth=\dimen155
-\op@parenthesis=\count283
-\op@token=\count284
-\op@stack=\count285
-\op@stackb=\count286
+\opcolumnwidth=\dimen151
+\oplineheight=\dimen152
+\op@strutbox=\box54
+\op@decimalsepwidth=\dimen153
+\op@decimalsepoffset=\dimen154
+\op@hrulewidth=\dimen155
+\op@vrulewidth=\dimen156
+\op@parenthesis=\count291
+\op@token=\count292
+\op@stack=\count293
+\op@stackb=\count294
 )) (c:/texlive/2024/texmf-dist/tex/latex/polynom/polynom.sty
 Package: polynom 2017/07/17 0.19 (CH,HA)
 
@@ -154,16 +154,16 @@ Package: polynom 2017/07/17 0.19 (CH,HA)
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-\pld@currstage=\count287
+\pld@currstage=\count295
 ) (./slashbox.sty
 slashbox style by K.Yasuoka, May 1993.
-\@slashboxa=\box54
-\@slashboxb=\box55
-\@slashboxc=\box56
-\@slashboxwd=\count288
-\@slashboxht=\count289
-\@slashsepl=\dimen156
-\@slashsepr=\dimen157
+\@slashboxa=\box55
+\@slashboxb=\box56
+\@slashboxc=\box57
+\@slashboxwd=\count296
+\@slashboxht=\count297
+\@slashsepl=\dimen157
+\@slashsepr=\dimen158
 ) (c:/texlive/2024/texmf-dist/tex/latex/yhmath/yhmath.sty
 Package: yhmath 2020/03/17 v1.6
 \symyhlargesymbols=\mathgroup10
@@ -207,11 +207,11 @@ Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks25
-\pgfutil@tempdima=\dimen158
-\pgfutil@tempdimb=\dimen159
+\pgfutil@tempdima=\dimen159
+\pgfutil@tempdimb=\dimen160
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box57
+\pgfutil@abb=\box58
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -224,21 +224,21 @@ Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
 )
 (c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
@@ -252,26 +252,26 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 de.tex
 \pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen162
-\pgf@y=\dimen163
-\pgf@xa=\dimen164
-\pgf@ya=\dimen165
-\pgf@xb=\dimen166
-\pgf@yb=\dimen167
-\pgf@xc=\dimen168
-\pgf@yc=\dimen169
-\pgf@xd=\dimen170
-\pgf@yd=\dimen171
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count290
-\c@pgf@countb=\count291
-\c@pgf@countc=\count292
-\c@pgf@countd=\count293
+\c@pgf@counta=\count298
+\c@pgf@countb=\count299
+\c@pgf@countc=\count300
+\c@pgf@countd=\count301
 \t@pgf@toka=\toks29
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
-\pgf@sys@id@count=\count294
+\pgf@sys@id@count=\count302
  (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -285,13 +285,13 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count295
-\pgfsyssoftpath@bigbuffer@items=\count296
+\pgfsyssoftpath@smallbuffer@items=\count303
+\pgfsyssoftpath@bigbuffer@items=\count304
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
@@ -299,15 +299,15 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 
 (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
@@ -315,9 +315,9 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen172
-\pgfmath@count=\count297
-\pgfmath@box=\box58
+\pgfmath@dimen=\dimen173
+\pgfmath@count=\count305
+\pgfmath@box=\box59
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
@@ -341,56 +341,56 @@ x)
 etics.code.tex)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count298
+\c@pgfmathroundto@lastzeros=\count306
 ))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen173
-\pgf@picmaxx=\dimen174
-\pgf@picminy=\dimen175
-\pgf@picmaxy=\dimen176
-\pgf@pathminx=\dimen177
-\pgf@pathmaxx=\dimen178
-\pgf@pathminy=\dimen179
-\pgf@pathmaxy=\dimen180
-\pgf@xx=\dimen181
-\pgf@xy=\dimen182
-\pgf@yx=\dimen183
-\pgf@yy=\dimen184
-\pgf@zx=\dimen185
-\pgf@zy=\dimen186
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.cod
 e.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen187
-\pgf@path@lasty=\dimen188
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.te
 x
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen189
-\pgf@shorten@start@additional=\dimen190
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfpic=\box59
-\pgf@hbox=\box60
-\pgf@layerbox@main=\box61
-\pgf@picture@serial@count=\count299
+\pgfpic=\box60
+\pgf@hbox=\box61
+\pgf@layerbox@main=\box62
+\pgf@picture@serial@count=\count307
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code
 .tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen191
+\pgflinewidth=\dimen192
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.c
 ode.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen192
-\pgf@pt@y=\dimen193
-\pgf@pt@temp=\dimen194
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -404,20 +404,20 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen195
+\pgfarrowsep=\dimen196
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen196
-\pgf@sys@shading@range@num=\count300
-\pgf@shadingcount=\count301
+\pgf@max=\dimen197
+\pgf@sys@shading@range@num=\count308
+\pgf@shadingcount=\count309
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfexternal@startupbox=\box62
+\pgfexternal@startupbox=\box63
 ) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -432,7 +432,7 @@ File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.te
 x
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodeparttextbox=\box63
+\pgfnodeparttextbox=\box64
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -440,8 +440,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.st
 y
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen197
-\pgf@nodesepend=\dimen198
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen199
 )
 (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.st
 y
@@ -453,8 +453,8 @@ Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen199
-\pgffor@skip=\dimen256
+\pgffor@iter=\dimen256
+\pgffor@skip=\dimen257
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
 ))
@@ -464,41 +464,41 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.co
 de.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count302
-\pgfplotmarksize=\dimen257
+\pgf@plot@mark@count=\count310
+\pgfplotmarksize=\dimen258
 )
-\tikz@lastx=\dimen258
-\tikz@lasty=\dimen259
-\tikz@lastxsaved=\dimen260
-\tikz@lastysaved=\dimen261
-\tikz@lastmovetox=\dimen262
-\tikz@lastmovetoy=\dimen263
-\tikzleveldistance=\dimen264
-\tikzsiblingdistance=\dimen265
-\tikz@figbox=\box64
-\tikz@figbox@bg=\box65
-\tikz@tempbox=\box66
-\tikz@tempbox@bg=\box67
-\tikztreelevel=\count303
-\tikznumberofchildren=\count304
-\tikznumberofcurrentchild=\count305
-\tikz@fig@count=\count306
+\tikz@lastx=\dimen259
+\tikz@lasty=\dimen260
+\tikz@lastxsaved=\dimen261
+\tikz@lastysaved=\dimen262
+\tikz@lastmovetox=\dimen263
+\tikz@lastmovetoy=\dimen264
+\tikzleveldistance=\dimen265
+\tikzsiblingdistance=\dimen266
+\tikz@figbox=\box65
+\tikz@figbox@bg=\box66
+\tikz@tempbox=\box67
+\tikz@tempbox@bg=\box68
+\tikztreelevel=\count311
+\tikznumberofchildren=\count312
+\tikznumberofcurrentchild=\count313
+\tikz@fig@count=\count314
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count307
-\pgfmatrixcurrentcolumn=\count308
-\pgf@matrix@numberofcolumns=\count309
+\pgfmatrixcurrentrow=\count315
+\pgfmatrixcurrentcolumn=\count316
+\pgf@matrix@numberofcolumns=\count317
 )
-\tikz@expandcount=\count310
+\tikz@expandcount=\count318
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
 (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.sty
-2024/02/04 5.06c tkz-euclide.sty
-Package: tkz-euclide  2024/02/04 5.06c for pure Euclidean Geometry 
+2024/04/19 5.10c tkz-euclide.sty
+Package: tkz-euclide  2024/04/19 5.10c for pure Euclidean Geometry 
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 braryangles.code.tex
@@ -510,21 +510,21 @@ File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\arrowsize=\dimen266
+\arrowsize=\dimen267
 ))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
 e.tex
 File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowinset=\dimen267
-\pgfarrowlength=\dimen268
-\pgfarrowwidth=\dimen269
-\pgfarrowlinewidth=\dimen270
+\pgfarrowinset=\dimen268
+\pgfarrowlength=\dimen269
+\pgfarrowwidth=\dimen270
+\pgfarrowlinewidth=\dimen271
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@layerbox@background=\box68
-\pgf@layerboxsaved@background=\box69
+\pgf@layerbox@background=\box69
+\pgf@layerboxsaved@background=\box70
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarycalc.code.tex
@@ -534,16 +534,16 @@ File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 brarydecorations.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.t
 ex
-\pgfdecoratedcompleteddistance=\dimen271
-\pgfdecoratedremainingdistance=\dimen272
-\pgfdecoratedinputsegmentcompleteddistance=\dimen273
-\pgfdecoratedinputsegmentremainingdistance=\dimen274
-\pgf@decorate@distancetomove=\dimen275
-\pgf@decorate@repeatstate=\count311
-\pgfdecorationsegmentamplitude=\dimen276
-\pgfdecorationsegmentlength=\dimen277
+\pgfdecoratedcompleteddistance=\dimen272
+\pgfdecoratedremainingdistance=\dimen273
+\pgfdecoratedinputsegmentcompleteddistance=\dimen274
+\pgfdecoratedinputsegmentremainingdistance=\dimen275
+\pgf@decorate@distancetomove=\dimen276
+\pgf@decorate@repeatstate=\count319
+\pgfdecorationsegmentamplitude=\dimen277
+\pgfdecorationsegmentlength=\dimen278
 )
-\tikz@lib@dec@box=\box70
+\tikz@lib@dec@box=\box71
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.markings.code.tex
@@ -561,9 +561,9 @@ orations.shapes.code.tex))
 brarydecorations.text.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydec
 orations.text.code.tex
-\pgf@lib@dec@text@box=\box71
+\pgf@lib@dec@text@box=\box72
 )
-\tikz@lib@dec@te@box=\box72
+\tikz@lib@dec@te@box=\box73
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarydecorations.pathmorphing.code.tex
@@ -574,14 +574,14 @@ braryintersections.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.c
 ode.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)
-\pgf@intersect@solutions=\count312
+\pgf@intersect@solutions=\count320
 ))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarymath.code.tex
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 braryfpu.code.tex)
-\tikz@math@for@depth=\count313
-\tikz@math@dimen=\dimen278
+\tikz@math@for@depth=\count321
+\tikz@math@dimen=\dimen279
 \tikz@math@toks=\toks37
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
@@ -614,112 +614,114 @@ File: tikzlibrarythrough.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
 (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-02-20 L3 programming layer (loader) 
+Package: expl3 2025-01-18 L3 programming layer (loader) 
 
 (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count314
-\l__pdf_internal_box=\box73
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count322
+\l__pdf_internal_box=\box74
 ))
-Package: xfp 2024-02-18 L3 Floating point unit
+Package: xfp 2024-08-16 L3 Floating point unit
 )
 (c:/texlive/2024/texmf-dist/tex/latex/xpatch/xpatch.sty
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
 
 (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-02-18 L3 Experimental document command parser
+Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count315
+\etb@tempcnta=\count323
 ))
-\tkzRadius=\dimen279
-\tkzLength=\dimen280
-\tkz@radi=\dimen281
-\tkz@ax=\dimen282
-\tkz@ay=\dimen283
-\tkz@bx=\dimen284
-\tkz@by=\dimen285
-\tkz@cx=\dimen286
-\tkz@cy=\dimen287
-\tkz@dx=\dimen288
-\tkz@dy=\dimen289
-\tkz@cntmk=\count316
+\tkzRadius=\dimen280
+\tkzLength=\dimen281
+\tkz@radi=\dimen282
+\tkz@ax=\dimen283
+\tkz@ay=\dimen284
+\tkz@bx=\dimen285
+\tkz@by=\dimen286
+\tkz@cx=\dimen287
+\tkz@cy=\dimen288
+\tkz@dx=\dimen289
+\tkz@dy=\dimen290
+\tkz@cntmk=\count324
 
 Local configuration file tkz-euclide.cfg found and used
 (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-euclide.cfg
-2024/02/04 5.06c tkz-euclide.cfg
+2024/04/19 5.10c tkz-euclide.cfg
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-base.tex
-2024/02/04 5.06c tkz-tools-eu-base.tex
+2024/04/19 5.10c tkz-tools-eu-base.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-utilities.tex
-2024/02/04 5.06c tkz-tools-eu-utilities.tex
+2024/04/19 5.10c tkz-tools-eu-utilities.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-BB.tex
-2024/02/04 5.06c tkz-obj-eu-BB.tex
+2024/04/19 5.10c tkz-obj-eu-BB.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-grids.tex
-2024/02/04 5.06c tkz-obj-eu-grids.tex
+2024/04/19 5.10c tkz-obj-eu-grids.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-marks.tex
-2024/02/04 5.06c tkz-lib-eu-marks.tex
+2024/04/19 5.10c tkz-lib-eu-marks.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-text.tex
-2024/02/04 5.06c tkz-tools-eu-text.tex
+2024/04/19 5.10c tkz-tools-eu-text.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-lib-eu-shape.tex
-2024/02/04 5.06c tkz-lib-eu-shape.tex
+2024/04/19 5.10c tkz-lib-eu-shape.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-axesmin.tex
-2024/02/04 5.06c tkz-obj-eu-axesmin
+2024/04/19 5.10c tkz-obj-eu-axesmin
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-colors.tex
-2024/02/04 5.06c tkz-tools-eu-colors
+2024/04/19 5.10c tkz-tools-eu-colors
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
-2024/02/04 5.06c tkz-obj-eu-points.tex
+2024/04/19 5.10c tkz-obj-eu-points.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-points.tex
-2024/02/04 5.06c tkz-draw-eu-points.tex
+2024/04/19 5.10c tkz-draw-eu-points.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points.tex
-2024/02/04 5.06c tkz-obj-eu-points.tex
+2024/04/19 5.10c tkz-obj-eu-points.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-by.tex
-2024/02/04 5.06c tkz-tools-eu-points-by.tex
+2024/04/19 5.10c tkz-tools-eu-points-by.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-math.tex
-2024/02/04 5.06c tkz-tools-eu-math.tex
+2024/04/19 5.10c tkz-tools-eu-math.tex
 )
 (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-intersections.te
 x
-2024/02/04 5.06c tkz-tools-eu-intersections.tex
+2024/04/19 5.10c tkz-tools-eu-intersections.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-with.tex
-2024/02/04 5.06c tkz-obj-eu-points-with.tex
+2024/04/19 5.10c tkz-obj-eu-points-with.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-spc.tex
-2024/02/04 5.06c tkz-obj-el-points.tex
+2024/04/19 5.10c tkz-obj-el-points.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-tools-eu-angles.tex
-2024/02/04 5.06c tkz-tools-eu-angles.tex
+2024/04/19 5.10c tkz-tools-eu-angles.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles.tex
-2024/02/04 5.06c tkz-obj-eu-circles.tex
+2024/04/19 5.10c tkz-obj-eu-circles.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-circles-by.tex
-2024/02/04 5.06c tkz-obj-eu-circles.tex
+2024/04/19 5.10c tkz-obj-eu-circles.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-points-rnd.tex
-2024/02/04 5.06c tkz-obj-eu-points-rnd.tex
+2024/04/19 5.10c tkz-obj-eu-points-rnd.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-lines.tex
-2024/02/04 5.06c tkz-obj-eu-lines.tex
+2024/04/19 5.10c tkz-obj-eu-lines.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-polygons.tex
-2024/02/04 5.06c tkz-obj-eu-polygons.tex
+2024/04/19 5.10c tkz-obj-eu-polygons.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-obj-eu-triangles.tex
-2024/02/04 5.06c tkz-obj-eu-triangles.tex
+2024/04/19 5.10c tkz-obj-eu-triangles.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-lines.tex
-2024/02/04 5.06c tkz-obj-eu-draw-lines.tex
+2024/04/19 5.10c tkz-obj-eu-draw-lines.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-circles.tex
-2024/02/04 5.06c tkz-obj-eu-draw-circles.tex
+2024/04/19 5.10c tkz-obj-eu-draw-circles.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-ellipses.tex
-2024/02/04 5.06c tkz-obj-eu-draw-ellipses.tex
+2024/04/19 5.10c tkz-obj-eu-draw-ellipses.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-polygons.tex
-2024/02/04 5.06c tkz-obj-eu-polygons.tex
+2024/04/19 5.10c tkz-obj-eu-polygons.tex
+) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-arcs.tex
+2024/04/19 5.10c tkz-tool-eu-arcs.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-angles.tex
-2024/02/04 5.06c tkz-tool-eu-angles.tex
+2024/04/19 5.10c tkz-tool-eu-angles.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-sectors.tex
-2024/02/04 5.06c tkz-obj-eu-sectors.tex
+2024/04/19 5.10c tkz-obj-eu-sectors.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-compass.tex
-2024/02/04 5.06c tkz-obj-eu-compass.tex
+2024/04/19 5.10c tkz-obj-eu-compass.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-show.tex
-2024/02/04 5.06c tkz-obj-eu-show.tex
+2024/04/19 5.10c tkz-obj-eu-show.tex
 ) (c:/texlive/2024/texmf-dist/tex/latex/tkz-euclide/tkz-draw-eu-protractor.tex
-2024/02/04 5.06c tkz-obj-eu-protractor.tex
+2024/04/19 5.10c tkz-obj-eu-protractor.tex
 )) (c:/texlive/2024/texmf-dist/tex/latex/tikz-3dplot/tikz-3dplot.sty
 (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brary3d.code.tex
@@ -735,7 +737,7 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks38
 \XKV@tempa@toks=\toks39
 )
-\XKV@depth=\count317
+\XKV@depth=\count325
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
@@ -746,20 +748,20 @@ File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ex
 File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-\tkz@XF=\dimen290
-\tkz@YF=\dimen291
-\c@tkz@cnt@line=\count318
-\c@tkz@cnt@lg=\count319
-\c@tkz@cnt@cl=\count320
-\c@tkz@cnt@pred=\count321
-\c@tkz@cnt@temp=\count322
-\c@tkz@cnt@arrow=\count323
-\c@tkz@cnt@zone=\count324
-\c@tkz@cnt@lgnext=\count325
-\c@tkz@cnt@clnext=\count326
-\c@tkz@cnt@pair=\count327
-\c@tkz@cnt@impair=\count328
-\c@tkz@cnt@aw=\count329
+\tkz@XF=\dimen291
+\tkz@YF=\dimen292
+\c@tkz@cnt@line=\count326
+\c@tkz@cnt@lg=\count327
+\c@tkz@cnt@cl=\count328
+\c@tkz@cnt@pred=\count329
+\c@tkz@cnt@temp=\count330
+\c@tkz@cnt@arrow=\count331
+\c@tkz@cnt@zone=\count332
+\c@tkz@cnt@lgnext=\count333
+\c@tkz@cnt@clnext=\count334
+\c@tkz@cnt@pair=\count335
+\c@tkz@cnt@impair=\count336
+\c@tkz@cnt@aw=\count337
 ) (c:/texlive/2024/texmf-dist/tex/latex/psnfss/pifont.sty
 Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
 LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
@@ -813,26 +815,26 @@ File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.m
 ultipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfnodepartlowerbox=\box74
-\pgfnodeparttwobox=\box75
-\pgfnodepartthreebox=\box76
-\pgfnodepartfourbox=\box77
-\pgfnodeparttwentybox=\box78
-\pgfnodepartnineteenbox=\box79
-\pgfnodeparteighteenbox=\box80
-\pgfnodepartseventeenbox=\box81
-\pgfnodepartsixteenbox=\box82
-\pgfnodepartfifteenbox=\box83
-\pgfnodepartfourteenbox=\box84
-\pgfnodepartthirteenbox=\box85
-\pgfnodeparttwelvebox=\box86
-\pgfnodepartelevenbox=\box87
-\pgfnodeparttenbox=\box88
-\pgfnodepartninebox=\box89
-\pgfnodeparteightbox=\box90
-\pgfnodepartsevenbox=\box91
-\pgfnodepartsixbox=\box92
-\pgfnodepartfivebox=\box93
+\pgfnodepartlowerbox=\box75
+\pgfnodeparttwobox=\box76
+\pgfnodepartthreebox=\box77
+\pgfnodepartfourbox=\box78
+\pgfnodeparttwentybox=\box79
+\pgfnodepartnineteenbox=\box80
+\pgfnodeparteighteenbox=\box81
+\pgfnodepartseventeenbox=\box82
+\pgfnodepartsixteenbox=\box83
+\pgfnodepartfifteenbox=\box84
+\pgfnodepartfourteenbox=\box85
+\pgfnodepartthirteenbox=\box86
+\pgfnodeparttwelvebox=\box87
+\pgfnodepartelevenbox=\box88
+\pgfnodeparttenbox=\box89
+\pgfnodepartninebox=\box90
+\pgfnodeparteightbox=\box91
+\pgfnodepartsevenbox=\box92
+\pgfnodepartsixbox=\box93
+\pgfnodepartfivebox=\box94
 )))
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzli
 brarysnakes.code.tex
@@ -883,9 +885,9 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@toka=\toks40
 \t@pgfplots@tokb=\toks41
 \t@pgfplots@tokc=\toks42
-\pgfplots@tmpa=\dimen292
-\c@pgfplots@coordindex=\count330
-\c@pgfplots@scanlineindex=\count331
+\pgfplots@tmpa=\dimen293
+\c@pgfplots@coordindex=\count338
+\c@pgfplots@scanlineindex=\count339
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.te
 x))
@@ -907,13 +909,13 @@ cture.code.tex)
 ctureext.code.tex)
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.co
 de.tex
-\c@pgfplotsarray@tmp=\count332
+\c@pgfplotsarray@tmp=\count340
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.c
 ode.tex)
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.c
 ode.tex
-\c@pgfplotstable@counta=\count333
+\c@pgfplotstable@counta=\count341
 \t@pgfplotstable@a=\toks46
 )
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.co
@@ -925,7 +927,7 @@ tex))
 x)
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfsh
 ading.code.tex
-\c@pgfplotslibrarysurf@no=\count334
+\c@pgfplotslibrarysurf@no=\count342
 
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfsha
 ding.pgfsys-pdftex.def)))
@@ -946,13 +948,13 @@ ex)
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.conto
 urlua.code.tex)
-\pgfplots@numplots=\count335
-\pgfplots@xmin@reg=\dimen293
-\pgfplots@xmax@reg=\dimen294
-\pgfplots@ymin@reg=\dimen295
-\pgfplots@ymax@reg=\dimen296
-\pgfplots@zmin@reg=\dimen297
-\pgfplots@zmax@reg=\dimen298
+\pgfplots@numplots=\count343
+\pgfplots@xmin@reg=\dimen294
+\pgfplots@xmax@reg=\dimen295
+\pgfplots@ymin@reg=\dimen296
+\pgfplots@ymax@reg=\dimen297
+\pgfplots@zmin@reg=\dimen298
+\pgfplots@zmax@reg=\dimen299
 ))
 (c:/texlive/2024/texmf-dist/tex/latex/pgfornament/pgfornament.sty
 (c:/texlive/2024/texmf-dist/tex/latex/pgfopts/pgfopts.sty
@@ -960,7 +962,7 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks47
 \pgfopts@list@add@b@toks=\toks48
 )
-Package: pgfornament 2020/05/26 v1.2 vector ornaments
+Package: pgfornament 2024/08/14 v1.3 vector ornaments
 
 (c:/texlive/2024/texmf-dist/tex/latex/pgfornament/pgflibraryvectorian.code.tex
 2020/04/06 1.1 pgflibraryvectorian.code.tex
@@ -976,10 +978,10 @@ en.code.tex)))
 (c:/texlive/2024/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decor
 ations.softclip.code.tex))
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
 
 (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
@@ -1007,9 +1009,6 @@ Package pdftexcmds Info: \pdfdraftmode found.
 (c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-)
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
 
@@ -1022,43 +1021,47 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count336
+\c@section@level=\count344
 )
-\@linkdim=\dimen299
-\Hy@linkcounter=\count337
-\Hy@pagecounter=\count338
+(c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen300
+\Hy@linkcounter=\count345
+\Hy@pagecounter=\count346
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 (c:/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count339
+\Hy@SavedSpaceFactor=\count347
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4062.
-Package hyperref Info: Hyper figures OFF on input line 4179.
-Package hyperref Info: Link nesting OFF on input line 4184.
-Package hyperref Info: Hyper index ON on input line 4187.
-Package hyperref Info: Plain pages OFF on input line 4194.
-Package hyperref Info: Backreferencing OFF on input line 4199.
+Package hyperref Info: Option `unicode' set `true' on input line 4040.
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count340
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count348
 
 (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen300
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen301
 
 (c:/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1067,37 +1070,37 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count341
-\Field@Width=\dimen301
-\Fld@charsize=\dimen302
-Package hyperref Info: Hyper figures OFF on input line 6063.
-Package hyperref Info: Link nesting OFF on input line 6068.
-Package hyperref Info: Hyper index ON on input line 6071.
-Package hyperref Info: backreferencing OFF on input line 6078.
-Package hyperref Info: Link coloring OFF on input line 6083.
-Package hyperref Info: Link coloring with OCG OFF on input line 6088.
-Package hyperref Info: PDF/A mode OFF on input line 6093.
+\Fld@menulength=\count349
+\Field@Width=\dimen302
+\Fld@charsize=\dimen303
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
 
 (c:/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count342
-\c@Item=\count343
-\c@Hfootnote=\count344
+\Hy@abspage=\count350
+\c@Item=\count351
+\c@Hfootnote=\count352
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-01-20 v7.01h Hyperref driver for pdfTeX
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
 
 (c:/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count345
-\c@bookmark@seq@number=\count346
+\Fld@listcount=\count353
+\c@bookmark@seq@number=\count354
 
 (c:/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -1108,10 +1111,10 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip53
+\Hy@SectionHShift=\skip54
 )
 (c:/texlive/2024/texmf-dist/tex/latex/currfile/currfile.sty
-Package: currfile 2022/10/10 v0.8 Provides the file path elements of the curren
+Package: currfile 2024/03/14 v1.0 Provides the file path elements of the curren
 t input file
 
 (c:/texlive/2024/texmf-dist/tex/latex/filehook/filehook.sty
@@ -1120,11 +1123,11 @@ Package: filehook 2022/10/25 v0.8b Hooks for input files
 (c:/texlive/2024/texmf-dist/tex/latex/filehook/filehook-2020.sty
 Package: filehook-2020 2022/10/25 v0.8b Hooks for input files
 ))
-\c@currfiledepth=\count347
+\c@currfiledepth=\count355
 )
 (c:/texlive/2024/texmf-dist/tex/latex/contour/contour.sty
 Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
-\con@length=\skip54
+\con@length=\skip55
 
 Loading configuration file `contour.cfg'.
 (c:/texlive/2024/texmf-dist/tex/latex/contour/contour.cfg
@@ -1148,62 +1151,62 @@ x)
 (c:/texlive/2024/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.tex
 )) (c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.sty
 (c:/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count348
-\l__lipsum_a_int=\count349
-\l__lipsum_b_int=\count350
+\g__lipsum_par_int=\count356
+\l__lipsum_a_int=\count357
+\l__lipsum_b_int=\count358
 
 (c:/texlive/2024/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (c:/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box94
-\sift@deathcycles=\count351
-\@vwid@loff=\dimen303
-\@vwid@roff=\dimen304
+\@vwid@box=\box95
+\sift@deathcycles=\count359
+\@vwid@loff=\dimen304
+\@vwid@roff=\dimen305
 )
 (c:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
-\LTleft=\skip55
-\LTright=\skip56
-\LTpre=\skip57
-\LTpost=\skip58
-\LTchunksize=\count352
-\LTcapwidth=\dimen305
-\LT@head=\box95
-\LT@firsthead=\box96
-\LT@foot=\box97
-\LT@lastfoot=\box98
-\LT@gbox=\box99
-\LT@cols=\count353
-\LT@rows=\count354
-\c@LT@tables=\count355
-\c@LT@chunks=\count356
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count360
+\LTcapwidth=\dimen306
+\LT@head=\box96
+\LT@firsthead=\box97
+\LT@foot=\box98
+\LT@lastfoot=\box99
+\LT@gbox=\box100
+\LT@cols=\count361
+\LT@rows=\count362
+\c@LT@tables=\count363
+\c@LT@chunks=\count364
 \LT@p@ftn=\toks49
 )
 (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip59
-\multirow@cntb=\count357
-\multirow@dima=\skip60
-\bigstrutjot=\dimen306
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip60
+\multirow@cntb=\count365
+\multirow@dima=\skip61
+\bigstrutjot=\dimen307
 )
 (c:/texlive/2024/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 
 (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen307
-\ar@mcellbox=\box100
-\extrarowheight=\dimen308
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen308
+\ar@mcellbox=\box101
+\extrarowheight=\dimen309
 \NC@list=\toks50
-\extratabsurround=\skip61
-\backup@length=\skip62
-\ar@cellbox=\box101
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box102
 )
-\rotheadsize=\dimen309
-\c@nlinenum=\count358
+\rotheadsize=\dimen310
+\c@nlinenum=\count366
 \TeXr@lab=\toks51
 )
 (c:/texlive/2024/texmf-dist/tex/latex/diagbox/diagbox.sty
@@ -1222,37 +1225,37 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks52
-\@arclen=\dimen310
-\@arcrad=\dimen311
-\pIIe@tempdima=\dimen312
-\pIIe@tempdimb=\dimen313
-\pIIe@tempdimc=\dimen314
-\pIIe@tempdimd=\dimen315
-\pIIe@tempdime=\dimen316
-\pIIe@tempdimf=\dimen317
+\@arclen=\dimen311
+\@arcrad=\dimen312
+\pIIe@tempdima=\dimen313
+\pIIe@tempdimb=\dimen314
+\pIIe@tempdimc=\dimen315
+\pIIe@tempdimd=\dimen316
+\pIIe@tempdime=\dimen317
+\pIIe@tempdimf=\dimen318
 )
 (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count359
-\calc@Bcount=\count360
-\calc@Adimen=\dimen318
-\calc@Bdimen=\dimen319
-\calc@Askip=\skip63
-\calc@Bskip=\skip64
+\calc@Acount=\count367
+\calc@Bcount=\count368
+\calc@Adimen=\dimen319
+\calc@Bdimen=\dimen320
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count361
-\calc@Cskip=\skip65
+\calc@Ccount=\count369
+\calc@Cskip=\skip66
 )
-\diagbox@boxa=\box102
-\diagbox@boxb=\box103
-\diagbox@boxm=\box104
-\diagbox@wd=\dimen320
-\diagbox@ht=\dimen321
-\diagbox@insepl=\dimen322
-\diagbox@insepr=\dimen323
-\diagbox@outsepl=\dimen324
-\diagbox@outsepr=\dimen325
+\diagbox@boxa=\box103
+\diagbox@boxb=\box104
+\diagbox@boxm=\box105
+\diagbox@wd=\dimen321
+\diagbox@ht=\dimen322
+\diagbox@insepl=\dimen323
+\diagbox@insepr=\dimen324
+\diagbox@outsepl=\dimen325
+\diagbox@outsepr=\dimen326
 )
 (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -1260,17 +1263,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count362
-\Gm@cntv=\count363
-\c@Gm@tempcnt=\count364
-\Gm@bindingoffset=\dimen326
-\Gm@wd@mp=\dimen327
-\Gm@odd@mp=\dimen328
-\Gm@even@mp=\dimen329
-\Gm@layoutwidth=\dimen330
-\Gm@layoutheight=\dimen331
-\Gm@layouthoffset=\dimen332
-\Gm@layoutvoffset=\dimen333
+\Gm@cnth=\count370
+\Gm@cntv=\count371
+\c@Gm@tempcnt=\count372
+\Gm@bindingoffset=\dimen327
+\Gm@wd@mp=\dimen328
+\Gm@odd@mp=\dimen329
+\Gm@even@mp=\dimen330
+\Gm@layoutwidth=\dimen331
+\Gm@layoutheight=\dimen332
+\Gm@layouthoffset=\dimen333
+\Gm@layoutvoffset=\dimen334
 \Gm@dimlist=\toks53
 )
 (c:/texlive/2024/texmf-dist/tex/latex/capt-of/capt-of.sty
@@ -1282,60 +1285,60 @@ Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
 (c:/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count365
-\g__chemgreek_tmpa_int=\count366
+\l__chemgreek_tmpa_int=\count373
+\g__chemgreek_tmpa_int=\count374
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count367
-\__mhchem_arrow_extPgfLength_skip=\skip66
-\mhchem@minispace@tmp=\skip67
-\mhchem@minibackspace@tmp=\skip68
-\mhchem@bondwidth=\skip69
-\mhchem@bondheight=\skip70
-\mhchem@smallbondwidth@tmpA=\skip71
-\mhchem@smallbondwidth@tmpB=\skip72
-\mhchem@smallbondwidth=\skip73
-\mhchem@bondtmp@minussidebearingleft=\skip74
-\mhchem@bondtmp@minussidebearingright=\skip75
-\l__mhchem_option_version_int=\count368
-\mhchem@option@minusmathsidebearingleft=\dimen334
-\mhchem@option@minusmathsidebearingright=\dimen335
-\mhchem@option@minustextsidebearingleft=\dimen336
-\mhchem@option@minustextsidebearingright=\dimen337
+\l__mhchem_ce_distanceFromLastComma_int=\count375
+\__mhchem_arrow_extPgfLength_skip=\skip67
+\mhchem@minispace@tmp=\skip68
+\mhchem@minibackspace@tmp=\skip69
+\mhchem@bondwidth=\skip70
+\mhchem@bondheight=\skip71
+\mhchem@smallbondwidth@tmpA=\skip72
+\mhchem@smallbondwidth@tmpB=\skip73
+\mhchem@smallbondwidth=\skip74
+\mhchem@bondtmp@minussidebearingleft=\skip75
+\mhchem@bondtmp@minussidebearingright=\skip76
+\l__mhchem_option_version_int=\count376
+\mhchem@option@minusmathsidebearingleft=\dimen335
+\mhchem@option@minusmathsidebearingright=\dimen336
+\mhchem@option@minustextsidebearingleft=\dimen337
+\mhchem@option@minustextsidebearingright=\dimen338
 )
 (c:/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count369
-\l__siunitx_number_exponent_fixed_int=\count370
-\l__siunitx_number_min_decimal_int=\count371
-\l__siunitx_number_min_integer_int=\count372
-\l__siunitx_number_round_precision_int=\count373
-\l__siunitx_number_lower_threshold_int=\count374
-\l__siunitx_number_upper_threshold_int=\count375
-\l__siunitx_number_group_first_int=\count376
-\l__siunitx_number_group_size_int=\count377
-\l__siunitx_number_group_minimum_int=\count378
-\l__siunitx_angle_tmp_dim=\dimen338
-\l__siunitx_angle_marker_box=\box105
-\l__siunitx_angle_unit_box=\box106
-\l__siunitx_compound_count_int=\count379
+Package: siunitx 2025-01-21 v3.4.4 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count377
+\l__siunitx_number_exponent_fixed_int=\count378
+\l__siunitx_number_min_decimal_int=\count379
+\l__siunitx_number_min_integer_int=\count380
+\l__siunitx_number_round_precision_int=\count381
+\l__siunitx_number_lower_threshold_int=\count382
+\l__siunitx_number_upper_threshold_int=\count383
+\l__siunitx_number_group_first_int=\count384
+\l__siunitx_number_group_size_int=\count385
+\l__siunitx_number_group_minimum_int=\count386
+\l__siunitx_angle_tmp_dim=\dimen339
+\l__siunitx_angle_marker_box=\box106
+\l__siunitx_angle_unit_box=\box107
+\l__siunitx_compound_count_int=\count387
 
 (c:/texlive/2024/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 )
-\l__siunitx_table_tmp_box=\box107
-\l__siunitx_table_tmp_dim=\dimen339
-\l__siunitx_table_column_width_dim=\dimen340
-\l__siunitx_table_integer_box=\box108
-\l__siunitx_table_decimal_box=\box109
-\l__siunitx_table_uncert_box=\box110
-\l__siunitx_table_before_box=\box111
-\l__siunitx_table_after_box=\box112
-\l__siunitx_table_before_dim=\dimen341
-\l__siunitx_table_carry_dim=\dimen342
-\l__siunitx_unit_tmp_int=\count380
-\l__siunitx_unit_position_int=\count381
-\l__siunitx_unit_total_int=\count382
+\l__siunitx_table_tmp_box=\box108
+\l__siunitx_table_tmp_dim=\dimen340
+\l__siunitx_table_column_width_dim=\dimen341
+\l__siunitx_table_integer_box=\box109
+\l__siunitx_table_decimal_box=\box110
+\l__siunitx_table_uncert_box=\box111
+\l__siunitx_table_before_box=\box112
+\l__siunitx_table_after_box=\box113
+\l__siunitx_table_before_dim=\dimen342
+\l__siunitx_table_carry_dim=\dimen343
+\l__siunitx_unit_tmp_int=\count388
+\l__siunitx_unit_position_int=\count389
+\l__siunitx_unit_total_int=\count390
 )
 (./ex_test.sty
 Package: ex_test 15/03/2024 for Ex_test version 3.0 beta 6, Tran Anh Tuan and D
@@ -1506,13 +1509,13 @@ File: t5enc.dfu 2006/08/19 v1.1 UTF8 support for Vietnamese
    defining Unicode char U+2423 (decimal 9251)
 ))
 LaTeX Font Info:    Trying to load font information for T5+cmr on input line 11
-2.
+6.
 
 (c:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmr.fd
 File: t5cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 ))
 (c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks54
 \inpenc@posthook=\toks55
 )
@@ -1526,22 +1529,22 @@ Package: ntheorem 2011/08/15 1.33
 \theorem@@style=\toks57
 \theorembodyfont=\toks58
 \theoremnumbering=\toks59
-\theorempreskipamount=\skip76
-\theorempostskipamount=\skip77
-\theoremframepreskipamount=\skip78
-\theoremframepostskipamount=\skip79
-\theoreminframepreskipamount=\skip80
-\theoreminframepostskipamount=\skip81
+\theorempreskipamount=\skip77
+\theorempostskipamount=\skip78
+\theoremframepreskipamount=\skip79
+\theoremframepostskipamount=\skip80
+\theoreminframepreskipamount=\skip81
+\theoreminframepostskipamount=\skip82
 \theorem@preskip=\toks60
 \theorem@postskip=\toks61
 \theorem@framepreskip=\toks62
 \theorem@framepostskip=\toks63
 \theorem@inframepreskip=\toks64
 \theorem@inframepostskip=\toks65
-\theoremindent=\dimen343
-\theorem@indent=\dimen344
-\theoremrightindent=\dimen345
-\theorem@rightindent=\dimen346
+\theoremindent=\dimen344
+\theorem@indent=\dimen345
+\theoremrightindent=\dimen346
+\theorem@rightindent=\dimen347
 \theoremheaderfont=\toks66
 \theoremseparator=\toks67
 \theoremprework=\toks68
@@ -1550,62 +1553,61 @@ Package: ntheorem 2011/08/15 1.33
 \qedsymbol=\toks71
 \theoremkeyword=\toks72
 \qedsymbol=\toks73
-\thm@topsep=\skip82
-\thm@topsepadd=\skip83
+\thm@topsep=\skip83
+\thm@topsepadd=\skip84
 ) (c:/texlive/2024/texmf-dist/tex/latex/xtab/xtab.sty
 Package: xtab 2011/07/31 v2.3f Extended supertabular package
-\c@tracingst=\count383
-\PWSTcapht=\dimen347
-\ST@wd=\dimen348
-\ST@rightskip=\skip84
-\ST@leftskip=\skip85
-\ST@parfillskip=\skip86
-\c@PWSTtable=\count384
-\PWSTlastpage=\count385
-\PWSTpenultimate=\count386
-\PWSTcurpage=\count387
-\PWSTtempc=\count388
-\PWSTlines=\count389
-\PWST@lastht=\dimen349
-\PWST@generalht=\dimen350
-\PWST@ht=\dimen351
-\ST@pageleft=\dimen352
-\ST@headht=\dimen353
-\ST@tailht=\dimen354
-\ST@pagesofar=\dimen355
-\ST@pboxht=\dimen356
-\ST@lineht=\dimen357
-\ST@stretchht=\dimen358
-\ST@prevht=\dimen359
-\ST@toadd=\dimen360
-\ST@dimen=\dimen361
-\ST@pbox=\box113
+\c@tracingst=\count391
+\PWSTcapht=\dimen348
+\ST@wd=\dimen349
+\ST@rightskip=\skip85
+\ST@leftskip=\skip86
+\ST@parfillskip=\skip87
+\c@PWSTtable=\count392
+\PWSTlastpage=\count393
+\PWSTpenultimate=\count394
+\PWSTcurpage=\count395
+\PWSTtempc=\count396
+\PWSTlines=\count397
+\PWST@lastht=\dimen350
+\PWST@generalht=\dimen351
+\PWST@ht=\dimen352
+\ST@pageleft=\dimen353
+\ST@headht=\dimen354
+\ST@tailht=\dimen355
+\ST@pagesofar=\dimen356
+\ST@pboxht=\dimen357
+\ST@lineht=\dimen358
+\ST@stretchht=\dimen359
+\ST@prevht=\dimen360
+\ST@toadd=\dimen361
+\ST@dimen=\dimen362
+\ST@pbox=\box114
 )
 (c:/texlive/2024/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
-\c@tracingmulticols=\count390
-\mult@box=\box114
-\multicol@leftmargin=\dimen362
-\c@unbalance=\count391
-\c@collectmore=\count392
-\doublecol@number=\count393
-\multicoltolerance=\count394
-\multicolpretolerance=\count395
-\full@width=\dimen363
-\page@free=\dimen364
-\premulticols=\dimen365
-\postmulticols=\dimen366
-\multicolsep=\skip87
-\multicolbaselineskip=\skip88
-\partial@page=\box115
-\last@line=\box116
-\mc@boxedresult=\box117
-\maxbalancingoverflow=\dimen367
-\mult@rightbox=\box118
-\mult@grightbox=\box119
-\mult@firstbox=\box120
-\mult@gfirstbox=\box121
-\@tempa=\box122
+Package: multicol 2024/09/14 v1.9i multicolumn formatting (FMi)
+\c@tracingmulticols=\count398
+\mult@box=\box115
+\multicol@leftmargin=\dimen363
+\c@unbalance=\count399
+\c@collectmore=\count400
+\doublecol@number=\count401
+\multicoltolerance=\count402
+\multicolpretolerance=\count403
+\full@width=\dimen364
+\page@free=\dimen365
+\premulticols=\dimen366
+\postmulticols=\dimen367
+\multicolsep=\skip88
+\multicolbaselineskip=\skip89
+\partial@page=\box116
+\last@line=\box117
+\mc@boxedresult=\box118
+\maxbalancingoverflow=\dimen368
+\mult@rightbox=\box119
+\mult@grightbox=\box120
+\mult@firstbox=\box121
+\mult@gfirstbox=\box122
 \@tempa=\box123
 \@tempa=\box124
 \@tempa=\box125
@@ -1641,99 +1643,106 @@ Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
 \@tempa=\box155
 \@tempa=\box156
 \@tempa=\box157
-\c@minrows=\count396
-\c@columnbadness=\count397
-\c@finalcolumnbadness=\count398
-\last@try=\dimen368
-\multicolovershoot=\dimen369
-\multicolundershoot=\dimen370
-\mult@nat@firstbox=\box158
-\colbreak@box=\box159
-\mc@col@check@num=\count399
+\@tempa=\box158
+\c@minrows=\count404
+\c@columnbadness=\count405
+\c@finalcolumnbadness=\count406
+\last@try=\dimen369
+\multicolovershoot=\dimen370
+\multicolundershoot=\dimen371
+\mult@nat@firstbox=\box159
+\colbreak@box=\box160
+\mc@col@check@num=\count407
 )
 (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip89
-\f@nch@O@elh=\skip90
-\f@nch@O@erh=\skip91
-\f@nch@O@olh=\skip92
-\f@nch@O@orh=\skip93
-\f@nch@O@elf=\skip94
-\f@nch@O@erf=\skip95
-\f@nch@O@olf=\skip96
-\f@nch@O@orf=\skip97
+\f@nch@headwidth=\skip90
+\f@nch@offset@elh=\skip91
+\f@nch@offset@erh=\skip92
+\f@nch@offset@olh=\skip93
+\f@nch@offset@orh=\skip94
+\f@nch@offset@elf=\skip95
+\f@nch@offset@erf=\skip96
+\f@nch@offset@olf=\skip97
+\f@nch@offset@orf=\skip98
+\f@nch@height=\skip99
+\f@nch@footalignment=\skip100
+\f@nch@widthL=\skip101
+\f@nch@widthC=\skip102
+\f@nch@widthR=\skip103
+\@temptokenb=\toks74
 )
 (c:/texlive/2024/texmf-dist/tex/latex/answers/answers.sty
 Package: answers 2014/08/24 v2.16 Production of solution sheets in LaTeX2e
 
 (c:/texlive/2024/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks74
-\verbatim@line=\toks75
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks75
+\verbatim@line=\toks76
 \verbatim@in@stream=\read3
 ))
 (c:/texlive/2024/texmf-dist/tex/latex/probsoln/probsoln.sty
 Package: probsoln 2017/07/10 v3.05 (NLCT)
 \probsoln@write=\write4
-\probsoln@startyear=\count400
-\probsoln@startmonth=\count401
+\probsoln@startyear=\count408
+\probsoln@startmonth=\count409
 \probsoln@prev=\write5
 \probsoln@used=\write6
-\probsoln@prev@cutoff=\count402
-\@probN=\count403
-\@probselN=\count404
-\@rndselctr=\count405
-\r@ndcur=\count406
-\@ps@randtmp=\count407
-\@shfctr=\count408
-\@shfA=\count409
-\@shfB=\count410
-\@ps@forrand=\count411
-\@ps@forrand@level=\count412
+\probsoln@prev@cutoff=\count410
+\@probN=\count411
+\@probselN=\count412
+\@rndselctr=\count413
+\r@ndcur=\count414
+\@ps@randtmp=\count415
+\@shfctr=\count416
+\@shfA=\count417
+\@shfB=\count418
+\@ps@forrand=\count419
+\@ps@forrand@level=\count420
 )
 (c:/texlive/2024/texmf-dist/tex/latex/picinpar/picinpar.sty
 Pictures in Paragraphs. Version 1.3, November 22, 2022
-\br=\count413
-\bl=\count414
-\na=\count415
-\nb=\count416
-\tcdsav=\count417
-\tcl=\count418
-\tcd=\count419
-\tcn=\count420
-\cumtcl=\count421
-\cumpartcl=\count422
-\lftside=\dimen371
-\rtside=\dimen372
-\hpic=\dimen373
-\vpic=\dimen374
-\strutilg=\dimen375
-\picwd=\dimen376
-\topheight=\dimen377
-\ilg=\dimen378
-\lpic=\dimen379
-\lwindowsep=\dimen380
-\rwindowsep=\dimen381
-\cumpar=\dimen382
-\twa=\toks76
-\la=\toks77
-\ra=\toks78
-\ha=\toks79
-\pictoc=\toks80
-\rawtext=\box160
-\holder=\box161
-\windowbox=\box162
-\wartext=\box163
-\finaltext=\box164
-\aslice=\box165
-\bslice=\box166
-\wbox=\box167
-\wstrutbox=\box168
-\picbox=\box169
-\waslice=\box170
-\wbslice=\box171
-\fslice=\box172
+\br=\count421
+\bl=\count422
+\na=\count423
+\nb=\count424
+\tcdsav=\count425
+\tcl=\count426
+\tcd=\count427
+\tcn=\count428
+\cumtcl=\count429
+\cumpartcl=\count430
+\lftside=\dimen372
+\rtside=\dimen373
+\hpic=\dimen374
+\vpic=\dimen375
+\strutilg=\dimen376
+\picwd=\dimen377
+\topheight=\dimen378
+\ilg=\dimen379
+\lpic=\dimen380
+\lwindowsep=\dimen381
+\rwindowsep=\dimen382
+\cumpar=\dimen383
+\twa=\toks77
+\la=\toks78
+\ra=\toks79
+\ha=\toks80
+\pictoc=\toks81
+\rawtext=\box161
+\holder=\box162
+\windowbox=\box163
+\wartext=\box164
+\finaltext=\box165
+\aslice=\box166
+\bslice=\box167
+\wbox=\box168
+\wstrutbox=\box169
+\picbox=\box170
+\waslice=\box171
+\wbslice=\box172
+\fslice=\box173
 ) (c:/texlive/2024/texmf-dist/tex/latex/filecontents/filecontents.sty
 Package: filecontents 2023/04/02 v1.5a Create an external file from within a La
 TeX document
@@ -1745,28 +1754,28 @@ Package filecontents Warning: This package is obsolete. Disabling it and
 
 ) (c:/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty
 (c:/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count423
-\xs_countb=\count424
+\xs_counta=\count431
+\xs_countb=\count432
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/eepic/epic.sty
 Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
-\@@multicnt=\count425
-\d@lta=\count426
-\@delta=\dimen383
-\@@delta=\dimen384
-\@gridcnt=\count427
-\@joinkind=\count428
-\@dotgap=\dimen385
-\@ddotgap=\dimen386
-\@x@diff=\count429
-\@y@diff=\count430
-\x@diff=\dimen387
-\y@diff=\dimen388
-\@dotbox=\box173
-\num@segments=\count431
-\num@segmentsi=\count432
+\@@multicnt=\count433
+\d@lta=\count434
+\@delta=\dimen384
+\@@delta=\dimen385
+\@gridcnt=\count435
+\@joinkind=\count436
+\@dotgap=\dimen386
+\@ddotgap=\dimen387
+\@x@diff=\count437
+\@y@diff=\count438
+\x@diff=\dimen388
+\y@diff=\dimen389
+\@dotbox=\box174
+\num@segments=\count439
+\num@segmentsi=\count440
 \@datafile=\read4
 ) (c:/texlive/2024/texmf-dist/tex/latex/cntformats/cntformats.sty
 Package: cntformats 2014/07/20 v0.7 A different way to read counters. (CN)
@@ -1774,97 +1783,92 @@ Package: cntformats 2014/07/20 v0.7 A different way to read counters. (CN)
 (c:/texlive/2024/texmf-dist/tex/latex/cnltx/cnltx-base.sty
 Package: cnltx-base 2019/11/01 v0.15 LaTeX tools and documenting facilities (CN
 )
-\c@cnltx@tmpa=\count433
-\c@cnltx@tmpb=\count434
-\c@cnltx@tmpc=\count435
-\cnltx@tmpa@length=\skip98
-\cnltx@tmpb@length=\skip99
-\cnltx@tmpc@length=\skip100
+\c@cnltx@tmpa=\count441
+\c@cnltx@tmpb=\count442
+\c@cnltx@tmpc=\count443
+\cnltx@tmpa@length=\skip104
+\cnltx@tmpb@length=\skip105
+\cnltx@tmpc@length=\skip106
 
 (c:/texlive/2024/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )))
 (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
-(c:/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate-2023-10-10
-.sty
-Package: xtemplate 2023-10-10 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen389
-\l__xtemplate_tmp_int=\count436
-\l__xtemplate_tmp_muskip=\muskip18
-\l__xtemplate_tmp_skip=\skip101
-)) (c:/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
+Package: xtemplate 2024-08-16 L3 Experimental prototype document functions
+)
+(c:/texlive/2024/texmf-dist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 )
 (c:/texlive/2024/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip102
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip107
 \enit@outerparindent=\dimen390
-\enit@toks=\toks81
-\enit@inbox=\box174
-\enit@count@id=\count437
-\enitdp@description=\count438
+\enit@toks=\toks82
+\enit@inbox=\box175
+\enit@count@id=\count444
+\enitdp@description=\count445
 )
 \linepar=\dimen391
-\paroutindent=\skip103
-\lineheight=\skip104
-\c@iftcbcounter=\count439
-\wsh=\skip105
-\hsh=\skip106
-\dsh=\skip107
-\c@Solshort=\count440
-\c@debai=\count441
-\c@dapan=\count442
-\c@numTrue=\count443
-\c@numTrueSol=\count444
-\widthalpha=\skip108
-\widthalphaT=\skip109
-\widthalphaF=\skip110
-\widthcha=\skip111
-\widthchb=\skip112
-\widthchc=\skip113
-\widthchd=\skip114
-\widthche=\skip115
-\widthch=\skip116
-\tabmaxwidth=\skip117
-\fourthtabwidth=\skip118
-\halftabwidth=\skip119
-\fifthtabwidth=\skip120
-\thirdtabwidth=\skip121
-\wmothai=\skip122
-\wmothaiba=\skip123
-\wmothaibabon=\skip124
-\wbonnam=\skip125
-\wbabonnam=\skip126
-\whaibabonnam=\skip127
-\c@numChoice=\count445
-\tabcolsep=\skip128
-\lengthDS=\skip129
-\dorongfix=\skip130
-\dorong=\skip131
-\c@Solbook=\count446
-\c@Solution=\count447
+\paroutindent=\skip108
+\lineheight=\skip109
+\c@iftcbcounter=\count446
+\wsh=\skip110
+\hsh=\skip111
+\dsh=\skip112
+\c@Solshort=\count447
+\c@debai=\count448
+\c@dapan=\count449
+\c@numTrue=\count450
+\c@numTrueSol=\count451
+\widthalpha=\skip113
+\widthalphaT=\skip114
+\widthalphaF=\skip115
+\widthcha=\skip116
+\widthchb=\skip117
+\widthchc=\skip118
+\widthchd=\skip119
+\widthche=\skip120
+\widthch=\skip121
+\tabmaxwidth=\skip122
+\fourthtabwidth=\skip123
+\halftabwidth=\skip124
+\fifthtabwidth=\skip125
+\thirdtabwidth=\skip126
+\wmothai=\skip127
+\wmothaiba=\skip128
+\wmothaibabon=\skip129
+\wbonnam=\skip130
+\wbabonnam=\skip131
+\whaibabonnam=\skip132
+\c@numChoice=\count452
+\tabcolsep=\skip133
+\lengthDS=\skip134
+\dorongfix=\skip135
+\dorong=\skip136
+\c@Solbook=\count453
+\c@Solution=\count454
 
 WARNING: environment Solution already in use
-\c@ex=\count448
-\c@vdex=\count449
+\c@ex=\count455
+\c@vdex=\count456
 \heightline=\dimen392
 \widthimmini=\dimen393
 \heightimmini=\dimen394
 \heighttextimmini=\dimen395
 \himmini=\dimen396
 \spaceleft=\dimen397
-\imbox=\box175
-\imboxtext=\box176
-\myboxans=\box177
-\c@exrd=\count450
-\l__listsEX_depth_int=\count451
-\g__listsEX_int=\count452
-\g__listsEX_total_items_int=\count453
-\l__listsEX_columns_int=\count454
-\l__listsEX_rows_int=\count455
-\g__listsEX_current_col_num_int=\count456
-\g__listsEX_current_row_num_int=\count457
-\l__listsEX_item_columns_int=\count458
+\imbox=\box176
+\imboxtext=\box177
+\myboxans=\box178
+\c@exrd=\count457
+\l__listsEX_depth_int=\count458
+\g__listsEX_int=\count459
+\g__listsEX_total_items_int=\count460
+\l__listsEX_columns_int=\count461
+\l__listsEX_rows_int=\count462
+\g__listsEX_current_col_num_int=\count463
+\g__listsEX_current_row_num_int=\count464
+\l__listsEX_item_columns_int=\count465
 \l__listsEX_item_indent_dim=\dimen398
 \l__listsEX_item_default_indent_dim=\dimen399
 \l__listsEX_item_width_dim=\dimen400
@@ -1873,71 +1877,77 @@ WARNING: environment Solution already in use
 \l__listsEX_label_offset_dim=\dimen403
 \l__listsEX_label_default_offset_dim=\dimen404
 \l__listsEX_column_sep_dim=\dimen405
-\l__listsEX_after_item_skip=\skip132
-\l__listsEX_custom_after_item_skip=\skip133
-\l__listsEX_before_list_skip=\skip134
-\l__listsEX_after_list_skip=\skip135
-\l__listsEX_item_coffin=\box178
-\l__listsEX_label_coffin=\box179
-\c@listEX=\count459
-\l__listsEX_tmpa_int=\count460
-\l__listsEX_tmpb_int=\count461
-\l__listsEX_tmpa_coffin=\box180
+\l__listsEX_after_item_skip=\skip137
+\l__listsEX_custom_after_item_skip=\skip138
+\l__listsEX_before_list_skip=\skip139
+\l__listsEX_after_list_skip=\skip140
+\l__listsEX_item_coffin=\box179
+\l__listsEX_label_coffin=\box180
+\c@listEX=\count466
+\l__listsEX_tmpa_int=\count467
+\l__listsEX_tmpb_int=\count468
+\l__listsEX_tmpa_coffin=\box181
 
-Package xtemplate Info: Declaring object type 'listsEX' taking 3 argument(s)
-(xtemplate)             on line 2396.
+LaTeX template Info: Declaring template type 'listsEX' taking 3 argument(s) on
+(template)           line 2396.
 
 \l__listsEX_choice_width_dim=\dimen406
 \l__listsEX_choice_linewidth_dim=\dimen407
 \l__listsEX_choice_checkwidth_dim=\dimen408
 \l__listsEX_choice_raise_dim=\dimen409
-) (c:/texlive/2024/texmf-dist/tex/latex/esvect/esvect.sty
+) (c:/texlive/2024/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
+\everycr=\toks83
+\minrowclearance=\skip141
+\rownum=\count469
+)
+(c:/texlive/2024/texmf-dist/tex/latex/esvect/esvect.sty
 Package: esvect 
 \symesvector=\mathgroup11
 )
 \symsymbolsC=\mathgroup12
-LaTeX Font Info:    Redeclaring math symbol \parallel on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \parallel on input line 121.
 
 (c:/texlive/2024/texmf-dist/tex/latex/changepage/changepage.sty
 Package: changepage 2009/10/20 v1.0c check page and change page layout
-\c@cp@cntr=\count462
-\cp@tempcnt=\count463
+\c@cp@cntr=\count470
+\cp@tempcnt=\count471
 )
 (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage.sty
-Package: lastpage 2023/10/14 v2.0e lastpage: 2.09 or 2e? (HMM)
+Package: lastpage 2025/01/27 v2.1e lastpage: 2.09 or 2e? (HMM)
 
 (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpage2e.sty
-Package: lastpage2e 2023/10/14 v2.0e Decide which 2e lastpage version to use (H
+Package: lastpage2e 2025/01/27 v2.1e Decide which 2e lastpage version to use (H
 MM)
 
 (c:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
-Package: lastpagemodern 2023-10-14 v2.0e Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count464
+Package: lastpagemodern 2025-01-27 v2.1e Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count472
 ) 
 )) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
-Package: tcolorbox 2024/01/10 version 6.2.0 text color boxes
-\tcb@titlebox=\box181
-\tcb@upperbox=\box182
-\tcb@lowerbox=\box183
-\tcb@phantombox=\box184
-\c@tcbbreakpart=\count465
-\c@tcblayer=\count466
-\c@tcolorbox@number=\count467
-\l__tcobox_tmpa_box=\box185
+Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
+\tcb@titlebox=\box182
+\tcb@upperbox=\box183
+\tcb@lowerbox=\box184
+\tcb@phantombox=\box185
+\c@tcbbreakpart=\count473
+\c@tcblayer=\count474
+\c@tcolorbox@number=\count475
+\l__tcobox_tmpa_box=\box186
 \l__tcobox_tmpa_dim=\dimen410
-\tcb@temp=\box186
 \tcb@temp=\box187
 \tcb@temp=\box188
 \tcb@temp=\box189
+\tcb@temp=\box190
 
 (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
-Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
-\c@tcbrastercolumn=\count468
-\c@tcbrasterrow=\count469
-\c@tcbrasternum=\count470
-\c@tcbraster=\count471
+Library (tcolorbox): 'tcbraster.code.tex' version '6.4.1'
+\c@tcbrastercolumn=\count476
+\c@tcbrasterrow=\count477
+\c@tcbrasternum=\count478
+\c@tcbraster=\count479
 ) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
-Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
 (c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
 
@@ -1946,116 +1956,112 @@ Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
 )
 (c:/texlive/2024/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
-\l__tikzfill_img_box=\box190
+\l__tikzfill_img_box=\box191
 )) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
 )) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
-Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.4.1'
 (c:/texlive/2024/texmf-dist/tex/latex/pdfcol/pdfcol.sty
 Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
 )
 Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
-\tcb@testbox=\box191
-\tcb@totalupperbox=\box192
-\tcb@totallowerbox=\box193
+\tcb@testbox=\box192
+\tcb@totalupperbox=\box193
+\tcb@totallowerbox=\box194
 )
 (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
-Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.4.1'
 ) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
-Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.4.1'
 ) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
-Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.4.1'
 \tcbfitdim=\dimen411
 \tcb@lowerfitdim=\dimen412
 \tcb@upperfitdim=\dimen413
-\tcb@cur@hbadness=\count472
+\tcb@cur@hbadness=\count480
 ) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.4.1'
 (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
-Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcblistings.code.tex' version '6.4.1'
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count473
-\lst@gtempboxa=\box194
-\lst@token=\toks82
-\lst@length=\count474
+\lst@mode=\count481
+\lst@gtempboxa=\box195
+\lst@token=\toks84
+\lst@length=\count482
 \lst@currlwidth=\dimen414
-\lst@column=\count475
-\lst@pos=\count476
+\lst@column=\count483
+\lst@pos=\count484
 \lst@lostspace=\dimen415
 \lst@width=\dimen416
-\lst@newlines=\count477
-\lst@lineno=\count478
+\lst@newlines=\count485
+\lst@lineno=\count486
 \lst@maxwidth=\dimen417
 
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstpatch.sty
-File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
-\c@lstnumber=\count479
-\lst@skipnumbers=\count480
-\lst@framebox=\box195
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count487
+\lst@skipnumbers=\count488
+\lst@framebox=\box196
 )
 (c:/texlive/2024/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2024/02/21 1.10 listings configuration
+File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
-Package: listings 2024/02/21 1.10 (Carsten Heinz)
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
 
 (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
-Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.4.1'
 (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
-Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.4.1'
 )
-\c@tcblisting=\count481
+\c@tcblisting=\count489
 )) (c:/texlive/2024/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty
 Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
-
-(c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
-)
-)))
-(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
-Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
-) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
-Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
-) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
-Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
-) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
-Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
 ))
-\c@tcb@cnt@khung4=\count482
-\c@dang=\count483
+(c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.4.1'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.4.1'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.4.1'
+) (c:/texlive/2024/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.4.1'
+))
+\c@tcb@cnt@khung4=\count490
+\c@dang=\count491
  (c:/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box196
-\beforetitleunit=\skip136
-\aftertitleunit=\skip137
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box197
+\beforetitleunit=\skip142
+\aftertitleunit=\skip143
 \ttl@plus=\dimen418
 \ttl@minus=\dimen419
-\ttl@toksa=\toks83
+\ttl@toksa=\toks85
 \titlewidth=\dimen420
 \titlewidthlast=\dimen421
 \titlewidthfirst=\dimen422
 ) (./titledot.sty
 Package: titledot 2009/07/10 v1.0 Vietnamese section
 (c:/texlive/2024/texmf-dist/tex/latex/titlesec/titletoc.sty
-Package: titletoc 2023/10/27 v2.16 TOC entries
+Package: titletoc 2025/01/04 v2.17 TOC entries
 \ttl@leftsep=\dimen423
 ))
-\c@ttlp@side=\count484
-\ttlp@side=\count485
-\c@stt=\count486
-\c@mydn=\count487
-\c@vd=\count488
-\c@bt=\count489
-\c@EXp=\count490
-\c@mydl=\count491
-\c@mytc=\count492
-\c@myhq=\count493
-\c@mynx=\count494
+\c@ttlp@side=\count492
+\ttlp@side=\count493
+\c@stt=\count494
+\c@mydn=\count495
+\c@vd=\count496
+\c@bt=\count497
+\c@EXp=\count498
+\c@mydl=\count499
+\c@mytc=\count500
+\c@myhq=\count501
+\c@mynx=\count502
 
 (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/01/21 v0.5y Insert pages of external PDF documents (AM)
+Package: pdfpages 2025/01/30 v0.6e Insert pages of external PDF documents (AM)
 
 (c:/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
@@ -2067,61 +2073,61 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@fboxrule=\dimen428
 
 (c:/texlive/2024/texmf-dist/tex/latex/pdfpages/pppdftex.def
-File: pppdftex.def 2024/01/21 v0.5y Pdfpages driver for pdfTeX (AM)
+File: pppdftex.def 2025/01/30 v0.6e Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count495
-\AM@pagebox=\box197
-\AM@global@opts=\toks84
-\AM@pagecnt=\count496
-\AM@toc@title=\toks85
-\AM@lof@heading=\toks86
-\c@AM@survey=\count497
-\AM@templatesizebox=\box198
+\pdfpages@includegraphics@status=\count503
+\AM@pagebox=\box198
+\AM@global@opts=\toks86
+\AM@pagecnt=\count504
+\AM@toc@title=\toks87
+\AM@lof@heading=\toks88
+\c@AM@survey=\count505
+\AM@templatesizebox=\box199
 )
-\c@EX=\count498
-\c@BT=\count499
-\c@VD=\count500
+\c@EX=\count506
+\c@BT=\count507
+\c@VD=\count508
 
 (c:/texlive/2024/texmf-dist/tex/latex/qrcode/qrcode.sty
 Package: qrcode 2015/01/08 v1.51 QR code generation
-\c@qr@i=\count501
-\c@qr@j=\count502
-\qr@a=\count503
-\qr@b=\count504
-\qr@c=\count505
-\qr@for@depth=\count506
-\qr@for@maxdepth=\count507
-\qr@for@start=\count508
-\qr@for@end=\count509
-\qr@for@step=\count510
-\qr@newforcount=\count511
-\qr@newforcount=\count512
-\qr@desiredheight=\skip138
-\qr@modulesize=\skip139
-\qr@minipagewidth=\skip140
-\c@maski=\count513
-\c@maskj=\count514
-\c@totalones=\count515
-\c@penaltyi=\count516
-\c@penaltyii=\count517
-\c@penaltyiii=\count518
-\c@penaltyiv=\count519
-\c@qr@hexchars=\count520
-\qr@newforcount=\count521
-\c@qr@divisionsremaining=\count522
+\c@qr@i=\count509
+\c@qr@j=\count510
+\qr@a=\count511
+\qr@b=\count512
+\qr@c=\count513
+\qr@for@depth=\count514
+\qr@for@maxdepth=\count515
+\qr@for@start=\count516
+\qr@for@end=\count517
+\qr@for@step=\count518
+\qr@newforcount=\count519
+\qr@newforcount=\count520
+\qr@desiredheight=\skip144
+\qr@modulesize=\skip145
+\qr@minipagewidth=\skip146
+\c@maski=\count521
+\c@maskj=\count522
+\c@totalones=\count523
+\c@penaltyi=\count524
+\c@penaltyii=\count525
+\c@penaltyiii=\count526
+\c@penaltyiv=\count527
+\c@qr@hexchars=\count528
+\qr@newforcount=\count529
+\c@qr@divisionsremaining=\count530
 )
-\c@decuongso=\count523
-\c@deso=\count524
+\c@decuongso=\count531
+\c@deso=\count532
 
 
-Package array Warning: Column C is already defined on input line 1407.
+Package array Warning: Column C is already defined on input line 1408.
 
 
-Package array Warning: Column L is already defined on input line 1408.
+Package array Warning: Column L is already defined on input line 1409.
 
 LaTeX Font Info:    Overwriting math alphabet `\bdx' in version `bold'
 (Font)                  U/BOONDOX-cal/m/n --> U/BOONDOX-cal/b/n on input line 1
-419.
+420.
 ) (./cautruc17/LT-2.tex)
 (c:/texlive/2024/texmf-dist/tex/latex/background/background.sty
 Package: background 2014/03/04 v2.1 background material
@@ -2146,9 +2152,9 @@ Package everypage Warning: You appear to be running a version of LaTeX
 
 ) (c:/texlive/2024/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks87
-\AP@partial=\box199
-\AP@footins=\box256
+\AP@output=\toks89
+\AP@partial=\box256
+\AP@footins=\box257
 ))
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 80.
@@ -2178,17 +2184,17 @@ LaTeX Font Info:    ... okay on input line 80.
 
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count525
+\scratchcounter=\count533
 \scratchdimen=\dimen429
-\scratchbox=\box257
-\nofMPsegments=\count526
-\nofMParguments=\count527
-\everyMPshowfont=\toks88
-\MPscratchCnt=\count528
+\scratchbox=\box258
+\nofMPsegments=\count534
+\nofMParguments=\count535
+\everyMPshowfont=\toks90
+\MPscratchCnt=\count536
 \MPscratchDim=\dimen430
-\MPnumerator=\count529
-\makeMPintoPDFobject=\count530
-\everyMPtoPDFconversion=\toks89
+\MPnumerator=\count537
+\makeMPintoPDFobject=\count538
+\everyMPtoPDFconversion=\toks91
 ) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -2252,7 +2258,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 80.
-\c@lstlisting=\count531
+\c@lstlisting=\count539
  (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
@@ -2297,1316 +2303,796 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for T5+qag on input line 90
-.
+ (./data17/G12Y24B5.tex
+LaTeX Font Info:    Trying to load font information for T5+qag on input line 1.
 
 (c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/t5qag.fd
 File: t5qag.fd 2009/09/25 v1.2 font definition file for T5/qag
 )
-LaTeX Font Info:    Trying to load font information for T5+HLButlong on input l
-ine 90.
- (./t5hlbutlong.fd
-File: t5hlbutlong.fd 2007/04/07 Fontinst v1.927 font definitions for T5/HLButlo
-ng.
-)
-(./MAIN.toc
-LaTeX Font Info:    Trying to load font information for T5+put on input line 2.
-
- (c:/texlive/2024/texmf-dist/tex/latex/vntex/t5put.fd
-File: t5put.fd 2006/07/30 Fontinst v1.927 font definitions for T5/put.
-)
-LaTeX Font Info:    Trying to load font information for T5+cmss on input line 3
+LaTeX Font Info:    Trying to load font information for TS1+qag on input line 1
 .
 
-(c:/texlive/2024/texmf-dist/tex/latex/vntex/t5cmss.fd
-File: t5cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-))
-\tf@toc=\write8
-\openout8 = `MAIN.toc'.
+(c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qag.fd
+File: ts1qag.fd 2009/09/25 v1.2 font definition file for TS1/qag
+)
+Overfull \hbox (1.0pt too wide) in paragraph at lines 2--2
+|[][]
+ []
 
- [1
+LaTeX Font Info:    Trying to load font information for T5+put on input line 4.
 
+(c:/texlive/2024/texmf-dist/tex/latex/vntex/t5put.fd
+File: t5put.fd 2006/07/30 Fontinst v1.927 font definitions for T5/put.
+)
+LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
+ut line 5.
 
+(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
 
+LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
+(Font)              using `U/fontawesometwo/m/n' instead on input line 5.
 
-{bkhcm2.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-t5-sc.enc}{c
-:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-t5.enc}{c:/texlive/2024/te
-xmf-dist/fonts/enc/dvips/vntex/t5.enc}]
-LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <12> not available
-(Font)              Font shape `T5/qag/b/n' tried instead on input line 96.
-LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <15> not available
-(Font)              Font shape `T5/qag/b/n' tried instead on input line 96.
-LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <100> not available
-(Font)              Font shape `T5/qag/b/n' tried instead on input line 96.
-LaTeX Font Info:    Font shape `T5/qag/bx/n' in size <20> not available
-(Font)              Font shape `T5/qag/b/n' tried instead on input line 96.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
-
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 96
-.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 6.
+
 
 (c:/texlive/2024/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for OMX+yhex on input line 
-96.
+6.
 
 (c:/texlive/2024/texmf-dist/tex/latex/yhmath/OMXyhex.fd
 File: OMXyhex.fd 
 File: OMXyhex.fd 2013/07/03 v1.1 YH's humble contribution to TeX maths (NP)
 )
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 
-96.
+6.
 
 (c:/texlive/2024/texmf-dist/tex/latex/esvect/uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 9
-6.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
+.
 
 (c:/texlive/2024/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-<logo/logonencut.png, id=78, 391.96437pt x 280.54813pt>
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 96.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
- [2
-
- <./logo/logonencut.png>] (./data17/VN12-Y24-PH-SYL-017.tex
-Chương 3.
-LaTeX Font Info:    Calculating math sizes for size <16> on input line 1.
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <16> not available
-(Font)              size <17.28> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1.
-
-
-LaTeX Font Warning: Font shape `U/esvect/m/n' in size <16> not available
-(Font)              size <17.28> substituted on input line 1.
-
-contour: Using real outline for `12' on input line 1.
-<logo/logocut.png, id=86, 466.74374pt x 470.25688pt>
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 1.
-(pdftex.def)             Requested size: 56.98756pt x 57.41144pt.
-LaTeX Font Info:    Trying to load font information for TS1+qag on input line 3
-.
-(c:/texlive/2024/texmf-dist/tex/latex/tex-gyre/ts1qag.fd
-File: ts1qag.fd 2009/09/25 v1.2 font definition file for TS1/qag
-)
-Overfull \hbox (1.0pt too wide) in paragraph at lines 4--4
-|[][]
- []
-
-LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 7.
-(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
-File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
-)
-
-LaTeX Font Warning: Font shape `U/fontawesometwo/b/n' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 7.
-
-<figs/VN12-Y24-PH-SYL-017-1.jpg, id=87, 888.921pt x 252.945pt>
-File: figs/VN12-Y24-PH-SYL-017-1.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-1.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-1.jpg  used on input line 11.
-
-(pdftex.def)             Requested size: 473.73518pt x 134.80125pt.
-<figs/VN12-Y24-PH-SYL-017-2.jpg, id=88, 316.7835pt x 208.98074pt>
-File: figs/VN12-Y24-PH-SYL-017-2.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-2.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-2.jpg  used on input line 24.
-
-(pdftex.def)             Requested size: 210.54718pt x 138.8971pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 25.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 25.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[3
-
-
-{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2024
-/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc} <./logo/logocut.png
-> <./figs/VN12-Y24-PH-SYL-017-1.jpg>]
-<figs/VN12-Y24-PH-SYL-017-3.jpg, id=106, 963.6pt x 296.307pt>
-File: figs/VN12-Y24-PH-SYL-017-3.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-3.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-3.jpg  used on input line 43.
-
-(pdftex.def)             Requested size: 447.4228pt x 137.58238pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 53.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 53.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[4 <./figs/VN12-Y24-PH-SYL-017-2.jpg> <./figs/VN12-Y24-PH-SYL-017-3.jpg>]
-<figs/VN12-Y24-PH-SYL-017-4.jpg, id=118, 630.6762pt x 288.1164pt>
-File: figs/VN12-Y24-PH-SYL-017-4.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-4.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-4.jpg  used on input line 64.
-
-(pdftex.def)             Requested size: 298.20381pt x 136.23242pt.
-<figs/VN12-Y24-PH-SYL-017-5.jpg, id=119, 556.479pt x 297.2706pt>
-File: figs/VN12-Y24-PH-SYL-017-5.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-5.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-5.jpg  used on input line 73.
-
-(pdftex.def)             Requested size: 298.20381pt x 159.29901pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 74.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 74.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[5 <./figs/VN12-Y24-PH-SYL-017-4.jpg> <./figs/VN12-Y24-PH-SYL-017-5.jpg>]
-<figs/VN12-Y24-PH-SYL-017-6.jpg, id=128, 648.5028pt x 269.3262pt>
-File: figs/VN12-Y24-PH-SYL-017-6.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-6.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-6.jpg  used on input line 82.
-
-(pdftex.def)             Requested size: 298.20381pt x 123.84224pt.
-
-Overfull \hbox (1.0pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.0pt too wide) in paragraph at lines 31--31
 |[][]
  []
 
 
-Overfull \hbox (5.69046pt too wide) in paragraph at lines 91--91
+Overfull \hbox (5.69046pt too wide) in paragraph at lines 32--32
  []| $[]$[] 
  []
 
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+<logo/logocut.jpg, id=51, 135.43398pt x 135.1449pt>
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 47.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+[1{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-t5.enc}
+
+
+
+{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{c:/texlive/2024
+/texmf-dist/fonts/enc/dvips/vntex/t5.enc}{c:/texlive/2024/texmf-dist/fonts/enc/
+dvips/fontawesome/fontawesometwo.enc} <./logo/logocut.jpg>]
 LaTeX Font Info:    Trying to load font information for U+fontawesomeone on inp
-ut line 99.
+ut line 47.
+
 (c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
 File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
 )
 
 LaTeX Font Warning: Font shape `U/fontawesomeone/bx/n' undefined
-(Font)              using `U/fontawesomeone/m/n' instead on input line 99.
+(Font)              using `U/fontawesomeone/m/n' instead on input line 47.
 
-<figs/VN12-Y24-PH-SYL-017-7.jpg, id=131, 327.624pt x 342.5598pt>
-File: figs/VN12-Y24-PH-SYL-017-7.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017-7.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017-7.jpg  used on input line 104
-.
-(pdftex.def)             Requested size: 127.3261pt x 133.13257pt.
+LaTeX Font Info:    Font shape `U/BOONDOX-cal/m/n' will be
+(Font)              scaled to size 12.60004pt on input line 61.
+LaTeX Font Info:    Font shape `U/BOONDOX-cal/m/n' will be
+(Font)              scaled to size 8.40002pt on input line 61.
+LaTeX Font Info:    Font shape `U/BOONDOX-cal/m/n' will be
+(Font)              scaled to size 6.30002pt on input line 61.
+LaTeX Font Info:    Font shape `U/BOONDOX-cal/m/n' will be
+(Font)              scaled to size 10.50003pt on input line 64.
+LaTeX Font Info:    Font shape `U/BOONDOX-cal/m/n' will be
+(Font)              scaled to size 7.35002pt on input line 64.
+LaTeX Font Info:    Font shape `U/BOONDOX-cal/m/n' will be
+(Font)              scaled to size 5.25002pt on input line 64.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 109.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 109.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[6{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc} <
-./figs/VN12-Y24-PH-SYL-017-6.jpg>]
-Overfull \hbox (5.69046pt too wide) in paragraph at lines 111--111
+Overfull \hbox (5.69046pt too wide) in paragraph at lines 64--64
  []| $[]$[] 
  []
 
 
-LaTeX Font Warning: Font shape `U/fontawesometwo/m/it' undefined
-(Font)              using `U/fontawesometwo/m/n' instead on input line 139.
-
-LaTeX Font Info:    Trying to load font information for U+fontawesomethree on i
-nput line 142.
-(c:/texlive/2024/texmf-dist/tex/latex/fontawesome/ufontawesomethree.fd
-File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
-)
-
-LaTeX Font Warning: Font shape `U/fontawesomethree/bx/n' undefined
-(Font)              using `U/fontawesomethree/m/n' instead on input line 142.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 171.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 104.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 171.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[7{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomethree.enc}
- <./figs/VN12-Y24-PH-SYL-017-7.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
+<logo/logonencut.jpg, id=76, 356.83313pt x 265.49188pt>
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 104.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[2{c:/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc} <
+./logo/logonencut.jpg>]
+Overfull \hbox (5.69046pt too wide) in paragraph at lines 106--106
+ []| $[]$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
-
- []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 446.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 125.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 446.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[8]
-Overfull \hbox (1.0pt too wide) in paragraph at lines 448--448
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 125.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[3]
+Overfull \hbox (5.05324pt too wide) detected at line 125
+\OML/cmm/m/it/12 Q[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 m[]c[]\OT1/cmr/m/n/12 ^
+^A\OML/cmm/m/it/12 t \OT1/cmr/m/n/12 + 20 %\OML/cmm/m/it/12 m[]L \OT1/cmr/m/n/1
+2 = [] \OMS/cmsy/m/n/12 ^^A [] ^^A [] \OT1/cmr/m/n/12 + 20 % \OMS/cmsy/m/n/12 ^
+^A [] ^^A [] \OT1/cmr/m/n/12 = 1180[]8 []\OML/cmm/m/it/12 :
+ []
+
+
+Overfull \vbox (15.0pt too high) has occurred while \output is active []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 167.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 167.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[4]
+Overfull \hbox (5.69046pt too wide) in paragraph at lines 171--171
+ []| $[]$[] 
+ []
+
+<figs/VN12-Y24-PH-SYL-006-1.jpg, id=102, 795.4518pt x 202.8378pt>
+File: figs/VN12-Y24-PH-SYL-006-1.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-006-1.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-006-1.jpg  used on input line 173
+.
+(pdftex.def)             Requested size: 405.16887pt x 103.3159pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 206.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 206.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[5 <./figs/VN12-Y24-PH-SYL-006-1.jpg>]
+Overfull \hbox (21.02701pt too wide) detected at line 225
+\OMS/cmsy/m/n/12 , \OML/cmm/m/it/12 Q[] \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 m \O
+MS/cmsy/m/n/12 ^^A [] ^^A [] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 m \OMS/cmsy/m/n
+/12 ^^A [] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 m \OMS/cmsy/m/n/12 ^^A [] ^^A [] 
+\OT1/cmr/m/n/12 = 390400\OML/cmm/m/it/12 m
+ []
+
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 225.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 225.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[6]
+Overfull \hbox (1.0pt too wide) in paragraph at lines 227--227
 |[][]
  []
 
-Output from handle ans going to ans/VN12-Y24-PH-SYL-017P-TN.tex
-\ans@file=\write9
-\openout9 = `ans/VN12-Y24-PH-SYL-017P-TN.tex'.
+Output from handle ans going to ans/G12Y24B6TN.tex
+\ans@file=\write8
+\openout8 = `ans/G12Y24B6TN.tex'.
 
-LaTeX Font Info:    Trying to load font information for T5+pag on input line 45
-4.
+LaTeX Font Info:    Trying to load font information for T5+pag on input line 23
+2.
 (c:/texlive/2024/texmf-dist/tex/latex/vntex/t5pag.fd
 File: t5uag.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pag.
 )
 LaTeX Font Info:    Font shape `T5/pag/bx/n' in size <12> not available
-(Font)              Font shape `T5/pag/b/n' tried instead on input line 454.
+(Font)              Font shape `T5/pag/b/n' tried instead on input line 232.
 LaTeX Font Info:    Font shape `T5/pag/b/n' in size <12> not available
-(Font)              Font shape `T5/pag/db/n' tried instead on input line 454.
+(Font)              Font shape `T5/pag/db/n' tried instead on input line 232.
 Package hyperref Info: bookmark level for unknown ex defaults to 0 on input lin
-e 454.
-<figs/VN12-Y24-PH-SYL-017P-7.jpg, id=157, 716.6775pt x 261.97874pt>
-File: figs/VN12-Y24-PH-SYL-017P-7.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-7.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-7.jpg  used on input line 47
-6.
-(pdftex.def)             Requested size: 368.4616pt x 134.6907pt.
+e 232.
+
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 477.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 287.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 477.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 287.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[7]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 343.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 343.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[8]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 396.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 396.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
 [9]
+<figs/VN12-Y24-PH-SYL-005P-1.jpg, id=150, 209.583pt x 136.71075pt>
+File: figs/VN12-Y24-PH-SYL-005P-1.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-005P-1.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-005P-1.jpg  used on input line 42
+5.
+(pdftex.def)             Requested size: 146.70708pt x 95.69685pt.
+File: figs/VN12-Y24-PH-SYL-005P-1.jpg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-005P-1.jpg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-005P-1.jpg  used on input line 42
+5.
+(pdftex.def)             Requested size: 146.70708pt x 95.69685pt.
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 541.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 445.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 541.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[10 <./figs/VN12-Y24-PH-SYL-017P-7.jpg>]
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 445.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[10 <./figs/VN12-Y24-PH-SYL-005P-1.jpg>]
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 600.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 491.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 600.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 491.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
 [11]
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 685.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 697.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 705.
-
-
-LaTeX Font Warning: Command \LARGE invalid in math mode on input line 716.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 720.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 720.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[12]
-Output from handle ans going to ans/VN12-Y24-PH-SYL-017P-TF.tex
-\openout9 = `ans/VN12-Y24-PH-SYL-017P-TF.tex'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.737 	N
-        hận xét nào sau đây là \textbf{không đúng} khi nói về t...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.748 	C
-        ho hai nam châm thẳng đặt gần nhau và đối nhau:
-pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.757 	H
-        ình bên biểu diễn đường sức từ của hai nam châm th�...
-<figs/VN12-Y24-PH-SYL-017P-9.jpg, id=205, 383.031pt x 196.0926pt>
-File: figs/VN12-Y24-PH-SYL-017P-9.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-9.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-9.jpg  used on input line 75
-9.
-(pdftex.def)             Requested size: 184.2348pt x 94.32085pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 760.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 760.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[13]
-Output from handle ans going to ans/VN12-Y24-PH-SYL-017P-TL.tex
-\openout9 = `ans/VN12-Y24-PH-SYL-017P-TL.tex'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.781 	V
-        ẽ chiều của các đường sức từ tương ứng với nam ...
-<figs/VN12-Y24-PH-SYL-017P-1.jpg, id=215, 495.2904pt x 167.1846pt>
-File: figs/VN12-Y24-PH-SYL-017P-1.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-1.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-1.jpg  used on input line 78
-3.
-(pdftex.def)             Requested size: 421.1024pt x 142.14328pt.
-<figs/VN12-Y24-PH-SYL-017P-6.jpg, id=216, 392.06474pt x 151.767pt>
-File: figs/VN12-Y24-PH-SYL-017P-6.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-6.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-6.jpg  used on input line 78
-9.
-(pdftex.def)             Requested size: 315.82881pt x 122.2567pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 789.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 789.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[14 <./figs/VN12-Y24-PH-SYL-017P-9.jpg> <./figs/VN12-Y24-PH-SYL-017P-1.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.794 	M
-        ột cuộn dây dẫn được quấn quanh một lõi thép với ...
-<figs/VN12-Y24-PH-SYL-017P-2.jpg, id=228, 210.7875pt x 136.71075pt>
-File: figs/VN12-Y24-PH-SYL-017P-2.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-2.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-2.jpg  used on input line 79
-6.
-(pdftex.def)             Requested size: 157.9144pt x 102.42015pt.
-<figs/VN12-Y24-PH-SYL-017P-3.jpg, id=229, 251.13824pt x 169.23225pt>
-File: figs/VN12-Y24-PH-SYL-017P-3.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-3.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-3.jpg  used on input line 80
-3.
-(pdftex.def)             Requested size: 210.54718pt x 141.88556pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.807 	H
-        iện nay, tàu đệm từ là một trong những phương tiện ...
-<figs/VN12-Y24-PH-SYL-017P-4.jpg, id=231, 575.2692pt x 207.6558pt>
-File: figs/VN12-Y24-PH-SYL-017P-4.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-4.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-4.jpg  used on input line 80
-9.
-(pdftex.def)             Requested size: 315.82881pt x 114.00824pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 815.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 815.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[15 <./figs/VN12-Y24-PH-SYL-017P-6.jpg> <./figs/VN12-Y24-PH-SYL-017P-2.jpg> <./
-figs/VN12-Y24-PH-SYL-017P-3.jpg> <./figs/VN12-Y24-PH-SYL-017P-4.jpg>]
-<figs/VN12-Y24-PH-SYL-017P-5.jpg, id=238, 117.0774pt x 134.904pt>
-File: figs/VN12-Y24-PH-SYL-017P-5.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-017P-5.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-017P-5.jpg  used on input line 83
-0.
-(pdftex.def)             Requested size: 74.54715pt x 85.90187pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.834 	H
-        ãy xác định cực của các kim nam châm trong hình \ref{fig...
-
-Underfull \hbox (badness 10000) in paragraph at lines 834--835
-
- []
-
-)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 99.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 99.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[16 <./figs/VN12-Y24-PH-SYL-017P-5.jpg>] (./data17/VN12-Y24-PH-SYL-024.tex
-Overfull \hbox (1.0pt too wide) in paragraph at lines 2--2
+Overfull \hbox (1.0pt too wide) in paragraph at lines 520--520
 |[][]
  []
 
-Output from handle ans going to ans/VN12-Y24-PH-SYL-024-TN.tex
-\openout9 = `ans/VN12-Y24-PH-SYL-024-TN.tex'.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.8 	T
-      ương tác nào sau đây \textbf{không phải} là tương tác từ?
+l.524 		B
+         ảng dưới đây là nhiệt độ nóng chảy của một số...
+
 pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 	C
-       ảm ứng từ của một dòng điện chạy trong dây dẫn th�...
+l.543 	C
+        ầu chì là linh kiện được sử dụng để bảo vệ thi�...
+<figs/VN12-Y24-PH-SYL-007P-1.jpeg, id=168, 513.92pt x 419.5675pt>
+File: figs/VN12-Y24-PH-SYL-007P-1.jpeg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-007P-1.jpeg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-007P-1.jpeg  used on input line 5
+50.
+(pdftex.def)             Requested size: 71.9483pt x 58.73904pt.
+File: figs/VN12-Y24-PH-SYL-007P-1.jpeg Graphic file (type jpg)
+<use figs/VN12-Y24-PH-SYL-007P-1.jpeg>
+Package pdftex.def Info: figs/VN12-Y24-PH-SYL-007P-1.jpeg  used on input line 5
+50.
+(pdftex.def)             Requested size: 71.9483pt x 58.73904pt.
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 556.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 556.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[12]
+<figs/G12Y24B5-1.jpg, id=180, 462.97969pt x 210.03468pt>
+File: figs/G12Y24B5-1.jpg Graphic file (type jpg)
+<use figs/G12Y24B5-1.jpg>
+Package pdftex.def Info: figs/G12Y24B5-1.jpg  used on input line 560.
+(pdftex.def)             Requested size: 185.18858pt x 84.01237pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 	T
-       ừ trường \textbf{không} có xung quanh
+l.560 ...ludegraphics[scale=0.4]{figs/G12Y24B5-1}}
+                                                  
+File: figs/G12Y24B5-1.jpg Graphic file (type jpg)
+<use figs/G12Y24B5-1.jpg>
+Package pdftex.def Info: figs/G12Y24B5-1.jpg  used on input line 560.
+(pdftex.def)             Requested size: 185.18858pt x 84.01237pt.
+<figs/G12Y24B5-2.jpg, id=181, 940.9554pt x 317.988pt>
+File: figs/G12Y24B5-2.jpg Graphic file (type jpg)
+<use figs/G12Y24B5-2.jpg>
+Package pdftex.def Info: figs/G12Y24B5-2.jpg  used on input line 565.
+(pdftex.def)             Requested size: 470.47655pt x 158.9936pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 571.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 571.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[13 <./figs/VN12-Y24-PH-SYL-007P-1.JPEG> <./figs/G12Y24B5-1.jpg> <./figs/G12Y24
+B5-2.jpg>]
 pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.38 	M
-       ột đoạn dây có dòng điện được đặt trong từ trư�...
+l.583 	L
+        ạc đà là di sản nổi bật của Qatar và là một phần ...
+<figs/G12Y24B5-3.jpg, id=192, 1053.1847pt x 411.78844pt>
+File: figs/G12Y24B5-3.jpg Graphic file (type jpg)
+<use figs/G12Y24B5-3.jpg>
+Package pdftex.def Info: figs/G12Y24B5-3.jpg  used on input line 585.
+(pdftex.def)             Requested size: 421.26642pt x 164.71245pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 593.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 593.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[14 <./figs/G12Y24B5-3.jpg>]
+<figs/G12Y24B5-4.jpg, id=202, 395.22656pt x 258.9675pt>
+File: figs/G12Y24B5-4.jpg Graphic file (type jpg)
+<use figs/G12Y24B5-4.jpg>
+Package pdftex.def Info: figs/G12Y24B5-4.jpg  used on input line 605.
+(pdftex.def)             Requested size: 158.08781pt x 103.58514pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{ex.5}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 	T
-       rong các hình vẽ sau về chiều của cảm ứng từ $B$, dò...
-<figs/VN12-Y24-PH-SYL-025P-1.jpg, id=249, 963.6pt x 223.58531pt>
-File: figs/VN12-Y24-PH-SYL-025P-1.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-1.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-1.jpg  used on input line 53
-.
-(pdftex.def)             Requested size: 368.4616pt x 85.4921pt.
+l.605 ...ludegraphics[scale=0.4]{figs/G12Y24B5-4}}
+                                                  
+File: figs/G12Y24B5-4.jpg Graphic file (type jpg)
+<use figs/G12Y24B5-4.jpg>
+Package pdftex.def Info: figs/G12Y24B5-4.jpg  used on input line 605.
+(pdftex.def)             Requested size: 158.08781pt x 103.58514pt.
 
-pdfTeX warning (ext4): destination with the same identifier (name{ex.6}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.64 	M
-       ột đoạn dây dẫn thẳng dài $\SI{20}{\centi\meter}$ mang dò...
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 72.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 619.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 72.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[17 <./figs/VN12-Y24-PH-SYL-025P-1.jpg>]
-<figs/VN12-Y24-PH-SYL-025P-2.jpg, id=258, 296.307pt x 290.88675pt>
-File: figs/VN12-Y24-PH-SYL-025P-2.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-2.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-2.jpg  used on input line 82
-.
-(pdftex.def)             Requested size: 118.52069pt x 116.35263pt.
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 619.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[15 <./figs/G12Y24B5-4.jpg>]
+Overfull \hbox (1.0pt too wide) in paragraph at lines 621--621
+|[][]
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.626 	T
+        rên hình vẽ dưới đây biểu diễn đồ thị nhiệt đ�...
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.671 	V
+        ận động viên chạy Marathon mất rất nhiều nước trong...
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.681 M
+       ột ấm đun nước có công suất $\SI{500}{\watt}$ chứa $\SI...
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 682.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 682.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[16]
+pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.692 		N
+         gười ta bỏ một cục nước đá khối lượng $m_1=\SI{1...
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.5}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.702 B
+       ỏ $\SI{20}{\gram}$ tuyết có lẫn nước ở $\SI{0}{\celsius}$...
+
+pdfTeX warning (ext4): destination with the same identifier (name{ex.6}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.757 	N
+        gười ta dẫn hơi nước ở $\SI{100}{\celsius}$ vào một nh...
 
 pdfTeX warning (ext4): destination with the same identifier (name{ex.7}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 ...s[scale=0.4]{figs/VN12-Y24-PH-SYL-025P-2}}
-                                                  
-File: figs/VN12-Y24-PH-SYL-025P-2.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-2.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-2.jpg  used on input line 82
-.
-(pdftex.def)             Requested size: 118.52069pt x 116.35263pt.
-<figs/VN12-Y24-PH-SYL-025P-3.jpg, id=259, 333.04425pt x 347.49825pt>
-File: figs/VN12-Y24-PH-SYL-025P-3.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-3.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-3.jpg  used on input line 93
-.
-(pdftex.def)             Requested size: 99.91403pt x 104.25026pt.
+l.833 C
+       ho đồ thị biểu diễn sự thay đổi nhiệt độ của kh�...
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 859.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
+
+Underfull \hbox (badness 4353) has occurred while \output is active
+ [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
+ �[][]
+ []
+
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 859.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[17]
+Overfull \hbox (20.17224pt too wide) detected at line 867
+[] \OT1/cmr/m/n/12 = [] \OMS/cmsy/m/n/12 ) \OML/cmm/m/it/12 L \OT1/cmr/m/n/12 =
+ [] \OML/cmm/m/it/12 c\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 t \OT1/cmr/m/n/12 = [
+] \OMS/cmsy/m/n/12 ^^A [] ^^A [] \OT1/cmr/m/n/12 = 9 \OMS/cmsy/m/n/12 ^^A \OT1/
+cmr/m/n/12 10[] J\OML/cmm/m/it/12 =[]:
+ []
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{ex.8}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.93 ...s[scale=0.3]{figs/VN12-Y24-PH-SYL-025P-3}}
-                                                  
-File: figs/VN12-Y24-PH-SYL-025P-3.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-3.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-3.jpg  used on input line 93
-.
-(pdftex.def)             Requested size: 99.91403pt x 104.25026pt.
-<figs/VN12-Y24-PH-SYL-025P-4.jpg, id=260, 169.8345pt x 199.34476pt>
-File: figs/VN12-Y24-PH-SYL-025P-4.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-4.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-4.jpg  used on input line 10
-8.
-(pdftex.def)             Requested size: 84.91704pt x 99.67212pt.
+l.896 	M
+        ột bếp dầu đun sôi 1 lít nước đựng trong ấm bằng ...
 
 pdfTeX warning (ext4): destination with the same identifier (name{ex.9}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 	}
-        
-File: figs/VN12-Y24-PH-SYL-025P-4.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-4.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-4.jpg  used on input line 10
-8.
-(pdftex.def)             Requested size: 84.91704pt x 99.67212pt.
-<figs/VN12-Y24-PH-SYL-025P-5.jpg, id=261, 164.41425pt x 160.1985pt>
-File: figs/VN12-Y24-PH-SYL-025P-5.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-5.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-5.jpg  used on input line 12
-0.
-(pdftex.def)             Requested size: 106.86798pt x 104.12778pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.10}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.120 ...scale=0.65]{figs/VN12-Y24-PH-SYL-025P-5}}
-                                                  
-File: figs/VN12-Y24-PH-SYL-025P-5.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-5.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-5.jpg  used on input line 12
-0.
-(pdftex.def)             Requested size: 106.86798pt x 104.12778pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 122.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 122.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[18 <./figs/VN12-Y24-PH-SYL-025P-2.jpg> <./figs/VN12-Y24-PH-SYL-025P-3.jpg> <./
-figs/VN12-Y24-PH-SYL-025P-4.jpg> <./figs/VN12-Y24-PH-SYL-025P-5.jpg>]
-<figs/VN12-Y24-PH-SYL-025P-6.jpg, id=270, 362.5545pt x 310.15875pt>
-File: figs/VN12-Y24-PH-SYL-025P-6.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-6.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-6.jpg  used on input line 13
-6.
-(pdftex.def)             Requested size: 145.01923pt x 124.0613pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.11}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.136 	}
-        
-File: figs/VN12-Y24-PH-SYL-025P-6.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-6.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-6.jpg  used on input line 13
-6.
-(pdftex.def)             Requested size: 145.01923pt x 124.0613pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.12}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.142 	M
-        ột khung dây dẫn quay xung quanh một trục trong một mặt...
-<figs/VN12-Y24-PH-SYL-025P-7A.jpg, id=271, 134.30174pt x 101.178pt>
-File: figs/VN12-Y24-PH-SYL-025P-7A.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-7A.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7A.jpg  used on input line 1
-47.
-(pdftex.def)             Requested size: 184.2348pt x 138.7998pt.
-<figs/VN12-Y24-PH-SYL-025P-7B.jpg, id=272, 129.48375pt x 102.3825pt>
-File: figs/VN12-Y24-PH-SYL-025P-7B.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-7B.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7B.jpg  used on input line 1
-47.
-(pdftex.def)             Requested size: 184.2348pt x 145.69035pt.
-<figs/VN12-Y24-PH-SYL-025P-7C.jpg, id=273, 124.0635pt x 98.16675pt>
-File: figs/VN12-Y24-PH-SYL-025P-7C.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-7C.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7C.jpg  used on input line 1
-47.
-(pdftex.def)             Requested size: 184.2348pt x 145.77881pt.
-<figs/VN12-Y24-PH-SYL-025P-7D.jpg, id=274, 121.05225pt x 97.5645pt>
-File: figs/VN12-Y24-PH-SYL-025P-7D.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-7D.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7D.jpg  used on input line 1
-47.
-(pdftex.def)             Requested size: 184.2348pt x 148.49307pt.
-File: figs/VN12-Y24-PH-SYL-025P-7A.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-7A.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7A.jpg  used on input line 1
-47.
-(pdftex.def)             Requested size: 81.35727pt x 61.29237pt.
-File: figs/VN12-Y24-PH-SYL-025P-7B.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-7B.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7B.jpg  used on input line 1
-47.
-(pdftex.def)             Requested size: 81.35727pt x 64.33102pt.
-File: figs/VN12-Y24-PH-SYL-025P-7C.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-7C.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7C.jpg  used on input line 1
-47.
-(pdftex.def)             Requested size: 81.35727pt x 64.37383pt.
-File: figs/VN12-Y24-PH-SYL-025P-7D.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-7D.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-7D.jpg  used on input line 1
-47.
-(pdftex.def)             Requested size: 81.35727pt x 65.5733pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.13}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.152 	M
-        ột khung dây phẳng gồm $N$ vòng dây, tiết diện hình tr...
-<figs/VN12-Y24-PH-SYL-025P-8.jpg, id=275, 223.43475pt x 165.61874pt>
-File: figs/VN12-Y24-PH-SYL-025P-8.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-8.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-8.jpg  used on input line 17
-0.
-(pdftex.def)             Requested size: 156.40326pt x 115.93231pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.14}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.170 ...[scale=0.7]{figs/VN12-Y24-PH-SYL-025P-8}}
-                                                  
-File: figs/VN12-Y24-PH-SYL-025P-8.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-8.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-8.jpg  used on input line 17
-0.
-(pdftex.def)             Requested size: 156.40326pt x 115.93231pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.15}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.175 	N
-        ội dung nào sau đây về mô hình sóng điện từ là \text...
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 175.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 175.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[19 <./figs/VN12-Y24-PH-SYL-025P-6.jpg> <./figs/VN12-Y24-PH-SYL-025P-7A.jpg> <.
-/figs/VN12-Y24-PH-SYL-025P-7B.jpg> <./figs/VN12-Y24-PH-SYL-025P-7C.jpg> <./figs
-/VN12-Y24-PH-SYL-025P-7D.jpg> <./figs/VN12-Y24-PH-SYL-025P-8.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.16}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.185 	T
-        hiết bị nào sau đây chỉ hoạt động với dòng điện ...
-<figs/VN12-Y24-PH-SYL-025P-9.jpg, id=281, 367.97475pt x 130.68825pt>
-File: figs/VN12-Y24-PH-SYL-025P-9.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-9.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-9.jpg  used on input line 20
-4.
-(pdftex.def)             Requested size: 220.78654pt x 78.41354pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.17}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.204 ...[scale=0.6]{figs/VN12-Y24-PH-SYL-025P-9}}
-                                                  
-File: figs/VN12-Y24-PH-SYL-025P-9.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-9.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-9.jpg  used on input line 20
-4.
-(pdftex.def)             Requested size: 220.78654pt x 78.41354pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.18}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.210 	M
-        ột dòng điện xoay chiều có cường độ phụ thuộc th�...
-
-Overfull \hbox (4.61046pt too wide) in paragraph at lines 210--215
-[][]\T5/cmr/m/n/12 M�t d�ng ^^_i�n xoay chi�u c� c��ng ^^_� ph� thu�c th�i gian
- theo ph��ng tr�nh: $\OML/cmm/m/it/12 i \OT1/cmr/m/n/12 = 2 [](100\OML/cmm/m/it
-/12 ^^Yt\OT1/cmr/m/n/12 ) A$\T5/cmr/m/n/12 .
- []
-
-
-Overfull \hbox (1.0pt too wide) in paragraph at lines 220--220
-|[][]
- []
-
-Output from handle ans going to ans/VN12-Y24-PH-SYL-024-TF.tex
-\openout9 = `ans/VN12-Y24-PH-SYL-024-TF.tex'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.226 	T
-        heo lí thuyết cổ điển, mô hình nguyên tử hydrogen gồm...
-<figs/VN12-Y24-PH-SYL-025P-10.jpg, id=282, 389.2944pt x 212.4738pt>
-File: figs/VN12-Y24-PH-SYL-025P-10.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-10.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-10.jpg  used on input line 2
-28.
-(pdftex.def)             Requested size: 157.9144pt x 86.19081pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 234.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 234.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[20 <./figs/VN12-Y24-PH-SYL-025P-9.jpg> <./figs/VN12-Y24-PH-SYL-025P-10.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.239 	M
-        ột đoạn dây dẫn MN có khối lượng $m$, độ dài $L$, ...
-<figs/VN12-Y24-PH-SYL-025P-11.jpg, id=289, 367.3725pt x 118.64325pt>
-File: figs/VN12-Y24-PH-SYL-025P-11.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-11.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-11.jpg  used on input line 2
-41.
-(pdftex.def)             Requested size: 210.54718pt x 67.99846pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.252 	M
-        ột nam châm nhỏ $M$ được thả rơi xuyên qua một vòng ...
-<figs/VN12-Y24-PH-SYL-025P-12.jpg, id=290, 205.36725pt x 277.63725pt>
-File: figs/VN12-Y24-PH-SYL-025P-12.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-12.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-12.jpg  used on input line 2
-54.
-(pdftex.def)             Requested size: 105.27359pt x 142.32178pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 260.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 260.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[21 <./figs/VN12-Y24-PH-SYL-025P-11.jpg> <./figs/VN12-Y24-PH-SYL-025P-12.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.265 	D
-        òng điện do một máy phát điện tạo ra có cường độ...
-<figs/VN12-Y24-PH-SYL-025P-13.jpg, id=297, 296.307pt x 266.1945pt>
-File: figs/VN12-Y24-PH-SYL-025P-13.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-13.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-13.jpg  used on input line 2
-67.
-(pdftex.def)             Requested size: 210.54718pt x 189.15376pt.
-
-Overfull \hbox (1.0pt too wide) in paragraph at lines 279--279
-|[][]
- []
-
-Output from handle ans going to ans/VN12-Y24-PH-SYL-024-TL.tex
-\openout9 = `ans/VN12-Y24-PH-SYL-024-TL.tex'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.1}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.284 	T
-        rong một thí nghiệm đo cảm ứng từ bằng phương pháp ...
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 293.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
-
-Underfull \hbox (badness 4353) has occurred while \output is active
- [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
- �[][]
- []
-
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 293.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[22 <./figs/VN12-Y24-PH-SYL-025P-13.jpg>]
-pdfTeX warning (ext4): destination with the same identifier (name{ex.2}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.302 	M
-        ột đoạn dây dẫn thẳng có khối lượng trên đơn vị...
-<figs/VN12-Y24-PH-SYL-025P-14.jpg, id=304, 224.037pt x 169.8345pt>
-File: figs/VN12-Y24-PH-SYL-025P-14.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-14.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-14.jpg  used on input line 3
-14.
-(pdftex.def)             Requested size: 89.6132pt x 67.93259pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.3}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.314 ...scale=0.4]{figs/VN12-Y24-PH-SYL-025P-14}}
-                                                  
-File: figs/VN12-Y24-PH-SYL-025P-14.jpg Graphic file (type jpg)
-<use figs/VN12-Y24-PH-SYL-025P-14.jpg>
-Package pdftex.def Info: figs/VN12-Y24-PH-SYL-025P-14.jpg  used on input line 3
-14.
-(pdftex.def)             Requested size: 89.6132pt x 67.93259pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.4}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.322 	M
-        ột khung dây phẳng có diện tích tiết diện $\SI{40}{\cen...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.5}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.330 	T
-        rong thiên văn học, người ta có thể lập bản đồ các...
-
-pdfTeX warning (ext4): destination with the same identifier (name{ex.6}) has be
-en already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.338 	C
-        ho một dòng điện xoay chiều $i=\xsi{4 \sqrt{2} \cos \left(10...
+l.902 	Đ
+         ể đúc các vật bằng thép, người ta nấu chảy thép t...
 )
+\tf@thm=\write9
+\openout9 = `MAIN.thm'.
+
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
+(fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-File: logo/logocut.png Graphic file (type png)
-<use logo/logocut.png>
-Package pdftex.def Info: logo/logocut.png  used on input line 106.
-(pdftex.def)             Requested size: 42.67912pt x 42.99579pt.
+File: logo/logocut.jpg Graphic file (type jpg)
+<use logo/logocut.jpg>
+Package pdftex.def Info: logo/logocut.jpg  used on input line 118.
+(pdftex.def)             Requested size: 42.67912pt x 42.58736pt.
 
 Underfull \hbox (badness 4353) has occurred while \output is active
  [][][][]\T5/qag/m/n/10 L��ng Ho�ng Sang - 09.6175.0612\U/fontawesometwo/m/n/10
  �[][]
  []
 
-File: logo/logonencut.png Graphic file (type png)
-<use logo/logonencut.png>
-Package pdftex.def Info: logo/logonencut.png  used on input line 106.
-(pdftex.def)             Requested size: 455.24408pt x 325.85983pt.
-[23 <./figs/VN12-Y24-PH-SYL-025P-14.jpg>]
-\tf@thm=\write10
-\openout10 = `MAIN.thm'.
-
-
-
-enddocument/afterlastpage: lastpage setting LastPage.
+File: logo/logonencut.jpg Graphic file (type jpg)
+<use logo/logonencut.jpg>
+Package pdftex.def Info: logo/logonencut.jpg  used on input line 118.
+(pdftex.def)             Requested size: 455.24408pt x 338.72655pt.
+[18] 
+enddocument/afterlastpage (AED): lastpage setting LastPage.
 (./MAIN.aux)
  ***********
-LaTeX2e <2023-11-01> patch level 1
+LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.28pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `MAIN.out' has not changed.
-(rerunfilecheck)             Checksum: 4F5246D8B4FBF0C6BC770739EACBC673;542.
+(rerunfilecheck)             Checksum: DA9E5F692A94A8FF96FE53B53A2A7470;308.
  ) 
 Here is how much of TeX's memory you used:
- 63465 strings out of 474116
- 1466341 string characters out of 5747718
- 3367039 words of memory out of 5000000
- 84452 multiletter control sequences out of 15000+600000
- 662156 words of font info for 184 fonts, out of 8000000 for 9000
+ 62524 strings out of 473201
+ 1442836 string characters out of 5720300
+ 2171121 words of memory out of 5000000
+ 84434 multiletter control sequences out of 15000+600000
+ 626820 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,19n,110p,1218b,1827s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<hlblong.ttf><c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontA
-wesome.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pf
-b><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/tex
-live/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:
-/texlive/2024/texmf-dist/fonts/type1/vntex/vntopia/putb8v.pfb><c:/texlive/2024/
-texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb><c:/texlive/2024/texmf-dist/fon
-ts/type1/public/tex-gyre/qagr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex
-/grotesqvn/ugqb8v.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/esvect/vec
-t10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnbx12.pfb><c:/texliv
-e/2024/texmf-dist/fonts/type1/vntex/vnr/vnbxti10.pfb><c:/texlive/2024/texmf-dis
-t/fonts/type1/vntex/vnr/vnr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex
-/vnr/vnr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb><c:/t
-exlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnssbx10.pfb><c:/texlive/2024/texm
-f-dist/fonts/type1/vntex/vnr/vnti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1
-/public/yhmath/yhcmex.pfb>
-Output written on MAIN.pdf (23 pages, 2593610 bytes).
+ 107i,21n,110p,1218b,2559s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb><c
+:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive
+/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
+.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vntopia/putb8v.pfb><c:/texli
+ve/2024/texmf-dist/fonts/type1/public/tex-gyre/qagb.pfb><c:/texlive/2024/texmf-
+dist/fonts/type1/public/tex-gyre/qagr.pfb><c:/texlive/2024/texmf-dist/fonts/typ
+e1/vntex/grotesqvn/ugqb8v.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr
+/vnbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/vntex/vnr/vnr12.pfb><c:/tex
+live/2024/texmf-dist/fonts/type1/vntex/vnr/vnr8.pfb><c:/texlive/2024/texmf-dist
+/fonts/type1/vntex/vnr/vnti12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/publi
+c/yhmath/yhcmex.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/boondox/zxxr
+w8a.pfb>
+Output written on MAIN.pdf (18 pages, 1209321 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
- 102 named destinations out of 1000 (max. 500000)
- 371 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 222 words of extra memory for PDF output out of 10000 (max. 10000000)
 

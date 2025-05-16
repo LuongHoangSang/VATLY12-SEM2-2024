@@ -47,6 +47,7 @@
 %--------------Gói trắc nghiệm EX-TEST
 \usepackage[loigiai]{ex_test} 
 %\usepackage[solcolor]{ex_test}
+\usepackage{colortbl}
 %--------------------------
 %----Lời giải, Hiền thị tên EX; Dấu kết thúc
 \font\damEX=ugqb8v at 11pt
@@ -1420,3 +1421,8 @@ underlay unbroken and first={
 \DeclareMathAlphabet{\bbdx}{U}{BOONDOX-cal}{b}{n}
 \newcommand{\calE}{\bdx{E}}
 \newcommand{\calP}{\bdx{P}}
+%--- hỗ trợ bảng 
+\renewcommand{\theadfont}
+{
+	\normalfont\bfseries
+} 
