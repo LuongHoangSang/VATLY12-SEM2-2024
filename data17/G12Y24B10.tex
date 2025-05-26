@@ -1,38 +1,64 @@
 \section{ĐỊNH LUẬT CHARLES}
 \subsection{LÝ THUYẾT TRỌNG TÂM}
-\begin{boxdl}
-	Khi áp suất của một khối lượng khí xác định được giữ không đổi thì thể tích của khí tỉ lệ thuận với nhiệt độ tuyệt đối của nó:
-	\begin{equation}
-		\dfrac{V}{T}=\text{hằng số}\quad \text{hay} \quad \dfrac{V_1}{T_1}=\dfrac{V_2}{T_2}
-	\end{equation}
-\end{boxdl}
-\begin{minipage}[t]{.45\linewidth}
-	\begin{center}
-		\begin{tikzpicture}  
-			\begin{axis}[  ultra thick,
-				xmin=-300,  
-				xmax=800,  
-				xtick={-273,0},
-				ytick=\empty,
-				ymin=0,  
-				ymax=900, 
-				samples=300,
-				%				xticklabels=\empty,
-				yticklabels=\empty,
-				axis lines=center, 
-				xlabel=$\xsi{t}{(\celsius)}$, 
-				ylabel=$V$, 
-				every axis y label/.style={at=(current axis.above origin),anchor=south},  
-				every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
-				\addplot [ultra thick, blue, smooth,dashed, domain=-273:-100] {0.8*(x+273)}; 
-				\addplot [ultra thick, blue, smooth, domain=-100:727] {0.8*(x+273)}; 
-			\end{axis}  
-			\node[label={[below]90:O}] at (1.9,-0.2){};
-		\end{tikzpicture}
-		\captionof{figure}{Đồ thị biểu diễn sự thay đổi thể tích khí theo nhiệt độ Celsius}
-	\end{center}
-\end{minipage}\hfill
-\begin{minipage}[t]{.45\linewidth}
+\begin{tomtat}
+	\begin{dl}
+		Khi áp suất của một khối lượng khí xác định được giữ không đổi thì thể tích của khí tỉ lệ thuận với nhiệt độ tuyệt đối của nó:
+		\begin{equation}
+			\dfrac{V}{T}=\text{hằng số}\quad \text{hay} \quad \dfrac{V_1}{T_1}=\dfrac{V_2}{T_2}
+		\end{equation}
+	\end{dl}
+	\begin{minipage}[t]{.45\linewidth}
+		\begin{center}
+			\begin{tikzpicture}  
+				\begin{axis}[  ultra thick,
+					xmin=-300,  
+					xmax=800,  
+					xtick={-273,0},
+					ytick=\empty,
+					ymin=0,  
+					ymax=900, 
+					samples=300,
+					%				xticklabels=\empty,
+					yticklabels=\empty,
+					axis lines=center, 
+					xlabel=$\xsi{t}{(\celsius)}$, 
+					ylabel=$V$, 
+					every axis y label/.style={at=(current axis.above origin),anchor=south},  
+					every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
+					\addplot [ultra thick, blue, smooth,dashed, domain=-273:-100] {0.8*(x+273)}; 
+					\addplot [ultra thick, blue, smooth, domain=-100:727] {0.8*(x+273)}; 
+				\end{axis}  
+				\node[label={[below]90:O}] at (1.9,-0.2){};
+			\end{tikzpicture}
+			\captionof{figure}{Đồ thị biểu diễn sự thay đổi thể tích khí theo nhiệt độ Celsius}
+		\end{center}
+	\end{minipage}\hfill
+	\begin{minipage}[t]{.45\linewidth}
+		\begin{center}
+			\begin{tikzpicture}  
+				\begin{axis}[  ultra thick,
+					xmin=0,  
+					xmax=1100,  
+					xtick=\empty,
+					ytick=\empty,
+					ymin=0,  
+					ymax=900, 
+					samples=300,
+					xticklabels=\empty,
+					yticklabels=\empty,
+					axis lines=center, 
+					xlabel=$\xsi{T}{(\kelvin)}$, 
+					ylabel=$V$, 
+					every axis y label/.style={at=(current axis.above origin),anchor=south},  
+					every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
+					\addplot [ultra thick, blue, smooth,dashed, domain=0:173] {0.8*x}; 
+					\addplot [ultra thick, blue, smooth, domain=173:1000] {0.8*x}; 
+				\end{axis}  
+				\node[label={[below left]90:O}] at (0,0){};
+			\end{tikzpicture}
+			\captionof{figure}{Đồ thị biểu diễn sự thay đổi thể tích khí theo nhiệt độ Kelvin}
+		\end{center}
+	\end{minipage}
 	\begin{center}
 		\begin{tikzpicture}  
 			\begin{axis}[  ultra thick,
@@ -46,47 +72,23 @@
 				xticklabels=\empty,
 				yticklabels=\empty,
 				axis lines=center, 
-				xlabel=$\xsi{T}{(\kelvin)}$, 
+				xlabel=$T$, 
 				ylabel=$V$, 
 				every axis y label/.style={at=(current axis.above origin),anchor=south},  
 				every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
 				\addplot [ultra thick, blue, smooth,dashed, domain=0:173] {0.8*x}; 
-				\addplot [ultra thick, blue, smooth, domain=173:1000] {0.8*x}; 
+				\addplot [ultra thick, blue, smooth, domain=173:1000] {0.8*x} node[right]{$p_2$}; 
+				\addplot [ultra thick, red, smooth,dashed, domain=0:173] {0.4*x}; 
+				\addplot [ultra thick, red, smooth, domain=173:1000] {0.4*x} node[right]{$p_1$};
 			\end{axis}  
 			\node[label={[below left]90:O}] at (0,0){};
 		\end{tikzpicture}
-		\captionof{figure}{Đồ thị biểu diễn sự thay đổi thể tích khí theo nhiệt độ Kelvin}
+		\captionof{figure}{Các đường đẳng áp của một khối khí lí tưởng ứng với các áp suất $p_1$ và $p_2 \left(p_2<p_1\right)$}
 	\end{center}
-\end{minipage}
-\begin{center}
-	\begin{tikzpicture}  
-		\begin{axis}[  ultra thick,
-			xmin=0,  
-			xmax=1100,  
-			xtick=\empty,
-			ytick=\empty,
-			ymin=0,  
-			ymax=900, 
-			samples=300,
-			xticklabels=\empty,
-			yticklabels=\empty,
-			axis lines=center, 
-			xlabel=$T$, 
-			ylabel=$V$, 
-			every axis y label/.style={at=(current axis.above origin),anchor=south},  
-			every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
-			\addplot [ultra thick, blue, smooth,dashed, domain=0:173] {0.8*x}; 
-			\addplot [ultra thick, blue, smooth, domain=173:1000] {0.8*x} node[right]{$p_2$}; 
-			\addplot [ultra thick, red, smooth,dashed, domain=0:173] {0.4*x}; 
-			\addplot [ultra thick, red, smooth, domain=173:1000] {0.4*x} node[right]{$p_1$};
-		\end{axis}  
-		\node[label={[below left]90:O}] at (0,0){};
-	\end{tikzpicture}
-	\captionof{figure}{Các đường đẳng áp của một khối khí lí tưởng ứng với các áp suất $p_1$ và $p_2 \left(p_2<p_1\right)$}
-\end{center}
-\begin{luuy}
-	Định luật Boyle và định luật Charles là các định luật đúng với khí lí tưởng, gần đúng với khí thực. Trong điều kiện áp suất cao và nhiệt độ thấp, kết quả thực nghiệm khí thực không phù hợp với các định luật trên.
-\end{luuy}
+	\begin{luuy}
+		Định luật Boyle và định luật Charles là các định luật đúng với khí lí tưởng, gần đúng với khí thực. Trong điều kiện áp suất cao và nhiệt độ thấp, kết quả thực nghiệm khí thực không phù hợp với các định luật trên.
+	\end{luuy}
+\end{tomtat}
 \subsection{VÍ DỤ MINH HOẠ}
 \begin{dang}{Vận dụng được định luật Charles}
 \end{dang}
@@ -373,30 +375,13 @@ Khi nhiệt độ của khối khí lí tưởng tăng từ $\SI{27}{\celsius}$ 
 \Closesolutionfile{ans}
 \subsection{TRẮC NGHIỆM ĐÚNG/SAI}
 \setcounter{ex}{0}
-% ===================================================================
-\begin{ex}
-\immini{	Hiện nay, nồi áp suất là một trong các thiệt bị gia dụng được sử dùng phổ biến. Nồi áp suất giúp rút ngắn thời gian đun nấu, đa dạng chế độ nấu và an toàn cao nhờ hệ thống khoá nắp nồi khi chưa xả hết khí ra ngoài.
-	\begin{enumerate}[label=\alph*)]
-		\item Trong quá trình đun, áp suất bên trong nồi cao hơn áp suất khí quyển.
-		\item Quá trình đun nấu diễn ra nhanh hơn do nước trong nồi áp suất sôi ở nhiệt độ thấp hơn $\SI{100}{\celsius}$.
-		\item Van xả khí giúp cho khí và hơi nước trong nồi được xả ra ngoài một cách từ từ đến khi cân bằng với áp suất bên ngoài.
-		\item Nếu không có khoá an toàn và mở nắp nồi khi khí chưa được xả ra ngoài thì nước trong nồi sẽ nhanh chóng chuyển thành hơi đồng thời phun ra ngoài.
-	\end{enumerate}}
-{\includegraphics[scale=0.4]{figs/VN12-Y24-PH-SYL-011P-5}
-}
-	\loigiai{\begin{enumerate}[label=\alph*)]
-			\item Đúng.
-			\item Sai.
-			\item Đúng.
-			\item Đúng.
-		\end{enumerate}
-	}
-\end{ex}
+
 \subsection{BÀI TẬP TỰ LUẬN}
 \setcounter{ex}{0}
 % ===================================================================
 \begin{ex}
-	Khi tăng nhiệt độ của một lượng khí xác định từ $\SI{32}{\celsius}$ lên $\SI{117}{\celsius}$ và giữ áp suất không đổi thì thể tích khí tăng thêm $\SI{1.7}{\liter}$. Thể tích của lượng khí sau khi tăng nhiệt độ là bao nhiêu?
+	Khi tăng nhiệt độ của một lượng khí xác định từ $\SI{32}{\celsius}$ lên $\SI{117}{\celsius}$ và giữ áp suất không đổi thì thể tích khí tăng thêm $\SI{1.7}{\liter}$. Thể tích của lượng khí sau khi tăng nhiệt độ là bao nhiêu lít?nKết quả làm tròn đến chữ số hàng phần mười.
+\shortans[oly]{7,8}
 	\loigiai{\begin{center}
 			\begin{tabular}{C{4cm} C{3cm} C{4cm}}
 				\colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 1}}} & $\xrightarrow[]{p_1=p_2}$ & \colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 2}}}\\
@@ -408,13 +393,15 @@ Khi nhiệt độ của khối khí lí tưởng tăng từ $\SI{27}{\celsius}$ 
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Khối lượng riêng không khí trong phòng ở nhiệt độ $\SI{27}{\celsius}$ lớn hơn khối lượng riêng của không khí ngoài sân nắng ở nhiệt độ $\SI{42}{\celsius}$ bao nhiêu lần. Biết áp suất không khí trong và ngoài phòng là như nhau.
+	Khối lượng riêng không khí trong phòng ở nhiệt độ $\SI{27}{\celsius}$ lớn hơn khối lượng riêng của không khí ngoài sân nắng ở nhiệt độ $\SI{42}{\celsius}$ bao nhiêu lần. Biết áp suất không khí trong và ngoài phòng là như nhau. Kết quả làm tròn đến chữ số hàng phần trăm.
+	\shortans[oly]{1,05}
 	\loigiai{$$\dfrac{D_1}{D_2}=\dfrac{V_2}{V_1}=\dfrac{T_2}{T_1}=1,05.$$
 	}
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Khí ở lò thoát ra theo ống khói hình trụ. Ở đầu dưới, khí có nhiệt độ $\SI{727}{\celsius}$ và chuyển động với tốc độ $\SI{5}{\meter/\second}$. Áp suất khí coi như không đổi. Ở đầu trên của ống, khí có nhiệt độ $\SI{227}{\celsius}$. Tốc độ của khí ở đầu trên bằng bao nhiêu?
+	Khí ở lò thoát ra theo ống khói hình trụ. Ở đầu dưới, khí có nhiệt độ $\SI{727}{\celsius}$ và chuyển động với tốc độ $\SI{5}{\meter/\second}$. Áp suất khí coi như không đổi. Ở đầu trên của ống, khí có nhiệt độ $\SI{227}{\celsius}$. Tốc độ của khí ở đầu trên bằng bao nhiêu \si{\meter/\second}? Kết quả làm tròn đến chữ số hàng phần mười.
+	\shortans[oly]{2,5}
 	\loigiai{\begin{center}
 			\begin{tabular}{C{4cm} C{3cm} C{4cm}}
 				\colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 1}}} & $\xrightarrow[]{p_1=p_2}$ & \colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 2}}}\\

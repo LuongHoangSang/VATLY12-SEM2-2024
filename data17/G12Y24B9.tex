@@ -1,59 +1,61 @@
 \section{ĐỊNH LUẬT BOYLE}
 \subsection{LÝ THUYẾT TRỌNG TÂM}
-\subsubsection{Trạng thái và quá trình biến đổi trạng thái}
-\begin{boxdn}
-	\textbf{Trạng thái của một khối khí } được xác định bằng ba thông số, gọi là thông số trạng thái của khối khí: thể tích $V$, áp suất $p$ và nhiệt độ tuyệt đối $T$. Giữa các thông số trạng thái của một khối khí xác định có những mối liên hệ mang tính quy luật.
-\end{boxdn}
-\begin{center}
-	\includegraphics[width=0.35\linewidth]{figs/VN12-Y24-PH-SYL-010-1}
-	\captionof{figure}{Xác định các thông số trạng thái của một lượng khí}
-\end{center}
-\begin{boxdn}
-	\textbf{Quá trình biến đổi trạng thái là} quá trình khối khí biến đổi từ trạng thái này sang trạng thái khác.\\
-	\textbf{Đẳng quá trình} là quá trình biến đổi trạng thái mà trong đó có một thông số trạng thái được giữ không đổi.\\
-	Các đẳng quá trình:
-	\begin{itemize}
-		\item Đẳng nhiệt là quá trình biến đổi trạng thái của một khối khí xác định, trong đó nhiệt độ được giữ không đổi.
-		\item Đẳng áp là quá trình biến đổi trạng thái của một khối khí xác định, trong đó áp suất được giữ không đổi.
-		\item Đẳng tích là quá trình biến đổi trạng thái của một khối khí xác định, trong đó thể tích được giữ không đổi.
-	\end{itemize}
-\end{boxdn}
-\begin{luuy}
-	Vì chất khí luôn chiếm toàn bộ dung tích của bình chứa nên thể tích của một lượng khí bằng dung tích bình chứa nó.
-\end{luuy}
-\subsubsection{Định luật Boyle}
-\begin{boxdl}
-	Ở nhiệt độ không đổi, áp suất của một khối khí xác định tỉ lệ nghịch với thể tích của nó.
-	\begin{equation}
-		pV=\text{hằng số}
-	\end{equation}
-\end{boxdl}
-Đường biểu diễn sự phụ thuộc của $p$ theo $V$ khi nhiệt độ của khối khí không đổi gọi là \textbf{đường đẳng nhiệt}.
-\begin{center}
-	\begin{tikzpicture}  
-		\begin{axis}[  ultra thick,
-			xmin=0,  
-			xmax=24,  
-			xtick=\empty,
-			ytick=\empty,
-			ymin=0,  
-			ymax=5.8, 
-			samples=300,
-			xticklabels=\empty,
-			yticklabels=\empty,
-			axis lines=center, 
-			xlabel=$V$, 
-			ylabel=$p$, 
-			every axis y label/.style={at=(current axis.above origin),anchor=south},  
-			every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
-			\addplot [ultra thick, blue, smooth, domain=1:20] {5/x} node[right] {$T_1$}; 
-			\addplot [ultra thick, red, smooth, domain=3:20] {15/x} node[right] {$T_2$}; 
-		\end{axis}  
-		\node[label={[below left]90:O}] at (0,0){};
-	\end{tikzpicture}
-	\captionof{figure}{Các đường đẳng nhiệt của một khối khí lí tưởng tương ứng với nhiệt độ $T_1$ và $T_2\left(T_2>T_1\right)$}
-	
-\end{center}
+\begin{tomtat}
+	\subsubsection{Trạng thái và quá trình biến đổi trạng thái}
+	\begin{boxdn}
+		\textbf{Trạng thái của một khối khí } được xác định bằng ba thông số, gọi là thông số trạng thái của khối khí: thể tích $V$, áp suất $p$ và nhiệt độ tuyệt đối $T$. Giữa các thông số trạng thái của một khối khí xác định có những mối liên hệ mang tính quy luật.
+	\end{boxdn}
+	\begin{center}
+		\includegraphics[width=0.35\linewidth]{figs/VN12-Y24-PH-SYL-010-1}
+		\captionof{figure}{Xác định các thông số trạng thái của một lượng khí}
+	\end{center}
+	\begin{dn}
+		\textbf{Quá trình biến đổi trạng thái là} quá trình khối khí biến đổi từ trạng thái này sang trạng thái khác.\\
+		\textbf{Đẳng quá trình} là quá trình biến đổi trạng thái mà trong đó có một thông số trạng thái được giữ không đổi.\\
+		Các đẳng quá trình:
+		\begin{itemize}
+			\item Đẳng nhiệt là quá trình biến đổi trạng thái của một khối khí xác định, trong đó nhiệt độ được giữ không đổi.
+			\item Đẳng áp là quá trình biến đổi trạng thái của một khối khí xác định, trong đó áp suất được giữ không đổi.
+			\item Đẳng tích là quá trình biến đổi trạng thái của một khối khí xác định, trong đó thể tích được giữ không đổi.
+		\end{itemize}
+	\end{dn}
+	\begin{luuy}
+		Vì chất khí luôn chiếm toàn bộ dung tích của bình chứa nên thể tích của một lượng khí bằng dung tích bình chứa nó.
+	\end{luuy}
+	\subsubsection{Định luật Boyle}
+	\begin{dl}
+		Ở nhiệt độ không đổi, áp suất của một khối khí xác định tỉ lệ nghịch với thể tích của nó.
+		\begin{equation}
+			pV=\text{hằng số}
+		\end{equation}
+	\end{dl}
+	Đường biểu diễn sự phụ thuộc của $p$ theo $V$ khi nhiệt độ của khối khí không đổi gọi là \textbf{đường đẳng nhiệt}.
+	\begin{center}
+		\begin{tikzpicture}  
+			\begin{axis}[  ultra thick,
+				xmin=0,  
+				xmax=24,  
+				xtick=\empty,
+				ytick=\empty,
+				ymin=0,  
+				ymax=5.8, 
+				samples=300,
+				xticklabels=\empty,
+				yticklabels=\empty,
+				axis lines=center, 
+				xlabel=$V$, 
+				ylabel=$p$, 
+				every axis y label/.style={at=(current axis.above origin),anchor=south},  
+				every axis x label/.style={at=(current axis.right of origin),anchor=west},  ]
+				\addplot [ultra thick, blue, smooth, domain=1:20] {5/x} node[right] {$T_1$}; 
+				\addplot [ultra thick, red, smooth, domain=3:20] {15/x} node[right] {$T_2$}; 
+			\end{axis}  
+			\node[label={[below left]90:O}] at (0,0){};
+		\end{tikzpicture}
+		\captionof{figure}{Các đường đẳng nhiệt của một khối khí lí tưởng tương ứng với nhiệt độ $T_1$ và $T_2\left(T_2>T_1\right)$}
+		
+	\end{center}
+\end{tomtat}
 \subsection{VÍ DỤ MINH HOẠ}
 \begin{dang}{Vận dụng định luật Boyle giải thích được một số hiện tượng trong thực tế}
 	\end{dang}
@@ -646,33 +648,7 @@ Trong một ống nhỏ dài, một đầu kín, một đầu hở, tiết diệ
 		$$p_2=p_1+h\Rightarrow x=\SI{6}{\centi\meter}.$$
 	}
 \end{ex}
-% ===================================================================
-\begin{ex}
-	\immini{
-	Một lượng không khí có thể tích $\SI{240}{\centi\meter^3}$ chứa trong một cylanh có piston đóng kín, tiết diện của piston là $\SI{24}{\centi\meter^2}$. Áp suất của không khí trong cylanh bằng áp suất không khí bên ngoài và bằng $\SI{100}{\kilo\pascal}$. Cần một lực bằng bao nhiêu để dịch chuyển piston $\SI{2}{\centi\meter}$ theo chiều làm thể tích khí giảm? Bỏ qua ma sát giữa piston và thành cylanh. Coi trong quá trình chuyển động nhiệt độ khí không đổi.
 
-}{
-\includegraphics[scale=0.5]{figs/VN12-Y24-PH-SYL-010P-3}
-}
-	\choice
-{$\SI{20}{\newton}$}
-{$\SI{80}{\newton}$}
-{\True $\SI{60}{\newton}$}
-{$\SI{40}{\newton}$}
-	
-	\loigiai{\begin{center}
-			\begin{tabular}{C{4cm} C{3cm} C{4cm}}
-				\colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 1}}} & $\xrightarrow[]{T_1=T_2}$ & \colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 2}}}\\
-				$p_1=\SI{100}{\kilo\pascal}$ & &$p_2=?$\\
-				$V_1=\SI{240}{\centi\meter^3}$ & & $V_2=\SI{192}{\centi\meter^3}$
-			\end{tabular}
-		\end{center}
-		Theo định luật Boyle:
-		$$p_1V_1=p_2V_2\Rightarrow p_2=\SI{125}{\kilo\pascal}.$$
-		Piston cân bằng khi:
-		$$F+p_0S=p_2S\Rightarrow F=\left(p_2-p_0\right)S=\SI{60}{\newton}.$$
-	}
-\end{ex}
 % ===================================================================
 \begin{ex}
 	Một bơm xe đạp hình trụ có đường kính trong là $\SI{3}{\centi\meter}$. Người ta dùng ngón tay bịt kín đầu vòi bơm và ấn piston từ từ để nén không khí trong bơm sao cho nhiệt độ không thay đổi. Lấy áp suất khí quyển là $p_0=\SI{E5}{\pascal}$. Để thể tích của không khí trong bơm giảm đi 4 lần thì lực tác dụng lên piston là
@@ -774,19 +750,20 @@ Cylanh và piston nhẹ cách nhiệt chứa bên trong nó một lượng khí 
 \setcounter{ex}{0}
 % ===================================================================
 \begin{ex}
-Khi nén đẳng nhiệt một lượng khí lí tưởng xác định thì	
-\begin{enumerate}[label=\alph*)]
-	\item thể tích khí giảm.
-	\item áp suất khí tăng.
-	\item số phân tử khí giảm.
-	\item mật độ phân tử khí tăng.
-\end{enumerate}
-	\loigiai{\begin{enumerate}[label=\alph*)]
-			\item Đúng.
-			\item Đúng.
-			\item Sai. Số phân tử khí không đổi.
-			\item Đúng.
-		\end{enumerate}
+	\immini{Có thể sử dụng bộ thí nghiệm (hình bên) để tìm hiểu về mối liên hệ giữa áp suất và thể tích của một lượng khí xác định ở nhiệt độ không đổi.
+		\choiceTF
+		{\True Trình tự thí nghiệm: Nén (giữ nguyên nhiệt độ) khí trong xilanh; Ghi giá trị thể tích và giá trị áp suất khí; Lặp lại các thao tác}
+		{\True Với kết quả thu được ở bảng bên, công thức liên hệ áp suất theo thể tích là $p=\dfrac{23}{V}$, $p$ đo bằng \si{\bar} $\left(\SI{1}{\bar}=\SI{E5}{\pascal}\right)$, $V$ đo bằng \si{\centi\meter^3}}
+		{Lượng khí đã dùng trong thí nghiệm là \SI{8E-4}{\mole}}
+		{Thí nghiệm này đã chứng minh được định luật Boyle}}
+	{\vspace{-0.5cm}\includegraphics[scale=0.3]{figs/G12Y24B9-2}}
+	\loigiai{
+	\begin{enumerate}[label=\alph*)]
+		\item Đúng.
+		\item Đúng.
+		\item Sai. $n=\dfrac{pV}{RT}\approx\dfrac{23\cdot10^{-6}\cdot10^5}{8,31\cdot\left(23,5+273\right)}\approx\SI{9.3E-4}{\mole}$.
+		\item Sai. Thí nghiệm này kiểm chứng định luật Boyle.
+	\end{enumerate}
 	}
 \end{ex}
 % ===================================================================
@@ -795,13 +772,11 @@ Khi nén đẳng nhiệt một lượng khí lí tưởng xác định thì
 	\begin{center}
 		\includegraphics[width=0.35\linewidth]{figs/VN12-Y24-PH-SYL-010P-11}
 	\end{center}
-	\begin{enumerate}[label=\alph*)]
-		\item Số mol của khối khí trên là $\SI{0.1}{\mole}$.
-		\item Đường biểu diễn quá trình nén đẳng nhiệt trong đồ thị trên là một cung hyperbol.
-		\item Thể tích khí ở trạng thái B là $\SI{1.12}{\liter}$.
-		\item Khi thể tích khối khí là $\SI{1.4}{\liter}$ thì áp suất khí là $\SI{3.136}{atm}$.
-	\end{enumerate}
-	
+	\choiceTF[t]
+	{\True Số mol của khối khí trên là $\SI{0.1}{\mole}$}
+	{\True Đường biểu diễn quá trình nén đẳng nhiệt trong đồ thị trên là một cung hyperbol}
+	{\True Thể tích khí ở trạng thái B là $\SI{1.12}{\liter}$}
+	{Khi thể tích khối khí là $\SI{1.4}{\liter}$ thì áp suất khí là $\SI{3.136}{atm}$}
 	\loigiai{\begin{enumerate}[label=\alph*)]
 			\item Đúng.
 			\item Đúng.
@@ -813,13 +788,11 @@ Khi nén đẳng nhiệt một lượng khí lí tưởng xác định thì
 % ===================================================================
 \begin{ex}
 	Một quả bóng thể tích $\SI{0.5}{\meter^3}$ được nối với một quả cầu sắt khối lượng $\SI{2.5E2}{\kilogram}$ và được ném xuống hồ nước. Quả bóng được làm từ vật liệu nhẹ và độ đàn hồi không đáng kể (mặc dù nó có thể bị nén). Ban đầu không khí trong bóng có áp suất bằng áp suất khí quyển bằng $\SI{1.01E5}{\pascal}$. Biết rằng khối lượng riêng của sắt, không khí và nước lần lượt  là $\SI{7.86E3}{\kilogram/\meter^3}$, $\SI{1.29}{\kilogram/\meter^3}$, $\SI{1000}{\kilogram/\meter^3}$. Xem rằng nhiệt độ quả bóng trong quá trình chìm vẫn không đổi.
-	\begin{enumerate}[label=\alph*)]
-		\item Áp suất và thể tích của khí trong quả bóng tuân theo định luật Boyle.
-		\item Thể tích quả bóng ở vị trí cân bằng là $\SI{0.218}{\meter^3}$.
-		\item Áp suất không khí trong quả bóng tại vị trí cân bằng là $\SI{2.31E5}{\pascal}.$
-		\item Độ sâu quả bóng đạt được tại vị trí cân bằng là $\SI{13.3}{\meter}$.
-	\end{enumerate}
-	
+	\choiceTF[t]
+	{\True Áp suất và thể tích của khí trong quả bóng tuân theo định luật Boyle}
+	{Thể tích quả bóng ở vị trí cân bằng là $\SI{0.218}{\meter^3}$}
+	{\True Áp suất không khí trong quả bóng tại vị trí cân bằng là $\SI{2.31E5}{\pascal}$}
+	{\True Độ sâu quả bóng đạt được tại vị trí cân bằng là $\SI{13.3}{\meter}$}
 	\loigiai{\begin{enumerate}[label=\alph*)]
 			\item Đúng.
 			\item Sai.
@@ -836,36 +809,67 @@ Khi nén đẳng nhiệt một lượng khí lí tưởng xác định thì
 		\end{enumerate}
 	}
 \end{ex}
+% ===================================================================
+\begin{ex}
+	\immini{Một chiếc ghế nâng hạ bằng khí thông qua chuyển động lên xuống của xi lanh nối với mặt ghế. Thanh nén khí cố định trên đế bịt kín một lượng khí trong xi lanh (như hình vẽ). Bỏ qua ma sát giữa thanh nén và xi lanh. Tổng khối lượng của mặt ghế và xi lanh là \SI{5}{\kilogram}, tiết diện của thanh nén là \SI{20}{\centi\meter^2}. Một học sinh nặng \SI{50}{\kilogram} ngồi lên ghế (hai chân để lơ lửng không chạm mặt sàn) thì khi ổn định ghế hạ xuống \SI{15}{\centi\meter}. Coi nhiệt độ của khí trong xi lanh không đổi, áp suất khí quyển là \SI{E5}{\pascal} và $g=\SI{10}{\meter/\second^2}$.}{\includegraphics[scale=0.4]{figs/G12Y24B9-1}}
+	\choiceTF[t]
+	{\True Quá trình ghế hạ xuống, khí trong xi lanh nhận công}
+	{\True Khi ghế để trống, áp suất của khí trong xi lanh là \SI{1.25E5}{\pascal}}
+	{Khi học sinh ngồi trên ghế, áp suất của khí trong xi lanh là \SI{3.5E5}{\pascal}}
+	{Khi ghế để trống, cột khí trong xi lanh dài là \SI{23.3}{\centi\meter}}
+	\loigiai{}
+\end{ex}
+% ========================================================
+\begin{ex}
+	\immini{Một nhóm học sinh thực hiện dự án: "Thiết kế và chế tạo bình phun nước". Nhóm thảo luận và đưa ra thiết kế như hình vẽ. Bình phun vừa chứa nước và chứa khí có tổng thể tích là $\SI{6.00}{\liter}$, phần chứa nước có thể tích tối đa là $\SI{5.00}{\liter}$. Khi bơm khí vào bình, van $k_1$ và $k_2$ chỉ cho khí truyền qua theo một chiều đi vào. Để nước phun ra khi mở khóa k thì áp suất khí nén trong bình phải có giá trị $p \geq \SI{1.20}{\bar}$. Lần đầu thử nghiệm, nhóm cấp nước tối đa cho bình; Sau đó bơm khí đến áp suất $p_1$; Mở khóa k để nước phun, lượng nước phun ra tối đa là $\SI{0.20}{\liter}$. Bỏ qua sự thay đổi nhiệt độ khi thao tác.}{\includegraphics[scale=0.25]{figs/G12Y24B9-3}}
+	\choiceTF[t]
+	{\True Việc đưa ra thiết kế là một trong các bước của quá trình thực hiện dự án}
+	{Trong quá trình phun nước, khối lượng riêng của khí trong bình không đổi}
+	{\True Giá trị của $p_1$ là $\SI{1.44}{\bar}$}
+	{Sau khi phun nước lần đầu, nhóm tiếp tục bơm khí vào bình đến áp suất $p_1$. Mở khóa k để tiếp tuc phun nước thì lượng nước phun tối đa là $\SI{0.40}{\liter}$}
+	\loigiai{
+	\begin{enumerate}[label=\alph*)]
+		\item Đúng.
+		\item Sai. Phun nước ra ngoài $\Rightarrow$ thể tích nước giảm $\Rightarrow$ thể tích khí tăng $\Rightarrow D=m/V$ thay đổi.
+		\item Đúng. Thể tích khí lúc sau là $V=\SI{1}{\liter}+\SI{0.2}{\liter}=\SI{1.2}{\liter}$\\
+		Đẳng nhiệt $\Rightarrow p_1 V_1=p V \Rightarrow \SI{1.44}{\bar} \cdot \SI{1}{\liter}=\SI{1.2}{\bar} \cdot \SI{1.2}{\liter} \Rightarrow p_1=\SI{1.44}{\bar}$.
+		\item Sai. Đẳng nhiệt $\Rightarrow p_1 V=p\left(V+V_{\text {phun}}\right) \Rightarrow p_1 \cdot \SI{1.2}{\liter}=\SI{1.2}{\bar} \cdot\left(\SI{1.2}{\liter}+V_{\text{phun}}\right) \Rightarrow V_{\text{phun}}=\SI{0.24}{\liter}$.
+	\end{enumerate}
+	}
+\end{ex}
 \subsection{BÀI TẬP TỰ LUẬN}
 \setcounter{ex}{0}
 % ===================================================================
 \begin{ex}
-	Để tăng thể tích của một khối lượng khí nhất định lên $\SI{10}{\percent}$ ở nhiệt độ không đổi thì cần giảm áp suất khí bao nhiêu $\si{\percent}$?
+	Để tăng thể tích của một khối lượng khí nhất định lên $\SI{10}{\percent}$ ở nhiệt độ không đổi thì cần giảm áp suất khí bao nhiêu $\si{\percent}$? Kết quả làm tròn đến chữ số hàng phần mười.
+\shortans[oly]{9,1}
 	\loigiai{$$\dfrac{p_2}{p_1}=\dfrac{V_1}{V_2}=\dfrac{1}{1,1}\approx\SI{90.9}{\percent}\Rightarrow\Delta p\approx\SI{9.1}{\percent}p_1.$$	
 	}
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Quá trình biến đổi trạng thái của một lượng khí lí tưởng xác định được biểu diễn bằng đồ thị hình vẽ. Biết ở trạng thái (1) khí có thể tích $\SI{100}{\centi\meter^3}$. Thể tích khí tại trạng thái (2) là bao nhiêu?
+	Quá trình biến đổi trạng thái của một lượng khí lí tưởng xác định được biểu diễn bằng đồ thị hình vẽ. Biết ở trạng thái (1) khí có thể tích $\SI{100}{\centi\meter^3}$. Thể tích khí tại trạng thái (2) là bao nhiêu \si{\centi\meter^3}?
 \begin{center}
 	\includegraphics[scale=0.5]{figs/VN12-Y24-PH-SYL-010P-1}
 \end{center}
+\shortans[oly]{25}
 	\loigiai{$$p_1V_1=p_2V_2\Rightarrow V_2=\SI{25}{\centi\meter^3}.$$
 	}
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Quá trình biến đổi trạng thái của một lượng khí xác định được biểu diễn bằng đồ thị hình vẽ. Áp suất của chất khí tại trạng thái (2) bằng bao nhiêu?
+	Quá trình biến đổi trạng thái của một lượng khí xác định được biểu diễn bằng đồ thị hình vẽ. Áp suất của chất khí tại trạng thái (2) bằng bao nhiêu \si{atm}?
 	\begin{center}
 		\includegraphics[width=0.45\linewidth]{figs/VN12-Y24-PH-SYL-010P-2}
 	\end{center}
-	
+	\shortans[oly]{2}
 	\loigiai{$$p_1V_1=p_2V_2\Rightarrow p_2=\SI{2}{atm}.$$
 	}
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Người ta điều chế khí hydrogen và chứa vào một bình lớn dưới áp suất $\SI{1}{atm}$. Tính thể tích khí phải lấy ra từ bình lớn để nạp vào bình nhỏ có thể tích $\SI{20}{\liter}$ ở áp suất $\SI{25}{atm}$. Coi quá trình nạp khí là đẳng nhiệt.
+	Người ta điều chế khí hydrogen và chứa vào một bình lớn dưới áp suất $\SI{1}{atm}$. Tính thể tích khí phải lấy ra từ bình lớn để nạp vào bình nhỏ có thể tích $\SI{20}{\liter}$ ở áp suất $\SI{25}{atm}$. Coi quá trình nạp khí là đẳng nhiệt. Kết quả tính theo đơn vị lít.
+	\shortans[oly]{500}
 	\loigiai{\begin{center}
 			\begin{tabular}{C{4cm} C{3cm} C{4cm}}
 				\colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 1}}} & $\xrightarrow[]{T_1=T_2}$ & \colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 2}}}\\
@@ -879,7 +883,8 @@ Khi nén đẳng nhiệt một lượng khí lí tưởng xác định thì
 \end{ex}
 % ===================================================================
 \begin{ex}
-Người ta nén đẳng nhiệt $\SI{3}{\gram}$ khí hydrogen ở điều kiện tiêu chuẩn $\left(p_0=\SI{1}{atm},\ T_0=\SI{273}{\kelvin}\right)$ đến áp suất $\SI{2}{atm}$. Thể tích của lượng khí đó sau khi biến đổi là bao nhiêu?	
+Người ta nén đẳng nhiệt $\SI{3}{\gram}$ khí hydrogen ở điều kiện tiêu chuẩn $\left(p_0=\SI{1}{atm},\ T_0=\SI{273}{\kelvin}\right)$ đến áp suất $\SI{2}{atm}$. Thể tích của lượng khí đó sau khi biến đổi là bao nhiêu lít?	Kết quả làm tròn đến chữ số hàng phần mười.
+\shortans[oly]{16,8}
 	\loigiai{\begin{center}
 			\begin{tabular}{C{4cm} C{3cm} C{4cm}}
 				\colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 1}}} & $\xrightarrow[]{T_1=T_2}$ & \colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 2}}}\\
@@ -893,15 +898,15 @@ Người ta nén đẳng nhiệt $\SI{3}{\gram}$ khí hydrogen ở điều kiệ
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Một khối khí ở $\SI{0}{\celsius}$ và áp suất $\SI{10}{atm}$ có thể tích $\SI{10}{\liter}$. Hỏi thể tích của khối khí ở điều kiện tiêu chuẩn là bao nhiêu?
-	
+	Một khối khí ở $\SI{0}{\celsius}$ và áp suất $\SI{10}{atm}$ có thể tích $\SI{10}{\liter}$. Hỏi thể tích của khối khí ở điều kiện tiêu chuẩn là bao nhiêu lít?
+	\shortans[oly]{100}
 	\loigiai{$\SI{100}{\liter}.$
 	}
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Một khối khí xác định dãn nở đẳng nhiệt từ thể tích ban đầu $\SI{5}{\liter}$ đến $\SI{12}{\liter}$ thì áp suất khối khí đã giảm một lượng $\SI{80}{\kilo\pascal}$. Áp suất ban đầu của khối khí bằng bao nhiêu?
-	
+	Một khối khí xác định dãn nở đẳng nhiệt từ thể tích ban đầu $\SI{5}{\liter}$ đến $\SI{12}{\liter}$ thì áp suất khối khí đã giảm một lượng $\SI{80}{\kilo\pascal}$. Áp suất ban đầu của khối khí bằng bao nhiêu kilo pascal (\si{\kilo\pascal})? Kết quả làm tròn đến chữ số hàng đơn vị.
+	\shortans[oly]{137}
 	\loigiai{\begin{center}
 			\begin{tabular}{C{4cm} C{3cm} C{4cm}}
 				\colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 1}}} & $\xrightarrow[]{T_1=T_2}$ & \colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 2}}}\\
@@ -915,18 +920,21 @@ Người ta nén đẳng nhiệt $\SI{3}{\gram}$ khí hydrogen ở điều kiệ
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Khối lượng riêng của không khí ở điều kiện chuẩn $\left(p=\SI{1}{atm},\ t=\SI{0}{\celsius}\right)$ là $\SI{1.28}{\kilogram/\meter^3}$. Hỏi ở áp suất bao nhiêu thì khối lượng riêng của không khí là $\SI{0.64}{\kilogram/\meter^3}$. Biết rằng nhiệt độ không khí không đổi.
+	Khối lượng riêng của không khí ở điều kiện chuẩn $\left(p=\SI{1}{atm},\ t=\SI{0}{\celsius}\right)$ là $\SI{1.28}{\kilogram/\meter^3}$. Hỏi ở áp suất bao nhiêu \si{atm} thì khối lượng riêng của không khí là $\SI{0.64}{\kilogram/\meter^3}$. Biết rằng nhiệt độ không khí không đổi.
+	\shortans[oly]{0,5}
 	\loigiai{$$\dfrac{p_2}{p_1}=\dfrac{V_1}{V_2}=\dfrac{\rho_2}{\rho_1}\Rightarrow p_2=\SI{0.5}{atm}.$$}
 \end{ex}
 % ===================================================================
 \begin{ex}
 	Dùng một bơm hơi dung tích $\SI{1.5}{\liter}$ để bơm cho một chiếc săm dung tích $\SI{5}{\liter}$. Hỏi cần phải bơm bao nhiêu lần để áp suất trong săm đạt $\SI{4}{atm}$. Biết rằng ban đầu không khí trong săm cũng có áp suất bằng áp suất khí quyển và bằng $\SI{1}{atm}$. Coi nhiệt độ không khí không đổi trong quá trình bơm.
+	\shortans[oly]{10}
 	\loigiai{10 lần.
 	}
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Ống thuỷ tinh một đầu kín dài $\SI{112.2}{\centi\meter}$, chứa không khí ở áp suất khí quyển $p_0=\SI{75}{\milli\meter Hg}$. Ấn ống xuống một chậu nước theo phương thẳng đứng, miệng ống ở dưới. Khi đáy ống ngang với mặt nước thì độ cao cột nước đi vào ống bằng bao nhiêu? Biết rằng khối lượng riêng của nước  và thuỷ ngân lần lượt là $\SI{1000}{\kilogram/\meter^3}$ và $\SI{13600}{\kilogram/\meter^3}$. Biết rằng nhiệt độ không khí không đổi.
+	Ống thuỷ tinh một đầu kín dài $\SI{112.2}{\centi\meter}$, chứa không khí ở áp suất khí quyển $p_0=\SI{75}{\milli\meter Hg}$. Ấn ống xuống một chậu nước theo phương thẳng đứng, miệng ống ở dưới. Khi đáy ống ngang với mặt nước thì độ cao cột nước đi vào ống bằng bao nhiêu centimet (\si{\centi\meter})? Biết rằng khối lượng riêng của nước  và thuỷ ngân lần lượt là $\SI{1000}{\kilogram/\meter^3}$ và $\SI{13600}{\kilogram/\meter^3}$. Biết rằng nhiệt độ không khí không đổi. Kết quả làm tròn đến chữ số hàng phần mười.
+	\shortans[oly]{10,2}
 	\loigiai{Gọi $x$ là chiều cao cột nước đi vào trong ống.\\
 		Áp suất không khí bên trong ống khi nhúng vào trong chậu nước:
 		$$p+\dfrac{x\cdot\rho_{\ce{H_2O}}}{\rho_{\ce{Hg}}}=p_0+\dfrac{\ell\cdot\rho_{\ce{H_2O}}}{\rho_{\ce{Hg}}}\Rightarrow p=p_0+\dfrac{\left(\ell-x\right)\rho_{\ce{H_2O}}}{\rho_{\ce{Hg}}}=p_0+\dfrac{\ell-x}{13,6}.$$
@@ -935,7 +943,8 @@ Người ta nén đẳng nhiệt $\SI{3}{\gram}$ khí hydrogen ở điều kiệ
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Ống thuỷ tinh một đầu kín dài $\SI{80}{\centi\meter}$, chứa không khí ở áp suất khí quyển $p_0=\SI{75}{\centi\meter Hg}$. Ấn ống xuống một chậu thuỷ ngân theo phương thẳng đứng, miệng ống ở dưới (thấp hơn) mặt thuỷ ngân $\SI{45}{\centi\meter}$. Độ cao cột thuỷ ngân đi vào ống bằng bao nhiêu? Biết rằng nhiệt độ không khí không đổi.
+	Ống thuỷ tinh một đầu kín dài $\SI{80}{\centi\meter}$, chứa không khí ở áp suất khí quyển $p_0=\SI{75}{\centi\meter Hg}$. Ấn ống xuống một chậu thuỷ ngân theo phương thẳng đứng, miệng ống ở dưới (thấp hơn) mặt thuỷ ngân $\SI{45}{\centi\meter}$. Độ cao cột thuỷ ngân đi vào ống bằng bao nhiêu centimet (\si{\centi\meter})? Biết rằng nhiệt độ không khí không đổi.
+	\shortans[oly]{20}
 	\loigiai{Gọi $x$ là chiều cao cột thuỷ ngân đi vào trong ống.\\
 		Áp suất không khí trong ống sau khi nhúng ngập trong thuỷ ngân:
 		$$p+x=45+p_0\Rightarrow p=p_0+45-x.$$
@@ -944,7 +953,8 @@ Người ta nén đẳng nhiệt $\SI{3}{\gram}$ khí hydrogen ở điều kiệ
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Một cylanh nằm ngang kín hai đầu, có thể tích $V=\SI{1.2}{\liter}$ và chứa không khí ở áp suất $p_0=\SI{E5}{\newton/\meter^2}$. Cylanh được chia thành 2 phần bằng nhau bởi piston mỏng khối lượng $m=\SI{100}{\gram}$ đặt thẳng đứng. Chiều dài cylanh $\SI{0.4}{\meter}$. Cylanh được quay với tốc độ góc $\omega$ quanh trục thẳng đứng ở giữa cylanh. Giá trị của $\omega$ bằng bao nhiêu nếu piston nằm cách trục quay đoạn $r=\SI{0.1}{\meter}$ khi có cân bằng tương đối? Biết rằng nhiệt độ khí trong cylanh là không đổi.
+	Một cylanh nằm ngang kín hai đầu, có thể tích $V=\SI{1.2}{\liter}$ và chứa không khí ở áp suất $p_0=\SI{E5}{\newton/\meter^2}$. Cylanh được chia thành 2 phần bằng nhau bởi piston mỏng khối lượng $m=\SI{100}{\gram}$ đặt thẳng đứng. Chiều dài cylanh $\SI{0.4}{\meter}$. Cylanh được quay với tốc độ góc $\omega$ quanh trục thẳng đứng ở giữa cylanh. Giá trị của $\omega$ bằng bao nhiêu \si{\radian/\second} nếu piston nằm cách trục quay đoạn $r=\SI{0.1}{\meter}$ khi có cân bằng tương đối? Biết rằng nhiệt độ khí trong cylanh là không đổi.
+	\shortans[oly]{200}
 	\loigiai{Áp dụng định luật Boyle cho mỗi ngăn khí:
 		$$\begin{cases}
 			p_0V_0=p_1V_1\\
@@ -962,12 +972,13 @@ Người ta nén đẳng nhiệt $\SI{3}{\gram}$ khí hydrogen ở điều kiệ
 % ===================================================================
 \begin{ex}
 	\immini{
-	Một phong vũ biểu chỉ sai vì có một ít không khí lọt vào ống. Ở áp suất khí quyển $p_0=\SI{755}{\milli\meter Hg}$ phong vũ biểu này chỉ $p_1=\SI{748}{\milli\meter Hg}$. Khi áp suất khí quyển là $p'_0=\SI{740}{\milli\meter Hg}$, phong vẽ biểu chỉ $p_2=\SI{736}{\milli\meter Hg}$. Coi diện tích mặt thuỷ ngân trong chậu lớn hơn nhiều so với tiết diện của ống, nhiệt độ không đổi. Chiều dài $\ell$ của ống phong vũ biểu bằng bao nhiêu?
+	Một phong vũ biểu chỉ sai vì có một ít không khí lọt vào ống. Ở áp suất khí quyển $p_0=\SI{755}{\milli\meter Hg}$ phong vũ biểu này chỉ $p_1=\SI{748}{\milli\meter Hg}$. Khi áp suất khí quyển là $p'_0=\SI{740}{\milli\meter Hg}$, phong vẽ biểu chỉ $p_2=\SI{736}{\milli\meter Hg}$. Coi diện tích mặt thuỷ ngân trong chậu lớn hơn nhiều so với tiết diện của ống, nhiệt độ không đổi. Chiều dài $\ell$ của ống phong vũ biểu bằng bao nhiêu millimet (\si{\milli\meter})?
 	
 }
 {\includegraphics[scale=0.5]{figs/VN12-Y24-PH-SYL-010P-9}
 
 }
+\shortans[oly]{764}
 	\loigiai{\begin{center}
 			\begin{tabular}{C{6cm} C{2.5cm} C{6cm}}
 				\colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 1}}} & $\xrightarrow[]{T_1=T_2}$ & \colorbox{yellow}{\textcolor{red}{\textbf{Trạng thái 2}}}\\
@@ -981,7 +992,8 @@ Người ta nén đẳng nhiệt $\SI{3}{\gram}$ khí hydrogen ở điều kiệ
 \end{ex}
 % ===================================================================
 \begin{ex}
-	Một ống thuỷ tinh có chiều dài $\ell=\SI{50}{\centi\meter}$, tiết diện $S=\SI{0.5}{\centi\meter^2}$, được hàn kín một đầu và chứa đầy không khí. Biết khối lượng ống $m=\SI{15}{\gram}$, áp suất khí quyển $p_0=\SI{760}{\milli\meter Hg}$ và nhiệt độ không khí trong ống là không đổi. Ấn ống chìm vào trong nước theo phương thẳng đứng, đầu kín ở trên. Để giữ ống trong nước sao cho đầu trên của ống thấp hơn mặt nước một đoạn $h=\SI{10}{\centi\meter}$ thì lực ấn cần đặt lên ống bằng bao nhiêu?
+	Một ống thuỷ tinh có chiều dài $\ell=\SI{50}{\centi\meter}$, tiết diện $S=\SI{0.5}{\centi\meter^2}$, được hàn kín một đầu và chứa đầy không khí. Biết khối lượng ống $m=\SI{15}{\gram}$, áp suất khí quyển $p_0=\SI{760}{\milli\meter Hg}$ và nhiệt độ không khí trong ống là không đổi. Ấn ống chìm vào trong nước theo phương thẳng đứng, đầu kín ở trên. Để giữ ống trong nước sao cho đầu trên của ống thấp hơn mặt nước một đoạn $h=\SI{10}{\centi\meter}$ thì lực ấn cần đặt lên ống bằng bao nhiêu newton? Kết quả làm tròn đến chữ số hàng phần trăm.
+	\shortans[oly]{0,09}
 	\loigiai{Gọi $x$ là chiều cao cột không khí trong ống khi nhúng ống thuỷ tinh vào trong nước.
 		\begin{center}
 			\includegraphics[width=0.1\linewidth]{figs/VN12-Y24-PH-SYL-010P-10}

@@ -1,28 +1,17 @@
 \contentsline {part}{I\hspace {1em}HỌC KỲ 1}{2}{part.1}%
-\contentsline {section}{\numberline {1}NỘI NĂNG - ĐỊNH LUẬT I NHIỆT ĐỘNG LỰC HỌC}{3}{section.1.1}%
-\contentsline {subsection}{\numberline {A}LÝ THUYẾT TRỌNG TÂM}{3}{subsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1}Nội năng}{3}{subsubsection.1.1.1.1}%
-\contentsline {paragraph}{\numberline {1.1}Khái niệm nội năng}{3}{paragraph.1.1.1.1.1}%
-\contentsline {paragraph}{\numberline {1.2}Mối liên hệ giữa nội năng và năng lượng của các phân tử cấu tạo nên vật}{3}{paragraph.1.1.1.1.2}%
-\contentsline {subsubsection}{\numberline {2}Các cách làm thay đổi nội năng}{3}{subsubsection.1.1.1.2}%
-\contentsline {paragraph}{\numberline {2.1}Thực hiện công}{3}{paragraph.1.1.1.2.1}%
-\contentsline {paragraph}{\numberline {2.2}Truyền nhiệt}{3}{paragraph.1.1.1.2.2}%
-\contentsline {subsubsection}{\numberline {3}Định luật I nhiệt động lực học}{4}{subsubsection.1.1.1.3}%
-\contentsline {subsection}{\numberline {B}VÍ DỤ MINH HOẠ}{4}{subsection.1.1.2}%
-\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Trình bày được các cách làm thay đổi nội năng}{4}{subsection.1.1.2}%
-\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Vận dụng định luật I nhiệt động lực học}{5}{figure.1.4}%
-\contentsline {subsection}{\numberline {C}BÀI TẬP TRẮC NGHIỆM}{6}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {D}TRẮC NGHIỆM ĐÚNG/SAI}{8}{subsection.1.1.4}%
-\contentsline {subsection}{\numberline {E}BÀI TẬP TỰ LUẬN VÀ TRẢ LỜI NGẮN}{10}{subsection.1.1.5}%
-\contentsline {section}{\numberline {2}NHIỆT DUNG RIÊNG}{11}{section.1.2}%
-\contentsline {subsection}{\numberline {A}LÝ THUYẾT TRỌNG TÂM}{11}{subsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1}Nhiệt dung riêng}{11}{subsubsection.1.2.1.1}%
-\contentsline {subsubsection}{\numberline {2}Nhiệt lượng trao đổi để khối chất thay đổi nhiệt độ}{11}{subsubsection.1.2.1.2}%
-\contentsline {subsubsection}{\numberline {3}Trạng thái cân bằng nhiệt của hệ nhiệt động}{11}{subsubsection.1.2.1.3}%
-\contentsline {subsection}{\numberline {B}VÍ DỤ MINH HOẠ}{11}{subsection.1.2.2}%
-\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Xác định nhiệt lượng trao đổi để khối chất thay đổi nhiệt độ}{11}{subsection.1.2.2}%
-\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Vận dụng phương trình cân bằng nhiệt}{12}{Item.12}%
-\contentsline {subsection}{\numberline {C}BÀI TẬP TRẮC NGHIỆM}{13}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {D}TRẮC NGHIỆM ĐÚNG/SAI}{15}{subsection.1.2.4}%
-\contentsline {subsection}{\numberline {E}BÀI TẬP TỰ LUẬN VÀ TRẢ LỜI NGẮN}{17}{subsection.1.2.5}%
+\contentsline {section}{\numberline {1}BÀI TẬP KHÍ LÍ TƯỞNG}{3}{section.0.1}%
+\contentsline {subsection}{\numberline {A}ÔN TẬP LÝ THUYẾT}{3}{subsection.0.1.1}%
+\contentsline {subsubsection}{\numberline {1}Phương trình trạng thái}{3}{subsubsection.0.1.1.1}%
+\contentsline {subsubsection}{\numberline {2}Phương trình Clapeyron - Mendeleev}{3}{subsubsection.0.1.1.2}%
+\contentsline {subsubsection}{\numberline {3}Các đẳng quá trình}{3}{subsubsection.0.1.1.3}%
+\contentsline {subsubsection}{\numberline {4}Đồ thị biểu diễn các đẳng quá trình trong các hệ toạ độ}{3}{subsubsection.0.1.1.4}%
+\contentsline {paragraph}{\numberline {4.1}Quá trình đẳng nhiệt}{4}{paragraph.0.1.1.4.1}%
+\contentsline {paragraph}{\numberline {4.2}Quá trình đẳng tích}{4}{paragraph.0.1.1.4.2}%
+\contentsline {paragraph}{\numberline {4.3}Quá trình đẳng áp}{4}{paragraph.0.1.1.4.3}%
+\contentsline {subsection}{\numberline {B}VÍ DỤ MINH HOẠ}{5}{subsection.0.1.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~1. Vẽ lại được đồ thị biến đổi trạng thái trong các hệ toạ độ}{5}{subsection.0.1.2}%
+\contentsline {subsection}{\it \sffamily {{\FAtwo \symbol {124}}}\ Dạng~2. Dựa vào đồ thị xác định được các thông số trạng thái của khối khí}{5}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {C}BÀI TẬP TRẮC NGHIỆM}{7}{subsection.0.1.3}%
+\contentsline {subsection}{\numberline {D}TRẮC NGHIỆM ĐÚNG/SAI}{12}{subsection.0.1.4}%
+\contentsline {subsection}{\numberline {E}BÀI TẬP TỰ LUẬN}{14}{subsection.0.1.5}%
 \contentsfinish 

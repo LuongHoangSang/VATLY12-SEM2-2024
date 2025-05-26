@@ -557,6 +557,40 @@ Một viên đạn chì phải có tốc độ tối thiểu bằng bao nhiêu �
 \end{ex}
 % ===================================================================
 \begin{ex}
+	\immini{Một nhóm học sinh thực hiện thí nghiệm đo nhiệt nóng chảy riêng của nước đá. Bộ thí nghiệm gồm: biến áp nguồn, bộ đo công suất (oát kế) có tích hợp chức năng đo thời gian, nhiệt kế điện tử có thang đo từ \SI{-20}{\celsius} đến \SI{110}{\celsius}, độ phân giải $\pm \SI{0.1}{\celsius}$, hiệt lượng kế, cân điện tử, các dây nối. Ban đầu, nhóm cho một viên nước đá và một ít nước lạnh vào bình nhiệt lượng kế, cắm nhiệt kế vào bình, khuấy đều hỗn hợp cho đến khi nhiệt kế chỉ \SI{0}{\celsius}. Lấy viên nước đá ra cân thì số chỉ của cân là \SI{22.80}{{\gram}}. }{\begin{tabular}{|M{3cm}|M{3cm}|M{3cm}|}
+			\hline
+			\thead{Thời gian $\left(\si{\second}\right)$} &\thead{Công suất $\left(\si{\watt}\right)$} &\thead{Nhiệt độ $\left(\si{\celsius}\right)$}\\
+			\hline
+			$60$ &$14,05$ &$0$\\
+			\hline
+			$120$ &$14,06$ &$0$\\
+			\hline
+			$180$ &$14,00$ &$0$\\
+			\hline
+			$240$ &$14,02$ &$0$\\
+			\hline
+			$300$ &$13,98$ &$0$\\
+			\hline
+	\end{tabular}}
+Sau đó, bỏ viên đá vào lại nhiệt lượng kế, sao cho toàn bộ điện trở chìm trong hỗn hợp nước và nước đá, bật công tắc nguồn, khuấy nhẹ, ghi lại số chỉ của bộ đo công suất và thời gian sau các khoảng 60 giây vào bảng. Khi thời gian là 300 giây, lấy viên đá ra cân thì số chỉ của cân là \SI{10.58}{\gram}.
+	\choiceTF[t]
+	{\True Trong quá trình nước đá tan, nhiệt độ hỗn hợp không đổi}
+	{\True Trong quá trình nước đá tan, nội năng của hỗn hợp tăng lên}
+	{Thực tế, trong quá trình nước đá tan, hỗn hợp nước và nước đá tỏa nhiệt ra môi trường xung quanh}
+	{Từ bảng số liệu của nhóm, tính được nhiệt nóng chảy riêng trung bình của nước đá là \SI{3.44E3}{\joule/\kilogram}}
+	\loigiai{
+	\begin{enumerate}[label=\alph*)]
+		\item Đúng.
+		\item Đúng.
+		\item Sai. Nhận nhiệt chứ không phải tỏa nhiệt.
+		\item Sai.\\
+		$\overline{\calP}=\dfrac{14,05+\dots+13,98}{5}=\SI{14.022}{\watt}$.\\
+		$\lambda=\dfrac{\overline{\calP}\cdot t}{\Delta m}=\dfrac{14,022\cdot 300}{\left(22,80-10,58\right)\cdot 10^{-3}}\approx\SI{3.44E5}{\joule/\kilogram}$.
+	\end{enumerate}
+	}
+\end{ex}
+% ===================================================================
+\begin{ex}
 	\immini{Một nhóm học sinh lớp 12 thực hiện thí nghiệm thực hành đo nhiệt nóng chảy riêng của nước đá. Họ đã lựa chọn bộ dụng cụ thí nghiệm như hình 1 gồm: biến thế nguồn (1), bộ đo công suất nguồn điện có tích hợp chức năng đo thời gian (2), nhiệt kế điện tử có độ phân giải nhiệt độ $\xsi{\pm 0,1}{\celsius}$, nhiệt lượng kế bằng nhựa có vỏ xốp kèm dây điện trở (4), cân điện tử (5), các dây nối.}{\includegraphics[scale=0.4]{figs/G12Y24B5-1}}
 	Họ cho viên nước đá có khối lượng \SI{0.02}{\kilogram} và một ít nước vào bình nhiệt lượng kế sao cho dây điện trở chìm trong hỗn hợp nước và nước đá.\\
 	Khi tiến hành đo họ khuấy liên tục nước đá, cứ sau mỗi hai phút lại ghi số đo công suất trên oát kế và nhiệt độ trên nhiệt kế. Kết quả đo được ở bảng sau.\\
@@ -578,25 +612,58 @@ Một viên đạn chì phải có tốc độ tối thiểu bằng bao nhiêu �
 	\end{enumerate}
 	}
 \end{ex}
+%% ===================================================================
+%\begin{ex}
+%	Lạc đà là di sản nổi bật của Qatar và là một phần của truyền thống đất nước sa mạc này. Chúng từng là phương tiện giao thông duy nhất ở Qatar từ rất lâu trước khi có ô tô và các phương thức vận tải khác. Lạc đà có thể chịu được những thay đổi lớn về nhiệt độ. Điều này giúp lạc đà tiết kiệm nước bằng cách không đổ mồ hôi khi nhiệt độ môi trường tăng. Đặc điểm này rất quan trọng để lạc đà tồn tại trong môi trường sa mạc. Biểu đồ sau đây cho thấy những thay đổi trung bình về nhiệt độ cơ thể lạc đà trong một ngày điển hình ở sa mạc Qatar.
+%	\begin{center}
+%		\includegraphics[scale=0.4]{figs/G12Y24B5-3}
+%	\end{center}
+%	\choiceTF[t]
+%	{Lạc đà đến hiện nay vẫn là phương tiện giao thông duy nhất ở khu vực Qatar}
+%	{\True Nhiệt độ thấp nhất trong ngày của cơ thể lạc đà xấp xỉ \SI{33}{\celsius}}
+%	{Nếu lạc đà, giống như con người, sử dụng mồ hôi như cơ chế để giữ nhiệt độ cơ thể không đổi, lượng nước tối đa (theo lít) mà một con lạc đà có khối lượng \SI{5.5E2}{\kilogram} phải đổ mồ hôi lúc 12 giờ trưa để giảm nhiệt độ cơ thể xuống giá trị thấp nhất trong ngày là 7,5 lít. Giả sử cách duy nhất để duy trì nhiệt độ là sự bay hơi của mồ hôi.\\
+%		\textit{(Lưu ý: nhiệt dung riêng của động vật có vú vào khoảng \SI{3.48E3}{\joule/\left(\kilogram\cdot\kelvin\right)} và nhiệt hóa hơi riêng của nước tại nhiệt độ thấp nhất là \SI{2.42E6}{\joule/\kilogram})}}
+%	{Cấu trúc chân lạc đà thích nghi tốt để tồn tại trên sa mạc. Bàn chân xòe rộng giúp lạc đà không chìm vào những bãi cát lỏng lẻo và xê dịch. Bề mặt rộng của mỗi bàn chân giúp chống lún bằng cách giảm áp lực lên cát. Từ mô hình bàn chân lạc đà trong hình trên (màu đen là phần chân tiếp xúc với cát), ta tính được áp suất do trọng lượng của lạc đà nén lên cát là \SI{19.12E4}{\pascal}. \\
+%	\textit{(Sử dụng khối lượng của lạc đà được đề cập ở mục c, lấy $\pi=3,14$ và $g=\SI{10}{\meter/\second^2}$.)}}
+%	\loigiai{
+%	\begin{enumerate}[label=\alph*)]
+%		\item Sai.
+%		\item Đúng.
+%		\item Sai. $m_1c_1\Delta t=m_2L\Leftrightarrow 5,5\cdot10^2\cdot3,48\cdot10^3\cdot\left(40-30\right)=m_2\cdot 2,42\cdot 10^6\Rightarrow m_2\approx\SI{5.54}{\kilogram}$.
+%		\item Sai. $p=\dfrac{P}{4S}=\dfrac{mg}{4\pi r^2\cdot\dfrac{\SI{330}{\degree}}{\SI{360}{\degree}}}\approx\SI{4.8E4}{\pascal}.$
+%	\end{enumerate}
+%	}
+%\end{ex}
 % ===================================================================
 \begin{ex}
-	Lạc đà là di sản nổi bật của Qatar và là một phần của truyền thống đất nước sa mạc này. Chúng từng là phương tiện giao thông duy nhất ở Qatar từ rất lâu trước khi có ô tô và các phương thức vận tải khác. Lạc đà có thể chịu được những thay đổi lớn về nhiệt độ. Điều này giúp lạc đà tiết kiệm nước bằng cách không đổ mồ hôi khi nhiệt độ môi trường tăng. Đặc điểm này rất quan trọng để lạc đà tồn tại trong môi trường sa mạc. Biểu đồ sau đây cho thấy những thay đổi trung bình về nhiệt độ cơ thể lạc đà trong một ngày điển hình ở sa mạc Qatar.
-	\begin{center}
-		\includegraphics[scale=0.4]{figs/G12Y24B5-3}
-	\end{center}
+	\immini{Một nhóm học sinh thực hiện thí nghiệm khảo sát sự nóng chảy của nước đá bằng các dụng cụ thí nghiệm sau đây:
+		\begin{itemize}
+			\item Bộ nguồn điện có công suất không đổi và có tích hợp đo thời gian.
+			\item Nhiệt lượng kế bằng nhựa có vỏ xốp kèm dây điện trở ở bên trong bình.
+			\item Nhiệt kế.
+		\end{itemize}
+		Trong quá trình tiến hành thí nghiệm, nhóm học sinh thu thập số liệu. Học sinh vẽ được đồ thị phụ thuộc của nhiệt độ theo thời gian. Khi vẽ đồ thị theo một tỉ lệ xích quy định thì xác định được các góc $\alpha \approx \SI{60.0}{\degree}$, $\beta \approx \SI{40.8}{\degree}$. Biết nhiệt dung riêng của nước là $c_{\mathrm{n}}=\SI{4200}{\joule/\left(\kilogram\cdot\kelvin\right)}$.}{\includegraphics[scale=0.3]{figs/G12Y24B5-6}}
 	\choiceTF[t]
-	{Lạc đà đến hiện nay vẫn là phương tiện giao thông duy nhất ở khu vực Qatar}
-	{\True Nhiệt độ thấp nhất trong ngày của cơ thể lạc đà xấp xỉ \SI{33}{\celsius}}
-	{Nếu lạc đà, giống như con người, sử dụng mồ hôi như cơ chế để giữ nhiệt độ cơ thể không đổi, lượng nước tối đa (theo lít) mà một con lạc đà có khối lượng \SI{5.5E2}{\kilogram} phải đổ mồ hôi lúc 12 giờ trưa để giảm nhiệt độ cơ thể xuống giá trị thấp nhất trong ngày là 7,5 lít. Giả sử cách duy nhất để duy trì nhiệt độ là sự bay hơi của mồ hôi.\\
-		\textit{(Lưu ý: nhiệt dung riêng của động vật có vú vào khoảng \SI{3.48E3}{\joule/\left(\kilogram\cdot\kelvin\right)} và nhiệt hóa hơi riêng của nước tại nhiệt độ thấp nhất là \SI{2.42E6}{\joule/\kilogram})}}
-	{Cấu trúc chân lạc đà thích nghi tốt để tồn tại trên sa mạc. Bàn chân xòe rộng giúp lạc đà không chìm vào những bãi cát lỏng lẻo và xê dịch. Bề mặt rộng của mỗi bàn chân giúp chống lún bằng cách giảm áp lực lên cát. Từ mô hình bàn chân lạc đà trong hình trên (màu đen là phần chân tiếp xúc với cát), ta tính được áp suất do trọng lượng của lạc đà nén lên cát là \SI{19.12E4}{\pascal}. \\
-	\textit{(Sử dụng khối lượng của lạc đà được đề cập ở mục c, lấy $\pi=3,14$ và $g=\SI{10}{\meter/\second^2}$.)}}
+	{Nước đá (ở trạng thái rắn) là chất rắn vô định hình}
+	{\True Trong quá trình nước đá nóng chảy thì nội năng của nước đá tăng lên}
+	{Nhiệt dung riêng của nước đá (ở trạng thái rắn) đo được xấp xỉ bằng \SI{2039}{\joule/\left(\kilogram\cdot\kelvin\right)}}
+	{\True Nhiệt nóng chảy riêng của nước đá xấp xỉ bằng \SI{3.35E5}{\joule/\kilogram}}
 	\loigiai{
 	\begin{enumerate}[label=\alph*)]
-		\item Sai.
+		\item Sai. Nước đá là chất rắn kết tinh.
+		\item Đúng. Trong quá trình nóng chảy thì thể tích của nước đá giảm nên thế năng tương tác phân tử tăng $\Rightarrow$ nội năng của nước đá tăng lên.
+		\item Sai. 
+		$T_1=\dfrac{20}{\tan\alpha}=\dfrac{20}{\tan\SI{60}{\degree}}=\xsi{\dfrac{20}{\sqrt{3}}}{\minute}$\\
+		$\calP\Delta T_{\mathrm{n}}=mc_\mathrm{n}t\Rightarrow \dfrac{\calP}{m}=\dfrac{c_\mathrm{n}t}{\Delta T_\mathrm{n}}=c_\mathrm{n}\cdot\tan\beta=4200\cdot\tan\SI{40.8}{\degree}\approx3625,34$\\
+		Ta lại có:
+		$\begin{cases}
+			\calP\cdot T_1=mc_\mathrm{d}\cdot20\\
+			\calP\cdot\left(9T_1-T_1\right)=m\lambda
+		\end{cases}\Rightarrow \dfrac{\calP}{m}=\dfrac{c_\mathrm{d}\cdot 20}{T_1}=\dfrac{\lambda}{8T_1}\Rightarrow 3625,34=\dfrac{c_\mathrm{d}\cdot20}{\dfrac{20}{\sqrt{3}}}=\dfrac{\lambda}{8\cdot\dfrac{20}{\sqrt{3}}}\Rightarrow\begin{cases}
+		c_\mathrm{d}\approx\SI{2093}{\joule/\left(\kilogram\cdot\kelvin\right)}\\
+		\lambda\approx\SI{3.35E5}{\joule/\kilogram}
+		\end{cases}$.
 		\item Đúng.
-		\item Sai. $m_1c_1\Delta t=m_2L\Leftrightarrow 5,5\cdot10^2\cdot3,48\cdot10^3\cdot\left(40-30\right)=m_2\cdot 2,42\cdot 10^6\Rightarrow m_2\approx\SI{5.54}{\kilogram}$.
-		\item Sai. $p=\dfrac{P}{4S}=\dfrac{mg}{4\pi r^2\cdot\dfrac{\SI{330}{\degree}}{\SI{360}{\degree}}}\approx\SI{4.8E4}{\pascal}.$
 	\end{enumerate}
 	}
 \end{ex}
@@ -620,6 +687,14 @@ Một viên đạn chì phải có tốc độ tối thiểu bằng bao nhiêu �
 \end{ex}
 \subsection{BÀI TẬP TỰ LUẬN}
 \setcounter{ex}{0}
+% ===============================================================
+\begin{ex}
+	\immini{Cung cấp nhiệt lượng cho một khối băng (nước đá), người ta thu được đồ thị biểu diễn nhiệt độ của nước theo nhiệt lượng cung cấp được mô tả như Hình bên. Dựa vào đồ thị, hãy tính nhiệt lượng cần cung cấp để đun sôi nước đá ở \SI{0}{\celsius} đến nhiệt độ sôi theo đơn vị \si{\kilo\joule}.}{\vspace{-0.5cm}\includegraphics[scale=0.4]{figs/G12Y24B5-5}}
+	\shortans[oly]{40}
+	\loigiai{
+		$Q=\SI{40}{\joule}$.
+	}
+\end{ex}
 % ========================================================================
 \begin{ex}
 

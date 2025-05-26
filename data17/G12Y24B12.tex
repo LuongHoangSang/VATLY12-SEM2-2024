@@ -518,6 +518,29 @@ Hai bình có thể tích $V_1=\SI{40}{\liter}$ và $V_2=\SI{10}{\liter}$ thông
 \setcounter{ex}{0}
 % ===================================================================
 \begin{ex}
+	\immini{Một số loại tàu ngầm được chia thành hai khoang là khoang ngoài và khoang làm việc. Khi tàu cần lặn xuống thì dẫn nước biển vào khoang ngoài, khi tàu cần nổi lên thì xả khí nén tạo áp lực cực mạnh để đẩy nước ra. Áp suất khí quyển trên mặt biển là \SI{1}{atm}.}{\includegraphics[scale=0.4]{figs/G12Y24B12-1}}
+	\choiceTF[t]
+	{Khi đẩy nước ra khỏi tàu, trọng lượng của tàu lớn hơn lực đẩy của nước giúp cho tàu nổi lên}
+	{\True Trong quá trình xả khí nén để đẩy nước ra thì áp suất khí trong bình giảm dần}
+	{Tàu đang ở nơi có áp suất \SI{12}{atm}, thủy thủ mở van xả một bình khí nén 60 lít có áp suất \SI{120}{atm} đồng thời mở van xả nước. Đến khi áp suất khí trong bình là \SI{110}{atm}, nếu độ sâu của tàu và nhiệt độ của khí đều không đổi thì lượng nước đã được đẩy ra khỏi tàu là 60 lít}
+	{\True Ở độ sâu $h$, nhiệt độ nước biển là \SI{7}{\celsius}, trong khoang ngoài đang có nước và 1260 lít khí ở áp suất \SI{11}{atm}, các van xả nước đang mở và tàu đang nổi lên. Cho đến khi tàu cách mặt nước $0,5h$ nơi có nhiệt độ \SI{15}{\celsius} thì thể tích nước được đẩy ra thêm là 1116 lít}
+	\loigiai{
+	\begin{enumerate}[label=\alph*)]
+		\item Sai. Lực đẩy của nước phải lớn hơn trọng lượng của tàu thì mới giúp tàu nổi lên.
+		\item Đúng. Khí thoát ra thì áp suất giảm.
+		\item Sai. $n=n_1+n_2\xrightarrow{n=\dfrac{pV}{RT}}pV=p_1V+p_2V_2\Rightarrow 120\cdot60=110\cdot60+12V_2\Rightarrow V_2=\SI{50}{\liter}$.
+		\item Đúng. \\
+		$\begin{cases}
+			p_3=p_0+Dgh\\
+			p_4=p_0+Dg\cdot\dfrac{h}{2}
+		\end{cases}\Rightarrow Dgh=p_3=p_0=2\left(p_4-p_0\right)\Rightarrow 11-1=2\left(p_4-1\right)\Rightarrow p_4=\SI{6}{atm}$\\
+		$\dfrac{p_3V_3}{T_3}=\dfrac{p_4V_4}{T_4}\Rightarrow\dfrac{11\cdot1260}{7+273}=\dfrac{6V_4}{15+273}\Rightarrow V_4=\SI{2376}{\liter}$\\
+		$\Delta V=V_4-V_3=2376-1260=\SI{1116}{\liter}$.
+	\end{enumerate}
+	}
+\end{ex}
+% ===================================================================
+\begin{ex}
 	Một thùng có dung tích $\SI{20}{\liter}$ chứa $\SI{0.225}{\kilogram}$ khí helium tại nhiệt độ $\SI{18}{\celsius}$.
 	\begin{enumerate}[label=\alph*)]
 		\item Có $\SI{56.25}{\mole}$ khí helium trong thùng.
@@ -721,4 +744,28 @@ Hai bóng đèn thuỷ tinh giống hệt nhau được nối với nhau bằng 
 			\end{tabular}
 		\end{center}
 		$$ n=\dfrac{pV}{RT}\xrightarrow{ n= n_1+ n_2}\dfrac{p_0\cdot2V}{R\cdot273}=\dfrac{1,5p_0\cdot V}{273R}+\dfrac{1,5p_0\cdot V}{R\cdot T_2}\Rightarrow T_2=\SI{819}{\kelvin}\Rightarrow t_2=\SI{546}{\celsius}.$$}
+\end{ex}
+% ===============================================================
+\begin{ex}
+Một quả khí cầu có một lỗ hở ở phía dưới để trao đổi khí với môi trường xung quanh, có thể tích không đổi là $\SI{51}{\cubic\meter}$. Vỏ khí cầu có thể tích không đáng kể và khối lượng \SI{12}{\kilogram}. Nhiệt độ của không khí là $\SI{27}{\celsius}$, áp suất khí quyển tại mặt đất là $p_0 = \SI{101325}{\pascal}$, khối lượng riêng của không khí tại mặt đất là $\rho_0 = \SI{1,2}{\kilogram/\cubic\meter}$. Biết khối lượng riêng của không khí phụ thuộc vào chiều cao theo công thức $\rho = \rho_0 \cdot e^{-\frac{\rho_0 g h}{p_0}}$ với $e=2,718$. Lấy $g = \SI{9.8}{\meter/\second\squared}$. Nung nóng khí bên trong khí cầu lên đến nhiệt độ $\SI{127}{\celsius}$, sau đó bịt kín khí cầu rồi thả để khí cầu bay lên đến độ cao $\SI{315}{\meter}$ so với mặt đất. Lực cần thiết để giữ khí cầu đứng yên ở vị trí này là bao nhiêu \si{\newton} (làm tròn kết quả đến chữ số hàng đơn vị)?
+	\shortans[oly]{11}
+	\loigiai{
+	$$
+	\begin{aligned}
+		& D = D_0 \cdot e^{-\frac{D_0 g h}{p_0}} = 1,2 \cdot e^{-\frac{1,2 \cdot 9,8 \cdot 315}{101325}} \approx \SI{1,157}{\kilogram/\meter^3} \\
+		& \dfrac{p}{D T} = \dfrac{R}{M} \xrightarrow{p = p_0} D_0 T_0 = D_k T_k \Rightarrow 1,2 \cdot (27 + 273) = D_k \cdot (127 + 273) \Rightarrow D_k = \SI{0,9}{\kilogram/\meter^3} \\
+		& F = F_A - P = D g V - m_v g - D_k g V = 1,157 \cdot 9,8 \cdot 51 - 12 \cdot 9,8 - 0,9 \cdot 9,8 \cdot 51 \approx \SI{11}{\newton}
+	\end{aligned}
+	$$
+	
+		
+	}
+\end{ex}
+% ===============================================================
+\begin{ex}
+\immini{Một xi lanh đặt thẳng đứng có tiết diện không đều như hình vẽ. Giữa hai pit tông có $\SI{1}{\mole}$ khí lí tưởng. Các pit tông được nối với nhau bằng một thanh cứng nhẹ. Pit tông trên có tiết diện lớn hơn pit tông dưới một lượng $\Delta S=\SI{10}{\square\centi\meter}$. Áp suất khí quyển $p_0=\SI{1.013e5}{\pascal}$. Giả sử khí không lọt ra ngoài, lúc đầu hệ đang cân bằng. Hỏi phải làm nóng khí trong xi lanh thêm bao nhiêu $\si{\celsius}$ để các pit tông dịch chuyển lên trên một đoạn $\ell=\SI{6}{\centi\meter}$. Biết khối lượng tổng cộng của hai pit tông là $m=\SI{3}{\kilogram}$. Cho hằng số khí lí tưởng $R=\SI{8.31}{\joule/(\mole\cdot\kelvin)}$, $g=\SI{10}{\meter/\second\squared}$. Kết quả được làm tròn đến chữ số hàng phần trăm.}{\includegraphics[scale=0.4]{figs/G12Y24B12-2}}
+	\shortans[oly]{ }
+	\loigiai{
+		
+	}
 \end{ex}
